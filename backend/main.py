@@ -388,7 +388,15 @@ def remove_favorite(
     return {"message": "Favorite removed successfully", "success": True}
 
 
-# ============ AI 推荐接口 ============
+# ============ AI 推荐 ============
+
+# 尝试导入 Gemini 服务
+try:
+    from app.services.gemini import get_gemini_service
+    GEMINI_AVAILABLE = True
+except ImportError:
+    GEMINI_AVAILABLE = False
+    print("⚠️ Gemini 服务未加载，使用简化模式")
 
 @app.post("/api/v1/recommend", response_model=RecommendResponse, summary="AI 工具推荐")
 def recommend_tools(
@@ -396,10 +404,57 @@ def recommend_tools(
     db: Session = Depends(get_db),
     current_user: Optional[User] = Depends(get_current_user)
 ):
-    """基于用户需求推荐 AI 工具（简化版，后续可接入 Gemini）"""
-    # 简化实现：基于关键词匹配
-    # 后续可替换为真正的 AI 推荐（Gemini API）
+    """基于用户需求推荐 AI 工具（支持 Gemini AI）"""
     
+    gemini_service = None
+    
+    # 尝试使用 Gemini 服务
+    if GEMINI_AVAILABLE:
+        try:
+            from app.services.gemini import get_gemini_service
+            gemini_service = get_gemini_service()
+            
+            # 获取推荐结果
+            import asyncio
+            user_context = {"category": request.category}
+            loop = asyncio.new_event_loop()
+            asyncio.set_event_loop(loop)
+            try:
+                result = loop.run_until_complete(
+                    gemini_service.get_recommendations(
+                        user_query=request.query,
+                        user_context=user_context,
+                        max_recommendations=request.max_results
+                    )
+                )
+            finally:
+                loop.close()
+            
+            # 转换工具格式
+            recommendations = []
+            for tool in result.get("recommendations", []):
+                # 尝试从数据库获取完整工具信息
+                db_tool = db.query(Tool).filter(Tool.id == tool.get("id")).first()
+                if db_tool:
+                    recommendations.append(db_tool)
+            
+            # 如果没有数据库匹配，使用原始数据
+            if not recommendations and result.get("recommendations"):
+                for tool in result["recommendations"][:request.max_results]:
+                    recommendations.append(type('Tool', (), tool)())
+            
+            explanation = result.get("summary", f"根据您的需求「{request.query}」推荐")
+            
+            return {
+                "recommendations": recommendations[:request.max_results],
+                "explanation": explanation
+            }
+            
+        except Exception as e:
+            print(f"⚠️ Gemini 服务调用失败: {e}")
+            # 回退到简化模式
+    
+    # 简化实现：基于关键词匹配（回退模式）
     query = db.query(Tool)
     
     # 简单的关键词匹配
