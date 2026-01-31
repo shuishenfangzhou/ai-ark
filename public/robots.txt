@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://ai-tools-dashboard-sepia.vercel.app/sitemap.xml
+
+# Disallow admin areas (if any)
+Disallow: /admin/
+Disallow: /.vercel/
+Disallow: /node_modules/
+
+# Allow important resources
+Allow: /src/
+Allow: /assets/
+Allow: /js/

@@ -1,0 +1,21998 @@
+
+ // Keep style import if needed by bundler, or just data
+
+// ==========================================
+// Updated Data File (Merged with ai-bot.cn)
+// Total Tools: 1428
+// ==========================================
+export const aiToolsData = [
+    {
+        "id": 1,
+        "name": "DeepSeek",
+        "category": "text",
+        "desc": "深度求索开源模型，推理能力极其强大。",
+        "url": "https://www.deepseek.com/",
+        "tags": [
+            "开源",
+            "国产",
+            "免费"
+        ],
+        "pricing": "开源",
+        "visits": "78M+",
+        "rating": 4.7,
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/11/deepseek-chat-icon.png"
+    },
+    {
+        "id": 2,
+        "name": "Kimi智能助手",
+        "category": "text",
+        "desc": "月之暗面出品，支持20万字超长上下文。",
+        "url": "https://kimi.moonshot.cn/",
+        "tags": [
+            "长文本",
+            "文件分析",
+            "免费"
+        ],
+        "pricing": "免费",
+        "visits": "66M+",
+        "rating": 4.7,
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/05/kimi-ai-logo.png"
+    },
+    {
+        "id": 3,
+        "name": "豆包",
+        "category": "text",
+        "desc": "字节跳动出品，语音交互体验极佳。",
+        "url": "https://www.doubao.com/",
+        "tags": [
+            "语音",
+            "日常",
+            "免费"
+        ],
+        "pricing": "免费",
+        "visits": "33M+",
+        "rating": 4.9,
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/08/doubao-icon.png"
+    },
+    {
+        "id": 4,
+        "name": "通义千问",
+        "category": "text",
+        "desc": "阿里全能型大模型，支持图片理解。",
+        "url": "https://tongyi.aliyun.com/",
+        "tags": [
+            "全能",
+            "阿里",
+            "免费"
+        ],
+        "pricing": "免费",
+        "visits": "10M+",
+        "rating": 4.7,
+        "logo": "assets/logos/通义千问.png"
+    },
+    {
+        "id": 5,
+        "name": "文心一言",
+        "category": "text",
+        "desc": "百度推出的知识增强大语言模型。",
+        "url": "https://yiyan.baidu.com/",
+        "tags": [
+            "百度",
+            "知识",
+            "付费"
+        ],
+        "pricing": "付费",
+        "visits": "21M+",
+        "rating": 4.5,
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/baidu-yiyan-icon.png"
+    },
+    {
+        "id": 6,
+        "name": "智谱清言",
+        "category": "text",
+        "desc": "清华系GLM模型，中文理解能力出色。",
+        "url": "https://chatglm.cn/",
+        "tags": [
+            "清华",
+            "开源",
+            "免费"
+        ],
+        "pricing": "开源",
+        "visits": "62M+",
+        "rating": 4.5,
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/08/zhipu-ai-chatglm-icon.png"
+    },
+    {
+        "id": 7,
+        "name": "即梦AI",
+        "category": "image",
+        "desc": "字节跳动推出的AI绘画与视频生成平台。",
+        "url": "https://jimeng.jianying.com/",
+        "tags": [
+            "绘画",
+            "视频",
+            "免费试用"
+        ],
+        "pricing": "免费试用",
+        "visits": "54M+",
+        "rating": 4.8,
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/10/jimeng-logo-1.png"
+    },
+    {
+        "id": 8,
+        "name": "秘塔AI搜索",
+        "category": "search",
+        "desc": "无广告的AI学术搜索，自动生成摘要。",
+        "url": "https://metaso.cn/",
+        "tags": [
+            "搜索",
+            "学术",
+            "免费"
+        ],
+        "pricing": "免费",
+        "visits": "65M+",
+        "rating": 4.7,
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/06/metaso-ai-search-icon.png"
+    },
+    {
+        "id": 9,
+        "name": "天工AI",
+        "category": "search",
+        "desc": "昆仑万维推出的AI搜索与对话助手。",
+        "url": "https://www.tiangong.cn/",
+        "tags": [
+            "搜索",
+            "音乐",
+            "免费"
+        ],
+        "pricing": "免费",
+        "visits": "28M+",
+        "rating": 5.0,
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/08/tiangong-ai-search-icon.png"
+    },
+    {
+        "id": 10,
+        "name": "海螺AI",
+        "category": "text",
+        "desc": "通用人工智能助手，效率提升工具。",
+        "url": "https://hailuoai.com/",
+        "tags": [
+            "助手",
+            "效率",
+            "免费"
+        ],
+        "pricing": "免费",
+        "visits": "99M+",
+        "rating": 4.9,
+        "logo": "assets/logos/海螺ai.png"
+    },
+    {
+        "id": 11,
+        "name": "ChatGPT",
+        "category": "text",
+        "desc": "OpenAI的划时代产品，GPT-4o最强模型。",
+        "url": "https://chat.openai.com/",
+        "tags": [
+            "霸主",
+            "付费"
+        ],
+        "pricing": "付费",
+        "visits": "50M+",
+        "rating": 4.7,
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/Chatgpt-logo.png"
+    },
+    {
+        "id": 12,
+        "name": "Claude",
+        "category": "text",
+        "desc": "Anthropic出品，代码与逻辑能力超越GPT-4。",
+        "url": "https://claude.ai/",
+        "tags": [
+            "代码",
+            "长文本",
+            "付费"
+        ],
+        "pricing": "付费",
+        "visits": "33M+",
+        "rating": 4.5,
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/anthropic-icon.png"
+    },
+    {
+        "id": 13,
+        "name": "Gemini",
+        "category": "text",
+        "desc": "Google的原生多模态大模型。",
+        "url": "https://gemini.google.com/",
+        "tags": [
+            "Google",
+            "多模态",
+            "免费"
+        ],
+        "pricing": "免费",
+        "visits": "33M+",
+        "rating": 4.6,
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/05/googel-gemini-app-icon.webp"
+    },
+    {
+        "id": 14,
+        "name": "Perplexity",
+        "category": "search",
+        "desc": "结合了GPT-4的智能搜索引擎，引用来源。",
+        "url": "https://www.perplexity.ai/",
+        "tags": [
+            "搜索",
+            "精准",
+            "免费"
+        ],
+        "pricing": "免费",
+        "visits": "38M+",
+        "rating": 4.8,
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/10/Perplexity-logo.png"
+    },
+    {
+        "id": 15,
+        "name": "Poe",
+        "category": "text",
+        "desc": "Quora推出的AI聚合平台，集成多种模型。",
+        "url": "https://poe.com/",
+        "tags": [
+            "聚合",
+            "多模型",
+            "付费"
+        ],
+        "pricing": "付费",
+        "visits": "89M+",
+        "rating": 4.7,
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/10/Poe-logo.png"
+    },
+    {
+        "id": 16,
+        "name": "Midjourney",
+        "category": "image",
+        "desc": "目前生成质量最高的AI绘画工具。",
+        "url": "https://www.midjourney.com/",
+        "tags": [
+            "艺术",
+            "付费"
+        ],
+        "pricing": "付费",
+        "visits": "454M+",
+        "rating": 4.6,
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/midjourney-icon.png"
+    },
+    {
+        "id": 17,
+        "name": "Stable Diffusion",
+        "category": "image",
+        "desc": "开源AI绘画基石，可本地部署。",
+        "url": "https://stability.ai/",
+        "tags": [
+            "开源",
+            "本地",
+            "免费"
+        ],
+        "pricing": "开源",
+        "visits": "4M+",
+        "rating": 4.7,
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/stability-ai-icon.png"
+    },
+    {
+        "id": 18,
+        "name": "Leonardo.ai",
+        "category": "image",
+        "desc": "游戏资产生成的绝佳工具，界面友好。",
+        "url": "https://leonardo.ai/",
+        "tags": [
+            "游戏",
+            "资产",
+            "免费试用"
+        ],
+        "pricing": "免费试用",
+        "visits": "11M+",
+        "rating": 4.9,
+        "logo": "assets/logos/leonardoai.png"
+    },
+    {
+        "id": 19,
+        "name": "Canva AI",
+        "category": "image",
+        "desc": "在线设计巨头，内置魔力设计工具。",
+        "url": "https://www.canva.com/",
+        "tags": [
+            "设计",
+            "办公",
+            "付费"
+        ],
+        "pricing": "付费",
+        "visits": "29M+",
+        "rating": 5.0,
+        "logo": "assets/logos/canvaai.png"
+    },
+    {
+        "id": 20,
+        "name": "Freepik AI",
+        "category": "image",
+        "desc": "设计师必备的素材生成与搜索库。",
+        "url": "https://www.freepik.com/ai",
+        "tags": [
+            "素材",
+            "设计",
+            "免费"
+        ],
+        "pricing": "免费",
+        "visits": "70M+",
+        "rating": 4.8,
+        "logo": "assets/logos/freepikai.png"
+    },
+    {
+        "id": 21,
+        "name": "Sora",
+        "category": "video",
+        "desc": "OpenAI未发布的文生视频模型，效果震撼。",
+        "url": "https://openai.com/sora",
+        "tags": [
+            "期待",
+            "视频",
+            "待定"
+        ],
+        "pricing": "待定",
+        "visits": "1M+",
+        "rating": 4.6,
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/openai-gpt-model.png"
+    },
+    {
+        "id": 22,
+        "name": "Runway",
+        "category": "video",
+        "desc": "Gen-2模型，视频编辑与生成的专业工具。",
+        "url": "https://runwayml.com/",
+        "tags": [
+            "专业",
+            "视频",
+            "付费"
+        ],
+        "pricing": "付费",
+        "visits": "43M+",
+        "rating": 4.8,
+        "logo": "assets/logos/runway.png"
+    },
+    {
+        "id": 23,
+        "name": "Pika",
+        "category": "video",
+        "desc": "专注于动画生成的AI，效果流畅。",
+        "url": "https://pika.art/",
+        "tags": [
+            "动画",
+            "易用",
+            "免费试用"
+        ],
+        "pricing": "免费试用",
+        "visits": "74M+",
+        "rating": 4.6,
+        "logo": "assets/logos/pika.png"
+    },
+    {
+        "id": 24,
+        "name": "HeyGen",
+        "category": "video",
+        "desc": "数字人视频生成，口型同步极其精准。",
+        "url": "https://www.heygen.com/",
+        "tags": [
+            "数字人",
+            "口播",
+            "付费"
+        ],
+        "pricing": "付费",
+        "visits": "79M+",
+        "rating": 4.6,
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/10/HeyGen-icon.png"
+    },
+    {
+        "id": 25,
+        "name": "Luma Dream Machine",
+        "category": "video",
+        "desc": "高质量且免费的视频生成模型。",
+        "url": "https://lumalabs.ai/dream-machine",
+        "tags": [
+            "免费",
+            "3D"
+        ],
+        "pricing": "免费",
+        "visits": "78M+",
+        "rating": 4.8,
+        "logo": "assets/logos/lumadreammachine.png"
+    },
+    {
+        "id": 26,
+        "name": "GitHub Copilot",
+        "category": "code",
+        "desc": "最流行的AI编程助手，自动补全代码。",
+        "url": "https://github.com/features/copilot",
+        "tags": [
+            "编程",
+            "微软",
+            "付费"
+        ],
+        "pricing": "付费",
+        "visits": "35M+",
+        "rating": 4.9,
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/github-copilot-icon.png"
+    },
+    {
+        "id": 27,
+        "name": "Trae",
+        "category": "code",
+        "desc": "字节跳动推出的AI IDE，中文适配好。",
+        "url": "https://www.trae.ai/",
+        "tags": [
+            "IDE",
+            "免费",
+            "国产"
+        ],
+        "pricing": "免费",
+        "visits": "12M+",
+        "rating": 4.9,
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/TRAE-logo.png"
+    },
+    {
+        "id": 28,
+        "name": "Cursor",
+        "category": "code",
+        "desc": "基于VS Code修改的AI原生编辑器。",
+        "url": "https://www.cursor.com/",
+        "tags": [
+            "IDE",
+            "热门",
+            "免费"
+        ],
+        "pricing": "免费",
+        "visits": "80M+",
+        "rating": 4.9,
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/10/Cursor-logo.png"
+    },
+    {
+        "id": 29,
+        "name": "V0.dev",
+        "category": "code",
+        "desc": "Vercel推出的生成式UI工具，生成React代码。",
+        "url": "https://v0.dev/",
+        "tags": [
+            "UI",
+            "前端",
+            "免费"
+        ],
+        "pricing": "免费",
+        "visits": "80M+",
+        "rating": 4.7,
+        "logo": "assets/logos/v0dev.png"
+    },
+    {
+        "id": 30,
+        "name": "Replit",
+        "category": "code",
+        "desc": "在线编程环境，内置Ghostwriter AI。",
+        "url": "https://replit.com/",
+        "tags": [
+            "云端",
+            "协作",
+            "付费"
+        ],
+        "pricing": "付费",
+        "visits": "94M+",
+        "rating": 4.6,
+        "logo": "assets/logos/replit.png"
+    },
+    {
+        "id": 31,
+        "name": "Suno",
+        "category": "audio",
+        "desc": "一键生成广播级歌曲，音乐界ChatGPT。",
+        "url": "https://suno.com/",
+        "tags": [
+            "音乐",
+            "创作",
+            "付费"
+        ],
+        "pricing": "付费",
+        "visits": "97M+",
+        "rating": 4.9,
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/12/suno-ai-icon.png"
+    },
+    {
+        "id": 32,
+        "name": "Udio",
+        "category": "audio",
+        "desc": "与Suno竞争的高保真音乐生成器。",
+        "url": "https://www.udio.com/",
+        "tags": [
+            "音乐",
+            "高保真",
+            "免费试用"
+        ],
+        "pricing": "免费试用",
+        "visits": "71M+",
+        "rating": 4.5,
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/04/udio-ai-icon.png"
+    },
+    {
+        "id": 33,
+        "name": "ElevenLabs",
+        "category": "audio",
+        "desc": "目前最自然的AI语音合成(TTS)工具。",
+        "url": "https://elevenlabs.io/",
+        "tags": [
+            "配音",
+            "语音",
+            "付费"
+        ],
+        "pricing": "付费",
+        "visits": "49M+",
+        "rating": 4.5,
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/08/elevenlabs-icon.png"
+    },
+    {
+        "id": 34,
+        "name": "Notion AI",
+        "category": "text",
+        "desc": "集成在笔记中的AI，润色、总结、翻译。",
+        "url": "https://www.notion.so/",
+        "tags": [
+            "笔记",
+            "办公",
+            "付费"
+        ],
+        "pricing": "付费",
+        "visits": "76M+",
+        "rating": 4.8,
+        "logo": "assets/logos/notionai.png"
+    },
+    {
+        "id": 35,
+        "name": "Gamma",
+        "category": "text",
+        "desc": "一键生成精美PPT和网页。",
+        "url": "https://gamma.app/",
+        "tags": [
+            "PPT",
+            "排版",
+            "免费"
+        ],
+        "pricing": "免费",
+        "visits": "66M+",
+        "rating": 4.6,
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/Gamma-logo-1-1.png"
+    },
+    {
+        "id": 36,
+        "name": "ChatPDF",
+        "category": "text",
+        "desc": "上传PDF即可与文档对话。",
+        "url": "https://www.chatpdf.com/",
+        "tags": [
+            "文档",
+            "阅读",
+            "免费"
+        ],
+        "pricing": "免费",
+        "visits": "10M+",
+        "rating": 4.9,
+        "logo": "assets/logos/chatpdf.png"
+    },
+    {
+        "id": 37,
+        "name": "Jasper 144",
+        "category": "learn",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #37)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "203K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 144&background=random&color=fff&size=128"
+    },
+    {
+        "id": 38,
+        "name": "Copy.ai 988",
+        "category": "image",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #38)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "460K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 988&background=random&color=fff&size=128"
+    },
+    {
+        "id": 39,
+        "name": "Firefly 995",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #39)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "149K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 995&background=random&color=fff&size=128"
+    },
+    {
+        "id": 40,
+        "name": "Synthesia 812",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #40)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "241K+",
+        "rating": 5.0,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 812&background=random&color=fff&size=128"
+    },
+    {
+        "id": 41,
+        "name": "Murf.ai 882",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #41)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "236K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 882&background=random&color=fff&size=128"
+    },
+    {
+        "id": 42,
+        "name": "Otter.ai 358",
+        "category": "agent",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #42)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "253K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 358&background=random&color=fff&size=128"
+    },
+    {
+        "id": 43,
+        "name": "Beautiful.ai 468",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #43)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "396K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 468&background=random&color=fff&size=128"
+    },
+    {
+        "id": 44,
+        "name": "Tome 442",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #44)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "159K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Tome 442&background=random&color=fff&size=128"
+    },
+    {
+        "id": 45,
+        "name": "Tabnine 351",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #45)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "349K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 351&background=random&color=fff&size=128"
+    },
+    {
+        "id": 46,
+        "name": "Replit Ghostwriter 864",
+        "category": "video",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #46)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "313K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 864&background=random&color=fff&size=128"
+    },
+    {
+        "id": 47,
+        "name": "Jasper 856",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #47)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "156K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 856&background=random&color=fff&size=128"
+    },
+    {
+        "id": 48,
+        "name": "Copy.ai 391",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #48)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "485K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 391&background=random&color=fff&size=128"
+    },
+    {
+        "id": 49,
+        "name": "Firefly 352",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #49)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "497K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 352&background=random&color=fff&size=128"
+    },
+    {
+        "id": 50,
+        "name": "Synthesia 165",
+        "category": "learn",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #50)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "142K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 165&background=random&color=fff&size=128"
+    },
+    {
+        "id": 51,
+        "name": "Murf.ai 102",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #51)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "314K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 102&background=random&color=fff&size=128"
+    },
+    {
+        "id": 52,
+        "name": "Otter.ai 359",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #52)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "444K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 359&background=random&color=fff&size=128"
+    },
+    {
+        "id": 53,
+        "name": "Beautiful.ai 911",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #53)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "475K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 911&background=random&color=fff&size=128"
+    },
+    {
+        "id": 54,
+        "name": "Tome 191",
+        "category": "code",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #54)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "75K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Tome 191&background=random&color=fff&size=128"
+    },
+    {
+        "id": 55,
+        "name": "Tabnine 779",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #55)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "356K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 779&background=random&color=fff&size=128"
+    },
+    {
+        "id": 56,
+        "name": "Replit Ghostwriter 482",
+        "category": "agent",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #56)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "397K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 482&background=random&color=fff&size=128"
+    },
+    {
+        "id": 57,
+        "name": "Jasper 953",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #57)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "397K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 953&background=random&color=fff&size=128"
+    },
+    {
+        "id": 58,
+        "name": "Copy.ai 465",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #58)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "491K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 465&background=random&color=fff&size=128"
+    },
+    {
+        "id": 59,
+        "name": "Firefly 464",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #59)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "479K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 464&background=random&color=fff&size=128"
+    },
+    {
+        "id": 60,
+        "name": "Synthesia 641",
+        "category": "learn",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #60)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "269K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 641&background=random&color=fff&size=128"
+    },
+    {
+        "id": 61,
+        "name": "Murf.ai 231",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #61)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "247K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 231&background=random&color=fff&size=128"
+    },
+    {
+        "id": 62,
+        "name": "Otter.ai 242",
+        "category": "video",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #62)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "289K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 242&background=random&color=fff&size=128"
+    },
+    {
+        "id": 63,
+        "name": "Beautiful.ai 412",
+        "category": "code",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #63)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "256K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 412&background=random&color=fff&size=128"
+    },
+    {
+        "id": 64,
+        "name": "Tome 875",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #64)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "44K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Tome 875&background=random&color=fff&size=128"
+    },
+    {
+        "id": 65,
+        "name": "Tabnine 481",
+        "category": "search",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #65)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "302K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 481&background=random&color=fff&size=128"
+    },
+    {
+        "id": 66,
+        "name": "Replit Ghostwriter 410",
+        "category": "agent",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #66)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "32K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 410&background=random&color=fff&size=128"
+    },
+    {
+        "id": 67,
+        "name": "Jasper 428",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #67)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "328K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 428&background=random&color=fff&size=128"
+    },
+    {
+        "id": 68,
+        "name": "Copy.ai 250",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #68)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "297K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 250&background=random&color=fff&size=128"
+    },
+    {
+        "id": 69,
+        "name": "Firefly 770",
+        "category": "learn",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #69)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "395K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 770&background=random&color=fff&size=128"
+    },
+    {
+        "id": 70,
+        "name": "Synthesia 905",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #70)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "42K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 905&background=random&color=fff&size=128"
+    },
+    {
+        "id": 71,
+        "name": "Murf.ai 964",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #71)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "476K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 964&background=random&color=fff&size=128"
+    },
+    {
+        "id": 72,
+        "name": "Otter.ai 671",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #72)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "144K+",
+        "rating": 5.0,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 671&background=random&color=fff&size=128"
+    },
+    {
+        "id": 73,
+        "name": "Beautiful.ai 273",
+        "category": "text",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #73)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "255K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 273&background=random&color=fff&size=128"
+    },
+    {
+        "id": 74,
+        "name": "Tome 688",
+        "category": "dev",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #74)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "127K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Tome 688&background=random&color=fff&size=128"
+    },
+    {
+        "id": 75,
+        "name": "Tabnine 953",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #75)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "453K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 953&background=random&color=fff&size=128"
+    },
+    {
+        "id": 76,
+        "name": "Replit Ghostwriter 492",
+        "category": "dev",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #76)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "283K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 492&background=random&color=fff&size=128"
+    },
+    {
+        "id": 77,
+        "name": "Jasper 673",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #77)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "98K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 673&background=random&color=fff&size=128"
+    },
+    {
+        "id": 78,
+        "name": "Copy.ai 527",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #78)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "400K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 527&background=random&color=fff&size=128"
+    },
+    {
+        "id": 79,
+        "name": "Firefly 410",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #79)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "170K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 410&background=random&color=fff&size=128"
+    },
+    {
+        "id": 80,
+        "name": "Synthesia 356",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #80)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "119K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 356&background=random&color=fff&size=128"
+    },
+    {
+        "id": 81,
+        "name": "Murf.ai 924",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #81)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "299K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 924&background=random&color=fff&size=128"
+    },
+    {
+        "id": 82,
+        "name": "Otter.ai 277",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #82)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "302K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 277&background=random&color=fff&size=128"
+    },
+    {
+        "id": 83,
+        "name": "Beautiful.ai 616",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #83)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "149K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 616&background=random&color=fff&size=128"
+    },
+    {
+        "id": 84,
+        "name": "Tome 718",
+        "category": "audio",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #84)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "82K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Tome 718&background=random&color=fff&size=128"
+    },
+    {
+        "id": 85,
+        "name": "Tabnine 210",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #85)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "371K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 210&background=random&color=fff&size=128"
+    },
+    {
+        "id": 86,
+        "name": "Replit Ghostwriter 807",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #86)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "135K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 807&background=random&color=fff&size=128"
+    },
+    {
+        "id": 87,
+        "name": "Jasper 609",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #87)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "247K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 609&background=random&color=fff&size=128"
+    },
+    {
+        "id": 88,
+        "name": "Copy.ai 711",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #88)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "133K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 711&background=random&color=fff&size=128"
+    },
+    {
+        "id": 89,
+        "name": "Firefly 792",
+        "category": "video",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #89)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "480K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 792&background=random&color=fff&size=128"
+    },
+    {
+        "id": 90,
+        "name": "Synthesia 210",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #90)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "228K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 210&background=random&color=fff&size=128"
+    },
+    {
+        "id": 91,
+        "name": "Murf.ai 472",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #91)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "438K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 472&background=random&color=fff&size=128"
+    },
+    {
+        "id": 92,
+        "name": "Otter.ai 611",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #92)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "189K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 611&background=random&color=fff&size=128"
+    },
+    {
+        "id": 93,
+        "name": "Beautiful.ai 591",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #93)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "357K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 591&background=random&color=fff&size=128"
+    },
+    {
+        "id": 94,
+        "name": "Tome 241",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #94)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "66K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Tome 241&background=random&color=fff&size=128"
+    },
+    {
+        "id": 95,
+        "name": "Tabnine 302",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #95)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "132K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 302&background=random&color=fff&size=128"
+    },
+    {
+        "id": 96,
+        "name": "Replit Ghostwriter 310",
+        "category": "search",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #96)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "332K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 310&background=random&color=fff&size=128"
+    },
+    {
+        "id": 97,
+        "name": "Jasper 476",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #97)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "24K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 476&background=random&color=fff&size=128"
+    },
+    {
+        "id": 98,
+        "name": "Copy.ai 190",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #98)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "320K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 190&background=random&color=fff&size=128"
+    },
+    {
+        "id": 99,
+        "name": "Firefly 213",
+        "category": "search",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #99)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "43K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 213&background=random&color=fff&size=128"
+    },
+    {
+        "id": 100,
+        "name": "Synthesia 493",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #100)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "191K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 493&background=random&color=fff&size=128"
+    },
+    {
+        "id": 101,
+        "name": "Murf.ai 104",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #101)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "335K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 104&background=random&color=fff&size=128"
+    },
+    {
+        "id": 102,
+        "name": "Otter.ai 896",
+        "category": "office",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #102)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "176K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 896&background=random&color=fff&size=128"
+    },
+    {
+        "id": 103,
+        "name": "Beautiful.ai 322",
+        "category": "agent",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #103)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "492K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 322&background=random&color=fff&size=128"
+    },
+    {
+        "id": 104,
+        "name": "Tome 512",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #104)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "473K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Tome 512&background=random&color=fff&size=128"
+    },
+    {
+        "id": 105,
+        "name": "Tabnine 483",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #105)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "55K+",
+        "rating": 5.0,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 483&background=random&color=fff&size=128"
+    },
+    {
+        "id": 106,
+        "name": "Replit Ghostwriter 388",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #106)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "389K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 388&background=random&color=fff&size=128"
+    },
+    {
+        "id": 107,
+        "name": "Jasper 858",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #107)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "389K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 858&background=random&color=fff&size=128"
+    },
+    {
+        "id": 108,
+        "name": "Copy.ai 686",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #108)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "90K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 686&background=random&color=fff&size=128"
+    },
+    {
+        "id": 109,
+        "name": "Firefly 748",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #109)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "356K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 748&background=random&color=fff&size=128"
+    },
+    {
+        "id": 110,
+        "name": "Synthesia 307",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #110)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "478K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 307&background=random&color=fff&size=128"
+    },
+    {
+        "id": 111,
+        "name": "Murf.ai 700",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #111)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "423K+",
+        "rating": 5.0,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 700&background=random&color=fff&size=128"
+    },
+    {
+        "id": 112,
+        "name": "Otter.ai 412",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #112)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "272K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 412&background=random&color=fff&size=128"
+    },
+    {
+        "id": 113,
+        "name": "Beautiful.ai 130",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #113)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "30K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 130&background=random&color=fff&size=128"
+    },
+    {
+        "id": 114,
+        "name": "Tome 526",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #114)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "316K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Tome 526&background=random&color=fff&size=128"
+    },
+    {
+        "id": 115,
+        "name": "Tabnine 206",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #115)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "77K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 206&background=random&color=fff&size=128"
+    },
+    {
+        "id": 116,
+        "name": "Replit Ghostwriter 394",
+        "category": "text",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #116)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "419K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 394&background=random&color=fff&size=128"
+    },
+    {
+        "id": 117,
+        "name": "Jasper 412",
+        "category": "agent",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #117)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "120K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 412&background=random&color=fff&size=128"
+    },
+    {
+        "id": 118,
+        "name": "Copy.ai 794",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #118)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "457K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 794&background=random&color=fff&size=128"
+    },
+    {
+        "id": 119,
+        "name": "Firefly 716",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #119)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "390K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 716&background=random&color=fff&size=128"
+    },
+    {
+        "id": 120,
+        "name": "Synthesia 590",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #120)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "422K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 590&background=random&color=fff&size=128"
+    },
+    {
+        "id": 121,
+        "name": "Murf.ai 671",
+        "category": "text",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #121)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "180K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 671&background=random&color=fff&size=128"
+    },
+    {
+        "id": 122,
+        "name": "Otter.ai 428",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #122)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "56K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 428&background=random&color=fff&size=128"
+    },
+    {
+        "id": 123,
+        "name": "Beautiful.ai 769",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #123)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "12K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 769&background=random&color=fff&size=128"
+    },
+    {
+        "id": 124,
+        "name": "Tome 372",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #124)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "433K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Tome 372&background=random&color=fff&size=128"
+    },
+    {
+        "id": 125,
+        "name": "Tabnine 602",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #125)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "332K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 602&background=random&color=fff&size=128"
+    },
+    {
+        "id": 126,
+        "name": "Replit Ghostwriter 288",
+        "category": "text",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #126)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "238K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 288&background=random&color=fff&size=128"
+    },
+    {
+        "id": 127,
+        "name": "Jasper 153",
+        "category": "audio",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #127)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "67K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 153&background=random&color=fff&size=128"
+    },
+    {
+        "id": 128,
+        "name": "Copy.ai 839",
+        "category": "learn",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #128)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "225K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 839&background=random&color=fff&size=128"
+    },
+    {
+        "id": 129,
+        "name": "Firefly 251",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #129)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "120K+",
+        "rating": 5.0,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 251&background=random&color=fff&size=128"
+    },
+    {
+        "id": 130,
+        "name": "Synthesia 161",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #130)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "175K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 161&background=random&color=fff&size=128"
+    },
+    {
+        "id": 131,
+        "name": "Murf.ai 133",
+        "category": "text",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #131)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "258K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 133&background=random&color=fff&size=128"
+    },
+    {
+        "id": 132,
+        "name": "Otter.ai 532",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #132)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "232K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 532&background=random&color=fff&size=128"
+    },
+    {
+        "id": 133,
+        "name": "Beautiful.ai 190",
+        "category": "learn",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #133)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "101K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 190&background=random&color=fff&size=128"
+    },
+    {
+        "id": 134,
+        "name": "Tome 214",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #134)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "185K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Tome 214&background=random&color=fff&size=128"
+    },
+    {
+        "id": 135,
+        "name": "Tabnine 795",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #135)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "433K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 795&background=random&color=fff&size=128"
+    },
+    {
+        "id": 136,
+        "name": "Replit Ghostwriter 343",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #136)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "281K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 343&background=random&color=fff&size=128"
+    },
+    {
+        "id": 137,
+        "name": "Jasper 485",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #137)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "234K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 485&background=random&color=fff&size=128"
+    },
+    {
+        "id": 138,
+        "name": "Copy.ai 840",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #138)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "392K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 840&background=random&color=fff&size=128"
+    },
+    {
+        "id": 139,
+        "name": "Firefly 757",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #139)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "280K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 757&background=random&color=fff&size=128"
+    },
+    {
+        "id": 140,
+        "name": "Synthesia 210",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #140)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "387K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 210&background=random&color=fff&size=128"
+    },
+    {
+        "id": 141,
+        "name": "Murf.ai 311",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #141)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "122K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 311&background=random&color=fff&size=128"
+    },
+    {
+        "id": 142,
+        "name": "Otter.ai 258",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #142)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "271K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 258&background=random&color=fff&size=128"
+    },
+    {
+        "id": 143,
+        "name": "Beautiful.ai 131",
+        "category": "learn",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #143)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "371K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 131&background=random&color=fff&size=128"
+    },
+    {
+        "id": 144,
+        "name": "Tome 296",
+        "category": "learn",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #144)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "143K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Tome 296&background=random&color=fff&size=128"
+    },
+    {
+        "id": 145,
+        "name": "Tabnine 131",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #145)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "140K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 131&background=random&color=fff&size=128"
+    },
+    {
+        "id": 146,
+        "name": "Replit Ghostwriter 247",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #146)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "62K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 247&background=random&color=fff&size=128"
+    },
+    {
+        "id": 147,
+        "name": "Jasper 252",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #147)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "354K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 252&background=random&color=fff&size=128"
+    },
+    {
+        "id": 148,
+        "name": "Copy.ai 249",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #148)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "294K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 249&background=random&color=fff&size=128"
+    },
+    {
+        "id": 149,
+        "name": "Firefly 551",
+        "category": "search",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #149)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "419K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 551&background=random&color=fff&size=128"
+    },
+    {
+        "id": 150,
+        "name": "Synthesia 351",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #150)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "107K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 351&background=random&color=fff&size=128"
+    },
+    {
+        "id": 151,
+        "name": "Murf.ai 876",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #151)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "316K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 876&background=random&color=fff&size=128"
+    },
+    {
+        "id": 152,
+        "name": "Otter.ai 495",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #152)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "28K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 495&background=random&color=fff&size=128"
+    },
+    {
+        "id": 153,
+        "name": "Beautiful.ai 257",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #153)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "160K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 257&background=random&color=fff&size=128"
+    },
+    {
+        "id": 154,
+        "name": "Tome 794",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #154)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "32K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Tome 794&background=random&color=fff&size=128"
+    },
+    {
+        "id": 155,
+        "name": "Tabnine 684",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #155)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "143K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 684&background=random&color=fff&size=128"
+    },
+    {
+        "id": 156,
+        "name": "Replit Ghostwriter 409",
+        "category": "learn",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #156)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "370K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 409&background=random&color=fff&size=128"
+    },
+    {
+        "id": 157,
+        "name": "Jasper 483",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #157)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "88K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 483&background=random&color=fff&size=128"
+    },
+    {
+        "id": 158,
+        "name": "Copy.ai 237",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #158)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "452K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 237&background=random&color=fff&size=128"
+    },
+    {
+        "id": 159,
+        "name": "Firefly 403",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #159)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "454K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 403&background=random&color=fff&size=128"
+    },
+    {
+        "id": 160,
+        "name": "Synthesia 193",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #160)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "138K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 193&background=random&color=fff&size=128"
+    },
+    {
+        "id": 161,
+        "name": "Murf.ai 399",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #161)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "5K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 399&background=random&color=fff&size=128"
+    },
+    {
+        "id": 162,
+        "name": "Otter.ai 730",
+        "category": "video",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #162)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "493K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 730&background=random&color=fff&size=128"
+    },
+    {
+        "id": 163,
+        "name": "Beautiful.ai 124",
+        "category": "code",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #163)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "428K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 124&background=random&color=fff&size=128"
+    },
+    {
+        "id": 164,
+        "name": "Tome 418",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #164)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "233K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Tome 418&background=random&color=fff&size=128"
+    },
+    {
+        "id": 165,
+        "name": "Tabnine 376",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #165)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "99K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 376&background=random&color=fff&size=128"
+    },
+    {
+        "id": 166,
+        "name": "Replit Ghostwriter 539",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #166)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "290K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 539&background=random&color=fff&size=128"
+    },
+    {
+        "id": 167,
+        "name": "Jasper 327",
+        "category": "search",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #167)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "338K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 327&background=random&color=fff&size=128"
+    },
+    {
+        "id": 168,
+        "name": "Copy.ai 392",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #168)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "270K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 392&background=random&color=fff&size=128"
+    },
+    {
+        "id": 169,
+        "name": "Firefly 163",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #169)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "235K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 163&background=random&color=fff&size=128"
+    },
+    {
+        "id": 170,
+        "name": "Synthesia 598",
+        "category": "agent",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #170)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "409K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 598&background=random&color=fff&size=128"
+    },
+    {
+        "id": 171,
+        "name": "Murf.ai 491",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #171)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "122K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 491&background=random&color=fff&size=128"
+    },
+    {
+        "id": 172,
+        "name": "Otter.ai 346",
+        "category": "video",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #172)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "135K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 346&background=random&color=fff&size=128"
+    },
+    {
+        "id": 173,
+        "name": "Beautiful.ai 854",
+        "category": "video",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #173)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "217K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 854&background=random&color=fff&size=128"
+    },
+    {
+        "id": 174,
+        "name": "Tome 455",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #174)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "467K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Tome 455&background=random&color=fff&size=128"
+    },
+    {
+        "id": 175,
+        "name": "Tabnine 308",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #175)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "241K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 308&background=random&color=fff&size=128"
+    },
+    {
+        "id": 176,
+        "name": "Replit Ghostwriter 465",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #176)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "172K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 465&background=random&color=fff&size=128"
+    },
+    {
+        "id": 177,
+        "name": "Jasper 393",
+        "category": "video",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #177)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "207K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 393&background=random&color=fff&size=128"
+    },
+    {
+        "id": 178,
+        "name": "Copy.ai 259",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #178)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "222K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 259&background=random&color=fff&size=128"
+    },
+    {
+        "id": 179,
+        "name": "Firefly 719",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #179)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "308K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 719&background=random&color=fff&size=128"
+    },
+    {
+        "id": 180,
+        "name": "Synthesia 753",
+        "category": "search",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #180)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "248K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 753&background=random&color=fff&size=128"
+    },
+    {
+        "id": 181,
+        "name": "Murf.ai 254",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #181)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "435K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 254&background=random&color=fff&size=128"
+    },
+    {
+        "id": 182,
+        "name": "Otter.ai 761",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #182)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "362K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 761&background=random&color=fff&size=128"
+    },
+    {
+        "id": 183,
+        "name": "Beautiful.ai 602",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #183)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "190K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 602&background=random&color=fff&size=128"
+    },
+    {
+        "id": 184,
+        "name": "Tome 629",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #184)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "342K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Tome 629&background=random&color=fff&size=128"
+    },
+    {
+        "id": 185,
+        "name": "Tabnine 723",
+        "category": "dev",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #185)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "224K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 723&background=random&color=fff&size=128"
+    },
+    {
+        "id": 186,
+        "name": "Replit Ghostwriter 479",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #186)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "494K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 479&background=random&color=fff&size=128"
+    },
+    {
+        "id": 187,
+        "name": "Jasper 921",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #187)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "32K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 921&background=random&color=fff&size=128"
+    },
+    {
+        "id": 188,
+        "name": "Copy.ai 733",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #188)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "172K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 733&background=random&color=fff&size=128"
+    },
+    {
+        "id": 189,
+        "name": "Firefly 531",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #189)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "355K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 531&background=random&color=fff&size=128"
+    },
+    {
+        "id": 190,
+        "name": "Synthesia 745",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #190)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "399K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 745&background=random&color=fff&size=128"
+    },
+    {
+        "id": 191,
+        "name": "Murf.ai 786",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #191)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "147K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 786&background=random&color=fff&size=128"
+    },
+    {
+        "id": 192,
+        "name": "Otter.ai 437",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #192)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "230K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 437&background=random&color=fff&size=128"
+    },
+    {
+        "id": 193,
+        "name": "Beautiful.ai 831",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #193)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "351K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 831&background=random&color=fff&size=128"
+    },
+    {
+        "id": 194,
+        "name": "Tome 811",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #194)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "141K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Tome 811&background=random&color=fff&size=128"
+    },
+    {
+        "id": 195,
+        "name": "Tabnine 605",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #195)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "206K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 605&background=random&color=fff&size=128"
+    },
+    {
+        "id": 196,
+        "name": "Replit Ghostwriter 739",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #196)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "200K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 739&background=random&color=fff&size=128"
+    },
+    {
+        "id": 197,
+        "name": "Jasper 672",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #197)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "4K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 672&background=random&color=fff&size=128"
+    },
+    {
+        "id": 198,
+        "name": "Copy.ai 107",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #198)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "482K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 107&background=random&color=fff&size=128"
+    },
+    {
+        "id": 199,
+        "name": "Firefly 173",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #199)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "130K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 173&background=random&color=fff&size=128"
+    },
+    {
+        "id": 200,
+        "name": "Synthesia 650",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #200)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "434K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 650&background=random&color=fff&size=128"
+    },
+    {
+        "id": 201,
+        "name": "Murf.ai 391",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #201)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "77K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 391&background=random&color=fff&size=128"
+    },
+    {
+        "id": 202,
+        "name": "Otter.ai 589",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #202)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "462K+",
+        "rating": 5.0,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 589&background=random&color=fff&size=128"
+    },
+    {
+        "id": 203,
+        "name": "Beautiful.ai 550",
+        "category": "learn",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #203)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "277K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 550&background=random&color=fff&size=128"
+    },
+    {
+        "id": 204,
+        "name": "Tome 917",
+        "category": "search",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #204)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "386K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Tome 917&background=random&color=fff&size=128"
+    },
+    {
+        "id": 205,
+        "name": "Tabnine 444",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #205)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "479K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 444&background=random&color=fff&size=128"
+    },
+    {
+        "id": 206,
+        "name": "Replit Ghostwriter 914",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #206)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "67K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 914&background=random&color=fff&size=128"
+    },
+    {
+        "id": 207,
+        "name": "Jasper 383",
+        "category": "agent",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #207)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "355K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 383&background=random&color=fff&size=128"
+    },
+    {
+        "id": 208,
+        "name": "Copy.ai 166",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #208)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "190K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 166&background=random&color=fff&size=128"
+    },
+    {
+        "id": 209,
+        "name": "Firefly 211",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #209)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "273K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 211&background=random&color=fff&size=128"
+    },
+    {
+        "id": 210,
+        "name": "Synthesia 796",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #210)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "431K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 796&background=random&color=fff&size=128"
+    },
+    {
+        "id": 211,
+        "name": "Murf.ai 302",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #211)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "432K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 302&background=random&color=fff&size=128"
+    },
+    {
+        "id": 212,
+        "name": "Otter.ai 343",
+        "category": "learn",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #212)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "254K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 343&background=random&color=fff&size=128"
+    },
+    {
+        "id": 213,
+        "name": "Beautiful.ai 381",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #213)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "86K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 381&background=random&color=fff&size=128"
+    },
+    {
+        "id": 214,
+        "name": "Tome 329",
+        "category": "search",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #214)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "418K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Tome 329&background=random&color=fff&size=128"
+    },
+    {
+        "id": 215,
+        "name": "Tabnine 378",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #215)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "295K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 378&background=random&color=fff&size=128"
+    },
+    {
+        "id": 216,
+        "name": "Replit Ghostwriter 738",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #216)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "448K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 738&background=random&color=fff&size=128"
+    },
+    {
+        "id": 217,
+        "name": "Jasper 421",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #217)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "44K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 421&background=random&color=fff&size=128"
+    },
+    {
+        "id": 218,
+        "name": "Copy.ai 692",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #218)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "395K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 692&background=random&color=fff&size=128"
+    },
+    {
+        "id": 219,
+        "name": "Firefly 780",
+        "category": "audio",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #219)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "275K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 780&background=random&color=fff&size=128"
+    },
+    {
+        "id": 220,
+        "name": "Synthesia 276",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #220)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "114K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 276&background=random&color=fff&size=128"
+    },
+    {
+        "id": 221,
+        "name": "Murf.ai 117",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #221)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "129K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 117&background=random&color=fff&size=128"
+    },
+    {
+        "id": 222,
+        "name": "Otter.ai 669",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #222)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "180K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 669&background=random&color=fff&size=128"
+    },
+    {
+        "id": 223,
+        "name": "Beautiful.ai 848",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #223)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "75K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 848&background=random&color=fff&size=128"
+    },
+    {
+        "id": 224,
+        "name": "Tome 999",
+        "category": "code",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #224)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "198K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Tome 999&background=random&color=fff&size=128"
+    },
+    {
+        "id": 225,
+        "name": "Tabnine 912",
+        "category": "text",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #225)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "472K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 912&background=random&color=fff&size=128"
+    },
+    {
+        "id": 226,
+        "name": "Replit Ghostwriter 117",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #226)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "169K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 117&background=random&color=fff&size=128"
+    },
+    {
+        "id": 227,
+        "name": "Jasper 291",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #227)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "232K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 291&background=random&color=fff&size=128"
+    },
+    {
+        "id": 228,
+        "name": "Copy.ai 291",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #228)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "245K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 291&background=random&color=fff&size=128"
+    },
+    {
+        "id": 229,
+        "name": "Firefly 762",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #229)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "447K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 762&background=random&color=fff&size=128"
+    },
+    {
+        "id": 230,
+        "name": "Synthesia 785",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #230)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "393K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 785&background=random&color=fff&size=128"
+    },
+    {
+        "id": 231,
+        "name": "Murf.ai 128",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #231)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "373K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 128&background=random&color=fff&size=128"
+    },
+    {
+        "id": 232,
+        "name": "Otter.ai 589",
+        "category": "code",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #232)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "465K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 589&background=random&color=fff&size=128"
+    },
+    {
+        "id": 233,
+        "name": "Beautiful.ai 127",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #233)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "465K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 127&background=random&color=fff&size=128"
+    },
+    {
+        "id": 234,
+        "name": "Tome 287",
+        "category": "learn",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #234)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "242K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Tome 287&background=random&color=fff&size=128"
+    },
+    {
+        "id": 235,
+        "name": "Tabnine 287",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #235)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "44K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 287&background=random&color=fff&size=128"
+    },
+    {
+        "id": 236,
+        "name": "Replit Ghostwriter 519",
+        "category": "office",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #236)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "343K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 519&background=random&color=fff&size=128"
+    },
+    {
+        "id": 237,
+        "name": "Jasper 402",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #237)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "39K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 402&background=random&color=fff&size=128"
+    },
+    {
+        "id": 238,
+        "name": "Copy.ai 734",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #238)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "315K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 734&background=random&color=fff&size=128"
+    },
+    {
+        "id": 239,
+        "name": "Firefly 252",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #239)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "258K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 252&background=random&color=fff&size=128"
+    },
+    {
+        "id": 240,
+        "name": "Synthesia 690",
+        "category": "agent",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #240)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "67K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 690&background=random&color=fff&size=128"
+    },
+    {
+        "id": 241,
+        "name": "Murf.ai 471",
+        "category": "text",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #241)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "47K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 471&background=random&color=fff&size=128"
+    },
+    {
+        "id": 242,
+        "name": "Otter.ai 141",
+        "category": "office",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #242)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "302K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 141&background=random&color=fff&size=128"
+    },
+    {
+        "id": 243,
+        "name": "Beautiful.ai 674",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #243)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "292K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 674&background=random&color=fff&size=128"
+    },
+    {
+        "id": 244,
+        "name": "Tome 545",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #244)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "201K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Tome 545&background=random&color=fff&size=128"
+    },
+    {
+        "id": 245,
+        "name": "Tabnine 638",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #245)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "301K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 638&background=random&color=fff&size=128"
+    },
+    {
+        "id": 246,
+        "name": "Replit Ghostwriter 792",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #246)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "173K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 792&background=random&color=fff&size=128"
+    },
+    {
+        "id": 247,
+        "name": "Jasper 198",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #247)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "93K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 198&background=random&color=fff&size=128"
+    },
+    {
+        "id": 248,
+        "name": "Copy.ai 759",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #248)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "232K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 759&background=random&color=fff&size=128"
+    },
+    {
+        "id": 249,
+        "name": "Firefly 146",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #249)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "211K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 146&background=random&color=fff&size=128"
+    },
+    {
+        "id": 250,
+        "name": "Synthesia 234",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #250)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "33K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 234&background=random&color=fff&size=128"
+    },
+    {
+        "id": 251,
+        "name": "Murf.ai 365",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #251)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "430K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 365&background=random&color=fff&size=128"
+    },
+    {
+        "id": 252,
+        "name": "Otter.ai 358",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #252)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "64K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 358&background=random&color=fff&size=128"
+    },
+    {
+        "id": 253,
+        "name": "Beautiful.ai 773",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #253)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "125K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 773&background=random&color=fff&size=128"
+    },
+    {
+        "id": 254,
+        "name": "Tome 932",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #254)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "461K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Tome 932&background=random&color=fff&size=128"
+    },
+    {
+        "id": 255,
+        "name": "Tabnine 136",
+        "category": "text",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #255)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "482K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 136&background=random&color=fff&size=128"
+    },
+    {
+        "id": 256,
+        "name": "Replit Ghostwriter 584",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #256)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "375K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 584&background=random&color=fff&size=128"
+    },
+    {
+        "id": 257,
+        "name": "Jasper 795",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #257)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "299K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 795&background=random&color=fff&size=128"
+    },
+    {
+        "id": 258,
+        "name": "Copy.ai 652",
+        "category": "dev",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #258)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "56K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 652&background=random&color=fff&size=128"
+    },
+    {
+        "id": 259,
+        "name": "Firefly 731",
+        "category": "agent",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #259)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "37K+",
+        "rating": 5.0,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 731&background=random&color=fff&size=128"
+    },
+    {
+        "id": 260,
+        "name": "Synthesia 380",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #260)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "126K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 380&background=random&color=fff&size=128"
+    },
+    {
+        "id": 261,
+        "name": "Murf.ai 408",
+        "category": "code",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #261)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "125K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 408&background=random&color=fff&size=128"
+    },
+    {
+        "id": 262,
+        "name": "Otter.ai 369",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #262)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "346K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 369&background=random&color=fff&size=128"
+    },
+    {
+        "id": 263,
+        "name": "Beautiful.ai 704",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #263)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "338K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 704&background=random&color=fff&size=128"
+    },
+    {
+        "id": 264,
+        "name": "Tome 713",
+        "category": "agent",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #264)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "414K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Tome 713&background=random&color=fff&size=128"
+    },
+    {
+        "id": 265,
+        "name": "Tabnine 425",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #265)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "245K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 425&background=random&color=fff&size=128"
+    },
+    {
+        "id": 266,
+        "name": "Replit Ghostwriter 635",
+        "category": "office",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #266)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "6K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 635&background=random&color=fff&size=128"
+    },
+    {
+        "id": 267,
+        "name": "Jasper 384",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #267)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "392K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 384&background=random&color=fff&size=128"
+    },
+    {
+        "id": 268,
+        "name": "Copy.ai 495",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #268)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "208K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 495&background=random&color=fff&size=128"
+    },
+    {
+        "id": 269,
+        "name": "Firefly 569",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #269)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "414K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 569&background=random&color=fff&size=128"
+    },
+    {
+        "id": 270,
+        "name": "Synthesia 663",
+        "category": "agent",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #270)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "406K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 663&background=random&color=fff&size=128"
+    },
+    {
+        "id": 271,
+        "name": "Murf.ai 106",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #271)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "426K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 106&background=random&color=fff&size=128"
+    },
+    {
+        "id": 272,
+        "name": "Otter.ai 340",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #272)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "75K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 340&background=random&color=fff&size=128"
+    },
+    {
+        "id": 273,
+        "name": "Beautiful.ai 634",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #273)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "445K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 634&background=random&color=fff&size=128"
+    },
+    {
+        "id": 274,
+        "name": "Tome 364",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #274)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "112K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Tome 364&background=random&color=fff&size=128"
+    },
+    {
+        "id": 275,
+        "name": "Tabnine 819",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #275)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "472K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 819&background=random&color=fff&size=128"
+    },
+    {
+        "id": 276,
+        "name": "Replit Ghostwriter 890",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #276)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "12K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 890&background=random&color=fff&size=128"
+    },
+    {
+        "id": 277,
+        "name": "Jasper 577",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #277)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "29K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 577&background=random&color=fff&size=128"
+    },
+    {
+        "id": 278,
+        "name": "Copy.ai 363",
+        "category": "office",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #278)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "108K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 363&background=random&color=fff&size=128"
+    },
+    {
+        "id": 279,
+        "name": "Firefly 300",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #279)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "75K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 300&background=random&color=fff&size=128"
+    },
+    {
+        "id": 280,
+        "name": "Synthesia 445",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #280)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "343K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 445&background=random&color=fff&size=128"
+    },
+    {
+        "id": 281,
+        "name": "Murf.ai 834",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #281)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "423K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 834&background=random&color=fff&size=128"
+    },
+    {
+        "id": 282,
+        "name": "Otter.ai 279",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #282)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "239K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 279&background=random&color=fff&size=128"
+    },
+    {
+        "id": 283,
+        "name": "Beautiful.ai 949",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #283)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "412K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 949&background=random&color=fff&size=128"
+    },
+    {
+        "id": 284,
+        "name": "Tome 371",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #284)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "458K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Tome 371&background=random&color=fff&size=128"
+    },
+    {
+        "id": 285,
+        "name": "Tabnine 126",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #285)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "446K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 126&background=random&color=fff&size=128"
+    },
+    {
+        "id": 286,
+        "name": "Replit Ghostwriter 198",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #286)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "467K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 198&background=random&color=fff&size=128"
+    },
+    {
+        "id": 287,
+        "name": "Jasper 378",
+        "category": "image",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #287)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "289K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 378&background=random&color=fff&size=128"
+    },
+    {
+        "id": 288,
+        "name": "Copy.ai 370",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #288)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "287K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 370&background=random&color=fff&size=128"
+    },
+    {
+        "id": 289,
+        "name": "Firefly 437",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #289)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "489K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 437&background=random&color=fff&size=128"
+    },
+    {
+        "id": 290,
+        "name": "Synthesia 911",
+        "category": "agent",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #290)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "161K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 911&background=random&color=fff&size=128"
+    },
+    {
+        "id": 291,
+        "name": "Murf.ai 929",
+        "category": "agent",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #291)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "118K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 929&background=random&color=fff&size=128"
+    },
+    {
+        "id": 292,
+        "name": "Otter.ai 837",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #292)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "371K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 837&background=random&color=fff&size=128"
+    },
+    {
+        "id": 293,
+        "name": "Beautiful.ai 155",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #293)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "248K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 155&background=random&color=fff&size=128"
+    },
+    {
+        "id": 294,
+        "name": "Tome 970",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #294)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "58K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Tome 970&background=random&color=fff&size=128"
+    },
+    {
+        "id": 295,
+        "name": "Tabnine 586",
+        "category": "dev",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #295)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "126K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 586&background=random&color=fff&size=128"
+    },
+    {
+        "id": 296,
+        "name": "Replit Ghostwriter 549",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #296)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "206K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 549&background=random&color=fff&size=128"
+    },
+    {
+        "id": 297,
+        "name": "Jasper 221",
+        "category": "learn",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #297)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "293K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 221&background=random&color=fff&size=128"
+    },
+    {
+        "id": 298,
+        "name": "Copy.ai 889",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #298)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "326K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 889&background=random&color=fff&size=128"
+    },
+    {
+        "id": 299,
+        "name": "Firefly 235",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #299)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "406K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 235&background=random&color=fff&size=128"
+    },
+    {
+        "id": 300,
+        "name": "Synthesia 173",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #300)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "243K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 173&background=random&color=fff&size=128"
+    },
+    {
+        "id": 301,
+        "name": "Murf.ai 241",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #301)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "284K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 241&background=random&color=fff&size=128"
+    },
+    {
+        "id": 302,
+        "name": "Otter.ai 193",
+        "category": "video",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #302)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "166K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 193&background=random&color=fff&size=128"
+    },
+    {
+        "id": 303,
+        "name": "Beautiful.ai 752",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #303)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "39K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 752&background=random&color=fff&size=128"
+    },
+    {
+        "id": 304,
+        "name": "Tome 299",
+        "category": "search",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #304)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "378K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Tome 299&background=random&color=fff&size=128"
+    },
+    {
+        "id": 305,
+        "name": "Tabnine 555",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #305)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "126K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 555&background=random&color=fff&size=128"
+    },
+    {
+        "id": 306,
+        "name": "Replit Ghostwriter 266",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #306)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "233K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 266&background=random&color=fff&size=128"
+    },
+    {
+        "id": 307,
+        "name": "Jasper 972",
+        "category": "office",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #307)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "257K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 972&background=random&color=fff&size=128"
+    },
+    {
+        "id": 308,
+        "name": "Copy.ai 761",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #308)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "222K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 761&background=random&color=fff&size=128"
+    },
+    {
+        "id": 309,
+        "name": "Firefly 649",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #309)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "15K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 649&background=random&color=fff&size=128"
+    },
+    {
+        "id": 310,
+        "name": "Synthesia 190",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #310)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "101K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 190&background=random&color=fff&size=128"
+    },
+    {
+        "id": 311,
+        "name": "Murf.ai 949",
+        "category": "dev",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #311)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "390K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 949&background=random&color=fff&size=128"
+    },
+    {
+        "id": 312,
+        "name": "Otter.ai 466",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #312)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "65K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 466&background=random&color=fff&size=128"
+    },
+    {
+        "id": 313,
+        "name": "Beautiful.ai 336",
+        "category": "search",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #313)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "50K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 336&background=random&color=fff&size=128"
+    },
+    {
+        "id": 314,
+        "name": "Tome 962",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #314)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "330K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Tome 962&background=random&color=fff&size=128"
+    },
+    {
+        "id": 315,
+        "name": "Tabnine 747",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #315)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "47K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 747&background=random&color=fff&size=128"
+    },
+    {
+        "id": 316,
+        "name": "Replit Ghostwriter 126",
+        "category": "dev",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #316)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "210K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 126&background=random&color=fff&size=128"
+    },
+    {
+        "id": 317,
+        "name": "Jasper 267",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #317)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "87K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 267&background=random&color=fff&size=128"
+    },
+    {
+        "id": 318,
+        "name": "Copy.ai 851",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #318)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "307K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 851&background=random&color=fff&size=128"
+    },
+    {
+        "id": 319,
+        "name": "Firefly 638",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #319)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "168K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 638&background=random&color=fff&size=128"
+    },
+    {
+        "id": 320,
+        "name": "Synthesia 360",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #320)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "248K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 360&background=random&color=fff&size=128"
+    },
+    {
+        "id": 321,
+        "name": "Murf.ai 170",
+        "category": "image",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #321)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "282K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 170&background=random&color=fff&size=128"
+    },
+    {
+        "id": 322,
+        "name": "Otter.ai 266",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #322)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "460K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 266&background=random&color=fff&size=128"
+    },
+    {
+        "id": 323,
+        "name": "Beautiful.ai 782",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #323)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "221K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 782&background=random&color=fff&size=128"
+    },
+    {
+        "id": 324,
+        "name": "Tome 524",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #324)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "309K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Tome 524&background=random&color=fff&size=128"
+    },
+    {
+        "id": 325,
+        "name": "Tabnine 103",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #325)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "99K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 103&background=random&color=fff&size=128"
+    },
+    {
+        "id": 326,
+        "name": "Replit Ghostwriter 690",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #326)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "189K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 690&background=random&color=fff&size=128"
+    },
+    {
+        "id": 327,
+        "name": "Jasper 690",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #327)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "257K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 690&background=random&color=fff&size=128"
+    },
+    {
+        "id": 328,
+        "name": "Copy.ai 705",
+        "category": "audio",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #328)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "306K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 705&background=random&color=fff&size=128"
+    },
+    {
+        "id": 329,
+        "name": "Firefly 859",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #329)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "312K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 859&background=random&color=fff&size=128"
+    },
+    {
+        "id": 330,
+        "name": "Synthesia 200",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #330)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "126K+",
+        "rating": 5.0,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 200&background=random&color=fff&size=128"
+    },
+    {
+        "id": 331,
+        "name": "Murf.ai 736",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #331)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "448K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 736&background=random&color=fff&size=128"
+    },
+    {
+        "id": 332,
+        "name": "Otter.ai 863",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #332)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "94K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 863&background=random&color=fff&size=128"
+    },
+    {
+        "id": 333,
+        "name": "Beautiful.ai 944",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #333)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "93K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 944&background=random&color=fff&size=128"
+    },
+    {
+        "id": 334,
+        "name": "Tome 303",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #334)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "291K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Tome 303&background=random&color=fff&size=128"
+    },
+    {
+        "id": 335,
+        "name": "Tabnine 847",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #335)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "381K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 847&background=random&color=fff&size=128"
+    },
+    {
+        "id": 336,
+        "name": "Replit Ghostwriter 691",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #336)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "476K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 691&background=random&color=fff&size=128"
+    },
+    {
+        "id": 337,
+        "name": "Jasper 375",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #337)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "27K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 375&background=random&color=fff&size=128"
+    },
+    {
+        "id": 338,
+        "name": "Copy.ai 154",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #338)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "424K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 154&background=random&color=fff&size=128"
+    },
+    {
+        "id": 339,
+        "name": "Firefly 257",
+        "category": "agent",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #339)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "262K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 257&background=random&color=fff&size=128"
+    },
+    {
+        "id": 340,
+        "name": "Synthesia 103",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #340)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "92K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 103&background=random&color=fff&size=128"
+    },
+    {
+        "id": 341,
+        "name": "Murf.ai 818",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #341)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "317K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 818&background=random&color=fff&size=128"
+    },
+    {
+        "id": 342,
+        "name": "Otter.ai 950",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #342)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "493K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 950&background=random&color=fff&size=128"
+    },
+    {
+        "id": 343,
+        "name": "Beautiful.ai 716",
+        "category": "code",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #343)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "309K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 716&background=random&color=fff&size=128"
+    },
+    {
+        "id": 344,
+        "name": "Tome 916",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #344)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "272K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Tome 916&background=random&color=fff&size=128"
+    },
+    {
+        "id": 345,
+        "name": "Tabnine 289",
+        "category": "text",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #345)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "268K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 289&background=random&color=fff&size=128"
+    },
+    {
+        "id": 346,
+        "name": "Replit Ghostwriter 993",
+        "category": "text",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #346)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "177K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 993&background=random&color=fff&size=128"
+    },
+    {
+        "id": 347,
+        "name": "Jasper 943",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #347)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "36K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 943&background=random&color=fff&size=128"
+    },
+    {
+        "id": 348,
+        "name": "Copy.ai 673",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #348)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "465K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 673&background=random&color=fff&size=128"
+    },
+    {
+        "id": 349,
+        "name": "Firefly 494",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #349)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "295K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 494&background=random&color=fff&size=128"
+    },
+    {
+        "id": 350,
+        "name": "Synthesia 822",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #350)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "104K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 822&background=random&color=fff&size=128"
+    },
+    {
+        "id": 351,
+        "name": "Murf.ai 180",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #351)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "143K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 180&background=random&color=fff&size=128"
+    },
+    {
+        "id": 352,
+        "name": "Otter.ai 366",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #352)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "150K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 366&background=random&color=fff&size=128"
+    },
+    {
+        "id": 353,
+        "name": "Beautiful.ai 709",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #353)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "342K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 709&background=random&color=fff&size=128"
+    },
+    {
+        "id": 354,
+        "name": "Tome 298",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #354)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "265K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Tome 298&background=random&color=fff&size=128"
+    },
+    {
+        "id": 355,
+        "name": "Tabnine 811",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #355)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "395K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 811&background=random&color=fff&size=128"
+    },
+    {
+        "id": 356,
+        "name": "Replit Ghostwriter 105",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #356)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "214K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 105&background=random&color=fff&size=128"
+    },
+    {
+        "id": 357,
+        "name": "Jasper 625",
+        "category": "office",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #357)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "361K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 625&background=random&color=fff&size=128"
+    },
+    {
+        "id": 358,
+        "name": "Copy.ai 155",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #358)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "184K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 155&background=random&color=fff&size=128"
+    },
+    {
+        "id": 359,
+        "name": "Firefly 214",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #359)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "58K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 214&background=random&color=fff&size=128"
+    },
+    {
+        "id": 360,
+        "name": "Synthesia 564",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #360)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "234K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 564&background=random&color=fff&size=128"
+    },
+    {
+        "id": 361,
+        "name": "Murf.ai 763",
+        "category": "learn",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #361)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "312K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 763&background=random&color=fff&size=128"
+    },
+    {
+        "id": 362,
+        "name": "Otter.ai 938",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #362)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "280K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 938&background=random&color=fff&size=128"
+    },
+    {
+        "id": 363,
+        "name": "Beautiful.ai 354",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #363)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "250K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 354&background=random&color=fff&size=128"
+    },
+    {
+        "id": 364,
+        "name": "Tome 765",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #364)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "121K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Tome 765&background=random&color=fff&size=128"
+    },
+    {
+        "id": 365,
+        "name": "Tabnine 290",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #365)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "439K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 290&background=random&color=fff&size=128"
+    },
+    {
+        "id": 366,
+        "name": "Replit Ghostwriter 412",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #366)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "308K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 412&background=random&color=fff&size=128"
+    },
+    {
+        "id": 367,
+        "name": "Jasper 891",
+        "category": "dev",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #367)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "468K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 891&background=random&color=fff&size=128"
+    },
+    {
+        "id": 368,
+        "name": "Copy.ai 664",
+        "category": "code",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #368)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "327K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 664&background=random&color=fff&size=128"
+    },
+    {
+        "id": 369,
+        "name": "Firefly 545",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #369)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "367K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 545&background=random&color=fff&size=128"
+    },
+    {
+        "id": 370,
+        "name": "Synthesia 508",
+        "category": "code",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #370)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "28K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 508&background=random&color=fff&size=128"
+    },
+    {
+        "id": 371,
+        "name": "Murf.ai 287",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #371)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "179K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 287&background=random&color=fff&size=128"
+    },
+    {
+        "id": 372,
+        "name": "Otter.ai 616",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #372)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "277K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 616&background=random&color=fff&size=128"
+    },
+    {
+        "id": 373,
+        "name": "Beautiful.ai 539",
+        "category": "text",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #373)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "160K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 539&background=random&color=fff&size=128"
+    },
+    {
+        "id": 374,
+        "name": "Tome 669",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #374)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "200K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Tome 669&background=random&color=fff&size=128"
+    },
+    {
+        "id": 375,
+        "name": "Tabnine 987",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #375)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "332K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 987&background=random&color=fff&size=128"
+    },
+    {
+        "id": 376,
+        "name": "Replit Ghostwriter 413",
+        "category": "search",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #376)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "231K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 413&background=random&color=fff&size=128"
+    },
+    {
+        "id": 377,
+        "name": "Jasper 792",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #377)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "468K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 792&background=random&color=fff&size=128"
+    },
+    {
+        "id": 378,
+        "name": "Copy.ai 610",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #378)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "83K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 610&background=random&color=fff&size=128"
+    },
+    {
+        "id": 379,
+        "name": "Firefly 749",
+        "category": "code",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #379)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "449K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 749&background=random&color=fff&size=128"
+    },
+    {
+        "id": 380,
+        "name": "Synthesia 158",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #380)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "10K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 158&background=random&color=fff&size=128"
+    },
+    {
+        "id": 381,
+        "name": "Murf.ai 313",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #381)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "310K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 313&background=random&color=fff&size=128"
+    },
+    {
+        "id": 382,
+        "name": "Otter.ai 310",
+        "category": "image",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #382)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "256K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 310&background=random&color=fff&size=128"
+    },
+    {
+        "id": 383,
+        "name": "Beautiful.ai 396",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #383)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "29K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 396&background=random&color=fff&size=128"
+    },
+    {
+        "id": 384,
+        "name": "Tome 195",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #384)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "265K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Tome 195&background=random&color=fff&size=128"
+    },
+    {
+        "id": 385,
+        "name": "Tabnine 702",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #385)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "125K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 702&background=random&color=fff&size=128"
+    },
+    {
+        "id": 386,
+        "name": "Replit Ghostwriter 382",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #386)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "477K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 382&background=random&color=fff&size=128"
+    },
+    {
+        "id": 387,
+        "name": "Jasper 650",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #387)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "157K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 650&background=random&color=fff&size=128"
+    },
+    {
+        "id": 388,
+        "name": "Copy.ai 392",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #388)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "225K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 392&background=random&color=fff&size=128"
+    },
+    {
+        "id": 389,
+        "name": "Firefly 275",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #389)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "87K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 275&background=random&color=fff&size=128"
+    },
+    {
+        "id": 390,
+        "name": "Synthesia 636",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #390)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "194K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 636&background=random&color=fff&size=128"
+    },
+    {
+        "id": 391,
+        "name": "Murf.ai 776",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #391)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "144K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 776&background=random&color=fff&size=128"
+    },
+    {
+        "id": 392,
+        "name": "Otter.ai 346",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #392)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "51K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 346&background=random&color=fff&size=128"
+    },
+    {
+        "id": 393,
+        "name": "Beautiful.ai 126",
+        "category": "video",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #393)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "121K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 126&background=random&color=fff&size=128"
+    },
+    {
+        "id": 394,
+        "name": "Tome 286",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #394)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "72K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Tome 286&background=random&color=fff&size=128"
+    },
+    {
+        "id": 395,
+        "name": "Tabnine 778",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #395)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "229K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 778&background=random&color=fff&size=128"
+    },
+    {
+        "id": 396,
+        "name": "Replit Ghostwriter 664",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #396)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "405K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 664&background=random&color=fff&size=128"
+    },
+    {
+        "id": 397,
+        "name": "Jasper 224",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #397)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "406K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 224&background=random&color=fff&size=128"
+    },
+    {
+        "id": 398,
+        "name": "Copy.ai 786",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #398)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "178K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 786&background=random&color=fff&size=128"
+    },
+    {
+        "id": 399,
+        "name": "Firefly 873",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #399)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "353K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 873&background=random&color=fff&size=128"
+    },
+    {
+        "id": 400,
+        "name": "Synthesia 601",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #400)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "7K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 601&background=random&color=fff&size=128"
+    },
+    {
+        "id": 401,
+        "name": "Murf.ai 894",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #401)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "379K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 894&background=random&color=fff&size=128"
+    },
+    {
+        "id": 402,
+        "name": "Otter.ai 395",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #402)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "26K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 395&background=random&color=fff&size=128"
+    },
+    {
+        "id": 403,
+        "name": "Beautiful.ai 471",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #403)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "108K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 471&background=random&color=fff&size=128"
+    },
+    {
+        "id": 404,
+        "name": "Tome 252",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #404)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "312K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Tome 252&background=random&color=fff&size=128"
+    },
+    {
+        "id": 405,
+        "name": "Tabnine 324",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #405)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "38K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 324&background=random&color=fff&size=128"
+    },
+    {
+        "id": 406,
+        "name": "Replit Ghostwriter 860",
+        "category": "video",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #406)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "405K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 860&background=random&color=fff&size=128"
+    },
+    {
+        "id": 407,
+        "name": "Jasper 265",
+        "category": "office",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #407)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "462K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 265&background=random&color=fff&size=128"
+    },
+    {
+        "id": 408,
+        "name": "Copy.ai 142",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #408)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "97K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 142&background=random&color=fff&size=128"
+    },
+    {
+        "id": 409,
+        "name": "Firefly 936",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #409)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "195K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 936&background=random&color=fff&size=128"
+    },
+    {
+        "id": 410,
+        "name": "Synthesia 819",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #410)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "387K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 819&background=random&color=fff&size=128"
+    },
+    {
+        "id": 411,
+        "name": "Murf.ai 727",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #411)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "18K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 727&background=random&color=fff&size=128"
+    },
+    {
+        "id": 412,
+        "name": "Otter.ai 179",
+        "category": "image",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #412)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "52K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 179&background=random&color=fff&size=128"
+    },
+    {
+        "id": 413,
+        "name": "Beautiful.ai 824",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #413)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "116K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 824&background=random&color=fff&size=128"
+    },
+    {
+        "id": 414,
+        "name": "Tome 130",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #414)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "248K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Tome 130&background=random&color=fff&size=128"
+    },
+    {
+        "id": 415,
+        "name": "Tabnine 268",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #415)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "96K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 268&background=random&color=fff&size=128"
+    },
+    {
+        "id": 416,
+        "name": "Replit Ghostwriter 185",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #416)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "380K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 185&background=random&color=fff&size=128"
+    },
+    {
+        "id": 417,
+        "name": "Jasper 563",
+        "category": "code",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #417)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "314K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 563&background=random&color=fff&size=128"
+    },
+    {
+        "id": 418,
+        "name": "Copy.ai 216",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #418)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "349K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 216&background=random&color=fff&size=128"
+    },
+    {
+        "id": 419,
+        "name": "Firefly 229",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #419)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "135K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 229&background=random&color=fff&size=128"
+    },
+    {
+        "id": 420,
+        "name": "Synthesia 700",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #420)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "427K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 700&background=random&color=fff&size=128"
+    },
+    {
+        "id": 421,
+        "name": "Murf.ai 291",
+        "category": "video",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #421)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "164K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 291&background=random&color=fff&size=128"
+    },
+    {
+        "id": 422,
+        "name": "Otter.ai 529",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #422)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "450K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 529&background=random&color=fff&size=128"
+    },
+    {
+        "id": 423,
+        "name": "Beautiful.ai 859",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #423)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "333K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 859&background=random&color=fff&size=128"
+    },
+    {
+        "id": 424,
+        "name": "Tome 234",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #424)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "34K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Tome 234&background=random&color=fff&size=128"
+    },
+    {
+        "id": 425,
+        "name": "Tabnine 644",
+        "category": "office",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #425)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "493K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 644&background=random&color=fff&size=128"
+    },
+    {
+        "id": 426,
+        "name": "Replit Ghostwriter 453",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #426)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "425K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 453&background=random&color=fff&size=128"
+    },
+    {
+        "id": 427,
+        "name": "Jasper 850",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #427)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "208K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 850&background=random&color=fff&size=128"
+    },
+    {
+        "id": 428,
+        "name": "Copy.ai 964",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #428)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "341K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 964&background=random&color=fff&size=128"
+    },
+    {
+        "id": 429,
+        "name": "Firefly 402",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #429)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "428K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 402&background=random&color=fff&size=128"
+    },
+    {
+        "id": 430,
+        "name": "Synthesia 123",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #430)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "328K+",
+        "rating": 5.0,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 123&background=random&color=fff&size=128"
+    },
+    {
+        "id": 431,
+        "name": "Murf.ai 183",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #431)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "260K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 183&background=random&color=fff&size=128"
+    },
+    {
+        "id": 432,
+        "name": "Otter.ai 629",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #432)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "293K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 629&background=random&color=fff&size=128"
+    },
+    {
+        "id": 433,
+        "name": "Beautiful.ai 540",
+        "category": "search",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #433)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "309K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 540&background=random&color=fff&size=128"
+    },
+    {
+        "id": 434,
+        "name": "Tome 932",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #434)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "151K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Tome 932&background=random&color=fff&size=128"
+    },
+    {
+        "id": 435,
+        "name": "Tabnine 971",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #435)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "243K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 971&background=random&color=fff&size=128"
+    },
+    {
+        "id": 436,
+        "name": "Replit Ghostwriter 923",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #436)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "351K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 923&background=random&color=fff&size=128"
+    },
+    {
+        "id": 437,
+        "name": "Jasper 839",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #437)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "219K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 839&background=random&color=fff&size=128"
+    },
+    {
+        "id": 438,
+        "name": "Copy.ai 619",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #438)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "288K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 619&background=random&color=fff&size=128"
+    },
+    {
+        "id": 439,
+        "name": "Firefly 523",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #439)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "185K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 523&background=random&color=fff&size=128"
+    },
+    {
+        "id": 440,
+        "name": "Synthesia 849",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #440)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "370K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 849&background=random&color=fff&size=128"
+    },
+    {
+        "id": 441,
+        "name": "Murf.ai 289",
+        "category": "video",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #441)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "200K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 289&background=random&color=fff&size=128"
+    },
+    {
+        "id": 442,
+        "name": "Otter.ai 733",
+        "category": "code",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #442)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "133K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 733&background=random&color=fff&size=128"
+    },
+    {
+        "id": 443,
+        "name": "Beautiful.ai 535",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #443)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "314K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 535&background=random&color=fff&size=128"
+    },
+    {
+        "id": 444,
+        "name": "Tome 483",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #444)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "390K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Tome 483&background=random&color=fff&size=128"
+    },
+    {
+        "id": 445,
+        "name": "Tabnine 665",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #445)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "331K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 665&background=random&color=fff&size=128"
+    },
+    {
+        "id": 446,
+        "name": "Replit Ghostwriter 899",
+        "category": "office",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #446)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "252K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 899&background=random&color=fff&size=128"
+    },
+    {
+        "id": 447,
+        "name": "Jasper 107",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #447)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "471K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 107&background=random&color=fff&size=128"
+    },
+    {
+        "id": 448,
+        "name": "Copy.ai 999",
+        "category": "image",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #448)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "188K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 999&background=random&color=fff&size=128"
+    },
+    {
+        "id": 449,
+        "name": "Firefly 557",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #449)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "343K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 557&background=random&color=fff&size=128"
+    },
+    {
+        "id": 450,
+        "name": "Synthesia 386",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #450)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "476K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 386&background=random&color=fff&size=128"
+    },
+    {
+        "id": 451,
+        "name": "Murf.ai 461",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #451)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "185K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 461&background=random&color=fff&size=128"
+    },
+    {
+        "id": 452,
+        "name": "Otter.ai 518",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #452)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "16K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 518&background=random&color=fff&size=128"
+    },
+    {
+        "id": 453,
+        "name": "Beautiful.ai 330",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #453)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "374K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 330&background=random&color=fff&size=128"
+    },
+    {
+        "id": 454,
+        "name": "Tome 371",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #454)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "420K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Tome 371&background=random&color=fff&size=128"
+    },
+    {
+        "id": 455,
+        "name": "Tabnine 454",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #455)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "315K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 454&background=random&color=fff&size=128"
+    },
+    {
+        "id": 456,
+        "name": "Replit Ghostwriter 617",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #456)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "140K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 617&background=random&color=fff&size=128"
+    },
+    {
+        "id": 457,
+        "name": "Jasper 713",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #457)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "239K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 713&background=random&color=fff&size=128"
+    },
+    {
+        "id": 458,
+        "name": "Copy.ai 115",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #458)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "87K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 115&background=random&color=fff&size=128"
+    },
+    {
+        "id": 459,
+        "name": "Firefly 936",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #459)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "80K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 936&background=random&color=fff&size=128"
+    },
+    {
+        "id": 460,
+        "name": "Synthesia 254",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #460)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "284K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 254&background=random&color=fff&size=128"
+    },
+    {
+        "id": 461,
+        "name": "Murf.ai 624",
+        "category": "text",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #461)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "401K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 624&background=random&color=fff&size=128"
+    },
+    {
+        "id": 462,
+        "name": "Otter.ai 248",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #462)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "486K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 248&background=random&color=fff&size=128"
+    },
+    {
+        "id": 463,
+        "name": "Beautiful.ai 618",
+        "category": "audio",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #463)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "267K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 618&background=random&color=fff&size=128"
+    },
+    {
+        "id": 464,
+        "name": "Tome 890",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #464)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "250K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Tome 890&background=random&color=fff&size=128"
+    },
+    {
+        "id": 465,
+        "name": "Tabnine 826",
+        "category": "office",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #465)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "225K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 826&background=random&color=fff&size=128"
+    },
+    {
+        "id": 466,
+        "name": "Replit Ghostwriter 187",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #466)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "17K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 187&background=random&color=fff&size=128"
+    },
+    {
+        "id": 467,
+        "name": "Jasper 483",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #467)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "241K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 483&background=random&color=fff&size=128"
+    },
+    {
+        "id": 468,
+        "name": "Copy.ai 418",
+        "category": "dev",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #468)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "267K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 418&background=random&color=fff&size=128"
+    },
+    {
+        "id": 469,
+        "name": "Firefly 928",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #469)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "327K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 928&background=random&color=fff&size=128"
+    },
+    {
+        "id": 470,
+        "name": "Synthesia 400",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #470)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "331K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 400&background=random&color=fff&size=128"
+    },
+    {
+        "id": 471,
+        "name": "Murf.ai 288",
+        "category": "video",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #471)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "196K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 288&background=random&color=fff&size=128"
+    },
+    {
+        "id": 472,
+        "name": "Otter.ai 640",
+        "category": "code",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #472)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "85K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 640&background=random&color=fff&size=128"
+    },
+    {
+        "id": 473,
+        "name": "Beautiful.ai 722",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #473)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "110K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 722&background=random&color=fff&size=128"
+    },
+    {
+        "id": 474,
+        "name": "Tome 715",
+        "category": "text",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #474)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "155K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Tome 715&background=random&color=fff&size=128"
+    },
+    {
+        "id": 475,
+        "name": "Tabnine 483",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #475)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "10K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 483&background=random&color=fff&size=128"
+    },
+    {
+        "id": 476,
+        "name": "Replit Ghostwriter 807",
+        "category": "office",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #476)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "391K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 807&background=random&color=fff&size=128"
+    },
+    {
+        "id": 477,
+        "name": "Jasper 602",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #477)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "416K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 602&background=random&color=fff&size=128"
+    },
+    {
+        "id": 478,
+        "name": "Copy.ai 811",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #478)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "339K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 811&background=random&color=fff&size=128"
+    },
+    {
+        "id": 479,
+        "name": "Firefly 648",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #479)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "74K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 648&background=random&color=fff&size=128"
+    },
+    {
+        "id": 480,
+        "name": "Synthesia 875",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #480)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "400K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 875&background=random&color=fff&size=128"
+    },
+    {
+        "id": 481,
+        "name": "Murf.ai 442",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #481)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "142K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 442&background=random&color=fff&size=128"
+    },
+    {
+        "id": 482,
+        "name": "Otter.ai 579",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #482)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "194K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 579&background=random&color=fff&size=128"
+    },
+    {
+        "id": 483,
+        "name": "Beautiful.ai 833",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #483)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "103K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 833&background=random&color=fff&size=128"
+    },
+    {
+        "id": 484,
+        "name": "Tome 653",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #484)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "370K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Tome 653&background=random&color=fff&size=128"
+    },
+    {
+        "id": 485,
+        "name": "Tabnine 222",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #485)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "466K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 222&background=random&color=fff&size=128"
+    },
+    {
+        "id": 486,
+        "name": "Replit Ghostwriter 733",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #486)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "22K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 733&background=random&color=fff&size=128"
+    },
+    {
+        "id": 487,
+        "name": "Jasper 275",
+        "category": "dev",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #487)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "238K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 275&background=random&color=fff&size=128"
+    },
+    {
+        "id": 488,
+        "name": "Copy.ai 839",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #488)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "257K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 839&background=random&color=fff&size=128"
+    },
+    {
+        "id": 489,
+        "name": "Firefly 778",
+        "category": "agent",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #489)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "73K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 778&background=random&color=fff&size=128"
+    },
+    {
+        "id": 490,
+        "name": "Synthesia 722",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #490)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "224K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 722&background=random&color=fff&size=128"
+    },
+    {
+        "id": 491,
+        "name": "Murf.ai 448",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #491)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "42K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 448&background=random&color=fff&size=128"
+    },
+    {
+        "id": 492,
+        "name": "Otter.ai 106",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #492)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "318K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 106&background=random&color=fff&size=128"
+    },
+    {
+        "id": 493,
+        "name": "Beautiful.ai 408",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #493)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "459K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 408&background=random&color=fff&size=128"
+    },
+    {
+        "id": 494,
+        "name": "Tome 977",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #494)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "152K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Tome 977&background=random&color=fff&size=128"
+    },
+    {
+        "id": 495,
+        "name": "Tabnine 787",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #495)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "197K+",
+        "rating": 5.0,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 787&background=random&color=fff&size=128"
+    },
+    {
+        "id": 496,
+        "name": "Replit Ghostwriter 955",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #496)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "169K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 955&background=random&color=fff&size=128"
+    },
+    {
+        "id": 497,
+        "name": "Jasper 937",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #497)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "437K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 937&background=random&color=fff&size=128"
+    },
+    {
+        "id": 498,
+        "name": "Copy.ai 908",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #498)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "263K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 908&background=random&color=fff&size=128"
+    },
+    {
+        "id": 499,
+        "name": "Firefly 323",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #499)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "268K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 323&background=random&color=fff&size=128"
+    },
+    {
+        "id": 500,
+        "name": "Synthesia 592",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #500)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "173K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 592&background=random&color=fff&size=128"
+    },
+    {
+        "id": 501,
+        "name": "Murf.ai 186",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #501)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "318K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 186&background=random&color=fff&size=128"
+    },
+    {
+        "id": 502,
+        "name": "Otter.ai 239",
+        "category": "search",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #502)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "293K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 239&background=random&color=fff&size=128"
+    },
+    {
+        "id": 503,
+        "name": "Beautiful.ai 544",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #503)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "273K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 544&background=random&color=fff&size=128"
+    },
+    {
+        "id": 504,
+        "name": "Tome 301",
+        "category": "audio",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #504)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "272K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Tome 301&background=random&color=fff&size=128"
+    },
+    {
+        "id": 505,
+        "name": "Tabnine 577",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #505)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "25K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 577&background=random&color=fff&size=128"
+    },
+    {
+        "id": 506,
+        "name": "Replit Ghostwriter 421",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #506)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "239K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 421&background=random&color=fff&size=128"
+    },
+    {
+        "id": 507,
+        "name": "Jasper 746",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #507)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "220K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 746&background=random&color=fff&size=128"
+    },
+    {
+        "id": 508,
+        "name": "Copy.ai 248",
+        "category": "audio",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #508)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "454K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 248&background=random&color=fff&size=128"
+    },
+    {
+        "id": 509,
+        "name": "Firefly 120",
+        "category": "text",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #509)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "64K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 120&background=random&color=fff&size=128"
+    },
+    {
+        "id": 510,
+        "name": "Synthesia 984",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #510)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "406K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 984&background=random&color=fff&size=128"
+    },
+    {
+        "id": 511,
+        "name": "Murf.ai 208",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #511)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "47K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 208&background=random&color=fff&size=128"
+    },
+    {
+        "id": 512,
+        "name": "Otter.ai 479",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #512)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "415K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 479&background=random&color=fff&size=128"
+    },
+    {
+        "id": 513,
+        "name": "Beautiful.ai 895",
+        "category": "learn",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #513)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "491K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 895&background=random&color=fff&size=128"
+    },
+    {
+        "id": 514,
+        "name": "Tome 158",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #514)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "80K+",
+        "rating": 5.0,
+        "logo": "https://ui-avatars.com/api/?name=Tome 158&background=random&color=fff&size=128"
+    },
+    {
+        "id": 515,
+        "name": "Tabnine 531",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #515)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "305K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 531&background=random&color=fff&size=128"
+    },
+    {
+        "id": 516,
+        "name": "Replit Ghostwriter 219",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #516)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "294K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 219&background=random&color=fff&size=128"
+    },
+    {
+        "id": 517,
+        "name": "Jasper 884",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #517)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "39K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 884&background=random&color=fff&size=128"
+    },
+    {
+        "id": 518,
+        "name": "Copy.ai 679",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #518)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "469K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 679&background=random&color=fff&size=128"
+    },
+    {
+        "id": 519,
+        "name": "Firefly 508",
+        "category": "audio",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #519)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "170K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 508&background=random&color=fff&size=128"
+    },
+    {
+        "id": 520,
+        "name": "Synthesia 876",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #520)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "452K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 876&background=random&color=fff&size=128"
+    },
+    {
+        "id": 521,
+        "name": "Murf.ai 337",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #521)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "98K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 337&background=random&color=fff&size=128"
+    },
+    {
+        "id": 522,
+        "name": "Otter.ai 488",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #522)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "141K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 488&background=random&color=fff&size=128"
+    },
+    {
+        "id": 523,
+        "name": "Beautiful.ai 235",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #523)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "96K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 235&background=random&color=fff&size=128"
+    },
+    {
+        "id": 524,
+        "name": "Tome 857",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #524)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "369K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Tome 857&background=random&color=fff&size=128"
+    },
+    {
+        "id": 525,
+        "name": "Tabnine 453",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #525)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "56K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 453&background=random&color=fff&size=128"
+    },
+    {
+        "id": 526,
+        "name": "Replit Ghostwriter 952",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #526)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "153K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 952&background=random&color=fff&size=128"
+    },
+    {
+        "id": 527,
+        "name": "Jasper 104",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #527)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "420K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 104&background=random&color=fff&size=128"
+    },
+    {
+        "id": 528,
+        "name": "Copy.ai 598",
+        "category": "video",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #528)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "453K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 598&background=random&color=fff&size=128"
+    },
+    {
+        "id": 529,
+        "name": "Firefly 332",
+        "category": "search",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #529)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "424K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 332&background=random&color=fff&size=128"
+    },
+    {
+        "id": 530,
+        "name": "Synthesia 722",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #530)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "64K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 722&background=random&color=fff&size=128"
+    },
+    {
+        "id": 531,
+        "name": "Murf.ai 611",
+        "category": "agent",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #531)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "291K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 611&background=random&color=fff&size=128"
+    },
+    {
+        "id": 532,
+        "name": "Otter.ai 583",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #532)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "66K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 583&background=random&color=fff&size=128"
+    },
+    {
+        "id": 533,
+        "name": "Beautiful.ai 315",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #533)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "251K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 315&background=random&color=fff&size=128"
+    },
+    {
+        "id": 534,
+        "name": "Tome 552",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #534)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "233K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Tome 552&background=random&color=fff&size=128"
+    },
+    {
+        "id": 535,
+        "name": "Tabnine 866",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #535)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "440K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 866&background=random&color=fff&size=128"
+    },
+    {
+        "id": 536,
+        "name": "Replit Ghostwriter 816",
+        "category": "image",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #536)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "141K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 816&background=random&color=fff&size=128"
+    },
+    {
+        "id": 537,
+        "name": "Jasper 831",
+        "category": "audio",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #537)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "329K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 831&background=random&color=fff&size=128"
+    },
+    {
+        "id": 538,
+        "name": "Copy.ai 253",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #538)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "349K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 253&background=random&color=fff&size=128"
+    },
+    {
+        "id": 539,
+        "name": "Firefly 569",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #539)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "72K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 569&background=random&color=fff&size=128"
+    },
+    {
+        "id": 540,
+        "name": "Synthesia 710",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #540)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "111K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 710&background=random&color=fff&size=128"
+    },
+    {
+        "id": 541,
+        "name": "Murf.ai 951",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #541)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "232K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 951&background=random&color=fff&size=128"
+    },
+    {
+        "id": 542,
+        "name": "Otter.ai 882",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #542)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "476K+",
+        "rating": 5.0,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 882&background=random&color=fff&size=128"
+    },
+    {
+        "id": 543,
+        "name": "Beautiful.ai 698",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #543)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "476K+",
+        "rating": 5.0,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 698&background=random&color=fff&size=128"
+    },
+    {
+        "id": 544,
+        "name": "Tome 792",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #544)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "397K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Tome 792&background=random&color=fff&size=128"
+    },
+    {
+        "id": 545,
+        "name": "Tabnine 104",
+        "category": "audio",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #545)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "360K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 104&background=random&color=fff&size=128"
+    },
+    {
+        "id": 546,
+        "name": "Replit Ghostwriter 990",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #546)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "165K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 990&background=random&color=fff&size=128"
+    },
+    {
+        "id": 547,
+        "name": "Jasper 661",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #547)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "92K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 661&background=random&color=fff&size=128"
+    },
+    {
+        "id": 548,
+        "name": "Copy.ai 871",
+        "category": "learn",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #548)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "110K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 871&background=random&color=fff&size=128"
+    },
+    {
+        "id": 549,
+        "name": "Firefly 894",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #549)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "61K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 894&background=random&color=fff&size=128"
+    },
+    {
+        "id": 550,
+        "name": "Synthesia 554",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #550)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "344K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 554&background=random&color=fff&size=128"
+    },
+    {
+        "id": 551,
+        "name": "Murf.ai 932",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #551)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "79K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 932&background=random&color=fff&size=128"
+    },
+    {
+        "id": 552,
+        "name": "Otter.ai 484",
+        "category": "image",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #552)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "432K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 484&background=random&color=fff&size=128"
+    },
+    {
+        "id": 553,
+        "name": "Beautiful.ai 610",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #553)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "323K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 610&background=random&color=fff&size=128"
+    },
+    {
+        "id": 554,
+        "name": "Tome 828",
+        "category": "learn",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #554)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "244K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Tome 828&background=random&color=fff&size=128"
+    },
+    {
+        "id": 555,
+        "name": "Tabnine 133",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #555)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "328K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 133&background=random&color=fff&size=128"
+    },
+    {
+        "id": 556,
+        "name": "Replit Ghostwriter 145",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #556)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "81K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 145&background=random&color=fff&size=128"
+    },
+    {
+        "id": 557,
+        "name": "Jasper 708",
+        "category": "video",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #557)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "8K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 708&background=random&color=fff&size=128"
+    },
+    {
+        "id": 558,
+        "name": "Copy.ai 962",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #558)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "184K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 962&background=random&color=fff&size=128"
+    },
+    {
+        "id": 559,
+        "name": "Firefly 286",
+        "category": "learn",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #559)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "367K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 286&background=random&color=fff&size=128"
+    },
+    {
+        "id": 560,
+        "name": "Synthesia 370",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #560)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "221K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 370&background=random&color=fff&size=128"
+    },
+    {
+        "id": 561,
+        "name": "Murf.ai 479",
+        "category": "office",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #561)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "326K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 479&background=random&color=fff&size=128"
+    },
+    {
+        "id": 562,
+        "name": "Otter.ai 698",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #562)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "229K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 698&background=random&color=fff&size=128"
+    },
+    {
+        "id": 563,
+        "name": "Beautiful.ai 704",
+        "category": "video",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #563)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "342K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 704&background=random&color=fff&size=128"
+    },
+    {
+        "id": 564,
+        "name": "Tome 578",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #564)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "487K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Tome 578&background=random&color=fff&size=128"
+    },
+    {
+        "id": 565,
+        "name": "Tabnine 167",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #565)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "102K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 167&background=random&color=fff&size=128"
+    },
+    {
+        "id": 566,
+        "name": "Replit Ghostwriter 153",
+        "category": "audio",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #566)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "356K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 153&background=random&color=fff&size=128"
+    },
+    {
+        "id": 567,
+        "name": "Jasper 880",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #567)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "45K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 880&background=random&color=fff&size=128"
+    },
+    {
+        "id": 568,
+        "name": "Copy.ai 758",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #568)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "372K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 758&background=random&color=fff&size=128"
+    },
+    {
+        "id": 569,
+        "name": "Firefly 714",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #569)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "6K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 714&background=random&color=fff&size=128"
+    },
+    {
+        "id": 570,
+        "name": "Synthesia 923",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #570)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "242K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 923&background=random&color=fff&size=128"
+    },
+    {
+        "id": 571,
+        "name": "Murf.ai 525",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #571)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "316K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 525&background=random&color=fff&size=128"
+    },
+    {
+        "id": 572,
+        "name": "Otter.ai 740",
+        "category": "search",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #572)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "8K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 740&background=random&color=fff&size=128"
+    },
+    {
+        "id": 573,
+        "name": "Beautiful.ai 966",
+        "category": "learn",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #573)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "102K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 966&background=random&color=fff&size=128"
+    },
+    {
+        "id": 574,
+        "name": "Tome 840",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #574)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "264K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Tome 840&background=random&color=fff&size=128"
+    },
+    {
+        "id": 575,
+        "name": "Tabnine 304",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #575)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "286K+",
+        "rating": 5.0,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 304&background=random&color=fff&size=128"
+    },
+    {
+        "id": 576,
+        "name": "Replit Ghostwriter 464",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #576)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "115K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 464&background=random&color=fff&size=128"
+    },
+    {
+        "id": 577,
+        "name": "Jasper 184",
+        "category": "audio",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #577)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "142K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 184&background=random&color=fff&size=128"
+    },
+    {
+        "id": 578,
+        "name": "Copy.ai 940",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #578)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "234K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 940&background=random&color=fff&size=128"
+    },
+    {
+        "id": 579,
+        "name": "Firefly 311",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #579)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "370K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 311&background=random&color=fff&size=128"
+    },
+    {
+        "id": 580,
+        "name": "Synthesia 824",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #580)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "160K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 824&background=random&color=fff&size=128"
+    },
+    {
+        "id": 581,
+        "name": "Murf.ai 543",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #581)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "427K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 543&background=random&color=fff&size=128"
+    },
+    {
+        "id": 582,
+        "name": "Otter.ai 573",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #582)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "5K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 573&background=random&color=fff&size=128"
+    },
+    {
+        "id": 583,
+        "name": "Beautiful.ai 741",
+        "category": "search",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #583)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "237K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 741&background=random&color=fff&size=128"
+    },
+    {
+        "id": 584,
+        "name": "Tome 166",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #584)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "401K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Tome 166&background=random&color=fff&size=128"
+    },
+    {
+        "id": 585,
+        "name": "Tabnine 230",
+        "category": "office",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #585)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "250K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 230&background=random&color=fff&size=128"
+    },
+    {
+        "id": 586,
+        "name": "Replit Ghostwriter 488",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #586)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "317K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 488&background=random&color=fff&size=128"
+    },
+    {
+        "id": 587,
+        "name": "Jasper 568",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #587)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "284K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 568&background=random&color=fff&size=128"
+    },
+    {
+        "id": 588,
+        "name": "Copy.ai 400",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #588)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "310K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 400&background=random&color=fff&size=128"
+    },
+    {
+        "id": 589,
+        "name": "Firefly 469",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #589)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "395K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 469&background=random&color=fff&size=128"
+    },
+    {
+        "id": 590,
+        "name": "Synthesia 398",
+        "category": "dev",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #590)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "479K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 398&background=random&color=fff&size=128"
+    },
+    {
+        "id": 591,
+        "name": "Murf.ai 299",
+        "category": "learn",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #591)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "48K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 299&background=random&color=fff&size=128"
+    },
+    {
+        "id": 592,
+        "name": "Otter.ai 217",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #592)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "53K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 217&background=random&color=fff&size=128"
+    },
+    {
+        "id": 593,
+        "name": "Beautiful.ai 476",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #593)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "214K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 476&background=random&color=fff&size=128"
+    },
+    {
+        "id": 594,
+        "name": "Tome 549",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #594)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "275K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Tome 549&background=random&color=fff&size=128"
+    },
+    {
+        "id": 595,
+        "name": "Tabnine 107",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #595)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "245K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 107&background=random&color=fff&size=128"
+    },
+    {
+        "id": 596,
+        "name": "Replit Ghostwriter 622",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #596)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "383K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 622&background=random&color=fff&size=128"
+    },
+    {
+        "id": 597,
+        "name": "Jasper 566",
+        "category": "dev",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #597)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "230K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 566&background=random&color=fff&size=128"
+    },
+    {
+        "id": 598,
+        "name": "Copy.ai 952",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #598)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "231K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 952&background=random&color=fff&size=128"
+    },
+    {
+        "id": 599,
+        "name": "Firefly 566",
+        "category": "audio",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #599)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "425K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 566&background=random&color=fff&size=128"
+    },
+    {
+        "id": 600,
+        "name": "Synthesia 779",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #600)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "471K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 779&background=random&color=fff&size=128"
+    },
+    {
+        "id": 601,
+        "name": "Murf.ai 935",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #601)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "42K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 935&background=random&color=fff&size=128"
+    },
+    {
+        "id": 602,
+        "name": "Otter.ai 749",
+        "category": "agent",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #602)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "133K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 749&background=random&color=fff&size=128"
+    },
+    {
+        "id": 603,
+        "name": "Beautiful.ai 868",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #603)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "289K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 868&background=random&color=fff&size=128"
+    },
+    {
+        "id": 604,
+        "name": "Tome 211",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #604)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "374K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Tome 211&background=random&color=fff&size=128"
+    },
+    {
+        "id": 605,
+        "name": "Tabnine 713",
+        "category": "search",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #605)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "175K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 713&background=random&color=fff&size=128"
+    },
+    {
+        "id": 606,
+        "name": "Replit Ghostwriter 996",
+        "category": "text",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #606)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "83K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 996&background=random&color=fff&size=128"
+    },
+    {
+        "id": 607,
+        "name": "Jasper 949",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #607)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "473K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 949&background=random&color=fff&size=128"
+    },
+    {
+        "id": 608,
+        "name": "Copy.ai 588",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #608)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "348K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 588&background=random&color=fff&size=128"
+    },
+    {
+        "id": 609,
+        "name": "Firefly 410",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #609)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "290K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 410&background=random&color=fff&size=128"
+    },
+    {
+        "id": 610,
+        "name": "Synthesia 923",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #610)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "274K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 923&background=random&color=fff&size=128"
+    },
+    {
+        "id": 611,
+        "name": "Murf.ai 809",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #611)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "355K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 809&background=random&color=fff&size=128"
+    },
+    {
+        "id": 612,
+        "name": "Otter.ai 599",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #612)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "74K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 599&background=random&color=fff&size=128"
+    },
+    {
+        "id": 613,
+        "name": "Beautiful.ai 586",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #613)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "433K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 586&background=random&color=fff&size=128"
+    },
+    {
+        "id": 614,
+        "name": "Tome 268",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #614)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "352K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Tome 268&background=random&color=fff&size=128"
+    },
+    {
+        "id": 615,
+        "name": "Tabnine 452",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #615)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "82K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 452&background=random&color=fff&size=128"
+    },
+    {
+        "id": 616,
+        "name": "Replit Ghostwriter 336",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #616)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "290K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 336&background=random&color=fff&size=128"
+    },
+    {
+        "id": 617,
+        "name": "Jasper 532",
+        "category": "audio",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #617)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "231K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 532&background=random&color=fff&size=128"
+    },
+    {
+        "id": 618,
+        "name": "Copy.ai 776",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #618)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "266K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 776&background=random&color=fff&size=128"
+    },
+    {
+        "id": 619,
+        "name": "Firefly 491",
+        "category": "text",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #619)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "359K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 491&background=random&color=fff&size=128"
+    },
+    {
+        "id": 620,
+        "name": "Synthesia 631",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #620)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "310K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 631&background=random&color=fff&size=128"
+    },
+    {
+        "id": 621,
+        "name": "Murf.ai 727",
+        "category": "dev",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #621)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "208K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 727&background=random&color=fff&size=128"
+    },
+    {
+        "id": 622,
+        "name": "Otter.ai 803",
+        "category": "agent",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #622)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "64K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 803&background=random&color=fff&size=128"
+    },
+    {
+        "id": 623,
+        "name": "Beautiful.ai 416",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #623)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "110K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 416&background=random&color=fff&size=128"
+    },
+    {
+        "id": 624,
+        "name": "Tome 212",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #624)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "57K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Tome 212&background=random&color=fff&size=128"
+    },
+    {
+        "id": 625,
+        "name": "Tabnine 353",
+        "category": "image",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #625)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "396K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 353&background=random&color=fff&size=128"
+    },
+    {
+        "id": 626,
+        "name": "Replit Ghostwriter 341",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #626)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "86K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 341&background=random&color=fff&size=128"
+    },
+    {
+        "id": 627,
+        "name": "Jasper 820",
+        "category": "video",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #627)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "474K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 820&background=random&color=fff&size=128"
+    },
+    {
+        "id": 628,
+        "name": "Copy.ai 733",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #628)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "289K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 733&background=random&color=fff&size=128"
+    },
+    {
+        "id": 629,
+        "name": "Firefly 808",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #629)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "57K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 808&background=random&color=fff&size=128"
+    },
+    {
+        "id": 630,
+        "name": "Synthesia 506",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #630)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "168K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 506&background=random&color=fff&size=128"
+    },
+    {
+        "id": 631,
+        "name": "Murf.ai 890",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #631)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "59K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 890&background=random&color=fff&size=128"
+    },
+    {
+        "id": 632,
+        "name": "Otter.ai 489",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #632)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "320K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 489&background=random&color=fff&size=128"
+    },
+    {
+        "id": 633,
+        "name": "Beautiful.ai 710",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #633)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "444K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 710&background=random&color=fff&size=128"
+    },
+    {
+        "id": 634,
+        "name": "Tome 600",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #634)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "151K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Tome 600&background=random&color=fff&size=128"
+    },
+    {
+        "id": 635,
+        "name": "Tabnine 599",
+        "category": "office",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #635)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "309K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 599&background=random&color=fff&size=128"
+    },
+    {
+        "id": 636,
+        "name": "Replit Ghostwriter 917",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #636)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "347K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 917&background=random&color=fff&size=128"
+    },
+    {
+        "id": 637,
+        "name": "Jasper 626",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #637)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "68K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 626&background=random&color=fff&size=128"
+    },
+    {
+        "id": 638,
+        "name": "Copy.ai 360",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #638)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "465K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 360&background=random&color=fff&size=128"
+    },
+    {
+        "id": 639,
+        "name": "Firefly 878",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #639)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "25K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 878&background=random&color=fff&size=128"
+    },
+    {
+        "id": 640,
+        "name": "Synthesia 613",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #640)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "362K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 613&background=random&color=fff&size=128"
+    },
+    {
+        "id": 641,
+        "name": "Murf.ai 262",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #641)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "449K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 262&background=random&color=fff&size=128"
+    },
+    {
+        "id": 642,
+        "name": "Otter.ai 563",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #642)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "111K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 563&background=random&color=fff&size=128"
+    },
+    {
+        "id": 643,
+        "name": "Beautiful.ai 356",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #643)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "134K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 356&background=random&color=fff&size=128"
+    },
+    {
+        "id": 644,
+        "name": "Tome 930",
+        "category": "video",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #644)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "405K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Tome 930&background=random&color=fff&size=128"
+    },
+    {
+        "id": 645,
+        "name": "Tabnine 577",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #645)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "241K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 577&background=random&color=fff&size=128"
+    },
+    {
+        "id": 646,
+        "name": "Replit Ghostwriter 246",
+        "category": "image",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #646)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "49K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 246&background=random&color=fff&size=128"
+    },
+    {
+        "id": 647,
+        "name": "Jasper 302",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #647)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "129K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 302&background=random&color=fff&size=128"
+    },
+    {
+        "id": 648,
+        "name": "Copy.ai 242",
+        "category": "search",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #648)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "430K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 242&background=random&color=fff&size=128"
+    },
+    {
+        "id": 649,
+        "name": "Firefly 842",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #649)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "331K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 842&background=random&color=fff&size=128"
+    },
+    {
+        "id": 650,
+        "name": "Synthesia 415",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #650)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "43K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 415&background=random&color=fff&size=128"
+    },
+    {
+        "id": 651,
+        "name": "Murf.ai 673",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #651)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "200K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 673&background=random&color=fff&size=128"
+    },
+    {
+        "id": 652,
+        "name": "Otter.ai 705",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #652)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "9K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 705&background=random&color=fff&size=128"
+    },
+    {
+        "id": 653,
+        "name": "Beautiful.ai 881",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #653)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "430K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 881&background=random&color=fff&size=128"
+    },
+    {
+        "id": 654,
+        "name": "Tome 194",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #654)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "145K+",
+        "rating": 5.0,
+        "logo": "https://ui-avatars.com/api/?name=Tome 194&background=random&color=fff&size=128"
+    },
+    {
+        "id": 655,
+        "name": "Tabnine 444",
+        "category": "dev",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #655)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "310K+",
+        "rating": 5.0,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 444&background=random&color=fff&size=128"
+    },
+    {
+        "id": 656,
+        "name": "Replit Ghostwriter 949",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #656)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "369K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 949&background=random&color=fff&size=128"
+    },
+    {
+        "id": 657,
+        "name": "Jasper 392",
+        "category": "code",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #657)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "111K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 392&background=random&color=fff&size=128"
+    },
+    {
+        "id": 658,
+        "name": "Copy.ai 119",
+        "category": "image",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #658)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "341K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 119&background=random&color=fff&size=128"
+    },
+    {
+        "id": 659,
+        "name": "Firefly 944",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #659)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "34K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 944&background=random&color=fff&size=128"
+    },
+    {
+        "id": 660,
+        "name": "Synthesia 776",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #660)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "65K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 776&background=random&color=fff&size=128"
+    },
+    {
+        "id": 661,
+        "name": "Murf.ai 798",
+        "category": "search",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #661)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "280K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 798&background=random&color=fff&size=128"
+    },
+    {
+        "id": 662,
+        "name": "Otter.ai 542",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #662)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "152K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 542&background=random&color=fff&size=128"
+    },
+    {
+        "id": 663,
+        "name": "Beautiful.ai 530",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #663)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "476K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 530&background=random&color=fff&size=128"
+    },
+    {
+        "id": 664,
+        "name": "Tome 369",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #664)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "89K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Tome 369&background=random&color=fff&size=128"
+    },
+    {
+        "id": 665,
+        "name": "Tabnine 244",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #665)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "386K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 244&background=random&color=fff&size=128"
+    },
+    {
+        "id": 666,
+        "name": "Replit Ghostwriter 483",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #666)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "207K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 483&background=random&color=fff&size=128"
+    },
+    {
+        "id": 667,
+        "name": "Jasper 912",
+        "category": "agent",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #667)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "69K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 912&background=random&color=fff&size=128"
+    },
+    {
+        "id": 668,
+        "name": "Copy.ai 513",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #668)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "367K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 513&background=random&color=fff&size=128"
+    },
+    {
+        "id": 669,
+        "name": "Firefly 572",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #669)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "76K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 572&background=random&color=fff&size=128"
+    },
+    {
+        "id": 670,
+        "name": "Synthesia 797",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #670)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "112K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 797&background=random&color=fff&size=128"
+    },
+    {
+        "id": 671,
+        "name": "Murf.ai 995",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #671)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "428K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 995&background=random&color=fff&size=128"
+    },
+    {
+        "id": 672,
+        "name": "Otter.ai 803",
+        "category": "code",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #672)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "308K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 803&background=random&color=fff&size=128"
+    },
+    {
+        "id": 673,
+        "name": "Beautiful.ai 643",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #673)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "219K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 643&background=random&color=fff&size=128"
+    },
+    {
+        "id": 674,
+        "name": "Tome 339",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #674)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "25K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Tome 339&background=random&color=fff&size=128"
+    },
+    {
+        "id": 675,
+        "name": "Tabnine 105",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #675)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "289K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 105&background=random&color=fff&size=128"
+    },
+    {
+        "id": 676,
+        "name": "Replit Ghostwriter 155",
+        "category": "text",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #676)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "368K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 155&background=random&color=fff&size=128"
+    },
+    {
+        "id": 677,
+        "name": "Jasper 927",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #677)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "15K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 927&background=random&color=fff&size=128"
+    },
+    {
+        "id": 678,
+        "name": "Copy.ai 654",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #678)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "264K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 654&background=random&color=fff&size=128"
+    },
+    {
+        "id": 679,
+        "name": "Firefly 450",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #679)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "191K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 450&background=random&color=fff&size=128"
+    },
+    {
+        "id": 680,
+        "name": "Synthesia 889",
+        "category": "dev",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #680)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "111K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 889&background=random&color=fff&size=128"
+    },
+    {
+        "id": 681,
+        "name": "Murf.ai 657",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #681)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "491K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 657&background=random&color=fff&size=128"
+    },
+    {
+        "id": 682,
+        "name": "Otter.ai 879",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #682)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "187K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 879&background=random&color=fff&size=128"
+    },
+    {
+        "id": 683,
+        "name": "Beautiful.ai 124",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #683)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "268K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 124&background=random&color=fff&size=128"
+    },
+    {
+        "id": 684,
+        "name": "Tome 852",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #684)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "205K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Tome 852&background=random&color=fff&size=128"
+    },
+    {
+        "id": 685,
+        "name": "Tabnine 641",
+        "category": "agent",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #685)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "14K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 641&background=random&color=fff&size=128"
+    },
+    {
+        "id": 686,
+        "name": "Replit Ghostwriter 955",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #686)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "245K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 955&background=random&color=fff&size=128"
+    },
+    {
+        "id": 687,
+        "name": "Jasper 652",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #687)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "110K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 652&background=random&color=fff&size=128"
+    },
+    {
+        "id": 688,
+        "name": "Copy.ai 847",
+        "category": "office",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #688)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "299K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 847&background=random&color=fff&size=128"
+    },
+    {
+        "id": 689,
+        "name": "Firefly 616",
+        "category": "video",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #689)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "422K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 616&background=random&color=fff&size=128"
+    },
+    {
+        "id": 690,
+        "name": "Synthesia 125",
+        "category": "office",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #690)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "105K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 125&background=random&color=fff&size=128"
+    },
+    {
+        "id": 691,
+        "name": "Murf.ai 322",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #691)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "488K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 322&background=random&color=fff&size=128"
+    },
+    {
+        "id": 692,
+        "name": "Otter.ai 620",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #692)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "289K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 620&background=random&color=fff&size=128"
+    },
+    {
+        "id": 693,
+        "name": "Beautiful.ai 328",
+        "category": "video",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #693)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "280K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 328&background=random&color=fff&size=128"
+    },
+    {
+        "id": 694,
+        "name": "Tome 947",
+        "category": "dev",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #694)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "171K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Tome 947&background=random&color=fff&size=128"
+    },
+    {
+        "id": 695,
+        "name": "Tabnine 307",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #695)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "205K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 307&background=random&color=fff&size=128"
+    },
+    {
+        "id": 696,
+        "name": "Replit Ghostwriter 392",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #696)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "142K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 392&background=random&color=fff&size=128"
+    },
+    {
+        "id": 697,
+        "name": "Jasper 668",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #697)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "329K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 668&background=random&color=fff&size=128"
+    },
+    {
+        "id": 698,
+        "name": "Copy.ai 775",
+        "category": "agent",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #698)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "215K+",
+        "rating": 5.0,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 775&background=random&color=fff&size=128"
+    },
+    {
+        "id": 699,
+        "name": "Firefly 438",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #699)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "471K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 438&background=random&color=fff&size=128"
+    },
+    {
+        "id": 700,
+        "name": "Synthesia 803",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #700)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "181K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 803&background=random&color=fff&size=128"
+    },
+    {
+        "id": 701,
+        "name": "Murf.ai 229",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #701)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "372K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 229&background=random&color=fff&size=128"
+    },
+    {
+        "id": 702,
+        "name": "Otter.ai 901",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #702)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "211K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 901&background=random&color=fff&size=128"
+    },
+    {
+        "id": 703,
+        "name": "Beautiful.ai 169",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #703)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "43K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 169&background=random&color=fff&size=128"
+    },
+    {
+        "id": 704,
+        "name": "Tome 442",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #704)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "258K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Tome 442&background=random&color=fff&size=128"
+    },
+    {
+        "id": 705,
+        "name": "Tabnine 556",
+        "category": "dev",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #705)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "113K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 556&background=random&color=fff&size=128"
+    },
+    {
+        "id": 706,
+        "name": "Replit Ghostwriter 670",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #706)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "227K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 670&background=random&color=fff&size=128"
+    },
+    {
+        "id": 707,
+        "name": "Jasper 112",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #707)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "375K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 112&background=random&color=fff&size=128"
+    },
+    {
+        "id": 708,
+        "name": "Copy.ai 992",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #708)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "201K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 992&background=random&color=fff&size=128"
+    },
+    {
+        "id": 709,
+        "name": "Firefly 634",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #709)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "372K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 634&background=random&color=fff&size=128"
+    },
+    {
+        "id": 710,
+        "name": "Synthesia 373",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #710)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "28K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 373&background=random&color=fff&size=128"
+    },
+    {
+        "id": 711,
+        "name": "Murf.ai 157",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #711)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "323K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 157&background=random&color=fff&size=128"
+    },
+    {
+        "id": 712,
+        "name": "Otter.ai 723",
+        "category": "agent",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #712)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "341K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 723&background=random&color=fff&size=128"
+    },
+    {
+        "id": 713,
+        "name": "Beautiful.ai 868",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #713)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "132K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 868&background=random&color=fff&size=128"
+    },
+    {
+        "id": 714,
+        "name": "Tome 783",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #714)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "176K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Tome 783&background=random&color=fff&size=128"
+    },
+    {
+        "id": 715,
+        "name": "Tabnine 974",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #715)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "20K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 974&background=random&color=fff&size=128"
+    },
+    {
+        "id": 716,
+        "name": "Replit Ghostwriter 861",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #716)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "265K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 861&background=random&color=fff&size=128"
+    },
+    {
+        "id": 717,
+        "name": "Jasper 239",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #717)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "444K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 239&background=random&color=fff&size=128"
+    },
+    {
+        "id": 718,
+        "name": "Copy.ai 124",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #718)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "348K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 124&background=random&color=fff&size=128"
+    },
+    {
+        "id": 719,
+        "name": "Firefly 192",
+        "category": "video",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #719)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "5K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 192&background=random&color=fff&size=128"
+    },
+    {
+        "id": 720,
+        "name": "Synthesia 123",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #720)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "51K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 123&background=random&color=fff&size=128"
+    },
+    {
+        "id": 721,
+        "name": "Murf.ai 338",
+        "category": "code",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #721)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "19K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 338&background=random&color=fff&size=128"
+    },
+    {
+        "id": 722,
+        "name": "Otter.ai 439",
+        "category": "dev",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #722)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "279K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 439&background=random&color=fff&size=128"
+    },
+    {
+        "id": 723,
+        "name": "Beautiful.ai 620",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #723)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "57K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 620&background=random&color=fff&size=128"
+    },
+    {
+        "id": 724,
+        "name": "Tome 652",
+        "category": "image",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #724)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "153K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Tome 652&background=random&color=fff&size=128"
+    },
+    {
+        "id": 725,
+        "name": "Tabnine 347",
+        "category": "learn",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #725)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "236K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 347&background=random&color=fff&size=128"
+    },
+    {
+        "id": 726,
+        "name": "Replit Ghostwriter 326",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #726)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "149K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 326&background=random&color=fff&size=128"
+    },
+    {
+        "id": 727,
+        "name": "Jasper 734",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #727)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "132K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 734&background=random&color=fff&size=128"
+    },
+    {
+        "id": 728,
+        "name": "Copy.ai 795",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #728)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "180K+",
+        "rating": 5.0,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 795&background=random&color=fff&size=128"
+    },
+    {
+        "id": 729,
+        "name": "Firefly 812",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #729)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "433K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 812&background=random&color=fff&size=128"
+    },
+    {
+        "id": 730,
+        "name": "Synthesia 838",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #730)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "122K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 838&background=random&color=fff&size=128"
+    },
+    {
+        "id": 731,
+        "name": "Murf.ai 566",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #731)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "15K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 566&background=random&color=fff&size=128"
+    },
+    {
+        "id": 732,
+        "name": "Otter.ai 613",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #732)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "497K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 613&background=random&color=fff&size=128"
+    },
+    {
+        "id": 733,
+        "name": "Beautiful.ai 612",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #733)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "60K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 612&background=random&color=fff&size=128"
+    },
+    {
+        "id": 734,
+        "name": "Tome 946",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #734)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "251K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Tome 946&background=random&color=fff&size=128"
+    },
+    {
+        "id": 735,
+        "name": "Tabnine 940",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #735)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "26K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 940&background=random&color=fff&size=128"
+    },
+    {
+        "id": 736,
+        "name": "Replit Ghostwriter 892",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #736)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "37K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 892&background=random&color=fff&size=128"
+    },
+    {
+        "id": 737,
+        "name": "Jasper 126",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #737)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "274K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 126&background=random&color=fff&size=128"
+    },
+    {
+        "id": 738,
+        "name": "Copy.ai 340",
+        "category": "dev",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #738)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "357K+",
+        "rating": 5.0,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 340&background=random&color=fff&size=128"
+    },
+    {
+        "id": 739,
+        "name": "Firefly 250",
+        "category": "audio",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #739)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "37K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 250&background=random&color=fff&size=128"
+    },
+    {
+        "id": 740,
+        "name": "Synthesia 290",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #740)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "269K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 290&background=random&color=fff&size=128"
+    },
+    {
+        "id": 741,
+        "name": "Murf.ai 176",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #741)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "277K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 176&background=random&color=fff&size=128"
+    },
+    {
+        "id": 742,
+        "name": "Otter.ai 620",
+        "category": "dev",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #742)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "194K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 620&background=random&color=fff&size=128"
+    },
+    {
+        "id": 743,
+        "name": "Beautiful.ai 457",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #743)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "472K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 457&background=random&color=fff&size=128"
+    },
+    {
+        "id": 744,
+        "name": "Tome 509",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #744)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "174K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Tome 509&background=random&color=fff&size=128"
+    },
+    {
+        "id": 745,
+        "name": "Tabnine 989",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #745)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "160K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 989&background=random&color=fff&size=128"
+    },
+    {
+        "id": 746,
+        "name": "Replit Ghostwriter 373",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #746)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "308K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 373&background=random&color=fff&size=128"
+    },
+    {
+        "id": 747,
+        "name": "Jasper 942",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #747)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "406K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 942&background=random&color=fff&size=128"
+    },
+    {
+        "id": 748,
+        "name": "Copy.ai 469",
+        "category": "audio",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #748)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "247K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 469&background=random&color=fff&size=128"
+    },
+    {
+        "id": 749,
+        "name": "Firefly 948",
+        "category": "code",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #749)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "302K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 948&background=random&color=fff&size=128"
+    },
+    {
+        "id": 750,
+        "name": "Synthesia 767",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #750)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "290K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 767&background=random&color=fff&size=128"
+    },
+    {
+        "id": 751,
+        "name": "Murf.ai 522",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #751)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "37K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 522&background=random&color=fff&size=128"
+    },
+    {
+        "id": 752,
+        "name": "Otter.ai 941",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #752)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "95K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 941&background=random&color=fff&size=128"
+    },
+    {
+        "id": 753,
+        "name": "Beautiful.ai 363",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #753)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "437K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 363&background=random&color=fff&size=128"
+    },
+    {
+        "id": 754,
+        "name": "Tome 108",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #754)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "80K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Tome 108&background=random&color=fff&size=128"
+    },
+    {
+        "id": 755,
+        "name": "Tabnine 574",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #755)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "67K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 574&background=random&color=fff&size=128"
+    },
+    {
+        "id": 756,
+        "name": "Replit Ghostwriter 638",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #756)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "489K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 638&background=random&color=fff&size=128"
+    },
+    {
+        "id": 757,
+        "name": "Jasper 212",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #757)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "302K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 212&background=random&color=fff&size=128"
+    },
+    {
+        "id": 758,
+        "name": "Copy.ai 712",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #758)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "95K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 712&background=random&color=fff&size=128"
+    },
+    {
+        "id": 759,
+        "name": "Firefly 699",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #759)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "78K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 699&background=random&color=fff&size=128"
+    },
+    {
+        "id": 760,
+        "name": "Synthesia 770",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #760)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "426K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 770&background=random&color=fff&size=128"
+    },
+    {
+        "id": 761,
+        "name": "Murf.ai 934",
+        "category": "office",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #761)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "107K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 934&background=random&color=fff&size=128"
+    },
+    {
+        "id": 762,
+        "name": "Otter.ai 323",
+        "category": "code",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #762)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "2K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 323&background=random&color=fff&size=128"
+    },
+    {
+        "id": 763,
+        "name": "Beautiful.ai 809",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #763)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "265K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 809&background=random&color=fff&size=128"
+    },
+    {
+        "id": 764,
+        "name": "Tome 669",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #764)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "142K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Tome 669&background=random&color=fff&size=128"
+    },
+    {
+        "id": 765,
+        "name": "Tabnine 364",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #765)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "255K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 364&background=random&color=fff&size=128"
+    },
+    {
+        "id": 766,
+        "name": "Replit Ghostwriter 928",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #766)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "398K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 928&background=random&color=fff&size=128"
+    },
+    {
+        "id": 767,
+        "name": "Jasper 953",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #767)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "273K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 953&background=random&color=fff&size=128"
+    },
+    {
+        "id": 768,
+        "name": "Copy.ai 488",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #768)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "21K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 488&background=random&color=fff&size=128"
+    },
+    {
+        "id": 769,
+        "name": "Firefly 440",
+        "category": "audio",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #769)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "328K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 440&background=random&color=fff&size=128"
+    },
+    {
+        "id": 770,
+        "name": "Synthesia 238",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #770)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "126K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 238&background=random&color=fff&size=128"
+    },
+    {
+        "id": 771,
+        "name": "Murf.ai 984",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #771)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "329K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 984&background=random&color=fff&size=128"
+    },
+    {
+        "id": 772,
+        "name": "Otter.ai 307",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #772)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "64K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 307&background=random&color=fff&size=128"
+    },
+    {
+        "id": 773,
+        "name": "Beautiful.ai 355",
+        "category": "dev",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #773)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "297K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 355&background=random&color=fff&size=128"
+    },
+    {
+        "id": 774,
+        "name": "Tome 178",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #774)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "360K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Tome 178&background=random&color=fff&size=128"
+    },
+    {
+        "id": 775,
+        "name": "Tabnine 855",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #775)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "128K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 855&background=random&color=fff&size=128"
+    },
+    {
+        "id": 776,
+        "name": "Replit Ghostwriter 508",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #776)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "435K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 508&background=random&color=fff&size=128"
+    },
+    {
+        "id": 777,
+        "name": "Jasper 633",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #777)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "278K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 633&background=random&color=fff&size=128"
+    },
+    {
+        "id": 778,
+        "name": "Copy.ai 684",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #778)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "98K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 684&background=random&color=fff&size=128"
+    },
+    {
+        "id": 779,
+        "name": "Firefly 716",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #779)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "142K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 716&background=random&color=fff&size=128"
+    },
+    {
+        "id": 780,
+        "name": "Synthesia 155",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #780)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "139K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 155&background=random&color=fff&size=128"
+    },
+    {
+        "id": 781,
+        "name": "Murf.ai 124",
+        "category": "search",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #781)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "138K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 124&background=random&color=fff&size=128"
+    },
+    {
+        "id": 782,
+        "name": "Otter.ai 522",
+        "category": "search",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #782)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "44K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 522&background=random&color=fff&size=128"
+    },
+    {
+        "id": 783,
+        "name": "Beautiful.ai 709",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #783)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "28K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 709&background=random&color=fff&size=128"
+    },
+    {
+        "id": 784,
+        "name": "Tome 754",
+        "category": "dev",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #784)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "142K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Tome 754&background=random&color=fff&size=128"
+    },
+    {
+        "id": 785,
+        "name": "Tabnine 568",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #785)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "85K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 568&background=random&color=fff&size=128"
+    },
+    {
+        "id": 786,
+        "name": "Replit Ghostwriter 852",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #786)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "33K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 852&background=random&color=fff&size=128"
+    },
+    {
+        "id": 787,
+        "name": "Jasper 460",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #787)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "117K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 460&background=random&color=fff&size=128"
+    },
+    {
+        "id": 788,
+        "name": "Copy.ai 332",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #788)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "423K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 332&background=random&color=fff&size=128"
+    },
+    {
+        "id": 789,
+        "name": "Firefly 280",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #789)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "144K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 280&background=random&color=fff&size=128"
+    },
+    {
+        "id": 790,
+        "name": "Synthesia 373",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #790)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "287K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 373&background=random&color=fff&size=128"
+    },
+    {
+        "id": 791,
+        "name": "Murf.ai 448",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #791)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "493K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 448&background=random&color=fff&size=128"
+    },
+    {
+        "id": 792,
+        "name": "Otter.ai 833",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #792)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "370K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 833&background=random&color=fff&size=128"
+    },
+    {
+        "id": 793,
+        "name": "Beautiful.ai 889",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #793)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "150K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 889&background=random&color=fff&size=128"
+    },
+    {
+        "id": 794,
+        "name": "Tome 746",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #794)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "152K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Tome 746&background=random&color=fff&size=128"
+    },
+    {
+        "id": 795,
+        "name": "Tabnine 845",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #795)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "262K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 845&background=random&color=fff&size=128"
+    },
+    {
+        "id": 796,
+        "name": "Replit Ghostwriter 177",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #796)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "202K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 177&background=random&color=fff&size=128"
+    },
+    {
+        "id": 797,
+        "name": "Jasper 240",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #797)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "494K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 240&background=random&color=fff&size=128"
+    },
+    {
+        "id": 798,
+        "name": "Copy.ai 347",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #798)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "25K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 347&background=random&color=fff&size=128"
+    },
+    {
+        "id": 799,
+        "name": "Firefly 877",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #799)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "133K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 877&background=random&color=fff&size=128"
+    },
+    {
+        "id": 800,
+        "name": "Synthesia 678",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #800)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "105K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 678&background=random&color=fff&size=128"
+    },
+    {
+        "id": 801,
+        "name": "Murf.ai 111",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #801)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "259K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 111&background=random&color=fff&size=128"
+    },
+    {
+        "id": 802,
+        "name": "Otter.ai 511",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #802)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "155K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 511&background=random&color=fff&size=128"
+    },
+    {
+        "id": 803,
+        "name": "Beautiful.ai 204",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #803)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "315K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 204&background=random&color=fff&size=128"
+    },
+    {
+        "id": 804,
+        "name": "Tome 811",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #804)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "63K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Tome 811&background=random&color=fff&size=128"
+    },
+    {
+        "id": 805,
+        "name": "Tabnine 399",
+        "category": "search",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #805)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "165K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 399&background=random&color=fff&size=128"
+    },
+    {
+        "id": 806,
+        "name": "Replit Ghostwriter 358",
+        "category": "image",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #806)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "217K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 358&background=random&color=fff&size=128"
+    },
+    {
+        "id": 807,
+        "name": "Jasper 252",
+        "category": "image",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #807)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "467K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 252&background=random&color=fff&size=128"
+    },
+    {
+        "id": 808,
+        "name": "Copy.ai 130",
+        "category": "audio",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #808)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "95K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 130&background=random&color=fff&size=128"
+    },
+    {
+        "id": 809,
+        "name": "Firefly 225",
+        "category": "dev",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #809)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "234K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 225&background=random&color=fff&size=128"
+    },
+    {
+        "id": 810,
+        "name": "Synthesia 317",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #810)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "406K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 317&background=random&color=fff&size=128"
+    },
+    {
+        "id": 811,
+        "name": "Murf.ai 811",
+        "category": "learn",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #811)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "319K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 811&background=random&color=fff&size=128"
+    },
+    {
+        "id": 812,
+        "name": "Otter.ai 182",
+        "category": "image",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #812)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "38K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 182&background=random&color=fff&size=128"
+    },
+    {
+        "id": 813,
+        "name": "Beautiful.ai 384",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #813)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "352K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 384&background=random&color=fff&size=128"
+    },
+    {
+        "id": 814,
+        "name": "Tome 508",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #814)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "227K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Tome 508&background=random&color=fff&size=128"
+    },
+    {
+        "id": 815,
+        "name": "Tabnine 361",
+        "category": "dev",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #815)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "1K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 361&background=random&color=fff&size=128"
+    },
+    {
+        "id": 816,
+        "name": "Replit Ghostwriter 539",
+        "category": "agent",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #816)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "481K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 539&background=random&color=fff&size=128"
+    },
+    {
+        "id": 817,
+        "name": "Jasper 183",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #817)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "78K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 183&background=random&color=fff&size=128"
+    },
+    {
+        "id": 818,
+        "name": "Copy.ai 613",
+        "category": "image",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #818)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "76K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 613&background=random&color=fff&size=128"
+    },
+    {
+        "id": 819,
+        "name": "Firefly 613",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #819)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "222K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 613&background=random&color=fff&size=128"
+    },
+    {
+        "id": 820,
+        "name": "Synthesia 191",
+        "category": "code",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #820)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "385K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 191&background=random&color=fff&size=128"
+    },
+    {
+        "id": 821,
+        "name": "Murf.ai 714",
+        "category": "video",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #821)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "328K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 714&background=random&color=fff&size=128"
+    },
+    {
+        "id": 822,
+        "name": "Otter.ai 260",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #822)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "121K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 260&background=random&color=fff&size=128"
+    },
+    {
+        "id": 823,
+        "name": "Beautiful.ai 836",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #823)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "44K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 836&background=random&color=fff&size=128"
+    },
+    {
+        "id": 824,
+        "name": "Tome 683",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #824)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "97K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Tome 683&background=random&color=fff&size=128"
+    },
+    {
+        "id": 825,
+        "name": "Tabnine 342",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #825)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "225K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 342&background=random&color=fff&size=128"
+    },
+    {
+        "id": 826,
+        "name": "Replit Ghostwriter 871",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #826)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "161K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 871&background=random&color=fff&size=128"
+    },
+    {
+        "id": 827,
+        "name": "Jasper 332",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #827)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "266K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 332&background=random&color=fff&size=128"
+    },
+    {
+        "id": 828,
+        "name": "Copy.ai 339",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #828)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "176K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 339&background=random&color=fff&size=128"
+    },
+    {
+        "id": 829,
+        "name": "Firefly 349",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #829)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "129K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 349&background=random&color=fff&size=128"
+    },
+    {
+        "id": 830,
+        "name": "Synthesia 989",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #830)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "444K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 989&background=random&color=fff&size=128"
+    },
+    {
+        "id": 831,
+        "name": "Murf.ai 885",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #831)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "400K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 885&background=random&color=fff&size=128"
+    },
+    {
+        "id": 832,
+        "name": "Otter.ai 988",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #832)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "8K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 988&background=random&color=fff&size=128"
+    },
+    {
+        "id": 833,
+        "name": "Beautiful.ai 209",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #833)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "393K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 209&background=random&color=fff&size=128"
+    },
+    {
+        "id": 834,
+        "name": "Tome 267",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #834)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "292K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Tome 267&background=random&color=fff&size=128"
+    },
+    {
+        "id": 835,
+        "name": "Tabnine 950",
+        "category": "video",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #835)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "179K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 950&background=random&color=fff&size=128"
+    },
+    {
+        "id": 836,
+        "name": "Replit Ghostwriter 859",
+        "category": "office",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #836)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "217K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 859&background=random&color=fff&size=128"
+    },
+    {
+        "id": 837,
+        "name": "Jasper 374",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #837)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "451K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 374&background=random&color=fff&size=128"
+    },
+    {
+        "id": 838,
+        "name": "Copy.ai 989",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #838)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "190K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 989&background=random&color=fff&size=128"
+    },
+    {
+        "id": 839,
+        "name": "Firefly 182",
+        "category": "office",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #839)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "310K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 182&background=random&color=fff&size=128"
+    },
+    {
+        "id": 840,
+        "name": "Synthesia 576",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #840)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "290K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 576&background=random&color=fff&size=128"
+    },
+    {
+        "id": 841,
+        "name": "Murf.ai 843",
+        "category": "video",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #841)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "118K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 843&background=random&color=fff&size=128"
+    },
+    {
+        "id": 842,
+        "name": "Otter.ai 153",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #842)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "441K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 153&background=random&color=fff&size=128"
+    },
+    {
+        "id": 843,
+        "name": "Beautiful.ai 951",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #843)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "342K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 951&background=random&color=fff&size=128"
+    },
+    {
+        "id": 844,
+        "name": "Tome 352",
+        "category": "learn",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #844)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "12K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Tome 352&background=random&color=fff&size=128"
+    },
+    {
+        "id": 845,
+        "name": "Tabnine 887",
+        "category": "agent",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #845)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "322K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 887&background=random&color=fff&size=128"
+    },
+    {
+        "id": 846,
+        "name": "Replit Ghostwriter 765",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #846)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "325K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 765&background=random&color=fff&size=128"
+    },
+    {
+        "id": 847,
+        "name": "Jasper 826",
+        "category": "learn",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #847)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "286K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 826&background=random&color=fff&size=128"
+    },
+    {
+        "id": 848,
+        "name": "Copy.ai 795",
+        "category": "video",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #848)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "41K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 795&background=random&color=fff&size=128"
+    },
+    {
+        "id": 849,
+        "name": "Firefly 946",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #849)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "447K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 946&background=random&color=fff&size=128"
+    },
+    {
+        "id": 850,
+        "name": "Synthesia 516",
+        "category": "code",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #850)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "471K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 516&background=random&color=fff&size=128"
+    },
+    {
+        "id": 851,
+        "name": "Murf.ai 986",
+        "category": "dev",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #851)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "438K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 986&background=random&color=fff&size=128"
+    },
+    {
+        "id": 852,
+        "name": "Otter.ai 116",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #852)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "357K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 116&background=random&color=fff&size=128"
+    },
+    {
+        "id": 853,
+        "name": "Beautiful.ai 368",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #853)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "124K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 368&background=random&color=fff&size=128"
+    },
+    {
+        "id": 854,
+        "name": "Tome 973",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #854)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "99K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Tome 973&background=random&color=fff&size=128"
+    },
+    {
+        "id": 855,
+        "name": "Tabnine 714",
+        "category": "image",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #855)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "37K+",
+        "rating": 5.0,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 714&background=random&color=fff&size=128"
+    },
+    {
+        "id": 856,
+        "name": "Replit Ghostwriter 304",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #856)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "280K+",
+        "rating": 5.0,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 304&background=random&color=fff&size=128"
+    },
+    {
+        "id": 857,
+        "name": "Jasper 298",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #857)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "153K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 298&background=random&color=fff&size=128"
+    },
+    {
+        "id": 858,
+        "name": "Copy.ai 852",
+        "category": "video",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #858)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "396K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 852&background=random&color=fff&size=128"
+    },
+    {
+        "id": 859,
+        "name": "Firefly 603",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #859)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "218K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 603&background=random&color=fff&size=128"
+    },
+    {
+        "id": 860,
+        "name": "Synthesia 472",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #860)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "31K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 472&background=random&color=fff&size=128"
+    },
+    {
+        "id": 861,
+        "name": "Murf.ai 165",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #861)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "471K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 165&background=random&color=fff&size=128"
+    },
+    {
+        "id": 862,
+        "name": "Otter.ai 362",
+        "category": "video",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #862)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "288K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 362&background=random&color=fff&size=128"
+    },
+    {
+        "id": 863,
+        "name": "Beautiful.ai 598",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #863)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "414K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 598&background=random&color=fff&size=128"
+    },
+    {
+        "id": 864,
+        "name": "Tome 255",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #864)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "200K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Tome 255&background=random&color=fff&size=128"
+    },
+    {
+        "id": 865,
+        "name": "Tabnine 340",
+        "category": "learn",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #865)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "411K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 340&background=random&color=fff&size=128"
+    },
+    {
+        "id": 866,
+        "name": "Replit Ghostwriter 277",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #866)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "206K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 277&background=random&color=fff&size=128"
+    },
+    {
+        "id": 867,
+        "name": "Jasper 423",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #867)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "333K+",
+        "rating": 5.0,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 423&background=random&color=fff&size=128"
+    },
+    {
+        "id": 868,
+        "name": "Copy.ai 803",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #868)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "397K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 803&background=random&color=fff&size=128"
+    },
+    {
+        "id": 869,
+        "name": "Firefly 459",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #869)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "421K+",
+        "rating": 5.0,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 459&background=random&color=fff&size=128"
+    },
+    {
+        "id": 870,
+        "name": "Synthesia 667",
+        "category": "agent",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #870)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "135K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 667&background=random&color=fff&size=128"
+    },
+    {
+        "id": 871,
+        "name": "Murf.ai 542",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #871)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "17K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 542&background=random&color=fff&size=128"
+    },
+    {
+        "id": 872,
+        "name": "Otter.ai 749",
+        "category": "search",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #872)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "371K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 749&background=random&color=fff&size=128"
+    },
+    {
+        "id": 873,
+        "name": "Beautiful.ai 133",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #873)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "97K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 133&background=random&color=fff&size=128"
+    },
+    {
+        "id": 874,
+        "name": "Tome 521",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #874)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "320K+",
+        "rating": 5.0,
+        "logo": "https://ui-avatars.com/api/?name=Tome 521&background=random&color=fff&size=128"
+    },
+    {
+        "id": 875,
+        "name": "Tabnine 260",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #875)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "381K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 260&background=random&color=fff&size=128"
+    },
+    {
+        "id": 876,
+        "name": "Replit Ghostwriter 279",
+        "category": "video",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #876)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "267K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 279&background=random&color=fff&size=128"
+    },
+    {
+        "id": 877,
+        "name": "Jasper 558",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #877)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "201K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 558&background=random&color=fff&size=128"
+    },
+    {
+        "id": 878,
+        "name": "Copy.ai 841",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #878)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "393K+",
+        "rating": 5.0,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 841&background=random&color=fff&size=128"
+    },
+    {
+        "id": 879,
+        "name": "Firefly 189",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #879)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "203K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 189&background=random&color=fff&size=128"
+    },
+    {
+        "id": 880,
+        "name": "Synthesia 182",
+        "category": "search",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #880)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "468K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 182&background=random&color=fff&size=128"
+    },
+    {
+        "id": 881,
+        "name": "Murf.ai 352",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #881)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "185K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 352&background=random&color=fff&size=128"
+    },
+    {
+        "id": 882,
+        "name": "Otter.ai 665",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #882)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "475K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 665&background=random&color=fff&size=128"
+    },
+    {
+        "id": 883,
+        "name": "Beautiful.ai 929",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #883)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "463K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 929&background=random&color=fff&size=128"
+    },
+    {
+        "id": 884,
+        "name": "Tome 557",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #884)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "68K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Tome 557&background=random&color=fff&size=128"
+    },
+    {
+        "id": 885,
+        "name": "Tabnine 578",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #885)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "268K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 578&background=random&color=fff&size=128"
+    },
+    {
+        "id": 886,
+        "name": "Replit Ghostwriter 721",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #886)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "496K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 721&background=random&color=fff&size=128"
+    },
+    {
+        "id": 887,
+        "name": "Jasper 639",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #887)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "356K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 639&background=random&color=fff&size=128"
+    },
+    {
+        "id": 888,
+        "name": "Copy.ai 917",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #888)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "75K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 917&background=random&color=fff&size=128"
+    },
+    {
+        "id": 889,
+        "name": "Firefly 179",
+        "category": "agent",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #889)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "14K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 179&background=random&color=fff&size=128"
+    },
+    {
+        "id": 890,
+        "name": "Synthesia 449",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #890)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "148K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 449&background=random&color=fff&size=128"
+    },
+    {
+        "id": 891,
+        "name": "Murf.ai 764",
+        "category": "code",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #891)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "84K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 764&background=random&color=fff&size=128"
+    },
+    {
+        "id": 892,
+        "name": "Otter.ai 103",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #892)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "274K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 103&background=random&color=fff&size=128"
+    },
+    {
+        "id": 893,
+        "name": "Beautiful.ai 574",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #893)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "27K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 574&background=random&color=fff&size=128"
+    },
+    {
+        "id": 894,
+        "name": "Tome 297",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #894)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "115K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Tome 297&background=random&color=fff&size=128"
+    },
+    {
+        "id": 895,
+        "name": "Tabnine 513",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #895)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "399K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 513&background=random&color=fff&size=128"
+    },
+    {
+        "id": 896,
+        "name": "Replit Ghostwriter 471",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #896)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "383K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 471&background=random&color=fff&size=128"
+    },
+    {
+        "id": 897,
+        "name": "Jasper 914",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #897)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "44K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 914&background=random&color=fff&size=128"
+    },
+    {
+        "id": 898,
+        "name": "Copy.ai 826",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #898)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "110K+",
+        "rating": 5.0,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 826&background=random&color=fff&size=128"
+    },
+    {
+        "id": 899,
+        "name": "Firefly 887",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #899)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "280K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 887&background=random&color=fff&size=128"
+    },
+    {
+        "id": 900,
+        "name": "Synthesia 357",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #900)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "233K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 357&background=random&color=fff&size=128"
+    },
+    {
+        "id": 901,
+        "name": "Murf.ai 369",
+        "category": "office",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #901)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "339K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 369&background=random&color=fff&size=128"
+    },
+    {
+        "id": 902,
+        "name": "Otter.ai 450",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #902)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "148K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 450&background=random&color=fff&size=128"
+    },
+    {
+        "id": 903,
+        "name": "Beautiful.ai 643",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #903)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "289K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 643&background=random&color=fff&size=128"
+    },
+    {
+        "id": 904,
+        "name": "Tome 192",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #904)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "490K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Tome 192&background=random&color=fff&size=128"
+    },
+    {
+        "id": 905,
+        "name": "Tabnine 385",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #905)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "228K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 385&background=random&color=fff&size=128"
+    },
+    {
+        "id": 906,
+        "name": "Replit Ghostwriter 235",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #906)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "337K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 235&background=random&color=fff&size=128"
+    },
+    {
+        "id": 907,
+        "name": "Jasper 600",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #907)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "119K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 600&background=random&color=fff&size=128"
+    },
+    {
+        "id": 908,
+        "name": "Copy.ai 321",
+        "category": "video",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #908)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "30K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 321&background=random&color=fff&size=128"
+    },
+    {
+        "id": 909,
+        "name": "Firefly 853",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #909)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "116K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 853&background=random&color=fff&size=128"
+    },
+    {
+        "id": 910,
+        "name": "Synthesia 945",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #910)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "358K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 945&background=random&color=fff&size=128"
+    },
+    {
+        "id": 911,
+        "name": "Murf.ai 990",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #911)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "266K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 990&background=random&color=fff&size=128"
+    },
+    {
+        "id": 912,
+        "name": "Otter.ai 402",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #912)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "253K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 402&background=random&color=fff&size=128"
+    },
+    {
+        "id": 913,
+        "name": "Beautiful.ai 568",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #913)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "459K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 568&background=random&color=fff&size=128"
+    },
+    {
+        "id": 914,
+        "name": "Tome 329",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #914)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "226K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Tome 329&background=random&color=fff&size=128"
+    },
+    {
+        "id": 915,
+        "name": "Tabnine 872",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #915)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "351K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 872&background=random&color=fff&size=128"
+    },
+    {
+        "id": 916,
+        "name": "Replit Ghostwriter 290",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #916)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "244K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 290&background=random&color=fff&size=128"
+    },
+    {
+        "id": 917,
+        "name": "Jasper 128",
+        "category": "audio",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #917)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "350K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 128&background=random&color=fff&size=128"
+    },
+    {
+        "id": 918,
+        "name": "Copy.ai 182",
+        "category": "learn",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #918)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "379K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 182&background=random&color=fff&size=128"
+    },
+    {
+        "id": 919,
+        "name": "Firefly 645",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #919)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "386K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 645&background=random&color=fff&size=128"
+    },
+    {
+        "id": 920,
+        "name": "Synthesia 204",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #920)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "353K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 204&background=random&color=fff&size=128"
+    },
+    {
+        "id": 921,
+        "name": "Murf.ai 940",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #921)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "473K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 940&background=random&color=fff&size=128"
+    },
+    {
+        "id": 922,
+        "name": "Otter.ai 323",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #922)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "29K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 323&background=random&color=fff&size=128"
+    },
+    {
+        "id": 923,
+        "name": "Beautiful.ai 150",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #923)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "293K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 150&background=random&color=fff&size=128"
+    },
+    {
+        "id": 924,
+        "name": "Tome 820",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #924)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "336K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Tome 820&background=random&color=fff&size=128"
+    },
+    {
+        "id": 925,
+        "name": "Tabnine 294",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #925)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "18K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 294&background=random&color=fff&size=128"
+    },
+    {
+        "id": 926,
+        "name": "Replit Ghostwriter 680",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #926)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "181K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 680&background=random&color=fff&size=128"
+    },
+    {
+        "id": 927,
+        "name": "Jasper 612",
+        "category": "search",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #927)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "298K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 612&background=random&color=fff&size=128"
+    },
+    {
+        "id": 928,
+        "name": "Copy.ai 895",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #928)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "44K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 895&background=random&color=fff&size=128"
+    },
+    {
+        "id": 929,
+        "name": "Firefly 422",
+        "category": "learn",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #929)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "477K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 422&background=random&color=fff&size=128"
+    },
+    {
+        "id": 930,
+        "name": "Synthesia 421",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #930)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "173K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 421&background=random&color=fff&size=128"
+    },
+    {
+        "id": 931,
+        "name": "Murf.ai 673",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #931)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "329K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 673&background=random&color=fff&size=128"
+    },
+    {
+        "id": 932,
+        "name": "Otter.ai 330",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #932)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "298K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 330&background=random&color=fff&size=128"
+    },
+    {
+        "id": 933,
+        "name": "Beautiful.ai 357",
+        "category": "agent",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #933)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "131K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 357&background=random&color=fff&size=128"
+    },
+    {
+        "id": 934,
+        "name": "Tome 617",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #934)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "462K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Tome 617&background=random&color=fff&size=128"
+    },
+    {
+        "id": 935,
+        "name": "Tabnine 720",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #935)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "432K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 720&background=random&color=fff&size=128"
+    },
+    {
+        "id": 936,
+        "name": "Replit Ghostwriter 626",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #936)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "93K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 626&background=random&color=fff&size=128"
+    },
+    {
+        "id": 937,
+        "name": "Jasper 539",
+        "category": "image",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #937)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "63K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 539&background=random&color=fff&size=128"
+    },
+    {
+        "id": 938,
+        "name": "Copy.ai 348",
+        "category": "audio",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #938)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "291K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 348&background=random&color=fff&size=128"
+    },
+    {
+        "id": 939,
+        "name": "Firefly 402",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #939)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "29K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 402&background=random&color=fff&size=128"
+    },
+    {
+        "id": 940,
+        "name": "Synthesia 600",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #940)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "28K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 600&background=random&color=fff&size=128"
+    },
+    {
+        "id": 941,
+        "name": "Murf.ai 820",
+        "category": "dev",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #941)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "156K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 820&background=random&color=fff&size=128"
+    },
+    {
+        "id": 942,
+        "name": "Otter.ai 553",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #942)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "59K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 553&background=random&color=fff&size=128"
+    },
+    {
+        "id": 943,
+        "name": "Beautiful.ai 670",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #943)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "242K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 670&background=random&color=fff&size=128"
+    },
+    {
+        "id": 944,
+        "name": "Tome 809",
+        "category": "search",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #944)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "126K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Tome 809&background=random&color=fff&size=128"
+    },
+    {
+        "id": 945,
+        "name": "Tabnine 779",
+        "category": "video",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #945)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "推荐"
+        ],
+        "pricing": "免费试用",
+        "visits": "156K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 779&background=random&color=fff&size=128"
+    },
+    {
+        "id": 946,
+        "name": "Replit Ghostwriter 859",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #946)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "449K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 859&background=random&color=fff&size=128"
+    },
+    {
+        "id": 947,
+        "name": "Jasper 228",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #947)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "48K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 228&background=random&color=fff&size=128"
+    },
+    {
+        "id": 948,
+        "name": "Copy.ai 442",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #948)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "319K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 442&background=random&color=fff&size=128"
+    },
+    {
+        "id": 949,
+        "name": "Firefly 463",
+        "category": "dev",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #949)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "161K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 463&background=random&color=fff&size=128"
+    },
+    {
+        "id": 950,
+        "name": "Synthesia 981",
+        "category": "search",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #950)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "225K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 981&background=random&color=fff&size=128"
+    },
+    {
+        "id": 951,
+        "name": "Murf.ai 102",
+        "category": "image",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #951)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "259K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 102&background=random&color=fff&size=128"
+    },
+    {
+        "id": 952,
+        "name": "Otter.ai 636",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #952)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "359K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 636&background=random&color=fff&size=128"
+    },
+    {
+        "id": 953,
+        "name": "Beautiful.ai 239",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #953)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "149K+",
+        "rating": 3.9,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 239&background=random&color=fff&size=128"
+    },
+    {
+        "id": 954,
+        "name": "Tome 148",
+        "category": "video",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #954)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "337K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Tome 148&background=random&color=fff&size=128"
+    },
+    {
+        "id": 955,
+        "name": "Tabnine 854",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #955)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "248K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 854&background=random&color=fff&size=128"
+    },
+    {
+        "id": 956,
+        "name": "Replit Ghostwriter 502",
+        "category": "video",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #956)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "307K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 502&background=random&color=fff&size=128"
+    },
+    {
+        "id": 957,
+        "name": "Jasper 184",
+        "category": "search",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #957)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "461K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 184&background=random&color=fff&size=128"
+    },
+    {
+        "id": 958,
+        "name": "Copy.ai 667",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #958)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "170K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 667&background=random&color=fff&size=128"
+    },
+    {
+        "id": 959,
+        "name": "Firefly 952",
+        "category": "search",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #959)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "126K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 952&background=random&color=fff&size=128"
+    },
+    {
+        "id": 960,
+        "name": "Synthesia 698",
+        "category": "dev",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #960)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "57K+",
+        "rating": 5.0,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 698&background=random&color=fff&size=128"
+    },
+    {
+        "id": 961,
+        "name": "Murf.ai 345",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #961)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "155K+",
+        "rating": 3.7,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 345&background=random&color=fff&size=128"
+    },
+    {
+        "id": 962,
+        "name": "Otter.ai 360",
+        "category": "office",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #962)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "118K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 360&background=random&color=fff&size=128"
+    },
+    {
+        "id": 963,
+        "name": "Beautiful.ai 138",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #963)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "440K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 138&background=random&color=fff&size=128"
+    },
+    {
+        "id": 964,
+        "name": "Tome 934",
+        "category": "agent",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #964)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "390K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Tome 934&background=random&color=fff&size=128"
+    },
+    {
+        "id": 965,
+        "name": "Tabnine 647",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #965)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "349K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 647&background=random&color=fff&size=128"
+    },
+    {
+        "id": 966,
+        "name": "Replit Ghostwriter 480",
+        "category": "learn",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #966)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "394K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 480&background=random&color=fff&size=128"
+    },
+    {
+        "id": 967,
+        "name": "Jasper 129",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #967)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "472K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 129&background=random&color=fff&size=128"
+    },
+    {
+        "id": 968,
+        "name": "Copy.ai 171",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #968)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "390K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 171&background=random&color=fff&size=128"
+    },
+    {
+        "id": 969,
+        "name": "Firefly 815",
+        "category": "learn",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #969)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "44K+",
+        "rating": 3.8,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 815&background=random&color=fff&size=128"
+    },
+    {
+        "id": 970,
+        "name": "Synthesia 508",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #970)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "70K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 508&background=random&color=fff&size=128"
+    },
+    {
+        "id": 971,
+        "name": "Murf.ai 598",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #971)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "100K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 598&background=random&color=fff&size=128"
+    },
+    {
+        "id": 972,
+        "name": "Otter.ai 693",
+        "category": "video",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #972)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "248K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 693&background=random&color=fff&size=128"
+    },
+    {
+        "id": 973,
+        "name": "Beautiful.ai 977",
+        "category": "video",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #973)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "217K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 977&background=random&color=fff&size=128"
+    },
+    {
+        "id": 974,
+        "name": "Tome 553",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #974)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "429K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Tome 553&background=random&color=fff&size=128"
+    },
+    {
+        "id": 975,
+        "name": "Tabnine 389",
+        "category": "audio",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #975)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "推荐"
+        ],
+        "pricing": "开源",
+        "visits": "368K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 389&background=random&color=fff&size=128"
+    },
+    {
+        "id": 976,
+        "name": "Replit Ghostwriter 106",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #976)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "开源",
+        "visits": "175K+",
+        "rating": 5.0,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 106&background=random&color=fff&size=128"
+    },
+    {
+        "id": 977,
+        "name": "Jasper 374",
+        "category": "agent",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #977)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "324K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 374&background=random&color=fff&size=128"
+    },
+    {
+        "id": 978,
+        "name": "Copy.ai 768",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #978)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "热门"
+        ],
+        "pricing": "开源",
+        "visits": "47K+",
+        "rating": 3.5,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 768&background=random&color=fff&size=128"
+    },
+    {
+        "id": 979,
+        "name": "Firefly 689",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #979)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "359K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 689&background=random&color=fff&size=128"
+    },
+    {
+        "id": 980,
+        "name": "Synthesia 707",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #980)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "74K+",
+        "rating": 4.7,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 707&background=random&color=fff&size=128"
+    },
+    {
+        "id": 981,
+        "name": "Murf.ai 956",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #981)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "360K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 956&background=random&color=fff&size=128"
+    },
+    {
+        "id": 982,
+        "name": "Otter.ai 688",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #982)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "推荐"
+        ],
+        "pricing": "付费",
+        "visits": "98K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 688&background=random&color=fff&size=128"
+    },
+    {
+        "id": 983,
+        "name": "Beautiful.ai 113",
+        "category": "code",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #983)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "122K+",
+        "rating": 4.5,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 113&background=random&color=fff&size=128"
+    },
+    {
+        "id": 984,
+        "name": "Tome 799",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #984)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "481K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Tome 799&background=random&color=fff&size=128"
+    },
+    {
+        "id": 985,
+        "name": "Tabnine 553",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #985)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "240K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 553&background=random&color=fff&size=128"
+    },
+    {
+        "id": 986,
+        "name": "Replit Ghostwriter 505",
+        "category": "text",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #986)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "热门"
+        ],
+        "pricing": "付费",
+        "visits": "215K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 505&background=random&color=fff&size=128"
+    },
+    {
+        "id": 987,
+        "name": "Jasper 867",
+        "category": "office",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #987)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "23K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 867&background=random&color=fff&size=128"
+    },
+    {
+        "id": 988,
+        "name": "Copy.ai 685",
+        "category": "video",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #988)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "465K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 685&background=random&color=fff&size=128"
+    },
+    {
+        "id": 989,
+        "name": "Firefly 782",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #989)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "热门"
+        ],
+        "pricing": "免费试用",
+        "visits": "345K+",
+        "rating": 4.1,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 782&background=random&color=fff&size=128"
+    },
+    {
+        "id": 990,
+        "name": "Synthesia 761",
+        "category": "dev",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #990)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "热门"
+        ],
+        "pricing": "免费",
+        "visits": "253K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 761&background=random&color=fff&size=128"
+    },
+    {
+        "id": 991,
+        "name": "Murf.ai 360",
+        "category": "audio",
+        "desc": "将文本转换为逼真的语音旁白。 (模拟数据 #991)",
+        "url": "https://murf.ai",
+        "tags": [
+            "配音",
+            "专业",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "17K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Murf.ai 360&background=random&color=fff&size=128"
+    },
+    {
+        "id": 992,
+        "name": "Otter.ai 518",
+        "category": "audio",
+        "desc": "AI会议记录与转录工具。 (模拟数据 #992)",
+        "url": "https://otter.ai",
+        "tags": [
+            "会议",
+            "效率",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "382K+",
+        "rating": 3.6,
+        "logo": "https://ui-avatars.com/api/?name=Otter.ai 518&background=random&color=fff&size=128"
+    },
+    {
+        "id": 993,
+        "name": "Beautiful.ai 815",
+        "category": "office",
+        "desc": "几分钟内制作精美的演示文稿。 (模拟数据 #993)",
+        "url": "https://www.beautiful.ai",
+        "tags": [
+            "PPT",
+            "设计",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "443K+",
+        "rating": 4.0,
+        "logo": "https://ui-avatars.com/api/?name=Beautiful.ai 815&background=random&color=fff&size=128"
+    },
+    {
+        "id": 994,
+        "name": "Tome 739",
+        "category": "office",
+        "desc": "AI驱动的叙事格式，重塑PPT。 (模拟数据 #994)",
+        "url": "https://tome.app",
+        "tags": [
+            "PPT",
+            "创新",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "123K+",
+        "rating": 4.8,
+        "logo": "https://ui-avatars.com/api/?name=Tome 739&background=random&color=fff&size=128"
+    },
+    {
+        "id": 995,
+        "name": "Tabnine 109",
+        "category": "code",
+        "desc": "AI代码补全助手，支持所有IDE。 (模拟数据 #995)",
+        "url": "https://www.tabnine.com",
+        "tags": [
+            "编程",
+            "补全",
+            "新"
+        ],
+        "pricing": "付费",
+        "visits": "265K+",
+        "rating": 4.6,
+        "logo": "https://ui-avatars.com/api/?name=Tabnine 109&background=random&color=fff&size=128"
+    },
+    {
+        "id": 996,
+        "name": "Replit Ghostwriter 124",
+        "category": "code",
+        "desc": "集成在Replit中的AI编程搭档。 (模拟数据 #996)",
+        "url": "https://replit.com",
+        "tags": [
+            "云端",
+            "IDE",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "177K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Replit Ghostwriter 124&background=random&color=fff&size=128"
+    },
+    {
+        "id": 997,
+        "name": "Jasper 745",
+        "category": "text",
+        "desc": "专为营销人员设计的AI写作助手。 (模拟数据 #997)",
+        "url": "https://www.jasper.ai",
+        "tags": [
+            "营销",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费试用",
+        "visits": "411K+",
+        "rating": 4.3,
+        "logo": "https://ui-avatars.com/api/?name=Jasper 745&background=random&color=fff&size=128"
+    },
+    {
+        "id": 998,
+        "name": "Copy.ai 780",
+        "category": "text",
+        "desc": "快速生成高质量营销文案。 (模拟数据 #998)",
+        "url": "https://www.copy.ai",
+        "tags": [
+            "文案",
+            "免费试用",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "29K+",
+        "rating": 4.2,
+        "logo": "https://ui-avatars.com/api/?name=Copy.ai 780&background=random&color=fff&size=128"
+    },
+    {
+        "id": 999,
+        "name": "Firefly 963",
+        "category": "image",
+        "desc": "Adobe推出的创意生成式AI模型。 (模拟数据 #999)",
+        "url": "https://firefly.adobe.com",
+        "tags": [
+            "设计",
+            "Adobe",
+            "推荐"
+        ],
+        "pricing": "免费",
+        "visits": "60K+",
+        "rating": 4.9,
+        "logo": "https://ui-avatars.com/api/?name=Firefly 963&background=random&color=fff&size=128"
+    },
+    {
+        "id": 1000,
+        "name": "Synthesia 899",
+        "category": "video",
+        "desc": "AI视频生成平台，只需输入文本。 (模拟数据 #1000)",
+        "url": "https://www.synthesia.io",
+        "tags": [
+            "数字人",
+            "付费",
+            "新"
+        ],
+        "pricing": "免费",
+        "visits": "362K+",
+        "rating": 4.4,
+        "logo": "https://ui-avatars.com/api/?name=Synthesia 899&background=random&color=fff&size=128"
+    },
+    {
+        "id": 1001,
+        "name": "TRAE编程",
+        "category": "code",
+        "desc": "AI编程IDE，Vibe Coding 必备！",
+        "url": "https://ai-bot.cn/sites/65814.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/trae.ai-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1002,
+        "name": "AiPPT",
+        "category": "video",
+        "desc": "AI快速生成高质量PPT",
+        "url": "https://www.aippt.cn/?utm_type=Navweb&utm_source=ai-bot&utm_page=aippt&utm_plan=ppt&utm_unit=AIPPT&utm_keyword=50608",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/05/AiPPT-logo-0526.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1003,
+        "name": "秒哒",
+        "category": "code",
+        "desc": "无代码AI应用开发平台，一句话做应用",
+        "url": "https://ai-bot.cn/sites/65909.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/02/miaoda-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1004,
+        "name": "堆友AI",
+        "category": "image",
+        "desc": "免费AI绘画和生图神器",
+        "url": "https://d.design/?from=ab13",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/07/d-design-ai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1005,
+        "name": "美图设计室",
+        "category": "image",
+        "desc": "AI图像创作和设计平台",
+        "url": "https://www.designkit.cn/?channel=10026",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/04/meitu-ai-ppt.jpg",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1006,
+        "name": "绘蛙",
+        "category": "image",
+        "desc": "AI电商营销工具，免费生成商品图",
+        "url": "https://ai-bot.cn/sites/9195.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/03/ihuiwa-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1007,
+        "name": "办公小浣熊",
+        "category": "office",
+        "desc": "最强AI数据分析助手",
+        "url": "https://ai-bot.cn/sites/8516.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/12/sensetime-raccoon-code-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1008,
+        "name": "响指HaiSnap",
+        "category": "code",
+        "desc": "AI零代码应用开发平台，可视化编辑迭代",
+        "url": "https://ai-bot.cn/sites/64863.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/05/HaiSnap-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1009,
+        "name": "Flowith",
+        "category": "text",
+        "desc": "免费用Gemini 3、GPT-5",
+        "url": "https://ai-bot.cn/sites/11395.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/04/flowith-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1010,
+        "name": "小墨鹰编辑器",
+        "category": "all",
+        "desc": "行业首创的AI公众号排版工具，30s搞定推文排版！",
+        "url": "https://ai-bot.cn/sites/71123.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/xmyeditor-icon1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1011,
+        "name": "Nafy AI",
+        "category": "video",
+        "desc": "在线 AI 音乐生成器，支持扩展、替换、翻唱",
+        "url": "https://ai-bot.cn/sites/71063.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/Nafy-AI-icon-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1012,
+        "name": "蕉点AI",
+        "category": "image",
+        "desc": "多品类AI电商商品图生成平台",
+        "url": "https://ai-bot.cn/sites/70979.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/jiaodian-AI-icon-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1013,
+        "name": "Briefly",
+        "category": "video",
+        "desc": "长视频精华提炼，自动追踪频道中文推送",
+        "url": "https://ai-bot.cn/sites/71074.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/Briefly-icon-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1014,
+        "name": "OpenClaw",
+        "category": "all",
+        "desc": "开源免费的个人 AI 助手",
+        "url": "https://ai-bot.cn/sites/70880.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/未命名18-26.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1015,
+        "name": "ChartinAI",
+        "category": "image",
+        "desc": "一句话生成专业图表，AI自动搜集数据并可视化",
+        "url": "https://ai-bot.cn/sites/70851.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/ChartinAI-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1016,
+        "name": "蛙蛙写作",
+        "category": "text",
+        "desc": "AI小说和内容创作工具",
+        "url": "https://ai-bot.cn/sites/8204.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/wawa-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1017,
+        "name": "讯飞绘文",
+        "category": "text",
+        "desc": "免费AI写作工具，5分钟生成一篇原创稿！",
+        "url": "https://ai-bot.cn/sites/6242.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/08/turbodesk-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1018,
+        "name": "笔灵AI写作",
+        "category": "text",
+        "desc": "600+写作模板、AI一键生成论文/小说，论文降重降AI",
+        "url": "https://ibiling.cn/?from=ai-bot",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/07/ibiling-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1019,
+        "name": "新华妙笔",
+        "category": "office",
+        "desc": "新华社推出的体制内办公学习平台",
+        "url": "https://miaobi.xinhuaskl.com/?channel=shuzhi",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/12/xinhua-miaobi-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1020,
+        "name": "笔灵AI小说",
+        "category": "text",
+        "desc": "AI一键写全篇+爆文拆解，搞定大纲、素材，新手写作过稿神器！",
+        "url": "https://ai-bot.cn/sites/22626.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/09/biling-novel-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1021,
+        "name": "稿定AI文案",
+        "category": "text",
+        "desc": "小红书、公众号、短视频AI文案生成工具",
+        "url": "https://ai-bot.cn/sites/49483.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/05/gaoding-design-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1022,
+        "name": "Flowith",
+        "category": "text",
+        "desc": "全能AI创作工具，支持GPT-5、Claude、Gemini模型",
+        "url": "https://ai-bot.cn/sites/11395.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/04/flowith-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1023,
+        "name": "Paperpal",
+        "category": "text",
+        "desc": "英文论文写作助手",
+        "url": "https://paperpal.cn/?utm_source=aibot&utm_medium=Banner&utm_campaign=Banner",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/01/paperpal-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1024,
+        "name": "笔目鱼",
+        "category": "text",
+        "desc": "专业英文论文写作器",
+        "url": "https://ai-bot.cn/sites/53972.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/06/bmysci-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1025,
+        "name": "稿易AI论文",
+        "category": "text",
+        "desc": "AI论文写作助手，免费生成2000字大纲",
+        "url": "https://ai-bot.cn/sites/36409.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/01/gaoyiai-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1026,
+        "name": "千笔AI论文",
+        "category": "all",
+        "desc": "全网首家论文无限改稿平台",
+        "url": "https://ai-bot.cn/sites/7358.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/01/aipaperpass-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1027,
+        "name": "66AI论文",
+        "category": "text",
+        "desc": "高质量、低查重、低AIGC率的AI论文写作工具",
+        "url": "https://ai-bot.cn/sites/14679.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/08/66aipaper-website.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1028,
+        "name": "维普科创助手",
+        "category": "all",
+        "desc": "维普的一站式AI科研服务平台",
+        "url": "https://ai-bot.cn/sites/60799.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/cqvip-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1029,
+        "name": "沁言学术",
+        "category": "text",
+        "desc": "AI科研写作平台，一站式文献管理",
+        "url": "https://ai-bot.cn/sites/56573.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/qinyanai-logo-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1030,
+        "name": "茅茅虫",
+        "category": "text",
+        "desc": "一站式AI论文写作助手",
+        "url": "https://ai-bot.cn/sites/7381.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/01/mymmc-ai-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1031,
+        "name": "GetDraft",
+        "category": "text",
+        "desc": "得到推出的多AI专家协作AI写作工具",
+        "url": "https://ai-bot.cn/sites/67418.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/GetDraft-logo1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1032,
+        "name": "光速写作",
+        "category": "text",
+        "desc": "AI写作、PPT生成工具，单篇最长15000字",
+        "url": "https://ai-bot.cn/sites/7244.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/01/guangsuxie-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1033,
+        "name": "YouMind",
+        "category": "all",
+        "desc": "专注提升创作效率和信息整合的AI原生工具",
+        "url": "https://ai-bot.cn/sites/61208.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/YouMind-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1034,
+        "name": "万能小in",
+        "category": "video",
+        "desc": "3分钟4万字150+应用，只需标题，快速生成毕业论文",
+        "url": "https://ai-bot.cn/sites/14504.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/05/xiaoin-logo-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1035,
+        "name": "墨问",
+        "category": "image",
+        "desc": "专为创作者设计的AI笔记工具",
+        "url": "https://ai-bot.cn/sites/62793.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/mowen-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1036,
+        "name": "材料星AI",
+        "category": "text",
+        "desc": "专为秘书工作设计的AI写作工具",
+        "url": "https://ai-bot.cn/sites/70397.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/AIcailiaoxing-iocn.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1037,
+        "name": "FeelFish",
+        "category": "text",
+        "desc": "专为小说创作者打造的 AI 写作 PC 客户端软件",
+        "url": "https://ai-bot.cn/sites/66997.html",
+        "logo": "https://cdn.feelfish.com/static/icon-fill.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1038,
+        "name": "Loomi",
+        "category": "text",
+        "desc": "创作版Claude Code，AI原生写作工具",
+        "url": "https://ai-bot.cn/sites/66375.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/Loomi-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1039,
+        "name": "落笔AI写作",
+        "category": "text",
+        "desc": "专注于小说网文创作的AI写作工具",
+        "url": "https://ai-bot.cn/sites/66726.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/luobi-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1040,
+        "name": "ReadPo",
+        "category": "all",
+        "desc": "AI读写助手，支持内容聚合快速阅读并总结",
+        "url": "https://ai-bot.cn/readpo/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/12/ReadPo-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1041,
+        "name": "小鱼AI写作",
+        "category": "text",
+        "desc": "一站式AI写作平台，一键生成高质量原创内容",
+        "url": "https://ai-bot.cn/sites/18646.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/09/xiaoyuAI-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1042,
+        "name": "量子探险",
+        "category": "text",
+        "desc": "AI小说写作工具，长文本一键生成",
+        "url": "https://ai-bot.cn/sites/65468.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/10/yfbudong-icon-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1043,
+        "name": "社研通",
+        "category": "text",
+        "desc": "专注于服务文科研究生的多模态AI学术写作工具",
+        "url": "https://ai-bot.cn/sites/68892.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/sheyantong-icon-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1044,
+        "name": "Rubriq",
+        "category": "all",
+        "desc": "免费试用，AI学术论文润色与翻译工具",
+        "url": "https://ai-bot.cn/sites/65034.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/10/rubriq-icon-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1045,
+        "name": "QuillBot",
+        "category": "text",
+        "desc": "AI英/德语写作润色和改进工具",
+        "url": "https://ai-bot.cn/sites/597.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/quillbot-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1046,
+        "name": "即梦",
+        "category": "image",
+        "desc": "抖音旗下免费AI图片创作工具",
+        "url": "https://dis.csqixiang.cn/unpo/jimeng_1.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/10/jimeng-logo-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1047,
+        "name": "绘蛙",
+        "category": "image",
+        "desc": "AI电商营销工具，免费生成商品图",
+        "url": "https://ai-bot.cn/sites/9195.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/03/ihuiwa-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1048,
+        "name": "堆友AI反应堆",
+        "category": "image",
+        "desc": "阿里堆友推出的多风格AI绘画生成器",
+        "url": "https://ai-bot.cn/sites/3382.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/07/d-design-ai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1049,
+        "name": "LiblibAI·哩布哩布AI",
+        "category": "image",
+        "desc": "国内领先的AI图像创作平台和模型分享社区",
+        "url": "https://ai-bot.cn/sites/6474.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/10/liblib.art-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1050,
+        "name": "稿定AI",
+        "category": "image",
+        "desc": "一站式AI设计工具集，免费AI绘图、图片转AI绘画、AI抠图消除",
+        "url": "https://www.gaoding.com/utms/68f2b6d26cdb4048adf21904798c7229",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/05/gaoding-design-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1051,
+        "name": "阿贝智能",
+        "category": "image",
+        "desc": "一站式AI绘本创作平台，副业变现必备",
+        "url": "https://ai-bot.cn/sites/17330.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/08/abeiai-logo.jpg",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1052,
+        "name": "Civitai",
+        "category": "image",
+        "desc": "免费的AI图像绘画作品和模型分享平台和社区",
+        "url": "https://ai-bot.cn/sites/6297.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/05/civitai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1053,
+        "name": "吐司AI",
+        "category": "image",
+        "desc": "AI绘画模型社区和在线生图平台",
+        "url": "https://ai-bot.cn/tusiart/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/07/tusiart-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1054,
+        "name": "造点AI",
+        "category": "image",
+        "desc": "夸克团队推出的AI图像与视频创作平台",
+        "url": "https://ai-bot.cn/sites/63437.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/zaodian-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1055,
+        "name": "RunningHub",
+        "category": "image",
+        "desc": "基于云端ComfyUI的AI图像与视频创作平台",
+        "url": "https://ai-bot.cn/sites/56061.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/RunningHub-logo1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1056,
+        "name": "通义万相",
+        "category": "video",
+        "desc": "阿里推出的AI创意内容生成平台",
+        "url": "https://ai-bot.cn/sites/3400.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/tongyi-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1057,
+        "name": "可灵AI",
+        "category": "image",
+        "desc": "快手推出的AI图像和视频创作平台",
+        "url": "https://ai-bot.cn/sites/13002.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/03/klingai-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1058,
+        "name": "秒画",
+        "category": "image",
+        "desc": "商汤科技推出的免费AI作画和图片生成平台",
+        "url": "https://ai-bot.cn/sites/4749.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/09/miaohua-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1059,
+        "name": "WHEE",
+        "category": "image",
+        "desc": "美图推出的AI图片和绘画创作生成平台",
+        "url": "https://ai-bot.cn/sites/2976.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/01/whee-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1060,
+        "name": "呜哩",
+        "category": "all",
+        "desc": "阿里推出的AIGC创意生产力平台",
+        "url": "https://ai-bot.cn/sites/70059.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/wuli.art-logo1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1061,
+        "name": "insMind",
+        "category": "image",
+        "desc": "稿定面向全球市场推出的AI图片编辑工具",
+        "url": "https://ai-bot.cn/sites/60138.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/insMind-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1062,
+        "name": "AI改图神器",
+        "category": "image",
+        "desc": "AI在线图像编辑工具",
+        "url": "https://ai-bot.cn/sites/1412.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/aidesigntools-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1063,
+        "name": "视觉工厂",
+        "category": "image",
+        "desc": "AI创作工具，支持AI生图和视频生成服务",
+        "url": "https://ai-bot.cn/sites/70659.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/d.aijuh-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1064,
+        "name": "秒绘AI",
+        "category": "image",
+        "desc": "一键生成爆款图文，免费发布小红书",
+        "url": "https://ai-bot.cn/sites/70073.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/miaohuiai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1065,
+        "name": "妙话AI",
+        "category": "image",
+        "desc": "专为内容创作者设计的创意图片生成工具",
+        "url": "https://ai-bot.cn/sites/68984.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/miaohua-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1066,
+        "name": "炉米Lumi",
+        "category": "image",
+        "desc": "字节跳动推出的AIGC图像创作平台",
+        "url": "https://ai-bot.cn/lumi/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/11/lumi-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1067,
+        "name": "Krea AI",
+        "category": "image",
+        "desc": "实时AI图像、视频生成和编辑平台",
+        "url": "https://ai-bot.cn/sites/7050.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/12/krea-ai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1068,
+        "name": "Kira",
+        "category": "image",
+        "desc": "AI 图像生成与编辑工具",
+        "url": "https://ai-bot.cn/sites/56504.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/Kira-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1069,
+        "name": "Photoroom",
+        "category": "image",
+        "desc": "在线AI图片编辑工具",
+        "url": "https://ai-bot.cn/sites/18077.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/08/Photoroom-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1070,
+        "name": "Ribbet.ai",
+        "category": "image",
+        "desc": "免费的多功能AI图片处理工具箱",
+        "url": "https://ai-bot.cn/sites/693.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/ribbet-ai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1071,
+        "name": "万相营造",
+        "category": "video",
+        "desc": "阿里旗下推出的多模态AI创意生成平台",
+        "url": "https://ai-bot.cn/sites/29264.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/11/wanxiangyingzao-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1072,
+        "name": "悟空图像PhotoSir",
+        "category": "image",
+        "desc": "新一代专业图像处理软件，更智能、更高效、更好用",
+        "url": "https://ai-bot.cn/sites/1418.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/04/photosir-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1073,
+        "name": "360智图",
+        "category": "image",
+        "desc": "360推出的AI作图平台，支持智能抠图、智能消除、智能放大、智能配图",
+        "url": "https://ai-bot.cn/sites/4177.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/08/chacha-so-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1074,
+        "name": "绘蛙AI视频",
+        "category": "image",
+        "desc": "绘蛙推出的AI图生视频工具",
+        "url": "https://ai-bot.cn/sites/33687.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/03/ihuiwa-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1075,
+        "name": "LiblibAI",
+        "category": "video",
+        "desc": "一站式 AI 内容创作生成平台",
+        "url": "https://ai-bot.cn/sites/66771.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/10/liblib.art-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1076,
+        "name": "Vidu",
+        "category": "video",
+        "desc": "生数科技推出的AI视频生成大模型",
+        "url": "https://ai-bot.cn/sites/14695.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/12/Vidu-logo1.jpg",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1077,
+        "name": "有言",
+        "category": "video",
+        "desc": "一站式AI视频创作和3D数字人生成平台",
+        "url": "https://ai-bot.cn/sites/10847.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/04/youyan-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1078,
+        "name": "堆友AI视频",
+        "category": "video",
+        "desc": "堆友AI推出的免费AI视频生成工具",
+        "url": "https://ai-bot.cn/sites/61400.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/07/d-design-ai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1079,
+        "name": "SoundView",
+        "category": "video",
+        "desc": "Sora视频去水印，AI视频本地化工具",
+        "url": "https://ai-bot.cn/sites/35756.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/12/SoundView-logo.jpg",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1080,
+        "name": "白日梦",
+        "category": "video",
+        "desc": "领先AI创作平台，可生成最长50分钟的视频",
+        "url": "https://ai-bot.cn/sites/13065.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/07/aibrm-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1081,
+        "name": "Pollo AI",
+        "category": "image",
+        "desc": "一站式AI图像和视频创作平台",
+        "url": "https://ai-bot.cn/sites/70438.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/Pollo-AI-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1082,
+        "name": "Keevx",
+        "category": "video",
+        "desc": "开箱即用的AI数字人视频创作工具",
+        "url": "https://ai-bot.cn/sites/60378.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/Keevx-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1083,
+        "name": "蝉镜",
+        "category": "video",
+        "desc": "AI数字人视频生成平台",
+        "url": "https://ai-bot.cn/sites/11290.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/04/chanjing-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1084,
+        "name": "JoyPix",
+        "category": "audio",
+        "desc": "AI数字人创作工具，支持声音克隆",
+        "url": "https://ai-bot.cn/sites/45413.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/03/JoyPix-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1085,
+        "name": "可灵AI",
+        "category": "video",
+        "desc": "快手推出的AI视频生成工具",
+        "url": "https://ai-bot.cn/sites/13186.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/03/klingai-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1086,
+        "name": "海螺视频",
+        "category": "video",
+        "desc": "MiniMax公司推出的AI视频生成工具",
+        "url": "https://ai-bot.cn/hailuoai-video/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/04/hailuoai-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1087,
+        "name": "腾讯混元AI视频",
+        "category": "video",
+        "desc": "腾讯推出的AI视频生成工具",
+        "url": "https://ai-bot.cn/sites/46196.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/12/hunyuan-video-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1088,
+        "name": "通义万相AI视频",
+        "category": "video",
+        "desc": "通义万相AI视频是阿里推出的...",
+        "url": "https://ai-bot.cn/tongyi-wanxvideo/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/tongyi-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1089,
+        "name": "魔珐星云",
+        "category": "all",
+        "desc": "具身智能3D数字人开放平台",
+        "url": "https://ai-bot.cn/sites/68669.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/xingyun3d-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1090,
+        "name": "献丑AI",
+        "category": "video",
+        "desc": "首个 AI 视频开源社区，支持一键Fork与共创",
+        "url": "https://ai-bot.cn/sites/70208.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/xianchouAI-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1091,
+        "name": "MochiAni",
+        "category": "video",
+        "desc": "AI动画视频创作工具",
+        "url": "https://ai-bot.cn/sites/69647.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/MochiAni-logo.jpg",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1092,
+        "name": "NextCut AI",
+        "category": "video",
+        "desc": "AI视频创作工具，集成无限画布 + workflow + 剪辑轨道 + 多Agent团队",
+        "url": "https://ai-bot.cn/sites/69946.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/NextCut-icon-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1093,
+        "name": "TapNow",
+        "category": "all",
+        "desc": "AI视觉内容创作平台，提供多种预设工作流",
+        "url": "https://ai-bot.cn/sites/66332.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/TapNow-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1094,
+        "name": "Higgsfield",
+        "category": "video",
+        "desc": "AI视频生成工具，支持专业运镜效果",
+        "url": "https://ai-bot.cn/sites/59035.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/Higgsfield-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1095,
+        "name": "雾象",
+        "category": "video",
+        "desc": "免费开源的AI动画生成工具",
+        "url": "https://ai-bot.cn/sites/68040.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/Fogsight-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1096,
+        "name": "造次",
+        "category": "video",
+        "desc": "AI原创IP视频社区",
+        "url": "https://ai-bot.cn/sites/66554.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/zaoci-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1097,
+        "name": "造点AI",
+        "category": "image",
+        "desc": "夸克团队推出的AI图像与视频创作平台",
+        "url": "https://ai-bot.cn/sites/63437.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/zaodian-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1098,
+        "name": "花生AI",
+        "category": "video",
+        "desc": "B站推出的AI视频创作工具",
+        "url": "https://ai-bot.cn/sites/67673.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/huashengai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1099,
+        "name": "云幕同声",
+        "category": "video",
+        "desc": "专业AI视频翻译，短剧出海、跨境电商，效果超棒！",
+        "url": "https://ai-bot.cn/sites/69629.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/yunmuts-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1100,
+        "name": "萌动AI",
+        "category": "all",
+        "desc": "全球首个二次元/动漫专用 AI 创作工具",
+        "url": "https://ai-bot.cn/sites/63694.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/Animon-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1101,
+        "name": "AiPPT",
+        "category": "video",
+        "desc": "AI快速生成高质量PPT",
+        "url": "https://www.aippt.cn/?utm_type=Navweb&utm_source=ai-bot&utm_page=aippt&utm_plan=ppt&utm_unit=AIPPT&utm_keyword=50608",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/05/AiPPT-logo-0526.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1102,
+        "name": "扣子PPT",
+        "category": "video",
+        "desc": "免费一键生成精美PPT",
+        "url": "https://dis.csqixiang.cn/unpo/cozeaibot.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/Coze-logo-2.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1103,
+        "name": "咔片PPT",
+        "category": "image",
+        "desc": "AI PPT制作工具，设计美化全流程自动化",
+        "url": "https://ai-bot.cn/sites/44612.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/03/cappt-logo-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1104,
+        "name": "文多多AiPPT",
+        "category": "image",
+        "desc": "AI一键生成PPT，支持AI配图和智能资料整合",
+        "url": "https://docmee.cn/?source=ai-bot",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/09/wenduoduo-Logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1105,
+        "name": "iSlide AIPPT",
+        "category": "image",
+        "desc": "AI一键设计精美PPT，只需一句标题",
+        "url": "https://ai-bot.cn/sites/8840.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/02/islide-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1106,
+        "name": "博思AIPPT",
+        "category": "video",
+        "desc": "PPT效率神器，AI一键生成PPT",
+        "url": "https://ai-bot.cn/sites/13808.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/06/pptgo-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1107,
+        "name": "Pi智能PPT",
+        "category": "video",
+        "desc": "一键生成PPT，复制精美模板",
+        "url": "https://ai-bot.cn/sites/63272.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/pi-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1108,
+        "name": "稿定PPT",
+        "category": "office",
+        "desc": "稿定推出的PPT模板资源库",
+        "url": "https://ai-bot.cn/sites/35715.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/05/gaoding-design-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1109,
+        "name": "笔格AIPPT",
+        "category": "video",
+        "desc": "高效的AI PPT生成工具",
+        "url": "https://ai-bot.cn/sites/7012.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/bigppt-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1110,
+        "name": "笔灵AIPPT",
+        "category": "video",
+        "desc": "一键生成PPT和千字演讲稿",
+        "url": "https://ai-bot.cn/sites/14213.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/07/biling-aippt-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1111,
+        "name": "百度文库AI助手",
+        "category": "all",
+        "desc": "基于文心一言的一站式智能文档助手",
+        "url": "https://ai-bot.cn/sites/5037.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/baidu-wenku-website2.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1112,
+        "name": "讯飞智文",
+        "category": "video",
+        "desc": "一键生成PPT和Word",
+        "url": "https://ai-bot.cn/sites/6024.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/zhiwen.xfyun-website2.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1113,
+        "name": "Napkin",
+        "category": "image",
+        "desc": "将文本内容快速转换成演示图像的AI办公工具",
+        "url": "https://ai-bot.cn/sites/16885.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/08/Napkin-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1114,
+        "name": "ChartGen",
+        "category": "image",
+        "desc": "AI图表生成工具，快速生成专业图表",
+        "url": "https://ai-bot.cn/sites/69545.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/chartgen_icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1115,
+        "name": "Diagrimo",
+        "category": "image",
+        "desc": "Tenorshare AI推出的AI图表生成工具",
+        "url": "https://ai-bot.cn/sites/68868.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/Diagrimo-logo-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1116,
+        "name": "PicDoc",
+        "category": "image",
+        "desc": "AI文本转图表工具，一键生成多种视觉图表",
+        "url": "https://ai-bot.cn/sites/53412.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/06/PicDoc-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1117,
+        "name": "飞象老师",
+        "category": "all",
+        "desc": "猿辅导推出的国内首个AI教学和备课工具",
+        "url": "https://ai-bot.cn/sites/67628.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/feixianglaoshi-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1118,
+        "name": "Kimi PPT助手",
+        "category": "video",
+        "desc": "Kimi全新自研的PPT助手，一键生成PPT",
+        "url": "https://ai-bot.cn/sites/57522.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/05/kimi-ai-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1119,
+        "name": "夸克PPT",
+        "category": "video",
+        "desc": "夸克团队推出的AI PPT生成工具",
+        "url": "https://ai-bot.cn/sites/66082.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/11/quark-logo-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1120,
+        "name": "美图AI PPT",
+        "category": "image",
+        "desc": "美图秀秀推出的免费在线AI生成PPT设计工具",
+        "url": "https://ai-bot.cn/sites/1744.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/04/meitu-ai-ppt.jpg",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1121,
+        "name": "课灵 PPT",
+        "category": "video",
+        "desc": "AI免费生成PPT课件",
+        "url": "https://ai-bot.cn/sites/69127.html",
+        "logo": "https://www.classppt.cn/img/logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1122,
+        "name": "清言PPT",
+        "category": "video",
+        "desc": "智谱清言联合AiPPT推出的PPT生成智能体",
+        "url": "https://ai-bot.cn/qingyan-ppt/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/01/qingyan-ppt-logo.jpg",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1123,
+        "name": "万兴智演",
+        "category": "office",
+        "desc": "万兴科技推出的AI PPT和演示制作软件",
+        "url": "https://ai-bot.cn/sites/14023.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/07/zhiyan-ai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1124,
+        "name": "麦当秀MindShow",
+        "category": "video",
+        "desc": "AI在线PPT生成工具",
+        "url": "https://ai-bot.cn/sites/67508.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/09/401726222454_.pic_.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1125,
+        "name": "VoxDeck",
+        "category": "video",
+        "desc": "创新的AI演示文稿生成工具",
+        "url": "https://ai-bot.cn/sites/59512.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/VoxDeck-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1126,
+        "name": "AiBiao",
+        "category": "image",
+        "desc": "AI文生图表工具，支持生成柱状图、折线图、饼图等",
+        "url": "https://ai-bot.cn/sites/40174.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/02/VisDoc-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1127,
+        "name": "ChatBA",
+        "category": "text",
+        "desc": "AI幻灯片生成工具",
+        "url": "https://ai-bot.cn/sites/475.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/chatba-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1128,
+        "name": "Decktopus AI",
+        "category": "video",
+        "desc": "AI驱动的在线演示文稿生成器",
+        "url": "https://ai-bot.cn/sites/784.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/decktopus-ai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1129,
+        "name": "Powerpresent AI",
+        "category": "video",
+        "desc": "AI演示文稿生成工具",
+        "url": "https://ai-bot.cn/sites/366.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/PowerPresent-AI-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1130,
+        "name": "爱派AiPy",
+        "category": "all",
+        "desc": "本地Manus、国内能用、内网能用，开源免费",
+        "url": "https://ai-bot.cn/sites/63774.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/AiPy-website-2-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1131,
+        "name": "扣子",
+        "category": "office",
+        "desc": "免费全能的AI办公智能体",
+        "url": "https://ai-bot.cn/sites/65797.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/Coze-logo-2.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1132,
+        "name": "讯飞星辰Agent",
+        "category": "all",
+        "desc": "科大讯飞推出的AI智能体开发平台",
+        "url": "https://ai-bot.cn/sites/50068.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/04/xunfei-xingchen-agent-logo-1.jpg",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1133,
+        "name": "01Agent",
+        "category": "image",
+        "desc": "AI图文创作智能体，支持生成、排版、编辑、发布",
+        "url": "https://ai-bot.cn/sites/69212.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/01Agent-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1134,
+        "name": "Manus",
+        "category": "all",
+        "desc": "蝴蝶效应公司推出的首款自主通用AI Agent",
+        "url": "https://ai-bot.cn/sites/69322.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/03/Manus-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1135,
+        "name": "Operator",
+        "category": "all",
+        "desc": "OpenAI推出的AI智能体，能推理、联网自主执行任务",
+        "url": "https://ai-bot.cn/operator/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/05/openai-operator-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1136,
+        "name": "Flowith",
+        "category": "text",
+        "desc": "免费用Gemini 3、GPT-5",
+        "url": "https://ai-bot.cn/sites/11395.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/04/flowith-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1137,
+        "name": "码上飞",
+        "category": "video",
+        "desc": "一句话生成微信小程序、APP、H5网页",
+        "url": "https://ai-bot.cn/sites/60995.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/CodeFlying-icon-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1138,
+        "name": "金灵AI",
+        "category": "all",
+        "desc": "专业的金融深度投研AI Agent",
+        "url": "https://ai-bot.cn/sites/54821.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/06/gilin-logo-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1139,
+        "name": "OiiOii",
+        "category": "all",
+        "desc": "全球首个专业动画创作Agent",
+        "url": "https://ai-bot.cn/sites/66553.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/OiiOii-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1140,
+        "name": "AnyGen",
+        "category": "office",
+        "desc": "字节跳动推出的AI办公智能体",
+        "url": "https://ai-bot.cn/sites/69424.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/AnyGen-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1141,
+        "name": "Tbox",
+        "category": "all",
+        "desc": "蚂蚁集团旗下多智能体协同的通用 AI Agent",
+        "url": "https://ai-bot.cn/sites/62355.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/Tbox-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1142,
+        "name": "Atoms",
+        "category": "all",
+        "desc": "第一支自动构建真实业务的 AI 团队",
+        "url": "https://ai-bot.cn/sites/70016.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/Atoms-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1143,
+        "name": "Genspark",
+        "category": "all",
+        "desc": "通用AI智能体，您的一站式AI工作空间",
+        "url": "https://ai-bot.cn/sites/66341.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/06/genspark-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1144,
+        "name": "GenFlow",
+        "category": "all",
+        "desc": "全球首个全模态、全端通用AI智能体",
+        "url": "https://ai-bot.cn/sites/66596.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/GenFlow-website.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1145,
+        "name": "Lovart",
+        "category": "image",
+        "desc": "LiblibAI推出的全球首个设计智能体",
+        "url": "https://ai-bot.cn/sites/67498.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/Lovart-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1146,
+        "name": "Mixboard",
+        "category": "all",
+        "desc": "Google Labs 推出的 AI 无限画布工具",
+        "url": "https://ai-bot.cn/sites/68239.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/Mixboard-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1147,
+        "name": "Skywork",
+        "category": "all",
+        "desc": "昆仑万维面向全球推出的天工超级智能体",
+        "url": "https://ai-bot.cn/skywork/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/05/Skywork-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1148,
+        "name": "OpenClaw",
+        "category": "all",
+        "desc": "开源免费的个人 AI 助手",
+        "url": "https://ai-bot.cn/sites/70880.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/未命名18-26.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1149,
+        "name": "WorkAny",
+        "category": "all",
+        "desc": "本地运行的开源AI桌面智能体",
+        "url": "https://ai-bot.cn/sites/70852.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/WorkAny-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1150,
+        "name": "Agnes AI",
+        "category": "image",
+        "desc": "专为办公场景设计的团队协作型AI Agent",
+        "url": "https://ai-bot.cn/sites/59375.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/Agnes-AI-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1151,
+        "name": "Seele AI",
+        "category": "video",
+        "desc": "全球首个端到端AI 3D游戏生成工具",
+        "url": "https://ai-bot.cn/sites/59644.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/Seele-AI-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1152,
+        "name": "稿定AI社区",
+        "category": "image",
+        "desc": "稿定推出的设计Agent和AI创意社区",
+        "url": "https://ai-bot.cn/sites/60312.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/gaoding.art-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1153,
+        "name": "椒图AI",
+        "category": "image",
+        "desc": "深度适配中文场景的AI修图智能体",
+        "url": "https://ai-bot.cn/sites/61891.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/jiaotuai-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1154,
+        "name": "遨虾",
+        "category": "all",
+        "desc": "1688推出的跨境电商生意Agent",
+        "url": "https://ai-bot.cn/sites/67279.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/alphashop-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1155,
+        "name": "亿话",
+        "category": "text",
+        "desc": "数字人对话智能体创作平台",
+        "url": "https://ai-bot.cn/sites/69201.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/yihua-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1156,
+        "name": "Tago",
+        "category": "all",
+        "desc": "专注电商领域的全能AI运营智能体",
+        "url": "https://ai-bot.cn/sites/67818.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/Tago-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1157,
+        "name": "FlowMuse AI",
+        "category": "image",
+        "desc": "专注于 AI 图像视频的无限画布",
+        "url": "https://ai-bot.cn/sites/67911.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/FlowMuse-AI-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1158,
+        "name": "NeoDomain",
+        "category": "video",
+        "desc": "AI创意内容生成智能体",
+        "url": "https://ai-bot.cn/sites/67677.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/NeoDomain-icon-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1159,
+        "name": "MuleRun",
+        "category": "all",
+        "desc": "全球首个 AI Agent 市场，类似eBay",
+        "url": "https://ai-bot.cn/mulerun/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/mulerun-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1160,
+        "name": "讯飞星火",
+        "category": "video",
+        "desc": "AI智能助手，免费PPT生成、深度研究",
+        "url": "https://ai-bot.cn/sites/1909.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/01/xunfei-xinghuo-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1161,
+        "name": "腾讯元宝",
+        "category": "all",
+        "desc": "腾讯推出的免费AI智能助手",
+        "url": "https://ai-bot.cn/sites/12946.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/05/tencent-yuanbao-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1162,
+        "name": "Flowith",
+        "category": "text",
+        "desc": "一站式使用GPT-5、Claude、Gemini",
+        "url": "https://ai-bot.cn/sites/11395.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/04/flowith-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1163,
+        "name": "逗逗AI",
+        "category": "all",
+        "desc": "AI游戏陪玩，支持原神、黑神话、LOL！",
+        "url": "https://ai-bot.cn/sites/14769.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/12/doudou-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1164,
+        "name": "千问",
+        "category": "all",
+        "desc": "全能AI助手，基于Qwen模型",
+        "url": "https://ai-bot.cn/sites/1338.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/tongyi-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1165,
+        "name": "Grok",
+        "category": "all",
+        "desc": "马斯克旗下xAI推出的人工智能助手",
+        "url": "https://ai-bot.cn/sites/5368.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/11/xai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1166,
+        "name": "Z.ai",
+        "category": "all",
+        "desc": "智谱面向全球推出的AI模型体验平台",
+        "url": "https://ai-bot.cn/sites/62950.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/Z.ai-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1167,
+        "name": "Qwen Chat",
+        "category": "text",
+        "desc": "阿里通义推出的 Qwen 最新模型体验平台",
+        "url": "https://ai-bot.cn/qwen-chat/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/04/tongyi-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1168,
+        "name": "MiniMax",
+        "category": "all",
+        "desc": "MiniMax推出的AI智能问答助手",
+        "url": "https://ai-bot.cn/sites/8835.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/03/MiniMax-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1169,
+        "name": "LongCat",
+        "category": "text",
+        "desc": "美团推出的自研大模型AI对话平台",
+        "url": "https://ai-bot.cn/sites/61432.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/LongCat-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1170,
+        "name": "华为小艺",
+        "category": "all",
+        "desc": "华为旗下小艺AI助手网页端，已接入DeepSeek-R1",
+        "url": "https://ai-bot.cn/huawei-xiaoyi/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/02/xiaoyi-huawei-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1171,
+        "name": "问小白",
+        "category": "all",
+        "desc": "AI智能助手，支持DeepSeek满血版",
+        "url": "https://ai-bot.cn/sites/14215.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/04/wenxiaobai-logo-2.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1172,
+        "name": "百灵大模型",
+        "category": "text",
+        "desc": "蚂蚁集团推出的 Ling-1T 大模型对话体验平台",
+        "url": "https://ai-bot.cn/sites/64622.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/10/ling-chat-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1173,
+        "name": "书生大模型",
+        "category": "all",
+        "desc": "上海人工智能实验室推出的系列AI模型",
+        "url": "https://ai-bot.cn/sites/53308.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/06/shusheng-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1174,
+        "name": "阶跃AI",
+        "category": "all",
+        "desc": "阶跃星辰推出的支持多模态的AI聊天机器人",
+        "url": "https://ai-bot.cn/sites/9802.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/03/stepchat-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1175,
+        "name": "百小应",
+        "category": "all",
+        "desc": "百川智能推出的免费AI助手",
+        "url": "https://ai-bot.cn/sites/12663.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/05/ying-ai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1176,
+        "name": "商量SenseChat",
+        "category": "text",
+        "desc": "商汤科技推出的免费AI聊天助手",
+        "url": "https://ai-bot.cn/sites/11529.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/04/sensechat-new-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1177,
+        "name": "Me.bot",
+        "category": "all",
+        "desc": "心识宇宙推出的个性化AI伴侣产品",
+        "url": "https://ai-bot.cn/sites/16356.html",
+        "logo": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/39/fa/ae39fa8f-aa28-f211-8aa5-40fdd111feda/AppIcon-0-0-1x_U007ephone-0-85-220.png/460x0w.webp",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1178,
+        "name": "Saylo",
+        "category": "all",
+        "desc": "AI驱动的故事角色扮演游戏应用，沉浸式的剧本互动体验",
+        "url": "https://ai-bot.cn/sites/21956.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/09/Saylo-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1179,
+        "name": "Copilot",
+        "category": "all",
+        "desc": "微软推出的网页版Copilot助手",
+        "url": "https://ai-bot.cn/sites/6019.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/11/microsoft-copilot-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1180,
+        "name": "秒哒",
+        "category": "code",
+        "desc": "无代码AI应用开发平台，一句话做应用",
+        "url": "https://ai-bot.cn/sites/65909.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/02/miaoda-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1181,
+        "name": "代码小浣熊",
+        "category": "code",
+        "desc": "商汤科技推出的免费AI编程助手",
+        "url": "https://ai-bot.cn/sites/6519.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/12/sensetime-raccoon-code-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1182,
+        "name": "文心快码",
+        "category": "code",
+        "desc": "百度推出的AI编程助手，基于文心大模型",
+        "url": "https://ai-bot.cn/sites/4099.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/08/comate-baidu-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1183,
+        "name": "Qoder",
+        "category": "code",
+        "desc": "阿里巴巴推出的 AI Agentic 编程工具",
+        "url": "https://ai-bot.cn/sites/60584.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/qoder-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1184,
+        "name": "豆包AI编程",
+        "category": "code",
+        "desc": "豆包推出的AI编程新功能",
+        "url": "https://ai-bot.cn/doubao-aicoding/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/08/doubao-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1185,
+        "name": "OpenCode",
+        "category": "code",
+        "desc": "开源 AI 编程工具 ， Claude Code 最佳平替",
+        "url": "https://ai-bot.cn/sites/69806.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/OpenCode-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1186,
+        "name": "Kilo Code",
+        "category": "code",
+        "desc": "开源的 AI 编程扩展插件",
+        "url": "https://ai-bot.cn/sites/69903.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/Kilo-Code-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1187,
+        "name": "Google Antigravity",
+        "category": "audio",
+        "desc": "谷歌推出的 AI IDE 编程智能体",
+        "url": "https://ai-bot.cn/sites/66843.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/Google-Antigravity-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1188,
+        "name": "Claude Code",
+        "category": "code",
+        "desc": "Anthropic 推出的AI编程工具",
+        "url": "https://ai-bot.cn/sites/56948.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/Claude-Code-logo1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1189,
+        "name": "Codex",
+        "category": "code",
+        "desc": "OpenAI推出的AI编程模型和工具",
+        "url": "https://ai-bot.cn/sites/53.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/openai-codex-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1190,
+        "name": "Kiro",
+        "category": "all",
+        "desc": "亚马逊公司推出的 AI IDE",
+        "url": "https://ai-bot.cn/sites/57086.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/Kiro-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1191,
+        "name": "YouWare",
+        "category": "code",
+        "desc": "一站式 AI 编程社区与开发平台",
+        "url": "https://ai-bot.cn/sites/70432.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/YouWare-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1192,
+        "name": "Zcode",
+        "category": "code",
+        "desc": "智谱推出的轻量级AI IDE编程工具",
+        "url": "https://ai-bot.cn/sites/69134.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/Z-Code-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1193,
+        "name": "CodeBuddy IDE",
+        "category": "code",
+        "desc": "腾讯推出的全栈开发AI IDE",
+        "url": "https://ai-bot.cn/sites/57753.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/codebuddy-logo-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1194,
+        "name": "Lovable",
+        "category": "code",
+        "desc": "全栈AI编程工具，一句话构建网站应用",
+        "url": "https://ai-bot.cn/sites/60798.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/Lovable-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1195,
+        "name": "CatPaw",
+        "category": "code",
+        "desc": "美团推出的 AI IDE 编程工具",
+        "url": "https://ai-bot.cn/sites/65836.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/Meituan-CatPaw-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1196,
+        "name": "Augment Code",
+        "category": "image",
+        "desc": "AI编程辅助工具，专为大型代码库设计",
+        "url": "https://ai-bot.cn/sites/11625.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/04/augment-code-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1197,
+        "name": "MonkeyCode",
+        "category": "code",
+        "desc": "长亭科技开源的 AI 编程助手与企业级开发平台",
+        "url": "https://ai-bot.cn/sites/70526.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/Mokneycode-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1198,
+        "name": "iFlow CLI",
+        "category": "all",
+        "desc": "心流AI推出的免费终端 AI 智能体",
+        "url": "https://ai-bot.cn/sites/64688.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/07/iflow-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1199,
+        "name": "通义灵码",
+        "category": "code",
+        "desc": "阿里推出的免费AI编程工具，基于通义大模型",
+        "url": "https://ai-bot.cn/sites/5269.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/12/tongyi-lingma-icon-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1200,
+        "name": "Firebase Studio",
+        "category": "audio",
+        "desc": "谷歌推出的AI编程工具，一站式开发全栈应用",
+        "url": "https://ai-bot.cn/firebase-studio/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/04/Firebase-Studio-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1201,
+        "name": "Windsurf",
+        "category": "code",
+        "desc": "Codeium公司推出的AI编程工具",
+        "url": "https://ai-bot.cn/windsurf/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/11/Windsurf-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1202,
+        "name": "Bolt.new",
+        "category": "image",
+        "desc": "StackBlitz 推出的全栈AI代码工具，可以看作 Artfacts、V0 和 Replit 的结合体",
+        "url": "https://ai-bot.cn/bolt%E2%80%A4new/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/10/Bolt.new-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1203,
+        "name": "InfCode",
+        "category": "code",
+        "desc": "词元无限推出的企业级AI编程工具",
+        "url": "https://ai-bot.cn/sites/69316.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/InfCode-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1204,
+        "name": "CodeFlicker",
+        "category": "code",
+        "desc": "快手推出的AI原生IDE编程工具",
+        "url": "https://ai-bot.cn/sites/64617.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/10/CodeFlicker-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1205,
+        "name": "Clacky AI",
+        "category": "code",
+        "desc": "AI编程工具，打造L3级的Coding Studio",
+        "url": "https://ai-bot.cn/clacky-ai/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/06/Clacky-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1206,
+        "name": "Replit Agent",
+        "category": "code",
+        "desc": "AI初创公司Replit推出的AI编程工具",
+        "url": "https://ai-bot.cn/replit-agent/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/09/Replit-Agent-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1207,
+        "name": "堆友AI",
+        "category": "image",
+        "desc": "专为设计师打造的AI设计服务平台",
+        "url": "https://ai-bot.cn/sites/61378.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/07/d-design-ai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1208,
+        "name": "绘蛙",
+        "category": "image",
+        "desc": "AI电商设计工具",
+        "url": "https://ai-bot.cn/sites/9195.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/03/ihuiwa-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1209,
+        "name": "稿定AI",
+        "category": "image",
+        "desc": "一站式AI创作和设计平台",
+        "url": "https://www.gaoding.com/utms/1591aff1eb344c64a364a5e6dd7fcbdd",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/05/gaoding-design-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1210,
+        "name": "墨刀AI",
+        "category": "all",
+        "desc": "AI秒生原型稿",
+        "url": "https://ai-bot.cn/sites/2648.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/05/modao-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1211,
+        "name": "Pic Copilot",
+        "category": "image",
+        "desc": "阿里国际推出的AI电商设计工具",
+        "url": "https://ai-bot.cn/sites/32344.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/11/pic-copilot-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1212,
+        "name": "Figma AI",
+        "category": "image",
+        "desc": "Figma推出的原生AI设计工具",
+        "url": "https://ai-bot.cn/sites/13896.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/11/figma-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1213,
+        "name": "美图设计室",
+        "category": "image",
+        "desc": "AI图像创作和设计平台",
+        "url": "https://www.designkit.cn/?channel=10026",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/04/meitu-ai-ppt.jpg",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1214,
+        "name": "135 AI排版",
+        "category": "text",
+        "desc": "公众号AI图文排版和智能文案生成工具",
+        "url": "https://ai-bot.cn/sites/10754.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/04/135-ai-editor-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1215,
+        "name": "Holopix AI",
+        "category": "image",
+        "desc": "专为游戏、动漫、插画设计打造的AI设计平台",
+        "url": "https://ai-bot.cn/sites/56965.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/Holopix-AI-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1216,
+        "name": "Pixso AI",
+        "category": "image",
+        "desc": "Pixso推出的AI设计工具",
+        "url": "https://ai-bot.cn/sites/4435.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/pixso-ai-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1217,
+        "name": "Recraft AI",
+        "category": "image",
+        "desc": "免费无限AI画板，生成高质量矢量艺术画、图标、3D图片和插画",
+        "url": "https://ai-bot.cn/sites/3171.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/06/recraft-ai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1218,
+        "name": "创客贴AI",
+        "category": "image",
+        "desc": "AI辅助的智能在线设计工具",
+        "url": "https://ai-bot.cn/sites/13019.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/04/chuangkit-aiart-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1219,
+        "name": "星流AI",
+        "category": "all",
+        "desc": "LiblibAI推出的一站式AI创作工具",
+        "url": "https://ai-bot.cn/sites/61482.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/xingliu.art-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1220,
+        "name": "Onlook",
+        "category": "image",
+        "desc": "开源AI视觉编辑工具，设计修改自动同步代码",
+        "url": "https://ai-bot.cn/onlook/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/02/Onlook-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1221,
+        "name": "GemDesign",
+        "category": "image",
+        "desc": "AI原生高保真原型设计工具",
+        "url": "https://ai-bot.cn/sites/60993.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/GemDesign-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1222,
+        "name": "魔力工作室",
+        "category": "all",
+        "desc": "Canva可画推出的一站式AI创作套件",
+        "url": "https://ai-bot.cn/sites/15196.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/canva-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1223,
+        "name": "蚂上有创意",
+        "category": "image",
+        "desc": "支付宝推出的AI设计工具，面向商家提供电商设计服务",
+        "url": "https://ai-bot.cn/sites/28903.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/11/mashangyouchuangyi-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1224,
+        "name": "爱设计",
+        "category": "image",
+        "desc": "AI在线设计平台，提供多端在线拖拽设计工具",
+        "url": "https://ai-bot.cn/sites/24811.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/10/isheji-logo-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1225,
+        "name": "小墨鹰编辑器",
+        "category": "all",
+        "desc": "行业首创的AI公众号排版工具，30s搞定推文排版！",
+        "url": "https://ai-bot.cn/sites/71123.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/xmyeditor-icon1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1226,
+        "name": "美间AI",
+        "category": "image",
+        "desc": "新一代AI画布式创意设计平台",
+        "url": "https://ai-bot.cn/sites/54633.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/06/meijianai-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1227,
+        "name": "Calicat",
+        "category": "all",
+        "desc": "ProcessOn团队推出的一站式产设研协作平台",
+        "url": "https://ai-bot.cn/sites/63488.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/Calicat-AI-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1228,
+        "name": "Microsoft Designer",
+        "category": "image",
+        "desc": "微软推出的在线设计海报和宣传图工具",
+        "url": "https://ai-bot.cn/sites/945.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/microsoft-designer-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1229,
+        "name": "UXbot",
+        "category": "image",
+        "desc": "AI产品设计工具，一键生成UI与交互式原型",
+        "url": "https://ai-bot.cn/sites/65752.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/UXbot-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1230,
+        "name": "燕雀光年",
+        "category": "image",
+        "desc": "AI LOGO设计工具",
+        "url": "https://ai-bot.cn/sites/54629.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/06/yanque-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1231,
+        "name": "标小智LOGO生成器",
+        "category": "image",
+        "desc": "AI Logo设计平台，一键生成企业Logo",
+        "url": "https://ai-bot.cn/sites/1414.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/logosc-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1232,
+        "name": "Looka",
+        "category": "image",
+        "desc": "AI在线设计和生成logo",
+        "url": "https://ai-bot.cn/sites/595.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/looka-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1233,
+        "name": "智绘设计",
+        "category": "image",
+        "desc": "腾讯推出的智能设计平台，让内容更精彩",
+        "url": "https://ai-bot.cn/sites/1954.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/04/taishan-qq-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1234,
+        "name": "MasterGo AI",
+        "category": "image",
+        "desc": "国产产品设计工具MasterGo推出的智能UI设计助手",
+        "url": "https://ai-bot.cn/sites/2733.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/06/mastergo-ai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1235,
+        "name": "居然设计家",
+        "category": "image",
+        "desc": "居然之家联合阿里推出的AI家装设计平台",
+        "url": "https://ai-bot.cn/design-shejijia/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/04/shejijia-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1236,
+        "name": "FigJam AI",
+        "category": "image",
+        "desc": "Figma推出的AI白板协作设计工具",
+        "url": "https://ai-bot.cn/sites/4487.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/11/figma-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1237,
+        "name": "魔音工坊",
+        "category": "audio",
+        "desc": "AI配音工具，轻松配出媲美真人的声音",
+        "url": "https://ai-bot.cn/sites/1924.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/04/moyin-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1238,
+        "name": "讯飞智作",
+        "category": "audio",
+        "desc": "科大讯飞推出的AI转语音和配音工具",
+        "url": "https://ai-bot.cn/sites/246.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/peyin-xunfei-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1239,
+        "name": "MiniMax Audio",
+        "category": "audio",
+        "desc": "MiniMax推出的AI语音合成工具，支持声音克隆",
+        "url": "https://ai-bot.cn/minimax-audio/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/03/MiniMax-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1240,
+        "name": "海绵音乐",
+        "category": "audio",
+        "desc": "字节跳动推出的免费AI音乐创作和发现平台",
+        "url": "https://ai-bot.cn/sites/13336.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/06/haimianyinyue-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1241,
+        "name": "Keevx声音克隆",
+        "category": "audio",
+        "desc": "Keevx推出的AI声音克隆工具",
+        "url": "https://ai-bot.cn/sites/68848.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/Keevx-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1242,
+        "name": "琅琅配音",
+        "category": "audio",
+        "desc": "智能文本转语音工具",
+        "url": "https://ai-bot.cn/sites/14585.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/07/lang123-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1243,
+        "name": "千音漫语",
+        "category": "audio",
+        "desc": "AI声音创作助手，支持声音克隆",
+        "url": "https://ai-bot.cn/qianyin/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/qianyin123-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1244,
+        "name": "Noiz AI",
+        "category": "audio",
+        "desc": "AI配音工具，支持文本转语音和声音克隆",
+        "url": "https://ai-bot.cn/noiz-ai/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/04/Noiz-AI-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1245,
+        "name": "Tunee",
+        "category": "text",
+        "desc": "首个对话式音乐创作AI智能体",
+        "url": "https://ai-bot.cn/sites/64880.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/10/Tunee-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1246,
+        "name": "讯飞听见",
+        "category": "audio",
+        "desc": "科大讯飞推出的在线AI语音转文字工具",
+        "url": "https://ai-bot.cn/sites/18898.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/meeting-iflyrec-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1247,
+        "name": "NotebookLM",
+        "category": "text",
+        "desc": "谷歌推出的AI笔记应用，5分钟生成一段对话播客",
+        "url": "https://ai-bot.cn/sites/21562.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/NotebookLM-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1248,
+        "name": "Nafy AI",
+        "category": "video",
+        "desc": "在线 AI 音乐生成器，支持扩展、替换、翻唱",
+        "url": "https://ai-bot.cn/sites/71063.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/Nafy-AI-icon-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1249,
+        "name": "TurboScribe",
+        "category": "video",
+        "desc": "专业 AI 音视频转文字工具",
+        "url": "https://ai-bot.cn/sites/69917.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/TurboScribe-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1250,
+        "name": "多维视界",
+        "category": "video",
+        "desc": "一站式AI音视频智能分析平台",
+        "url": "https://ai-bot.cn/sites/69537.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/dwsj-icon-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1251,
+        "name": "天谱乐",
+        "category": "video",
+        "desc": "唱鸭团队推出的首个多模态音乐生成大模型",
+        "url": "https://ai-bot.cn/tianpuyue/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/12/tianpuyue-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1252,
+        "name": "音疯",
+        "category": "video",
+        "desc": "昆仑万维推出的AI音乐创作平台，一键生成原创歌曲",
+        "url": "https://ai-bot.cn/sites/18655.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/09/yinfeng-logo1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1253,
+        "name": "Mureka",
+        "category": "audio",
+        "desc": "昆仑万维推出的 AI 音乐商用创作平台",
+        "url": "https://ai-bot.cn/mureka/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/03/Mureka-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1254,
+        "name": "音潮",
+        "category": "audio",
+        "desc": "全栈自研的AI音乐创作平台",
+        "url": "https://ai-bot.cn/sites/66271.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/yinchao-icon-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1255,
+        "name": "音剪",
+        "category": "audio",
+        "desc": "喜马拉雅推出的一站式AI音频创作平台",
+        "url": "https://ai-bot.cn/sites/28064.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/11/yinjian-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1256,
+        "name": "音秘",
+        "category": "audio",
+        "desc": "百度推出的AI播客创作工具",
+        "url": "https://ai-bot.cn/sites/65354.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/10/AudioMyst-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1257,
+        "name": "MemoAI",
+        "category": "audio",
+        "desc": "免费的AI语音转文字工具",
+        "url": "https://ai-bot.cn/sites/17999.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/08/MemoAI-logo1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1258,
+        "name": "Reecho睿声",
+        "category": "video",
+        "desc": "超拟真的中英文AI语音克隆/生成平台",
+        "url": "https://ai-bot.cn/sites/8681.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/02/reecho-ai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1259,
+        "name": "网易天音",
+        "category": "audio",
+        "desc": "网易推出的一站式AI音乐创作工具",
+        "url": "https://ai-bot.cn/sites/702.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/tianyin-163-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1260,
+        "name": "TME Studio",
+        "category": "audio",
+        "desc": "腾讯音乐推出的智能音乐创作助手",
+        "url": "https://ai-bot.cn/sites/2056.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/05/tme-studio-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1261,
+        "name": "Lyrics Into Song AI",
+        "category": "audio",
+        "desc": "在线AI音乐创作工具，输入歌词创建个性化歌曲",
+        "url": "https://ai-bot.cn/sites/22182.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/09/Lyrics-Into-Song-AI-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1262,
+        "name": "Stable Audio",
+        "category": "video",
+        "desc": "Stability AI最新推出的音乐生成工具",
+        "url": "https://ai-bot.cn/sites/4667.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/09/stable-audio-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1263,
+        "name": "TextToSpeech",
+        "category": "text",
+        "desc": "完全免费的AI文字转语音工具",
+        "url": "https://ai-bot.cn/sites/14849.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/08/TextToSpeech-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1264,
+        "name": "夸克AI",
+        "category": "search",
+        "desc": "集AI搜索、网盘、文档、创作等功能于一体的应用",
+        "url": "https://ai-bot.cn/sites/15309.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/11/quark-logo-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1265,
+        "name": "玻尔",
+        "category": "search",
+        "desc": "新一代科研知识库与AI学术搜索平台",
+        "url": "https://ai-bot.cn/sites/58169.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/bohrium-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1266,
+        "name": "SearchGPT",
+        "category": "text",
+        "desc": "OpenAI最新推出的AI搜索引擎",
+        "url": "https://ai-bot.cn/sites/14609.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/08/SearchGPT-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1267,
+        "name": "AMiner",
+        "category": "all",
+        "desc": "智谱AI推出的大模型学术平台",
+        "url": "https://ai-bot.cn/sites/14355.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/07/aminer-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1268,
+        "name": "心流",
+        "category": "search",
+        "desc": "阿里旗下推出的AI搜索助手",
+        "url": "https://ai-bot.cn/sites/14200.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/07/iflow-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1269,
+        "name": "点点",
+        "category": "search",
+        "desc": "小红书推出的 AI 搜索应用，主打生活场景",
+        "url": "https://ai-bot.cn/diandian/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/diandian-logo-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1270,
+        "name": "Devv",
+        "category": "code",
+        "desc": "面向程序员的新一代AI搜索引擎",
+        "url": "https://ai-bot.cn/sites/7108.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/01/devv-ai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1271,
+        "name": "知乎直答",
+        "category": "search",
+        "desc": "知乎推出的AI搜索引擎，直达问题答案",
+        "url": "https://ai-bot.cn/sites/13966.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/06/zhihu-zhida-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1272,
+        "name": "纳米AI",
+        "category": "search",
+        "desc": "360推出的新一代超级AI搜索工具",
+        "url": "https://ai-bot.cn/sites/62941.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/n.AI-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1273,
+        "name": "百度AI探索版",
+        "category": "search",
+        "desc": "百度推出的深度AI搜索引擎",
+        "url": "https://ai-bot.cn/sites/28907.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/08/baidu-zuojia-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1274,
+        "name": "Felo",
+        "category": "search",
+        "desc": "免费AI智能搜索引擎，支持社交联网搜索和多语种问答结果",
+        "url": "https://ai-bot.cn/sites/18048.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/08/Felo-ai-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1275,
+        "name": "天工AI搜索",
+        "category": "search",
+        "desc": "昆仑万维最新推出的结合大模型的AI搜索引擎",
+        "url": "https://ai-bot.cn/sites/4257.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/08/tiangong-ai-search-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1276,
+        "name": "Exa AI",
+        "category": "image",
+        "desc": "专门为AI模型设计的搜索引擎平台",
+        "url": "https://ai-bot.cn/sites/14411.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/07/Exa-AI-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1277,
+        "name": "博查AI搜索",
+        "category": "search",
+        "desc": "支持多模型的AI搜索引擎",
+        "url": "https://ai-bot.cn/sites/11402.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/04/bocha-ai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1278,
+        "name": "WisPaper",
+        "category": "search",
+        "desc": "复旦团队推出的 AI 学术搜索工具",
+        "url": "https://ai-bot.cn/sites/62394.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/WisPaper-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1279,
+        "name": "CuspAI",
+        "category": "search",
+        "desc": "剑桥大学推出的材料学专业AI搜索工具",
+        "url": "https://ai-bot.cn/sites/15220.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/08/CuspAI-website.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1280,
+        "name": "博简智慧专利",
+        "category": "all",
+        "desc": "AI专利查新检索与撰写平台",
+        "url": "https://ai-bot.cn/sites/61089.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/pagentia-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1281,
+        "name": "链企AI",
+        "category": "text",
+        "desc": "链企智能推出的AI商业搜索和AI标书写作工具",
+        "url": "https://ai-bot.cn/sites/15865.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/lianqiai-webiste.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1282,
+        "name": "360AI搜索",
+        "category": "search",
+        "desc": "360推出的新一代AI搜索引擎",
+        "url": "https://ai-bot.cn/sites/11897.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/05/360-ai-search-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1283,
+        "name": "问问小宇宙",
+        "category": "search",
+        "desc": "小宇宙推出的AI搜索产品",
+        "url": "https://ai-bot.cn/sites/14818.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/07/xiaoyuzhou-website.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1284,
+        "name": "Dexa AI",
+        "category": "search",
+        "desc": "AI播客搜索工具",
+        "url": "https://ai-bot.cn/sites/15211.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/08/dexa-ai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1285,
+        "name": "XAnswer",
+        "category": "image",
+        "desc": "支持生成思维导图的免费AI搜索工具",
+        "url": "https://ai-bot.cn/sites/15156.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/08/XAnswer-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1286,
+        "name": "Glean",
+        "category": "image",
+        "desc": "专为职场人设计的AI搜索引擎",
+        "url": "https://ai-bot.cn/sites/16367.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/08/Glean-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1287,
+        "name": "AlphaSense",
+        "category": "image",
+        "desc": "专为金融专业人士设计的AI搜索工具",
+        "url": "https://ai-bot.cn/sites/15233.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/08/AlphaSense-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1288,
+        "name": "Globe Explorer",
+        "category": "search",
+        "desc": "结构化AI知识搜索引擎",
+        "url": "https://ai-bot.cn/sites/11840.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/05/globe-explorer-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1289,
+        "name": "Reportify",
+        "category": "search",
+        "desc": "AI投资研究问答搜索引擎",
+        "url": "https://ai-bot.cn/sites/9857.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/03/reportify-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1290,
+        "name": "Phind",
+        "category": "image",
+        "desc": "专为开发者设计的AI搜索引擎",
+        "url": "https://ai-bot.cn/sites/11852.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/05/phind-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1291,
+        "name": "iAsk AI",
+        "category": "search",
+        "desc": "快速准确的AI搜索引擎",
+        "url": "https://ai-bot.cn/sites/11849.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/05/iask-ai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1292,
+        "name": "秒哒",
+        "category": "code",
+        "desc": "无代码AI应用开发平台，一句话做应用",
+        "url": "https://ai-bot.cn/sites/65909.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/02/miaoda-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1293,
+        "name": "Coze",
+        "category": "all",
+        "desc": "海量AI智能体免费用，一键复制同款",
+        "url": "https://ai-bot.cn/sites/6791.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/Coze-logo-2.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1294,
+        "name": "码上飞",
+        "category": "video",
+        "desc": "一句话生成微信小程序、APP、H5网页",
+        "url": "https://ai-bot.cn/sites/60995.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/CodeFlying-icon-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1295,
+        "name": "响指HaiSnap",
+        "category": "code",
+        "desc": "AI零代码应用开发平台，可视化编辑迭代",
+        "url": "https://ai-bot.cn/sites/64863.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/05/HaiSnap-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1296,
+        "name": "讯飞星辰Agent",
+        "category": "all",
+        "desc": "AI智能体开发平台",
+        "url": "https://ai-bot.cn/sites/50068.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/04/xunfei-xingchen-agent-logo-1.jpg",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1297,
+        "name": "BigModel",
+        "category": "code",
+        "desc": "GLM-4.7编程能力媲美Claude Sonnet 4.5，首购5折！",
+        "url": "https://ai-bot.cn/sites/15446.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/08/BigModel-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1298,
+        "name": "AI Ping",
+        "category": "all",
+        "desc": "大模型服务评测与API调用平台",
+        "url": "https://ai-bot.cn/sites/61493.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/AI-Ping-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1299,
+        "name": "英博云AI算力",
+        "category": "all",
+        "desc": "英博数科推出的GPU智算服务云平台",
+        "url": "https://ai-bot.cn/sites/66477.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/ebtech-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1300,
+        "name": "Google AI Studio",
+        "category": "all",
+        "desc": "免费体验和测试 Google 最新的 AI 模型",
+        "url": "https://ai-bot.cn/sites/61081.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/Google-AI-Studio-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1301,
+        "name": "阿里云百炼",
+        "category": "all",
+        "desc": "一站式大模型开发与应用构建平台（免费领5.5折优惠券）",
+        "url": "https://ai-bot.cn/sites/50019.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/04/aliyun-bailian-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1302,
+        "name": "Zion",
+        "category": "code",
+        "desc": "全栈开发AI Agent应用的无代码开发平台",
+        "url": "https://ai-bot.cn/zion/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/09/Zion-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1303,
+        "name": "n8n",
+        "category": "code",
+        "desc": "开源的低代码AI工作流自动化工具",
+        "url": "https://ai-bot.cn/sites/62594.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/n8n-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1304,
+        "name": "Dify",
+        "category": "video",
+        "desc": "开源的生成式AI应用开发平台",
+        "url": "https://ai-bot.cn/dify/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/02/Dify-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1305,
+        "name": "FastGPT",
+        "category": "text",
+        "desc": "免费AI工作流搭建工具 自动化提高效率",
+        "url": "https://ai-bot.cn/sites/65189.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/10/FastGPT-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1306,
+        "name": "灵光",
+        "category": "text",
+        "desc": "蚂蚁推出的AI对话与应用生成平台",
+        "url": "https://ai-bot.cn/sites/68455.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/lingguang-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1307,
+        "name": "快马InsCode",
+        "category": "text",
+        "desc": "通过对话、设计图或文章链接生成工程项目代码",
+        "url": "https://ai-bot.cn/sites/67000.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/kuaimaai-logo-1-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1308,
+        "name": "BASE44",
+        "category": "code",
+        "desc": "零代码AI应用开发平台",
+        "url": "https://ai-bot.cn/base44/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/06/base44-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1309,
+        "name": "Trickle AI",
+        "category": "code",
+        "desc": "一站式无代码 AI 开发平台",
+        "url": "https://ai-bot.cn/sites/58463.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/Trickle-AI-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1310,
+        "name": "Refly",
+        "category": "all",
+        "desc": "全球首个开源 Vibe Workflow 平台",
+        "url": "https://ai-bot.cn/sites/58318.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/Refly-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1311,
+        "name": "NoCode",
+        "category": "code",
+        "desc": "美团推出的零代码AI应用开发平台",
+        "url": "https://ai-bot.cn/nocode/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/05/nocode-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1312,
+        "name": "OpenRouter",
+        "category": "all",
+        "desc": "AI 模型 API 聚合平台，一个接口调用400多个模型",
+        "url": "https://ai-bot.cn/sites/58373.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/OpenRouter-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1313,
+        "name": "SiliconFlow",
+        "category": "video",
+        "desc": "生成式AI计算基础设施平台",
+        "url": "https://ai-bot.cn/sites/35828.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/06/SiliconFlow-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1314,
+        "name": "SophNet",
+        "category": "all",
+        "desc": "DeepSeek API 推理速度最快的平台，没有之一",
+        "url": "https://ai-bot.cn/sites/68197.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/SophNet-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1315,
+        "name": "晨涧云",
+        "category": "all",
+        "desc": "AI算力平台，GPU算力租赁、开箱即用",
+        "url": "https://ai-bot.cn/sites/68111.html",
+        "logo": "https://www.mornai.cn/icon-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1316,
+        "name": "LLaMA-Factory Online",
+        "category": "code",
+        "desc": "在线AI大模型微调平台，零代码、可视化操作",
+        "url": "https://ai-bot.cn/sites/67872.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/LLaMA-Factory-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1317,
+        "name": "大模型实验室",
+        "category": "all",
+        "desc": "在线大模型训练微调及AI科研学习平台",
+        "url": "https://ai-bot.cn/sites/67775.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/Lab4AI-icon-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1318,
+        "name": "APIMart",
+        "category": "image",
+        "desc": "一站式 AI API 平台，多主流模型统一访问",
+        "url": "https://ai-bot.cn/sites/67128.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/APIMart-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1319,
+        "name": "DMXAPI",
+        "category": "all",
+        "desc": "一个Key用全球大模型",
+        "url": "https://ai-bot.cn/sites/65534.html",
+        "logo": "https://dmxapi.cn/DMXAPI-D.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1320,
+        "name": "小马算力",
+        "category": "all",
+        "desc": "AI模型API聚合平台，自由调用不同模型",
+        "url": "https://ai-bot.cn/sites/64827.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/10/tokenpony-icon-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1321,
+        "name": "搭叩",
+        "category": "all",
+        "desc": "心流AI旗下异步AI智能体开发平台",
+        "url": "https://ai-bot.cn/sites/64715.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/10/dakou-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1322,
+        "name": "AI大学堂",
+        "category": "all",
+        "desc": "科大讯飞推出的在线AI学习平台",
+        "url": "https://ai-bot.cn/sites/1450.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/04/aidaxue-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1323,
+        "name": "堆友AI学习",
+        "category": "image",
+        "desc": "堆友AI推出的AI设计知识学习网站",
+        "url": "https://ai-bot.cn/sites/61404.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/d.design-logo1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1324,
+        "name": "AI分享圈",
+        "category": "all",
+        "desc": "最好最全的AI免费资源分享网站",
+        "url": "https://ai-bot.cn/sites/59568.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/Sharenet.ai-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1325,
+        "name": "OpenAI Academy",
+        "category": "all",
+        "desc": "OpenAI 推出的免费 AI 学习平台",
+        "url": "https://ai-bot.cn/openai-academy/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/07/SearchGPT-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1326,
+        "name": "Day of AI",
+        "category": "all",
+        "desc": "麻省理工学院（MIT）推出的免费AI学习平台",
+        "url": "https://ai-bot.cn/sites/36329.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/12/Day-of-AI-logo-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1327,
+        "name": "fast.ai",
+        "category": "all",
+        "desc": "免费开源的深度学习和AI学习网站，让每个人都参与到AI！",
+        "url": "https://ai-bot.cn/sites/1356.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/04/fast-ai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1328,
+        "name": "学吧导航",
+        "category": "all",
+        "desc": "学习爱好者首选的学霸导航网站",
+        "url": "https://ai-bot.cn/sites/60386.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/xue8nav-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1329,
+        "name": "Coursera",
+        "category": "all",
+        "desc": "知名MOOC平台，提供众多人工智能和机器学习课程",
+        "url": "https://ai-bot.cn/sites/22.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/coursera-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1330,
+        "name": "Elements of AI",
+        "category": "all",
+        "desc": "免费在线AI通识学习课程",
+        "url": "https://ai-bot.cn/sites/19.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/elements-of-ai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1331,
+        "name": "DeepLearning.AI",
+        "category": "all",
+        "desc": "深度学习和人工智能学习平台",
+        "url": "https://ai-bot.cn/sites/18.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/deeplearning-ai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1332,
+        "name": "动手学深度学习",
+        "category": "all",
+        "desc": "结合理论与实践的深度学习教材和课程",
+        "url": "https://ai-bot.cn/sites/432.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/d2l-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1333,
+        "name": "MachineLearningMastery",
+        "category": "all",
+        "desc": "免费在线的机器学习平台，提供从基础到高级全面教程",
+        "url": "https://ai-bot.cn/sites/437.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/machinelearningmastery-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1334,
+        "name": "Generative AI for Beginners",
+        "category": "video",
+        "desc": "微软推出的面向初学者的免费生成式人工智能课程",
+        "url": "https://ai-bot.cn/sites/6039.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/11/genai-for-beginners-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1335,
+        "name": "ML for Beginners",
+        "category": "all",
+        "desc": "微软推出的免费开源的机器学习课程，GitHub标星7万+",
+        "url": "https://ai-bot.cn/sites/1462.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/04/ml-for-beginners-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1336,
+        "name": "Kaggle",
+        "category": "all",
+        "desc": "机器学习和数据科学社区",
+        "url": "https://ai-bot.cn/sites/21.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/kaggle-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1337,
+        "name": "神经网络入门",
+        "category": "all",
+        "desc": "Brilliant推出的Introduction to Neural Networks课程",
+        "url": "https://ai-bot.cn/sites/434.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/brilliant-intro-neural-networks-website-2.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1338,
+        "name": "Trancy",
+        "category": "all",
+        "desc": "AI驱动的语言学习工具",
+        "url": "https://ai-bot.cn/sites/6807.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/12/trancy-ai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1339,
+        "name": "Reading Coach",
+        "category": "all",
+        "desc": "微软推出的免费个性化AI阅读学习教练",
+        "url": "https://ai-bot.cn/sites/7785.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/01/reading-coach-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1340,
+        "name": "飞桨AI Studio",
+        "category": "all",
+        "desc": "百度推出的AI学习与实训社区",
+        "url": "https://ai-bot.cn/sites/23.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/paddlepaddle-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1341,
+        "name": "腾讯扣叮",
+        "category": "code",
+        "desc": "腾讯推出的青少年编程教育平台",
+        "url": "https://ai-bot.cn/sites/26659.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/10/qqcoding-website-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1342,
+        "name": "阿里云AI学习路线",
+        "category": "all",
+        "desc": "阿里云推出的人工智能学习路线（学+测）",
+        "url": "https://ai-bot.cn/sites/1057.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/aliyun-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1343,
+        "name": "Udacity AI学院",
+        "category": "all",
+        "desc": "Udacity推出的School of AI，从入门到高级",
+        "url": "https://ai-bot.cn/sites/1055.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/Udacity-AI-school-website1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1344,
+        "name": "Google AI",
+        "category": "all",
+        "desc": "Google AI学习平台",
+        "url": "https://ai-bot.cn/sites/20.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/google-ai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1345,
+        "name": "ShowMeAI知识社区",
+        "category": "all",
+        "desc": "人工智能领域的资料库和学习社区",
+        "url": "https://ai-bot.cn/sites/1444.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/04/showmeai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1346,
+        "name": "txyz",
+        "category": "all",
+        "desc": "AI文献阅读和学术研究辅助平台",
+        "url": "https://ai-bot.cn/sites/11135.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/04/txyz-ai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1347,
+        "name": "Nano Banana",
+        "category": "image",
+        "desc": "谷歌推出的图像生成与编辑模型",
+        "url": "https://ai-bot.cn/sites/68274.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/Nano-Banana-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1348,
+        "name": "Cherry Studio",
+        "category": "all",
+        "desc": "开源全能 AI 客户端助手",
+        "url": "https://ai-bot.cn/sites/60108.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/02/CherryStudio-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1349,
+        "name": "Ollama",
+        "category": "all",
+        "desc": "本地运行Llama和其他大语言模型",
+        "url": "https://ai-bot.cn/sites/5973.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/12/ollama-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1350,
+        "name": "AnythingLLM",
+        "category": "all",
+        "desc": "开源的全栈 AI 客户端，支持本地部署和API集成",
+        "url": "https://ai-bot.cn/anythingllm/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/02/AnythingLLM-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1351,
+        "name": "Chatbox AI",
+        "category": "text",
+        "desc": "开源的AI客户端助手，支持多种主流AI模型",
+        "url": "https://ai-bot.cn/chatbox-ai/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/02/chatboxai-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1352,
+        "name": "魔搭社区",
+        "category": "all",
+        "desc": "阿里达摩院推出的AI模型社区，超过300+开源AI模型",
+        "url": "https://ai-bot.cn/sites/1487.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/04/modelscope-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1353,
+        "name": "豆包大模型",
+        "category": "video",
+        "desc": "字节跳动推出的AI大模型家族，包括视频生成、语音视觉、通用语言模型等",
+        "url": "https://ai-bot.cn/sites/22232.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/09/doubao-llm-logo1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1354,
+        "name": "Codex",
+        "category": "code",
+        "desc": "OpenAI推出的AI编程模型和工具",
+        "url": "https://ai-bot.cn/sites/53.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/openai-codex-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1355,
+        "name": "讯飞星辰MaaS",
+        "category": "all",
+        "desc": "科大讯飞推出的AI大模型定制训练平台",
+        "url": "https://ai-bot.cn/xunfei-xingchen-maas/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/11/xunfei-xingchen-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1356,
+        "name": "无阶未来",
+        "category": "all",
+        "desc": "AI应用与弹性算网平台",
+        "url": "https://ai-bot.cn/sites/50603.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/05/aivinla-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1357,
+        "name": "AutoGPT",
+        "category": "text",
+        "desc": "爆火的实现GPT-4完全自主的实验性开源项目，GitHub超10万星",
+        "url": "https://ai-bot.cn/sites/1626.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/AutoGPT-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1358,
+        "name": "Jan",
+        "category": "text",
+        "desc": "本地运行大模型并进行AI对话的工具，免费开源",
+        "url": "https://ai-bot.cn/sites/7412.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/01/jan-ai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1359,
+        "name": "AgentGPT",
+        "category": "text",
+        "desc": "在浏览器中组装、配置和部署自主人工智能的开源项目",
+        "url": "https://ai-bot.cn/sites/1623.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/AgentGPT-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1360,
+        "name": "OpenBMB",
+        "category": "all",
+        "desc": "清华团队支持发起的大规模预训练语言模型库与相关工具",
+        "url": "https://ai-bot.cn/sites/1129.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/04/openbmb-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1361,
+        "name": "Llama 3",
+        "category": "all",
+        "desc": "Meta最新开源推出的新一代大模型",
+        "url": "https://ai-bot.cn/sites/11341.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/meta-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1362,
+        "name": "Gemma",
+        "category": "audio",
+        "desc": "谷歌推出的新一代轻量级开放模型",
+        "url": "https://ai-bot.cn/sites/8623.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/02/google-gemma-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1363,
+        "name": "GPT-4o",
+        "category": "text",
+        "desc": "OpenAI最新发布的多模态AI大模型，可自然流畅地进行语音对话",
+        "url": "https://ai-bot.cn/openai-gpt-4o/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/openai-gpt-model.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1364,
+        "name": "腾讯混元大模型",
+        "category": "all",
+        "desc": "腾讯研发的大语言模型，具备强大的中文创作能力，复杂语境下的逻辑推理能力，以及可靠的任务执行能力",
+        "url": "https://ai-bot.cn/sites/4558.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/09/hunyuan-tencent-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1365,
+        "name": "书生大模型",
+        "category": "all",
+        "desc": "上海人工智能实验室推出的系列AI模型",
+        "url": "https://ai-bot.cn/sites/53308.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/06/shusheng-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1366,
+        "name": "GPT-4",
+        "category": "text",
+        "desc": "OpenAI旗下最新的GPT-4模型",
+        "url": "https://ai-bot.cn/sites/49.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/02/gpt-4-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1367,
+        "name": "DALL·E 3",
+        "category": "image",
+        "desc": "OpenAI旗下最新的图像生成模型",
+        "url": "https://ai-bot.cn/sites/50.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/dall-e-2-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1368,
+        "name": "文心大模型",
+        "category": "all",
+        "desc": "百度推出的产业级知识增强大模型",
+        "url": "https://ai-bot.cn/sites/1078.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/paddlepaddle-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1369,
+        "name": "LLaMA",
+        "category": "all",
+        "desc": "Meta（Facebook）推出的AI大语言模型",
+        "url": "https://ai-bot.cn/sites/54.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/meta-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1370,
+        "name": "悟道",
+        "category": "all",
+        "desc": "智源“悟道”大模型，中国首个+世界最大人工智能大模型",
+        "url": "https://ai-bot.cn/sites/1083.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/wudao-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1371,
+        "name": "MiracleVision奇想智能",
+        "category": "image",
+        "desc": "美图推出的AI视觉大模型，支持AI图像、设计和视频创作",
+        "url": "https://ai-bot.cn/sites/6279.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/12/miraclevision-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1372,
+        "name": "Gradio",
+        "category": "all",
+        "desc": "开源的搭建机器学习模型UI界面的Python库",
+        "url": "https://ai-bot.cn/sites/2147.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/05/gradio-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1373,
+        "name": "DeepFloyd IF",
+        "category": "image",
+        "desc": "StabilityAI旗下的DeepFloyd团队推出的图片生成模型",
+        "url": "https://ai-bot.cn/sites/2141.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/05/deepfloyd-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1374,
+        "name": "Cohere",
+        "category": "all",
+        "desc": "构建AI产品的大语言模型平台",
+        "url": "https://ai-bot.cn/sites/2452.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/05/cohere-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1375,
+        "name": "序列猴子",
+        "category": "all",
+        "desc": "出门问问推出的一款超大规模的语言模型",
+        "url": "https://ai-bot.cn/sites/1933.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/04/openapi-mobvoi-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1376,
+        "name": "AI Ping",
+        "category": "all",
+        "desc": "一站式大模型服务评测与模型API调用平台",
+        "url": "https://ai-bot.cn/sites/61493.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/AI-Ping-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1377,
+        "name": "MagicArena",
+        "category": "video",
+        "desc": "字节推出的视觉生成模型对战平台",
+        "url": "https://ai-bot.cn/sites/65640.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/aigcarena-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1378,
+        "name": "MMLU",
+        "category": "all",
+        "desc": "大规模多任务语言理解基准",
+        "url": "https://ai-bot.cn/sites/5434.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/11/mmlu-benchmark-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1379,
+        "name": "Open LLM Leaderboard",
+        "category": "all",
+        "desc": "Hugging Face推出的开源大模型排行榜单",
+        "url": "https://ai-bot.cn/sites/5435.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/huggingface-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1380,
+        "name": "C-Eval",
+        "category": "all",
+        "desc": "一个全面的中文基础模型评估套件",
+        "url": "https://ai-bot.cn/sites/5433.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/11/c-eval-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1381,
+        "name": "FlagEval",
+        "category": "all",
+        "desc": "智源研究院推出的FlagEval（天秤）大模型评测平台",
+        "url": "https://ai-bot.cn/sites/5442.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/11/flageval-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1382,
+        "name": "SuperCLUE",
+        "category": "all",
+        "desc": "中文通用大模型综合性测评基准",
+        "url": "https://ai-bot.cn/sites/5437.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/11/superclue-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1383,
+        "name": "AGI-Eval",
+        "category": "all",
+        "desc": "AI大模型评测社区",
+        "url": "https://ai-bot.cn/sites/34764.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/12/AGI-Eval-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1384,
+        "name": "OpenCompass",
+        "category": "all",
+        "desc": "上海人工智能实验室推出的大模型开放评测体系",
+        "url": "https://ai-bot.cn/sites/5443.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/11/opencompass-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1385,
+        "name": "CMMLU",
+        "category": "all",
+        "desc": "一个综合性的大模型中文评估基准",
+        "url": "https://ai-bot.cn/sites/5436.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/11/cmmlu-benchmark-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1386,
+        "name": "MMBench",
+        "category": "all",
+        "desc": "全方位的多模态大模型能力评测体系",
+        "url": "https://ai-bot.cn/sites/5444.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/11/mmbench-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1387,
+        "name": "HELM",
+        "category": "all",
+        "desc": "斯坦福大学推出的大模型评测体系",
+        "url": "https://ai-bot.cn/sites/5447.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/11/helm-benchmark.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1388,
+        "name": "LMArena",
+        "category": "all",
+        "desc": "AI模型评估平台",
+        "url": "https://ai-bot.cn/sites/5441.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/LMArena-website.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1389,
+        "name": "LLMEval3",
+        "category": "all",
+        "desc": "由复旦大学NLP实验室推出的大模型评测基准",
+        "url": "https://ai-bot.cn/sites/5448.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/11/llm-eval-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1390,
+        "name": "H2O EvalGPT",
+        "category": "text",
+        "desc": "H2O.ai推出的基于Elo评级方法的大模型评估系统",
+        "url": "https://ai-bot.cn/sites/5446.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/11/h2o-evalgpt-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1391,
+        "name": "PubMedQA",
+        "category": "all",
+        "desc": "生物医学研究问答数据集和模型得分排行榜",
+        "url": "https://ai-bot.cn/sites/5477.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/11/pubmedqa-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1392,
+        "name": "朱雀AI检测",
+        "category": "all",
+        "desc": "腾讯推出的AI内容检测助手",
+        "url": "https://ai-bot.cn/sites/68275.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/02/matrix-tencent-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1393,
+        "name": "GPTZero",
+        "category": "text",
+        "desc": "超过百万人都在用的免费AI内容检测工具",
+        "url": "https://ai-bot.cn/sites/395.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/11/gptzero-icon-new.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1394,
+        "name": "StudyCorgi ChatGPT Detector",
+        "category": "text",
+        "desc": "免费的检测论文是否由ChatGPT生成的工具",
+        "url": "https://ai-bot.cn/sites/411.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/studycorgi-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1395,
+        "name": "AISEO AI Content Detector",
+        "category": "all",
+        "desc": "AISEO推出的AI内容检测器",
+        "url": "https://ai-bot.cn/sites/408.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/aiseo-ai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1396,
+        "name": "Proofig",
+        "category": "image",
+        "desc": "AI检测科研图像是否造假抄袭",
+        "url": "https://ai-bot.cn/sites/7189.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/01/proofig-ai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1397,
+        "name": "Writecream AI Content Detector",
+        "category": "all",
+        "desc": "Writecream推出的AI内容检测工具",
+        "url": "https://ai-bot.cn/sites/407.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/writecream-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1398,
+        "name": "Smodin AI Content Detector",
+        "category": "all",
+        "desc": "多语种AI内容检测工具",
+        "url": "https://ai-bot.cn/sites/406.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/smodin-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1399,
+        "name": "Sapling AI Content Detector",
+        "category": "all",
+        "desc": "Sapling.ai推出的免费在线AI内容检测工具",
+        "url": "https://ai-bot.cn/sites/396.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/sapling-ai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1400,
+        "name": "挖错网",
+        "category": "all",
+        "desc": "AI内容审核校对平台，一键检测内容自动纠错",
+        "url": "https://ai-bot.cn/sites/47103.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/04/wacuowang-logo-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1401,
+        "name": "团象",
+        "category": "all",
+        "desc": "AI内容检测与优化平台",
+        "url": "https://ai-bot.cn/sites/16912.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/xueshu.tuanxiang-website2.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1402,
+        "name": "AI Content Detector",
+        "category": "all",
+        "desc": "Writer推出的AI内容检测工具",
+        "url": "https://ai-bot.cn/sites/393.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/writer-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1403,
+        "name": "Originality.AI",
+        "category": "all",
+        "desc": "原创度和AI内容检测",
+        "url": "https://ai-bot.cn/sites/180.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/originality-ai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1404,
+        "name": "CopyLeaks",
+        "category": "all",
+        "desc": "AI内容检测和分级",
+        "url": "https://ai-bot.cn/sites/169.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/copyleaks-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1405,
+        "name": "Winston AI",
+        "category": "all",
+        "desc": "强大的AI内容检测解决方案",
+        "url": "https://ai-bot.cn/sites/156.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/winston-ai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1406,
+        "name": "CheckforAi",
+        "category": "all",
+        "desc": "免费在线检测AI内容工具",
+        "url": "https://ai-bot.cn/sites/599.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/checkforai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1407,
+        "name": "PromptPilot",
+        "category": "all",
+        "desc": "火山方舟推出的AI提示词解决方案平台",
+        "url": "https://ai-bot.cn/sites/69602.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/PromptPilot-website3.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1408,
+        "name": "幂简AI提示词商城",
+        "category": "all",
+        "desc": "AI提示词交易与管理平台，支持定制",
+        "url": "https://ai-bot.cn/sites/68309.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/prompts.explinks-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1409,
+        "name": "提示工程指南",
+        "category": "all",
+        "desc": "提示工程指南（Prompt Engine...",
+        "url": "https://ai-bot.cn/sites/2818.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/06/prompt-engineering-guide-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1410,
+        "name": "Google AI提示词库",
+        "category": "audio",
+        "desc": "谷歌推出的AI提示词库",
+        "url": "https://ai-bot.cn/sites/61488.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/Google-Cloud-prompt-gallery-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1411,
+        "name": "PromptPerfect",
+        "category": "all",
+        "desc": "PromptPerfect 是一款专业好...",
+        "url": "https://ai-bot.cn/sites/4963.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/10/promptperfect-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1412,
+        "name": "Stable Diffusion Prompt Book",
+        "category": "image",
+        "desc": "OpenArt平台推出的免费提示词指南手册",
+        "url": "https://ai-bot.cn/sites/767.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/openart-ai-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1413,
+        "name": "Local Banana",
+        "category": "image",
+        "desc": "专注于AI图像Prompt收集与结构化的平台",
+        "url": "https://ai-bot.cn/sites/68915.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/Local-Banana-icon-1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1414,
+        "name": "PromptHero",
+        "category": "search",
+        "desc": "AI提示词优化与搜索平台",
+        "url": "https://ai-bot.cn/sites/743.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/prompt-hero-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1415,
+        "name": "ClickPrompt",
+        "category": "image",
+        "desc": "在线AI提示词设计工具",
+        "url": "https://ai-bot.cn/sites/756.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/clickprompt-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1416,
+        "name": "AI Prompt Generator",
+        "category": "all",
+        "desc": "AI Prompt Generator是什么 A...",
+        "url": "https://ai-bot.cn/sites/23110.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/10/AI-Prompt-Generator-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1417,
+        "name": "AI Short",
+        "category": "all",
+        "desc": "AI提示词管理和共享平台，多种场景的快捷指令",
+        "url": "https://ai-bot.cn/sites/23106.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/10/AI-Short-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1418,
+        "name": "LangGPT",
+        "category": "text",
+        "desc": "LangGPT是什么 LangGPT是一种...",
+        "url": "https://ai-bot.cn/sites/23101.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2024/10/LangGPT-logo1.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1419,
+        "name": "Generrated",
+        "category": "all",
+        "desc": "AI提示词参考平台",
+        "url": "https://ai-bot.cn/sites/1279.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/04/generrated-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1420,
+        "name": "PublicPrompts",
+        "category": "all",
+        "desc": "PublicPrompts是什么 PublicP...",
+        "url": "https://ai-bot.cn/sites/795.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/public-prompts-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1421,
+        "name": "Snack Prompt",
+        "category": "all",
+        "desc": "输入正确的提示词，可以让Cha...",
+        "url": "https://ai-bot.cn/sites/1899.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/04/snack-prompt-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1422,
+        "name": "AIPRM",
+        "category": "all",
+        "desc": "AI 提示词库和提示词管理工具",
+        "url": "https://ai-bot.cn/sites/749.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/aiprm-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1423,
+        "name": "PromptFolder",
+        "category": "video",
+        "desc": "AI提示词生成和管理工具",
+        "url": "https://ai-bot.cn/sites/760.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/PromptFolder-logo.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1424,
+        "name": "AI Prompt Genius",
+        "category": "all",
+        "desc": "AI提示词库创建和管理工具",
+        "url": "https://ai-bot.cn/sites/748.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/chatgpt-prompt-genius-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1425,
+        "name": "PromptBase",
+        "category": "all",
+        "desc": "AI Prompt交易平台",
+        "url": "https://ai-bot.cn/promptbase/",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/promptbase-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1426,
+        "name": "AI Prompt Library",
+        "category": "all",
+        "desc": "免费的AI 提示词资源平台",
+        "url": "https://ai-bot.cn/sites/747.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/promptvine-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1427,
+        "name": "Awesome ChatGPT Prompts",
+        "category": "text",
+        "desc": "AI提示词收集和整理工具",
+        "url": "https://ai-bot.cn/sites/746.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/awesome-chatgpt-prompt-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    },
+    {
+        "id": 1428,
+        "name": "Learning Prompt",
+        "category": "all",
+        "desc": "免费的AI提示词学习平台",
+        "url": "https://ai-bot.cn/sites/744.html",
+        "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/learning-prompt-icon.png",
+        "tags": [
+            "New"
+        ],
+        "pricing": "未知",
+        "visits": "Hot",
+        "rating": 4.5
+    }
+];

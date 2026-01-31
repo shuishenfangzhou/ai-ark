@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 工具全景导航 | 真实链接版</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .tool-card { transition: all 0.2s ease; }
+        .tool-card:hover { transform: translateY(-4px); box-shadow: 0 10px 20px rgba(0,0,0,0.08); }
+        .logo-container img { object-fit: contain; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans min-h-screen flex flex-col">
+
+    <!-- Navbar -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 h-16 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <div class="w-8 h-8 bg-blue-600 rounded flex items-center justify-center text-white"><i class="fa-solid fa-layer-group"></i></div>
+                <span class="font-bold text-xl">AI Bot Nav</span>
+            </div>
+            <div class="flex-1 max-w-lg mx-8 hidden md:block">
+                <input type="text" id="search-input" placeholder="搜索 DeepSeek, ChatGPT..." class="w-full px-4 py-2 bg-slate-100 border-none rounded-full focus:ring-2 focus:ring-blue-500 outline-none">
+            </div>
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-full text-sm hover:bg-blue-700">登录/注册</button>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 py-8 w-full flex-grow">
+        
+        <!-- Stats -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            <div class="bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl p-6 text-white shadow-lg">
+                <h3 class="text-lg opacity-90">收录工具</h3>
+                <p class="text-4xl font-bold mt-2" id="total-count">0</p>
+                <p class="text-sm opacity-75 mt-1">持续更新中...</p>
+            </div>
+            <!-- Chart Placeholder -->
+            <div class="md:col-span-2 bg-white rounded-xl p-4 shadow-sm border border-slate-100 h-48 relative">
+                <canvas id="categoryChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Filters -->
+        <div class="flex flex-wrap gap-2 mb-6" id="filters">
+            <button class="px-4 py-1.5 rounded-full bg-slate-800 text-white text-sm" data-cat="all">全部</button>
+            <button class="px-4 py-1.5 rounded-full bg-white text-slate-600 border border-slate-200 text-sm hover:bg-slate-50" data-cat="text">文本对话</button>
+            <button class="px-4 py-1.5 rounded-full bg-white text-slate-600 border border-slate-200 text-sm hover:bg-slate-50" data-cat="image">绘画设计</button>
+            <button class="px-4 py-1.5 rounded-full bg-white text-slate-600 border border-slate-200 text-sm hover:bg-slate-50" data-cat="code">代码编程</button>
+            <button class="px-4 py-1.5 rounded-full bg-white text-slate-600 border border-slate-200 text-sm hover:bg-slate-50" data-cat="video">视频生成</button>
+        </div>
+
+        <!-- Grid -->
+        <div id="tools-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+            <!-- Content injected by JS -->
+        </div>
+
+    </main>
+
+    <!-- 引用生成的 JS 数据 (如未生成，下方有 Fallback 数据防止报错) -->
+    <script src="js/tools_data.js"></script> 
+    
+    <script>
+        // Fallback 数据 (如果本地没有 tools_data.js，使用此数据确保页面不白屏)
+        if (typeof aiToolsData === 'undefined') {
+            console.warn("未检测到 js/tools_data.js，使用临时数据。请运行 python tools_manager.py 生成真实数据。");
+            var aiToolsData = [
+                {
+                    name: "请运行Python脚本", category: "other", desc: "运行 tools_manager.py 以获取真实数据。", 
+                    url: "#", logo: "https://via.placeholder.com/100?text=Run+Script", tags: ["提示"]
+                }
+            ];
+        }
+
+        const grid = document.getElementById('tools-grid');
+        const countEl = document.getElementById('total-count');
+
+        function render(data) {
+            grid.innerHTML = '';
+            countEl.innerText = data.length;
+            
+            data.forEach(tool => {
+                const card = document.createElement('div');
+                card.className = 'tool-card bg-white rounded-xl p-4 border border-slate-100 flex flex-col cursor-pointer group relative overflow-hidden';
+                
+                // 处理 Logo 加载失败的情况
+                const logoSrc = tool.logo || 'https://via.placeholder.com/64?text=AI';
+                
+                card.innerHTML = `
+                    <div class="flex items-start justify-between mb-3">
+                        <div class="w-12 h-12 rounded-lg bg-slate-50 border border-slate-100 flex items-center justify-center logo-container overflow-hidden">
+                            <img src="${logoSrc}" alt="${tool.name}" class="w-10 h-10" onerror="this.src='https://via.placeholder.com/64?text=${tool.name[0]}'">
+                        </div>
+                        <div class="bg-slate-50 text-slate-500 text-xs px-2 py-1 rounded">
+                            ${tool.category === 'text' ? '对话' : tool.category === 'image' ? '绘画' : tool.category}
+                        </div>
+                    </div>
+                    <h3 class="font-bold text-slate-800 mb-1 group-hover:text-blue-600 transition-colors">${tool.name}</h3>
+                    <p class="text-slate-500 text-xs leading-relaxed mb-4 line-clamp-2 h-8">${tool.desc}</p>
+                    <div class="mt-auto flex items-center justify-between">
+                        <div class="flex gap-1">
+                            ${(tool.tags || []).slice(0, 2).map(t => `<span class="text-[10px] px-1.5 py-0.5 bg-slate-100 text-slate-500 rounded">${t}</span>`).join('')}
+                        </div>
+                        <button class="text-blue-600 text-xs font-medium hover:underline opacity-0 group-hover:opacity-100 transition-opacity">访问官网 &rarr;</button>
+                    </div>
+                `;
+                
+                // 真实链接跳转核心逻辑
+                card.onclick = (e) => {
+                    // 只有当存在有效 URL 时才跳转
+                    if(tool.url && tool.url !== '#') {
+                        window.open(tool.url, '_blank');
+                    }
+                };
+                
+                grid.appendChild(card);
+            });
+        }
+
+        // 初始化
+        render(aiToolsData);
+
+        // 搜索逻辑
+        document.getElementById('search-input').addEventListener('input', (e) => {
+            const val = e.target.value.toLowerCase();
+            const filtered = aiToolsData.filter(t => t.name.toLowerCase().includes(val) || t.desc.toLowerCase().includes(val));
+            render(filtered);
+        });
+
+        // 简单的图表
+        const ctx = document.getElementById('categoryChart').getContext('2d');
+        const cats = {}; 
+        aiToolsData.forEach(t => cats[t.category] = (cats[t.category]||0)+1);
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: Object.keys(cats),
+                datasets: [{
+                    label: '工具数量',
+                    data: Object.values(cats),
+                    backgroundColor: '#3b82f6',
+                    borderRadius: 4
+                }]
+            },
+            options: { responsive: true, maintainAspectRatio: false, plugins: { legend: {display:false} } }
+        });
+    </script>
+</body>
+</html>
