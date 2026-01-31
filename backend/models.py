@@ -29,6 +29,8 @@ class User(Base):
     # 关系
     favorites = relationship("Favorite", back_populates="user", cascade="all, delete-orphan")
     search_history = relationship("SearchHistory", back_populates="user", cascade="all, delete-orphan")
+    ratings = relationship("ToolRating", back_populates="user", cascade="all, delete-orphan")
+    reviews = relationship("ToolReview", back_populates="user", cascade="all, delete-orphan")
     
     def to_dict(self):
         return {
@@ -92,6 +94,9 @@ class Tool(Base):
     # 关系
     category = relationship("Category", back_populates="tools")
     favorited_by = relationship("Favorite", back_populates="tool", cascade="all, delete-orphan")
+    ratings = relationship("ToolRating", back_populates="tool", cascade="all, delete-orphan")
+    reviews = relationship("ToolReview", back_populates="tool", cascade="all, delete-orphan", order_by="desc(ToolReview.created_at)")
+    views = relationship("ToolView", back_populates="tool", cascade="all, delete-orphan")
     
     # 索引
     __table_args__ = (
@@ -181,5 +186,95 @@ class SearchHistory(Base):
             "user_id": self.user_id,
             "query": self.query,
             "results_count": self.results_count,
+            "created_at": self.created_at.isoformat() if self.created_at else None,
+        }
+
+
+class ToolRating(Base):
+    """工具评分表"""
+    __tablename__ = "tool_ratings"
+    
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    tool_id = Column(Integer, ForeignKey("tools.id", ondelete="CASCADE"), nullable=False, index=True)
+    user_id = Column(Integer, ForeignKey("users.id", ondelete="CASCADE"), nullable=False, index=True)
+    rating = Column(Float, nullable=False)  # 1-5 分
+    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow, nullable=False)
+    
+    # 唯一约束 (每个用户对每个工具只能评分一次)
+    __table_args__ = (
+        UniqueConstraint("user_id", "tool_id", name="uq_user_tool_rating"),
+    )
+    
+    # 关系
+    user = relationship("User")
+    tool = relationship("Tool", back_populates="ratings")
+    
+    def to_dict(self):
+        return {
+            "id": self.id,
+            "tool_id": self.tool_id,
+            "user_id": self.user_id,
+            "rating": self.rating,
+            "created_at": self.created_at.isoformat() if self.created_at else None,
+        }
+
+
+class ToolReview(Base):
+    """工具评论表"""
+    __tablename__ = "tool_reviews"
+    
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    tool_id = Column(Integer, ForeignKey("tools.id", ondelete="CASCADE"), nullable=False, index=True)
+    user_id = Column(Integer, ForeignKey("users.id", ondelete="CASCADE"), nullable=False, index=True)
+    parent_id = Column(Integer, ForeignKey("tool_reviews.id", ondelete="CASCADE"), nullable=True)  # 回复评论
+    content = Column(Text, nullable=False)  # 评论内容
+    likes = Column(Integer, default=0, nullable=False)  # 点赞数
+    is_approved = Column(Boolean, default=True, nullable=False)  # 是否审核通过
+    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow, nullable=False)
+    
+    # 关系
+    user = relationship("User")
+    tool = relationship("Tool", back_populates="reviews")
+    parent = relationship("ToolReview", remote_side=[id], backref="replies")
+    
+    def to_dict(self):
+        return {
+            "id": self.id,
+            "tool_id": self.tool_id,
+            "user_id": self.user_id,
+            "parent_id": self.parent_id,
+            "content": self.content,
+            "likes": self.likes,
+            "is_approved": self.is_approved,
+            "created_at": self.created_at.isoformat() if self.created_at else None,
+            "user": {
+                "id": self.user.id,
+                "username": self.user.username,
+                "avatar": self.user.avatar,
+            } if self.user else None,
+        }
+
+
+class ToolView(Base):
+    """工具浏览记录表 (用于统计热度)"""
+    __tablename__ = "tool_views"
+    
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    tool_id = Column(Integer, ForeignKey("tools.id", ondelete="CASCADE"), nullable=False, index=True)
+    user_id = Column(Integer, ForeignKey("users.id", ondelete="SET NULL"), nullable=True, index=True)
+    ip_hash = Column(String(64), nullable=True)  # 匿名用户IP hash
+    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+    
+    # 关系
+    user = relationship("User")
+    tool = relationship("Tool", back_populates="views")
+    
+    def to_dict(self):
+        return {
+            "id": self.id,
+            "tool_id": self.tool_id,
+            "user_id": self.user_id,
             "created_at": self.created_at.isoformat() if self.created_at else None,
         }
