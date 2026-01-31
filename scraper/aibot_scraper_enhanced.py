@@ -81,10 +81,10 @@ class AIBotScraper:
                 if response.status == 200:
                     return await response.text()
                 else:
-                    print(f"⚠️  请求失败: {url} - 状态码: {response.status}")
+                    print(f"Request failed: {url} - Status: {response.status}")
                     return None
         except Exception as e:
-            print(f"⚠️  请求异常: {url} - {e}")
+            print(f"Request error: {url} - {e}")
             return None
     
     async def fetch_tools_list(self, page=1):
@@ -132,39 +132,39 @@ class AIBotScraper:
             "created_at": datetime.now().isoformat(),
         }
         
-        # 提取名称
+        # Extract name
         name_elem = card.select_one('h3, .title, .name, [class*="title"]')
         if name_elem:
             tool["name"] = name_elem.get_text(strip=True)
         
-        # 提取链接
+        # Extract link
         link_elem = card.find('a')
         if link_elem:
             href = link_elem.get('href', '')
             if href:
                 tool["url"] = urljoin(AIBOT_BASE_URL, href)
-                # 提取 ID
+                # Extract ID
                 match = re.search(r'/tools/(\d+)', href)
                 if match:
                     tool["id"] = int(match.group(1))
         
-        # 提取 Logo
+        # Extract logo
         img_elem = card.find('img')
         if img_elem:
             tool["logo"] = img_elem.get('src', '') or img_elem.get('data-src', '')
         
-        # 提取描述
+        # Extract description
         desc_elem = card.select_one('p, .desc, .description, [class*="desc"]')
         if desc_elem:
             tool["description"] = desc_elem.get_text(strip=True)
         
-        # 提取分类
+        # Extract category
         cat_elem = card.select_one('[class*="cat"], [class*="tag"]')
         if cat_elem:
             cat_text = cat_elem.get_text(strip=True)
             tool["category"] = self.category_mapping.get(cat_text, "General")
         
-        # 提取评分
+        # Extract rating
         rating_elem = card.select_one('[class*="star"], [class*="rating"]')
         if rating_elem:
             rating_text = rating_elem.get_text(strip=True)
@@ -172,7 +172,7 @@ class AIBotScraper:
             if match:
                 tool["rating"] = float(match.group(1))
         
-        # 提取访问量
+        # Extract visits
         visits_elem = card.select_one('[class*="visit"], [class*="view"]')
         if visits_elem:
             visits_text = visits_elem.get_text(strip=True)
@@ -202,33 +202,33 @@ class AIBotScraper:
     
     async def fetch_all_tools(self, max_pages=50):
         """获取所有工具"""
-        print("🚀 开始爬取 ai-bot.cn 工具数据...")
+        print("=== Starting to scrape ai-bot.cn ===")
         all_tools = []
         page = 1
         
         while page <= max_pages:
-            print(f"📄 爬取第 {page} 页...")
+            print(f"Fetching page {page}...")
             
             try:
                 tools = await self.fetch_tools_list(page)
                 if not tools:
-                    print(f"✅ 第 {page} 页为空，爬取完成")
+                    print(f"Page {page} is empty, done.")
                     break
                 
                 all_tools.extend(tools)
-                print(f"   获取 {len(tools)} 个工具")
+                print(f"   Got {len(tools)} tools")
                 
                 # 延迟避免被封
                 await asyncio.sleep(2)
                 page += 1
                 
             except Exception as e:
-                print(f"⚠️  爬取第 {page} 页失败: {e}")
+                print(f"Failed to fetch page {page}: {e}")
                 break
         
         # 去重
         unique_tools = self.deduplicate_tools(all_tools)
-        print(f"✅ 爬取完成！共 {len(unique_tools)} 个唯一工具")
+        print(f"Done! Total unique tools: {len(unique_tools)}")
         
         return unique_tools
     
@@ -245,7 +245,7 @@ class AIBotScraper:
     
     async def fetch_categories(self):
         """获取分类列表"""
-        print("🏷️  获取分类数据...")
+        print("Fetching categories...")
         url = AIBOT_BASE_URL
         
         html = await self.fetch_page(url)
@@ -323,13 +323,13 @@ class AIBotScraper:
         with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
         
-        print(f"💾 工具数据已保存: {OUTPUT_FILE}")
+        print(f"Data saved: {OUTPUT_FILE}")
         
         # 保存分类数据
         with open(CATEGORIES_FILE, 'w', encoding='utf-8') as f:
             json.dump(self.categories, f, ensure_ascii=False, indent=2)
         
-        print(f"💾 分类数据已保存: {CATEGORIES_FILE}")
+        print(f"Categories saved: {CATEGORIES_FILE}")
     
     async def run(self):
         """运行爬虫"""
@@ -338,7 +338,7 @@ class AIBotScraper:
         try:
             # 获取分类
             self.categories = await self.fetch_categories()
-            print(f"🏷️  获取 {len(self.categories)} 个分类")
+            print(f"Categories fetched: {len(self.categories)}")
             
             # 获取工具
             self.tools = await self.fetch_all_tools(max_pages=100)
@@ -346,9 +346,9 @@ class AIBotScraper:
             # 保存数据
             await self.save_data()
             
-            print(f"\n✅ 爬取完成！")
-            print(f"   分类: {len(self.categories)}")
-            print(f"   工具: {len(self.tools)}")
+            print(f"\n=== Complete! ===")
+            print(f"   Categories: {len(self.categories)}")
+            print(f"   Tools: {len(self.tools)}")
             
         finally:
             await self.close_session()
