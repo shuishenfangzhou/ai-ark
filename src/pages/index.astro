@@ -1,0 +1,40 @@
+---
+import '../styles/global.css';
+import Sidebar from '../components/layout/Sidebar.astro';
+import SearchBar from '../components/ui/SearchBar.astro';
+import ToolCard from '../components/ui/ToolCard.astro';
+---
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>AI Ark v2.0 - AI工具导航</title>
+  </head>
+  <body class="min-h-screen">
+    <div class="flex">
+      <!-- 侧边栏 -->
+      <Sidebar />
+      <!-- 主内容区 -->
+      <main class="flex-1 p-8">
+        <!-- 搜索栏 -->
+        <div class="mb-8 max-w-2xl">
+          <SearchBar />
+        </div>
+        <!-- 工具卡片列表 -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <ToolCard
+            name="ChatGPT"
+            description="OpenAI推出的对话式AI，支持多轮交互、代码生成、内容创作"
+            tags={["AI对话", "代码生成", "内容创作"]}
+            url="https://chat.openai.com"
+          />
+          <ToolCard
+            name="Midjourney"
+            description="AI绘画工具，生成高质量创意图像"
+            tags={["AI绘画", "创意设计"]}
+            url="https://www.midjourney.com"
+          />
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
