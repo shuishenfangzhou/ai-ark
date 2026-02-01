@@ -1,0 +1,96 @@
+---
+// src/components/SEO.astro
+// JSON-LD 结构化数据组件
+interface Props {
+  title?: string;
+  description?: string;
+  url?: string;
+  image?: string;
+  type?: string;
+  tools?: Array<{
+    name: string;
+    description: string;
+    url: string;
+    category?: string;
+  }>;
+}
+
+const { 
+  title = "AI方舟 | 1400+ AI工具导航",
+  description = "AI方舟(AIArk)收录1400+AI工具，提供最全面的AI工具导航服务。包含AI写作、图像、视频、办公、编程等全品类AI应用。",
+  url = "https://aiark.cn",
+  image = "https://aiark.cn/og-image.jpg",
+  type = "website",
+  tools = []
+} = Astro.props;
+
+const siteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "AI方舟",
+  "alternateName": "AIArk",
+  "url": url,
+  "description": description,
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": `${url}/search?q={search_term_string}`
+    },
+    "query-input": "required name=search_term_string"
+  }
+};
+
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "AI方舟",
+  "url": url,
+  "logo": `${url}/favicon.ico`,
+  "sameAs": [
+    "https://github.com/shuishenfangzhou/ai-ark"
+  ]
+};
+
+const toolListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "AI工具列表",
+  "description": "收录的AI工具列表",
+  "numberOfItems": tools.length,
+  "itemListElement": tools.map((tool, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "item": {
+      "@type": "SoftwareApplication",
+      "name": tool.name,
+      "description": tool.description,
+      "url": tool.url,
+      "applicationCategory": tool.category || "DeveloperApplication"
+    }
+  }))
+};
+---
+<!-- JSON-LD Schema Markup -->
+<script type="application/ld+json" set:html={JSON.stringify(siteSchema, null, 2)} />
+<script type="application/ld+json" set:html={JSON.stringify(organizationSchema, null, 2)} />
+{tools.length > 0 && <script type="application/ld+json" set:html={JSON.stringify(toolListSchema, null, 2)} />}
+
+<!-- Open Graph -->
+<meta property="og:type" content={type} />
+<meta property="og:url" content={url} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:image" content={image} />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:url" content={url} />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={image} />
+
+<!-- Additional SEO -->
+<link rel="canonical" href={url} />
+<meta name="robots" content="index, follow" />
+<meta name="generator" content="Astro v5" />

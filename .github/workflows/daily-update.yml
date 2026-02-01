@@ -1,0 +1,155 @@
+name: Daily AI Tools Update
+
+on:
+  # 定时任务：每天凌晨 0:00 运行
+  schedule:
+    - cron: '0 0 * * *'
+  
+  # 手动触发
+  workflow_dispatch:
+  
+  # 当 tools.json 更新时触发
+  push:
+    paths:
+      - 'data/tools.json'
+      - 'agents/src/**'
+
+jobs:
+  # 任务1: 死链检测
+  check-links:
+    runs-on: ubuntu-latest
+    outputs:
+      has_dead_links: ${{ steps.check.outputs.dead_count > 0 }}
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        working-directory: ./agents
+        run: |
+          python -m venv venv
+          source venv/bin/activate
+          pip install httpx
+      
+      - name: Run dead link checker
+        id: check
+        working-directory: ./agents
+        run: |
+          source venv/bin/activate
+          python -m src.link_checker
+          
+          # 检查是否有死链
+          if grep -q "死亡链接:" link_check_report.txt; then
+            DEAD_COUNT=$(grep -o '[0-9]\+ 死亡链接' link_check_report.txt | grep -o '[0-9]\+' | head -1)
+            echo "dead_count=$DEAD_COUNT" >> $GITHUB_OUTPUT
+            echo "⚠️ 发现 $DEAD_COUNT 个死链"
+          else
+            echo "dead_count=0" >> $GITHUB_OUTPUT
+            echo "✅ 没有发现死链"
+          fi
+      
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-check-report
+          path: agents/data/link_check_report.txt
+
+  # 任务2: AI 数据更新
+  update-tools:
+    runs-on: ubuntu-latest
+    needs: check-links
+    # 如果发现大量死链(>10)，跳过更新
+    if: needs.check-links.outputs.has_dead_links == 'false' || github.event_name == 'workflow_dispatch'
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          
+      - name: Install dependencies
+        working-directory: ./agents
+        run: |
+          python -m venv venv
+          source venv/bin/activate
+          pip install -r requirements.txt
+          
+      - name: Run update script
+        working-directory: ./agents
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_BASE_URL: ${{ secrets.DEEPSEEK_BASE_URL }}
+        run: |
+          source venv/bin/activate
+          python -m src.main
+          
+      - name: Check for changes
+        id: git-status
+        run: |
+          git status --porcelain
+          git diff --stat data/tools.json
+          
+      - name: Commit changes
+        if: steps.git-status.outputs.stdout != ''
+        run: |
+          git config user.name "AI Bot"
+          git config user.email "bot@ai-ark.cn"
+          git add data/tools.json agents/data/link_check_report.txt
+          git commit -m "🤖 Auto-update: $(date +%Y-%m-%d) - Updated AI tools and link status"
+          git push
+
+  # 任务3: 构建和部署
+  deploy:
+    needs: update-tools
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Build Astro site
+        run: |
+          npm run build
+          
+      # Pagefind 索引
+      - name: Index with Pagefind
+        run: |
+          npx pagefind --site dist --output-path dist/pagefind
+      
+      - name: Deploy to server
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.SERVER_HOST }}
+          username: ${{ secrets.SERVER_USER }}
+          key: ${{ secrets.SERVER_SSH_KEY }}
+          source: |
+            dist
+            data/tools.json
+          target: ${{ secrets.DEPLOY_PATH }}
+          strip_components: 0
+      
+      - name: Clear CDN cache
+        if: ${{ secrets.CDN_CLEAR_URL != '' }}
+        run: |
+          curl -X PURGE ${{ secrets.CDN_CLEAR_URL }}

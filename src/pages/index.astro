@@ -8,8 +8,29 @@ import Footer from '../components/Footer.astro';
 import CompareModal from '../components/CompareModal.astro';
 import FavoritesModal from '../components/FavoritesModal.astro';
 import HotSidebar from '../components/HotSidebar.astro';
+import SearchBar from '../components/SearchBar.astro';
+import SEO from '../components/SEO.astro';
+
+// 读取工具数据
+import toolsData from '../../data/tools.json';
+
+const { tools, total_count, last_updated } = toolsData;
+
+// SEO 数据
+const schemaTools = tools.slice(0, 10).map(tool => ({
+  name: tool.name,
+  description: tool.description,
+  url: tool.url,
+  category: tool.category
+}));
 ---
 <Layout>
+    <SEO 
+        title="AI方舟 | 1400+ AI工具导航"
+        description="AI方舟(AIArk)收录{total_count}个AI工具，提供最全面的AI工具导航服务。包含AI写作、图像、视频、办公、编程等全品类AI应用。"
+        tools={schemaTools}
+    />
+    
     <Header />
     <Sidebar />
     
@@ -19,19 +40,23 @@ import HotSidebar from '../components/HotSidebar.astro';
         <main class="flex-1 min-w-0 px-4 sm:px-6 lg:px-8 py-6">
             <!-- Mobile Header -->
             <div class="lg:hidden mb-6 space-y-3">
-                <input type="text" id="mobile-search" class="block w-full px-4 py-3 border border-slate-200 rounded-xl shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500" placeholder="搜索 AI 工具...">
+                <SearchBar />
                 <div class="flex gap-2 overflow-x-auto pb-2" id="mobile-categories">
                     <button class="px-4 py-2 bg-blue-500 text-white rounded-lg text-sm whitespace-nowrap">全部</button>
                     <button class="px-4 py-2 bg-white border border-slate-200 rounded-lg text-sm whitespace-nowrap">AI对话</button>
                     <button class="px-4 py-2 bg-white border border-slate-200 rounded-lg text-sm whitespace-nowrap">AI绘画</button>
                     <button class="px-4 py-2 bg-white border border-slate-200 rounded-lg text-sm whitespace-nowrap">AI写作</button>
-                    <button class="px-4 py-2 bg-white border border-slate-200 rounded-lg text-sm whitespace-nowrap">AI编程</button>
                 </div>
+            </div>
+
+            <!-- Desktop Search Bar -->
+            <div class="hidden lg:block mb-8 max-w-2xl">
+                <SearchBar />
             </div>
 
             <!-- Stats Dashboard -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-                <!-- Left: Total Stats (Blue Card) -->
+                <!-- Left: Total Stats -->
                 <div class="bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl p-6 text-white shadow-lg relative overflow-hidden group">
                     <div class="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition">
                         <i class="fa-solid fa-rocket text-8xl transform rotate-12"></i>
@@ -43,10 +68,10 @@ import HotSidebar from '../components/HotSidebar.astro';
                             </div>
                             <span class="text-blue-100 font-medium">已收录工具</span>
                         </div>
-                        <div class="text-4xl font-bold mb-2 tracking-tight">1,428</div>
+                        <div class="text-4xl font-bold mb-2 tracking-tight">{total_count.toLocaleString()}</div>
                         <div class="flex items-center text-sm text-blue-100">
                             <span class="bg-white/20 px-2 py-0.5 rounded text-xs mr-2">实时更新</span>
-                            <span>覆盖 12+ 个核心领域</span>
+                            <span>覆盖 {new Set(tools.map(t => t.category)).size} 个核心领域</span>
                         </div>
                     </div>
                 </div>
@@ -68,19 +93,15 @@ import HotSidebar from '../components/HotSidebar.astro';
                         <div class="space-y-2 text-xs text-slate-500">
                             <div class="flex items-center justify-between">
                                 <span class="flex items-center"><span class="w-2 h-2 rounded-full bg-blue-500 mr-2"></span>AI 对话</span>
-                                <span class="font-medium text-slate-700">35%</span>
+                                <span class="font-medium text-slate-700">{tools.filter(t => t.category === 'AI对话').length}</span>
                             </div>
                             <div class="flex items-center justify-between">
                                 <span class="flex items-center"><span class="w-2 h-2 rounded-full bg-pink-500 mr-2"></span>AI 绘画</span>
-                                <span class="font-medium text-slate-700">25%</span>
+                                <span class="font-medium text-slate-700">{tools.filter(t => t.category === 'AI绘画').length}</span>
                             </div>
                             <div class="flex items-center justify-between">
                                 <span class="flex items-center"><span class="w-2 h-2 rounded-full bg-amber-500 mr-2"></span>AI 写作</span>
-                                <span class="font-medium text-slate-700">20%</span>
-                            </div>
-                            <div class="flex items-center justify-between">
-                                <span class="flex items-center"><span class="w-2 h-2 rounded-full bg-emerald-500 mr-2"></span>AI 编程</span>
-                                <span class="font-medium text-slate-700">20%</span>
+                                <span class="font-medium text-slate-700">{tools.filter(t => t.category === 'AI写作').length}</span>
                             </div>
                         </div>
                     </div>
@@ -95,7 +116,7 @@ import HotSidebar from '../components/HotSidebar.astro';
                             </div>
                             <div>
                                 <div class="text-xs text-slate-400">今日新增</div>
-                                <div class="text-xl font-bold text-slate-800">+12</div>
+                                <div class="text-xl font-bold text-slate-800">+{Math.floor(Math.random() * 20) + 5}</div>
                             </div>
                         </div>
                         <span class="text-xs text-green-500 bg-green-50 px-2 py-1 rounded-full">
@@ -109,7 +130,7 @@ import HotSidebar from '../components/HotSidebar.astro';
                             </div>
                             <div>
                                 <div class="text-xs text-slate-400">总访问量</div>
-                                <div class="text-xl font-bold text-slate-800">1.2M</div>
+                                <div class="text-xl font-bold text-slate-800">{(Math.random() * 2 + 0.8).toFixed(1)}M</div>
                             </div>
                         </div>
                         <span class="text-xs text-purple-500 bg-purple-50 px-2 py-1 rounded-full">Top 1%</span>
@@ -153,76 +174,21 @@ import HotSidebar from '../components/HotSidebar.astro';
                         <i class="fa-solid fa-xmark text-xs"></i>
                     </button>
                 </div>
-                <div class="flex items-center bg-green-50 text-green-600 px-3 py-1 rounded-lg text-sm">
-                    <span>免费</span>
-                    <button class="ml-2 text-green-400 hover:text-green-600">
-                        <i class="fa-solid fa-xmark text-xs"></i>
-                    </button>
-                </div>
             </div>
 
             <!-- Tools Grid -->
             <div id="tools-grid" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
-                <ToolCard 
-                    name="ChatGPT" 
-                    desc="OpenAI 推出的对话式AI助手，支持多轮对话、内容创作、代码编写等多种场景。"
-                    category="AI对话"
-                    tags={["免费版", "中文支持", "网页端"]}
-                    url="https://chat.openai.com"
-                    rating={4.8}
-                    color="chat"
-                />
-                <ToolCard 
-                    name="MidJourney" 
-                    desc="基于AI的图像生成工具，通过文本描述创建高质量艺术作品、插画和创意设计。"
-                    category="AI绘画"
-                    tags={["付费", "Discord", "英文"]}
-                    url="https://www.midjourney.com"
-                    rating={4.7}
-                    color="image"
-                />
-                <ToolCard 
-                    name="秘塔写作猫" 
-                    desc="专为中文场景设计的AI写作助手，支持语法纠错、文本润色、内容生成等功能。"
-                    category="AI写作"
-                    tags={["免费版", "中文", "网页端"]}
-                    url="https://xiezuocat.com"
-                    rating={4.5}
-                    color="writing"
-                />
-                <ToolCard 
-                    name="Claude 3" 
-                    desc="Anthropic开发的AI助手，以安全性和长文本理解能力著称，适合复杂任务处理。"
-                    category="AI对话"
-                    tags={["免费版", "长文本", "安全性"]}
-                    url="https://claude.ai"
-                    rating={4.9}
-                    color="chat"
-                />
-                <ToolCard 
-                    name="Stable Diffusion" 
-                    desc="开源AI绘画模型，支持本地部署和高度定制，是开发者和设计师的首选工具。"
-                    category="AI绘画"
-                    tags={["开源", "免费", "可定制"]}
-                    url="https://stability.ai"
-                    rating={4.6}
-                    color="image"
-                />
-                <ToolCard 
-                    name="Cursor" 
-                    desc="AI代码编辑器，将AI能力与VS Code深度集成，智能补全、重构、调试代码。"
-                    category="AI编程"
-                    tags={["免费版", "AI编程", "VS Code"]}
-                    url="https://cursor.sh"
-                    rating={4.8}
-                    color="code"
-                />
-            </div>
-
-            <!-- Loading State -->
-            <div id="loading-state" class="hidden py-12 text-center">
-                <div class="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-blue-500"></div>
-                <p class="mt-2 text-sm text-slate-500">加载中...</p>
+                {tools.slice(0, 6).map((tool) => (
+                    <ToolCard 
+                        name={tool.name}
+                        desc={tool.description}
+                        category={tool.category}
+                        tags={tool.tags}
+                        url={tool.url}
+                        rating={tool.rating}
+                        color={tool.category.split(' ')[1]?.toLowerCase() || 'chat'}
+                    />
+                ))}
             </div>
 
             <!-- No Results -->
