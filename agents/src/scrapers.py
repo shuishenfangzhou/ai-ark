@@ -17,7 +17,7 @@ class BaseScraper(ABC):
     
     def __init__(self, name: str):
         self.name = name
-        self.client = httpx.Client(timeout=30.0)
+        self.client = httpx.AsyncClient(timeout=30.0)
     
     @abstractmethod
     async def fetch(self, **kwargs) -> List[Dict[str, Any]]:
