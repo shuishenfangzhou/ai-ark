@@ -150,6 +150,7 @@ jobs:
           strip_components: 0
       
       - name: Clear CDN cache
-        if: ${{ secrets.CDN_CLEAR_URL != '' }}
+        # 使用简化的条件检查: secret 存在且非空即为 true
+        if: ${{ secrets.CDN_CLEAR_URL }}
         run: |
           curl -X PURGE ${{ secrets.CDN_CLEAR_URL }}
