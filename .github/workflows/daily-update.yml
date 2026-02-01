@@ -149,7 +149,8 @@ jobs:
           target: ${{ secrets.DEPLOY_PATH }}
           strip_components: 0
       
-      - name: Clear CDN cache
+       - name: Clear CDN cache
+        # 必须使用 ${{ }} 才能在 if 语句中正确识别 secrets
         if: ${{ secrets.CDN_CLEAR_URL != '' }}
         run: |
           curl -X PURGE ${{ secrets.CDN_CLEAR_URL }}
