@@ -1,4 +1,0 @@
-# GitHub Scraper 依赖
-# 运行前请安装: pip install aiohttp
-
-aiohttp>=3.9.0
