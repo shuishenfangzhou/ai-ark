@@ -1,0 +1,54 @@
+---
+// src/components/HotSidebar.astro
+---
+<!-- Right Sidebar: Hot Recommendations -->
+<aside class="hidden xl:block w-72 flex-shrink-0 bg-white border-l border-slate-200 h-[calc(100vh-4rem)] sticky top-16 overflow-y-auto p-4">
+    <h3 class="font-bold text-slate-900 mb-4">热门推荐</h3>
+    <div class="space-y-4">
+        <div class="flex items-center gap-3 p-3 bg-slate-50 rounded-lg hover:bg-slate-100 transition cursor-pointer">
+            <div class="w-10 h-10 rounded-lg bg-blue-100 flex items-center justify-center text-blue-600">
+                <i class="fa-solid fa-robot"></i>
+            </div>
+            <div>
+                <h4 class="font-medium text-slate-800 text-sm">Claude 3</h4>
+                <p class="text-xs text-slate-500">Anthropic 最新模型</p>
+            </div>
+        </div>
+        <div class="flex items-center gap-3 p-3 bg-slate-50 rounded-lg hover:bg-slate-100 transition cursor-pointer">
+            <div class="w-10 h-10 rounded-lg bg-pink-100 flex items-center justify-center text-pink-600">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+            </div>
+            <div>
+                <h4 class="font-medium text-slate-800 text-sm">Stable Diffusion</h4>
+                <p class="text-xs text-slate-500">开源图像生成工具</p>
+            </div>
+        </div>
+        <div class="flex items-center gap-3 p-3 bg-slate-50 rounded-lg hover:bg-slate-100 transition cursor-pointer">
+            <div class="w-10 h-10 rounded-lg bg-emerald-100 flex items-center justify-center text-emerald-600">
+                <i class="fa-solid fa-code"></i>
+            </div>
+            <div>
+                <h4 class="font-medium text-slate-800 text-sm">Cursor</h4>
+                <p class="text-xs text-slate-500">AI 代码编辑器</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="mt-8 pt-6 border-t border-slate-100">
+        <h3 class="font-bold text-slate-900 mb-4">使用指南</h3>
+        <ul class="space-y-2 text-sm text-slate-600">
+            <li class="hover:text-blue-600 transition cursor-pointer">
+                <i class="fa-solid fa-circle-question text-xs mr-2 text-slate-400"></i>
+                如何筛选合适的AI工具
+            </li>
+            <li class="hover:text-blue-600 transition cursor-pointer">
+                <i class="fa-solid fa-circle-question text-xs mr-2 text-slate-400"></i>
+                AI工具对比功能使用教程
+            </li>
+            <li class="hover:text-blue-600 transition cursor-pointer">
+                <i class="fa-solid fa-circle-question text-xs mr-2 text-slate-400"></i>
+                提交新AI工具审核标准
+            </li>
+        </ul>
+    </div>
+</aside>

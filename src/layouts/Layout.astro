@@ -33,12 +33,12 @@ const { title = "AI方舟 | 1400+ AI工具导航" } = Astro.props;
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
     
-    <!-- 外部CDN资源 -->
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     
-    <!-- 自定义样式 -->
+    <!-- Custom Styles -->
     <style is:global>
         /* Custom Scrollbar */
         ::-webkit-scrollbar { width: 6px; height: 6px; }
@@ -110,12 +110,20 @@ const { title = "AI方舟 | 1400+ AI工具导航" } = Astro.props;
         .subcategory-list.expanded {
             max-height: 500px;
         }
+        
+        /* Line Clamp */
+        .line-clamp-2 {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
     </style>
 </head>
 <body class="bg-slate-50 text-slate-800 font-sans antialiased min-h-screen">
     <slot />
     
-    <!-- 全局交互脚本 -->
+    <!-- Global Scripts -->
     <script src="/src/scripts/main.js"></script>
 </body>
 </html>

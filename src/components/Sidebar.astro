@@ -1,21 +1,31 @@
 ---
 // src/components/Sidebar.astro
-// 分类数据（后续对接第二阶段数据）
-const categories = [
-  { name: "AI写作", icon: "fa-pen-nib", color: "orange", count: 218 },
-  { name: "AI绘画", icon: "fa-palette", color: "pink", count: 356 },
-  { name: "AI视频", icon: "fa-video", color: "purple", count: 189 },
-  { name: "AI办公", icon: "fa-briefcase", color: "blue", count: 145 },
-  { name: "AI编程", icon: "fa-code", color: "green", count: 167 },
-  { name: "AI对话", icon: "fa-comments", color: "indigo", count: 198 },
-  { name: "AI搜索", icon: "fa-magnifying-glass", color: "teal", count: 89 },
-  { name: "AI音频", icon: "fa-music", color: "cyan", count: 76 },
-  { name: "AI设计", icon: "fa-pen-ruler", color: "fuchsia", count: 134 },
-  { name: "AI模型", icon: "fa-brain", color: "violet", count: 112 },
+
+interface Category {
+  name: string;
+  icon: string;
+  color: string;
+  count: number;
+}
+
+const categories: Category[] = [
+  { name: "AI 对话", icon: "fa-comments", color: "chat", count: 499 },
+  { name: "AI 绘画", icon: "fa-palette", color: "image", count: 357 },
+  { name: "AI 写作", icon: "fa-pen-nib", color: "writing", count: 218 },
+  { name: "AI 编程", icon: "fa-code", color: "code", count: 186 },
+  { name: "AI 视频", icon: "fa-video", color: "video", count: 145 },
+  { name: "AI 办公", icon: "fa-briefcase", color: "office", count: 134 },
+  { name: "AI 音频", icon: "fa-music", color: "audio", count: 89 },
+  { name: "AI 设计", icon: "fa-pen-ruler", color: "design", count: 112 },
+  { name: "AI 搜索", icon: "fa-magnifying-glass", color: "search", count: 76 },
+  { name: "AI 模型", icon: "fa-brain", color: "model", count: 98 },
 ];
 ---
+<!-- Mobile Sidebar Overlay -->
+<div id="mobile-sidebar-overlay" class="fixed inset-0 bg-black/50 z-40 lg:hidden hidden"></div>
+
 <!-- Left Sidebar: Category Navigation -->
-<aside class="hidden lg:block w-72 flex-shrink-0 bg-white border-r border-slate-200 h-[calc(100vh-4rem)] sticky top-16 overflow-y-auto">
+<aside id="sidebar-container" class="hidden lg:block w-72 flex-shrink-0 bg-white border-r border-slate-200 h-[calc(100vh-4rem)] sticky top-16 overflow-y-auto lg:translate-x-0 translate-x-[-100%] fixed left-0 top-16 h-[calc(100vh-4rem)] z-50 transition-transform duration-300">
     <div class="p-4">
         <!-- All Categories Button -->
         <button id="all-categories-btn" class="w-full flex items-center px-4 py-3 text-sm font-medium text-slate-700 rounded-xl hover:bg-slate-50 transition mb-2 active">
@@ -30,7 +40,7 @@ const categories = [
         <nav id="category-nav" class="space-y-1">
             {categories.map((cat) => (
                 <button class="category-item w-full flex items-center px-4 py-3 text-sm font-medium text-slate-700 rounded-xl hover:bg-slate-50 transition">
-                    <div class={`w-8 h-8 rounded-lg bg-gradient-to-br from-${cat.color}-400 to-${cat.color}-600 flex items-center justify-center text-white mr-3`}>
+                    <div class={`w-8 h-8 rounded-lg bg-[var(--cat-color)]/10 flex items-center justify-center text-[var(--cat-color)] mr-3 cat-${cat.color}`}>
                         <i class={`fa-solid ${cat.icon} text-sm`}></i>
                     </div>
                     <span>{cat.name}</span>

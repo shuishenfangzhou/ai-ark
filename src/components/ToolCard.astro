@@ -7,41 +7,53 @@ interface Props {
   tags: string[];
   logo?: string;
   url: string;
+  rating?: number;
+  color?: string;
 }
 
-const { name, desc, category, tags, logo, url } = Astro.props;
+const { name, desc, category, tags, logo, url, rating = 4.5, color = "chat" } = Astro.props;
 
-// Generate a unique ID for the compare checkbox
+// Generate unique IDs
 const compareId = `compare-${name.replace(/\s+/g, '-').toLowerCase()}`;
+const favoriteId = `fav-${name.replace(/\s+/g, '-').toLowerCase()}`;
 ---
-<a href={url} target="_blank" class="tool-card bg-white rounded-2xl border border-slate-100 shadow-sm p-5 block animate-fade-in">
+<div class="tool-card bg-white rounded-xl border border-slate-200 p-5 animate-fade-in">
     <div class="flex justify-between items-start mb-4">
-        <div class="flex items-center gap-3">
-            {logo ? (
-                <img src={logo} alt={name} class="w-10 h-10 rounded-lg object-cover" />
-            ) : (
-                <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600">
-                    <i class="fa-solid fa-robot"></i>
-                </div>
-            )}
-            <div>
-                <h3 class="font-semibold text-slate-900">{name}</h3>
-                <span class="text-xs text-slate-500 bg-slate-100 px-2 py-0.5 rounded-full">{category}</span>
-            </div>
+        <div class={`w-12 h-12 rounded-lg bg-${color}-50 flex items-center justify-center cat-${color}`}>
+            <i class={`fa-solid fa-comments text-2xl text-[var(--cat-color)]`}></i>
         </div>
-        <div class="relative">
-            <input type="checkbox" class="compare-checkbox sr-only" id={compareId} />
-            <label for={compareId} class="block w-5 h-5 border border-slate-300 rounded cursor-pointer flex items-center justify-center">
+        <div class="flex items-center gap-2">
+            <!-- Compare Checkbox -->
+            <input type="checkbox" class="compare-checkbox hidden" id={compareId} />
+            <label for={compareId} class="w-5 h-5 border border-slate-300 rounded flex items-center justify-center cursor-pointer">
                 <svg class="w-3 h-3 text-white hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
             </label>
+            <!-- Favorite Button -->
+            <button class="w-5 h-5 flex items-center justify-center text-slate-400 hover:text-red-500 transition" id={favoriteId}>
+                <i class="fa-regular fa-heart"></i>
+            </button>
         </div>
     </div>
-    <p class="text-sm text-slate-600 mb-4 line-clamp-2">{desc}</p>
-    <div class="flex flex-wrap gap-2">
+    <h3 class="font-bold text-lg text-slate-900 mb-1">{name}</h3>
+    <p class="text-sm text-slate-500 mb-3 line-clamp-2">{desc}</p>
+    <div class="flex flex-wrap gap-2 mb-4">
         {tags.map((tag) => (
-            <span class="text-xs bg-slate-100 text-slate-600 px-2 py-1 rounded-full">{tag}</span>
+            <span class="px-2 py-1 bg-slate-100 text-slate-600 text-xs rounded-full">{tag}</span>
         ))}
     </div>
-</a>
+    <div class="flex items-center justify-between">
+        <div class="flex items-center">
+            <div class="flex items-center text-amber-400">
+                {Array(5).fill(0).map((_, i) => (
+                    <i class={`fa-solid fa-star ${i < Math.floor(rating) ? '' : 'fa-star-half-stroke'}`}></i>
+                ))}
+            </div>
+            <span class="ml-1 text-xs text-slate-500">{rating}</span>
+        </div>
+        <a href={url} target="_blank" class="px-3 py-1.5 bg-blue-500 text-white text-sm rounded-lg hover:bg-blue-600 transition">
+            访问 <i class="fa-solid fa-arrow-up-right-from-square ml-1 text-xs"></i>
+        </a>
+    </div>
+</div>

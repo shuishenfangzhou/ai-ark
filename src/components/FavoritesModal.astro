@@ -1,0 +1,53 @@
+---
+// src/components/FavoritesModal.astro
+---
+<!-- Favorites Modal -->
+<div id="favorites-modal" class="fixed inset-0 z-50 hidden overflow-y-auto">
+    <div class="flex items-center justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:p-0">
+        <div class="fixed inset-0 bg-black/50 transition-opacity" aria-hidden="true"></div>
+        <div class="inline-block w-full max-w-2xl p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white rounded-2xl shadow-xl">
+            <div class="flex justify-between items-center mb-6">
+                <h3 class="text-lg font-bold text-slate-900">我的收藏</h3>
+                <button id="close-favorites-modal" class="text-slate-400 hover:text-slate-600">
+                    <i class="fa-solid fa-xmark text-xl"></i>
+                </button>
+            </div>
+            
+            <div id="favorites-empty-state" class="py-12 text-center">
+                <div class="w-20 h-20 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fa-solid fa-heart text-slate-300 text-3xl"></i>
+                </div>
+                <h4 class="font-medium text-slate-900 mb-2">暂无收藏工具</h4>
+                <p class="text-slate-500 text-sm">点击工具卡片中的❤️图标收藏喜欢的AI工具</p>
+            </div>
+            
+            <div id="favorites-content" class="hidden">
+                <div class="space-y-3 mb-6 max-h-96 overflow-y-auto">
+                    <div class="flex items-center justify-between p-3 bg-slate-50 rounded-lg">
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 rounded-lg bg-chat-50 flex items-center justify-center cat-chat">
+                                <i class="fa-solid fa-comments text-[var(--cat-color)]"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-slate-800 text-sm">ChatGPT</h4>
+                                <p class="text-xs text-slate-500">OpenAI 对话式AI助手</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <a href="https://chat.openai.com" target="_blank" class="text-blue-600 hover:text-blue-800 text-sm">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                            <button class="text-slate-400 hover:text-red-500 remove-favorite">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <button id="clear-all-favorites" class="w-full py-2 bg-red-50 text-red-600 rounded-lg hover:bg-red-100 transition text-sm">
+                    清空全部收藏
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

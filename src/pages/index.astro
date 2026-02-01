@@ -4,24 +4,28 @@ import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Sidebar from '../components/Sidebar.astro';
 import ToolCard from '../components/ToolCard.astro';
+import Footer from '../components/Footer.astro';
+import CompareModal from '../components/CompareModal.astro';
+import FavoritesModal from '../components/FavoritesModal.astro';
+import HotSidebar from '../components/HotSidebar.astro';
 ---
 <Layout>
     <Header />
-
+    <Sidebar />
+    
     <!-- Main Layout: Three Columns -->
     <div class="max-w-[1600px] mx-auto flex flex-grow">
-        <Sidebar />
-
         <!-- Main Content: Tools Grid -->
         <main class="flex-1 min-w-0 px-4 sm:px-6 lg:px-8 py-6">
             <!-- Mobile Header -->
             <div class="lg:hidden mb-6 space-y-3">
                 <input type="text" id="mobile-search" class="block w-full px-4 py-3 border border-slate-200 rounded-xl shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500" placeholder="搜索 AI 工具...">
                 <div class="flex gap-2 overflow-x-auto pb-2" id="mobile-categories">
-                    <button class="px-3 py-2 bg-blue-500 text-white rounded-lg text-sm whitespace-nowrap">全部分类</button>
-                    <button class="px-3 py-2 bg-slate-100 text-slate-700 rounded-lg text-sm whitespace-nowrap">AI写作</button>
-                    <button class="px-3 py-2 bg-slate-100 text-slate-700 rounded-lg text-sm whitespace-nowrap">AI绘画</button>
-                    <button class="px-3 py-2 bg-slate-100 text-slate-700 rounded-lg text-sm whitespace-nowrap">AI视频</button>
+                    <button class="px-4 py-2 bg-blue-500 text-white rounded-lg text-sm whitespace-nowrap">全部</button>
+                    <button class="px-4 py-2 bg-white border border-slate-200 rounded-lg text-sm whitespace-nowrap">AI对话</button>
+                    <button class="px-4 py-2 bg-white border border-slate-200 rounded-lg text-sm whitespace-nowrap">AI绘画</button>
+                    <button class="px-4 py-2 bg-white border border-slate-200 rounded-lg text-sm whitespace-nowrap">AI写作</button>
+                    <button class="px-4 py-2 bg-white border border-slate-200 rounded-lg text-sm whitespace-nowrap">AI编程</button>
                 </div>
             </div>
 
@@ -49,7 +53,16 @@ import ToolCard from '../components/ToolCard.astro';
 
                 <!-- Middle: Distribution Chart -->
                 <div class="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm flex items-center relative overflow-hidden">
-                    <div id="stats-chart" class="w-32 h-32 flex-shrink-0 -ml-2"></div>
+                    <div class="w-32 h-32 flex-shrink-0 -ml-2">
+                        <!-- SVG Pie Chart -->
+                        <svg viewBox="0 0 100 100" class="w-full h-full">
+                            <circle cx="50" cy="50" r="40" fill="none" stroke="#f1f5f9" stroke-width="16"></circle>
+                            <circle cx="50" cy="50" r="40" fill="none" stroke="#3b82f6" stroke-width="16" stroke-dasharray="35 100" stroke-dashoffset="0" transform="rotate(-90 50 50)"></circle>
+                            <circle cx="50" cy="50" r="40" fill="none" stroke="#ec4899" stroke-width="16" stroke-dasharray="25 100" stroke-dashoffset="-35" transform="rotate(-90 50 50)"></circle>
+                            <circle cx="50" cy="50" r="40" fill="none" stroke="#f59e0b" stroke-width="16" stroke-dasharray="20 100" stroke-dashoffset="-60" transform="rotate(-90 50 50)"></circle>
+                            <circle cx="50" cy="50" r="40" fill="none" stroke="#10b981" stroke-width="16" stroke-dasharray="20 100" stroke-dashoffset="-80" transform="rotate(-90 50 50)"></circle>
+                        </svg>
+                    </div>
                     <div class="flex-1 ml-2 z-10">
                         <h3 class="font-bold text-slate-800 mb-2">收录分布</h3>
                         <div class="space-y-2 text-xs text-slate-500">
@@ -60,6 +73,14 @@ import ToolCard from '../components/ToolCard.astro';
                             <div class="flex items-center justify-between">
                                 <span class="flex items-center"><span class="w-2 h-2 rounded-full bg-pink-500 mr-2"></span>AI 绘画</span>
                                 <span class="font-medium text-slate-700">25%</span>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <span class="flex items-center"><span class="w-2 h-2 rounded-full bg-amber-500 mr-2"></span>AI 写作</span>
+                                <span class="font-medium text-slate-700">20%</span>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <span class="flex items-center"><span class="w-2 h-2 rounded-full bg-emerald-500 mr-2"></span>AI 编程</span>
+                                <span class="font-medium text-slate-700">20%</span>
                             </div>
                         </div>
                     </div>
@@ -125,55 +146,76 @@ import ToolCard from '../components/ToolCard.astro';
             </div>
 
             <!-- Active Filters -->
-            <div id="active-filters" class="flex flex-wrap gap-2 mb-4 hidden">
-                <span class="px-3 py-1 bg-blue-50 text-blue-600 rounded-lg text-sm flex items-center gap-2">
-                    免费 <button class="text-blue-400 hover:text-blue-600"><i class="fa-solid fa-xmark"></i></button>
-                </span>
+            <div id="active-filters" class="flex flex-wrap gap-2 mb-4">
+                <div class="flex items-center bg-blue-50 text-blue-600 px-3 py-1 rounded-lg text-sm">
+                    <span>AI 对话</span>
+                    <button class="ml-2 text-blue-400 hover:text-blue-600">
+                        <i class="fa-solid fa-xmark text-xs"></i>
+                    </button>
+                </div>
+                <div class="flex items-center bg-green-50 text-green-600 px-3 py-1 rounded-lg text-sm">
+                    <span>免费</span>
+                    <button class="ml-2 text-green-400 hover:text-green-600">
+                        <i class="fa-solid fa-xmark text-xs"></i>
+                    </button>
+                </div>
             </div>
 
             <!-- Tools Grid -->
             <div id="tools-grid" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
                 <ToolCard 
                     name="ChatGPT" 
-                    desc="OpenAI推出的对话式AI，支持多轮交互、代码生成、内容创作，覆盖全场景生产力提升"
+                    desc="OpenAI 推出的对话式AI助手，支持多轮对话、内容创作、代码编写等多种场景。"
                     category="AI对话"
-                    tags={["免费", "多语言", "代码生成"]}
+                    tags={["免费版", "中文支持", "网页端"]}
                     url="https://chat.openai.com"
+                    rating={4.8}
+                    color="chat"
                 />
                 <ToolCard 
-                    name="Midjourney" 
-                    desc="顶级AI绘画工具，生成高质量创意图像，支持多种风格自定义，是设计师的必备工具"
+                    name="MidJourney" 
+                    desc="基于AI的图像生成工具，通过文本描述创建高质量艺术作品、插画和创意设计。"
                     category="AI绘画"
-                    tags={["付费", "创意设计", "高分辨率"]}
+                    tags={["付费", "Discord", "英文"]}
                     url="https://www.midjourney.com"
+                    rating={4.7}
+                    color="image"
                 />
                 <ToolCard 
-                    name="讯飞星火" 
-                    desc="科大讯飞推出的国产大模型，支持中文对话、文档分析、多模态交互，全中文优化"
-                    category="AI对话"
-                    tags={["免费", "中文支持", "多模态"]}
-                    url="https://xinghuo.xfyun.cn"
+                    name="秘塔写作猫" 
+                    desc="专为中文场景设计的AI写作助手，支持语法纠错、文本润色、内容生成等功能。"
+                    category="AI写作"
+                    tags={["免费版", "中文", "网页端"]}
+                    url="https://xiezuocat.com"
+                    rating={4.5}
+                    color="writing"
                 />
                 <ToolCard 
-                    name="Claude" 
-                    desc="Anthropic开发的AI助手，以安全性和长文本理解能力著称，适合复杂任务处理"
+                    name="Claude 3" 
+                    desc="Anthropic开发的AI助手，以安全性和长文本理解能力著称，适合复杂任务处理。"
                     category="AI对话"
-                    tags={["免费", "长文本", "安全性"]}
+                    tags={["免费版", "长文本", "安全性"]}
                     url="https://claude.ai"
+                    rating={4.9}
+                    color="chat"
                 />
                 <ToolCard 
                     name="Stable Diffusion" 
-                    desc="开源AI绘画模型，支持本地部署和高度定制，是开发者和设计师的首选工具"
+                    desc="开源AI绘画模型，支持本地部署和高度定制，是开发者和设计师的首选工具。"
                     category="AI绘画"
                     tags={["开源", "免费", "可定制"]}
                     url="https://stability.ai"
+                    rating={4.6}
+                    color="image"
                 />
                 <ToolCard 
-                    name="Notion AI" 
-                    desc="Notion内置AI功能，帮助写作、编辑、总结文档，提升工作效率"
-                    category="AI写作"
-                    tags={["付费", "集成", "文档"]}
-                    url="https://notion.so"
+                    name="Cursor" 
+                    desc="AI代码编辑器，将AI能力与VS Code深度集成，智能补全、重构、调试代码。"
+                    category="AI编程"
+                    tags={["免费版", "AI编程", "VS Code"]}
+                    url="https://cursor.sh"
+                    rating={4.8}
+                    color="code"
                 />
             </div>
 
@@ -197,53 +239,22 @@ import ToolCard from '../components/ToolCard.astro';
 
             <!-- Load More -->
             <div id="load-more-container" class="py-8 text-center">
-                <button id="load-more-btn" class="px-6 py-2.5 bg-white border border-slate-200 rounded-lg text-slate-700 hover:bg-slate-50 transition">
-                    加载更多 <i class="fa-solid fa-chevron-down ml-2 text-xs"></i>
+                <button id="load-more-btn" class="px-6 py-3 bg-white border border-slate-200 rounded-lg text-slate-700 hover:bg-slate-50 transition shadow-sm flex items-center mx-auto">
+                    <i class="fa-solid fa-refresh mr-2"></i>
+                    加载更多
                 </button>
+                <p id="no-more-data" class="mt-4 text-sm text-slate-400 hidden">已加载全部工具</p>
             </div>
         </main>
+        
+        <!-- Right Sidebar -->
+        <HotSidebar />
     </div>
+    
+    <!-- Modals -->
+    <CompareModal />
+    <FavoritesModal />
+    
+    <!-- Footer -->
+    <Footer />
 </Layout>
-
-<!-- 图表初始化脚本 -->
-<script is:inline>
-    // 初始化统计图表
-    document.addEventListener('DOMContentLoaded', function() {
-        const ctx = document.getElementById('stats-chart');
-        if (ctx && typeof Chart !== 'undefined') {
-            new Chart(ctx, {
-                type: 'doughnut',
-                data: {
-                    labels: ['AI对话', 'AI绘画', 'AI写作', '其他'],
-                    datasets: [{
-                        data: [35, 25, 20, 20],
-                        backgroundColor: [
-                            '#3b82f6', '#ec4899', '#f59e0b', '#64748b'
-                        ],
-                        borderWidth: 0,
-                        borderRadius: 4
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    cutout: '70%',
-                    plugins: {
-                        legend: { display: false },
-                        tooltip: { enabled: false }
-                    }
-                }
-            });
-        }
-
-        // 简单的搜索交互（示例）
-        const searchInput = document.getElementById('global-search');
-        if (searchInput) {
-            searchInput.addEventListener('keydown', function(e) {
-                if (e.key === 'Enter') {
-                    alert('搜索：' + searchInput.value);
-                }
-            });
-        }
-    });
-</script>
