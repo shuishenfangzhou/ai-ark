@@ -1,0 +1,74 @@
+---
+// src/components/Sidebar.astro
+// 分类数据（后续对接第二阶段数据）
+const categories = [
+  { name: "AI写作", icon: "fa-pen-nib", color: "orange", count: 218 },
+  { name: "AI绘画", icon: "fa-palette", color: "pink", count: 356 },
+  { name: "AI视频", icon: "fa-video", color: "purple", count: 189 },
+  { name: "AI办公", icon: "fa-briefcase", color: "blue", count: 145 },
+  { name: "AI编程", icon: "fa-code", color: "green", count: 167 },
+  { name: "AI对话", icon: "fa-comments", color: "indigo", count: 198 },
+  { name: "AI搜索", icon: "fa-magnifying-glass", color: "teal", count: 89 },
+  { name: "AI音频", icon: "fa-music", color: "cyan", count: 76 },
+  { name: "AI设计", icon: "fa-pen-ruler", color: "fuchsia", count: 134 },
+  { name: "AI模型", icon: "fa-brain", color: "violet", count: 112 },
+];
+---
+<!-- Left Sidebar: Category Navigation -->
+<aside class="hidden lg:block w-72 flex-shrink-0 bg-white border-r border-slate-200 h-[calc(100vh-4rem)] sticky top-16 overflow-y-auto">
+    <div class="p-4">
+        <!-- All Categories Button -->
+        <button id="all-categories-btn" class="w-full flex items-center px-4 py-3 text-sm font-medium text-slate-700 rounded-xl hover:bg-slate-50 transition mb-2 active">
+            <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center text-white mr-3">
+                <i class="fa-solid fa-layer-group text-sm"></i>
+            </div>
+            <span>全部分类</span>
+            <span id="total-count-badge" class="ml-auto text-xs text-slate-400 bg-slate-100 px-2 py-1 rounded-full">1428</span>
+        </button>
+        
+        <!-- Category List -->
+        <nav id="category-nav" class="space-y-1">
+            {categories.map((cat) => (
+                <button class="category-item w-full flex items-center px-4 py-3 text-sm font-medium text-slate-700 rounded-xl hover:bg-slate-50 transition">
+                    <div class={`w-8 h-8 rounded-lg bg-gradient-to-br from-${cat.color}-400 to-${cat.color}-600 flex items-center justify-center text-white mr-3`}>
+                        <i class={`fa-solid ${cat.icon} text-sm`}></i>
+                    </div>
+                    <span>{cat.name}</span>
+                    <span class="ml-auto text-xs text-slate-400 bg-slate-100 px-2 py-1 rounded-full">{cat.count}</span>
+                </button>
+            ))}
+        </nav>
+        
+        <!-- Filters -->
+        <div class="mt-6 pt-6 border-t border-slate-100">
+            <h3 class="px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider mb-3">筛选</h3>
+            
+            <!-- Pricing Filter -->
+            <div class="px-4 mb-4">
+                <label class="text-xs text-slate-500 mb-2 block">价格</label>
+                <div class="space-y-2">
+                    <label class="flex items-center cursor-pointer">
+                        <input type="checkbox" class="filter-pricing w-4 h-4 text-blue-600 rounded border-slate-300 focus:ring-blue-500" value="free">
+                        <span class="ml-2 text-sm text-slate-600">免费</span>
+                    </label>
+                    <label class="flex items-center cursor-pointer">
+                        <input type="checkbox" class="filter-pricing w-4 h-4 text-blue-600 rounded border-slate-300 focus:ring-blue-500" value="paid">
+                        <span class="ml-2 text-sm text-slate-600">付费</span>
+                    </label>
+                    <label class="flex items-center cursor-pointer">
+                        <input type="checkbox" class="filter-pricing w-4 h-4 text-blue-600 rounded border-slate-300 focus:ring-blue-500" value="opensource">
+                        <span class="ml-2 text-sm text-slate-600">开源</span>
+                    </label>
+                </div>
+            </div>
+            
+            <!-- Chinese Support Filter -->
+            <div class="px-4">
+                <label class="flex items-center cursor-pointer">
+                    <input type="checkbox" id="filter-chinese" class="w-4 h-4 text-blue-600 rounded border-slate-300 focus:ring-blue-500">
+                    <span class="ml-2 text-sm text-slate-600">中文支持</span>
+                </label>
+            </div>
+        </div>
+    </div>
+</aside>

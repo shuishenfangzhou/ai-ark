@@ -1,0 +1,47 @@
+---
+// src/components/ToolCard.astro
+interface Props {
+  name: string;
+  desc: string;
+  category: string;
+  tags: string[];
+  logo?: string;
+  url: string;
+}
+
+const { name, desc, category, tags, logo, url } = Astro.props;
+
+// Generate a unique ID for the compare checkbox
+const compareId = `compare-${name.replace(/\s+/g, '-').toLowerCase()}`;
+---
+<a href={url} target="_blank" class="tool-card bg-white rounded-2xl border border-slate-100 shadow-sm p-5 block animate-fade-in">
+    <div class="flex justify-between items-start mb-4">
+        <div class="flex items-center gap-3">
+            {logo ? (
+                <img src={logo} alt={name} class="w-10 h-10 rounded-lg object-cover" />
+            ) : (
+                <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600">
+                    <i class="fa-solid fa-robot"></i>
+                </div>
+            )}
+            <div>
+                <h3 class="font-semibold text-slate-900">{name}</h3>
+                <span class="text-xs text-slate-500 bg-slate-100 px-2 py-0.5 rounded-full">{category}</span>
+            </div>
+        </div>
+        <div class="relative">
+            <input type="checkbox" class="compare-checkbox sr-only" id={compareId} />
+            <label for={compareId} class="block w-5 h-5 border border-slate-300 rounded cursor-pointer flex items-center justify-center">
+                <svg class="w-3 h-3 text-white hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+            </label>
+        </div>
+    </div>
+    <p class="text-sm text-slate-600 mb-4 line-clamp-2">{desc}</p>
+    <div class="flex flex-wrap gap-2">
+        {tags.map((tag) => (
+            <span class="text-xs bg-slate-100 text-slate-600 px-2 py-1 rounded-full">{tag}</span>
+        ))}
+    </div>
+</a>

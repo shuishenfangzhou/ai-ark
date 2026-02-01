@@ -1,0 +1,121 @@
+---
+// src/layouts/Layout.astro
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+}
+
+const { title = "AI方舟 | 1400+ AI工具导航" } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{title}</title>
+    <meta name="description" content="AI方舟(AIArk)收录1400+AI工具，提供最全面的AI工具导航服务。包含AI写作、图像、视频、办公、编程等全品类AI应用。">
+    <meta name="keywords" content="AI方舟,AIArk,AI工具,人工智能,AI导航,ChatGPT,AI写作,AI绘画,AI视频,AI办公,AI编程">
+    <meta name="author" content="AI方舟">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aiark.cn/">
+    <meta property="og:title" content="AI方舟 | 1400+ AI工具导航">
+    <meta property="og:description" content="探索AI的诺亚方舟，收录全品类AI工具，助你高效工作。">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://aiark.cn/">
+    <meta property="twitter:title" content="AI方舟 | AI工具导航">
+    <meta property="twitter:description" content="1400+ AI工具，一站式AI导航平台">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+    
+    <!-- 外部CDN资源 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- 自定义样式 -->
+    <style is:global>
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar { width: 6px; height: 6px; }
+        ::-webkit-scrollbar-track { background: #f1f5f9; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+        
+        /* Category Colors */
+        .cat-writing { --cat-color: #f59e0b; }
+        .cat-image { --cat-color: #ec4899; }
+        .cat-video { --cat-color: #8b5cf6; }
+        .cat-office { --cat-color: #3b82f6; }
+        .cat-code { --cat-color: #10b981; }
+        .cat-audio { --cat-color: #06b6d4; }
+        .cat-chat { --cat-color: #6366f1; }
+        .cat-search { --cat-color: #14b8a6; }
+        .cat-agent { --cat-color: #f97316; }
+        .cat-design { --cat-color: #d946ef; }
+        .cat-dev { --cat-color: #84cc16; }
+        .cat-learn { --cat-color: #f43f5e; }
+        .cat-model { --cat-color: #8b5cf6; }
+        .cat-detect { --cat-color: #ef4444; }
+        .cat-prompt { --cat-color: #64748b; }
+        
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in { animation: fadeIn 0.3s ease-out; }
+        
+        /* Glass Effect */
+        .glass {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+        
+        /* Tool Card Hover */
+        .tool-card {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .tool-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        /* Compare Checkbox */
+        .compare-checkbox:checked + div {
+            background-color: #3b82f6;
+            border-color: #3b82f6;
+        }
+        .compare-checkbox:checked + div svg {
+            display: block;
+        }
+        
+        /* Sidebar Active State */
+        .category-item.active {
+            background-color: #eff6ff;
+            border-right: 3px solid #3b82f6;
+        }
+        
+        /* Subcategory Expand */
+        .subcategory-list {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }
+        .subcategory-list.expanded {
+            max-height: 500px;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased min-h-screen">
+    <slot />
+    
+    <!-- 全局交互脚本 -->
+    <script src="/src/scripts/main.js"></script>
+</body>
+</html>

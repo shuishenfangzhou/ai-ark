@@ -1,40 +1,249 @@
 ---
-import '../styles/global.css';
-import Sidebar from '../components/layout/Sidebar.astro';
-import SearchBar from '../components/ui/SearchBar.astro';
-import ToolCard from '../components/ui/ToolCard.astro';
+// src/pages/index.astro
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Sidebar from '../components/Sidebar.astro';
+import ToolCard from '../components/ToolCard.astro';
 ---
-<html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <title>AI Ark v2.0 - AI工具导航</title>
-  </head>
-  <body class="min-h-screen">
-    <div class="flex">
-      <!-- 侧边栏 -->
-      <Sidebar />
-      <!-- 主内容区 -->
-      <main class="flex-1 p-8">
-        <!-- 搜索栏 -->
-        <div class="mb-8 max-w-2xl">
-          <SearchBar />
-        </div>
-        <!-- 工具卡片列表 -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <ToolCard
-            name="ChatGPT"
-            description="OpenAI推出的对话式AI，支持多轮交互、代码生成、内容创作"
-            tags={["AI对话", "代码生成", "内容创作"]}
-            url="https://chat.openai.com"
-          />
-          <ToolCard
-            name="Midjourney"
-            description="AI绘画工具，生成高质量创意图像"
-            tags={["AI绘画", "创意设计"]}
-            url="https://www.midjourney.com"
-          />
-        </div>
-      </main>
+<Layout>
+    <Header />
+
+    <!-- Main Layout: Three Columns -->
+    <div class="max-w-[1600px] mx-auto flex flex-grow">
+        <Sidebar />
+
+        <!-- Main Content: Tools Grid -->
+        <main class="flex-1 min-w-0 px-4 sm:px-6 lg:px-8 py-6">
+            <!-- Mobile Header -->
+            <div class="lg:hidden mb-6 space-y-3">
+                <input type="text" id="mobile-search" class="block w-full px-4 py-3 border border-slate-200 rounded-xl shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500" placeholder="搜索 AI 工具...">
+                <div class="flex gap-2 overflow-x-auto pb-2" id="mobile-categories">
+                    <button class="px-3 py-2 bg-blue-500 text-white rounded-lg text-sm whitespace-nowrap">全部分类</button>
+                    <button class="px-3 py-2 bg-slate-100 text-slate-700 rounded-lg text-sm whitespace-nowrap">AI写作</button>
+                    <button class="px-3 py-2 bg-slate-100 text-slate-700 rounded-lg text-sm whitespace-nowrap">AI绘画</button>
+                    <button class="px-3 py-2 bg-slate-100 text-slate-700 rounded-lg text-sm whitespace-nowrap">AI视频</button>
+                </div>
+            </div>
+
+            <!-- Stats Dashboard -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                <!-- Left: Total Stats (Blue Card) -->
+                <div class="bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl p-6 text-white shadow-lg relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition">
+                        <i class="fa-solid fa-rocket text-8xl transform rotate-12"></i>
+                    </div>
+                    <div class="relative z-10">
+                        <div class="flex items-center gap-3 mb-2">
+                            <div class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center backdrop-blur-sm">
+                                <i class="fa-solid fa-database"></i>
+                            </div>
+                            <span class="text-blue-100 font-medium">已收录工具</span>
+                        </div>
+                        <div class="text-4xl font-bold mb-2 tracking-tight">1,428</div>
+                        <div class="flex items-center text-sm text-blue-100">
+                            <span class="bg-white/20 px-2 py-0.5 rounded text-xs mr-2">实时更新</span>
+                            <span>覆盖 12+ 个核心领域</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Middle: Distribution Chart -->
+                <div class="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm flex items-center relative overflow-hidden">
+                    <div id="stats-chart" class="w-32 h-32 flex-shrink-0 -ml-2"></div>
+                    <div class="flex-1 ml-2 z-10">
+                        <h3 class="font-bold text-slate-800 mb-2">收录分布</h3>
+                        <div class="space-y-2 text-xs text-slate-500">
+                            <div class="flex items-center justify-between">
+                                <span class="flex items-center"><span class="w-2 h-2 rounded-full bg-blue-500 mr-2"></span>AI 对话</span>
+                                <span class="font-medium text-slate-700">35%</span>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <span class="flex items-center"><span class="w-2 h-2 rounded-full bg-pink-500 mr-2"></span>AI 绘画</span>
+                                <span class="font-medium text-slate-700">25%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Activity Stats -->
+                <div class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm flex flex-col justify-center">
+                    <div class="flex items-center justify-between mb-4 pb-4 border-b border-slate-50">
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 bg-green-50 text-green-600 rounded-lg flex items-center justify-center">
+                                <i class="fa-solid fa-calendar-plus"></i>
+                            </div>
+                            <div>
+                                <div class="text-xs text-slate-400">今日新增</div>
+                                <div class="text-xl font-bold text-slate-800">+12</div>
+                            </div>
+                        </div>
+                        <span class="text-xs text-green-500 bg-green-50 px-2 py-1 rounded-full">
+                            <i class="fa-solid fa-arrow-trend-up mr-1"></i>4.2%
+                        </span>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 bg-purple-50 text-purple-600 rounded-lg flex items-center justify-center">
+                                <i class="fa-solid fa-chart-simple"></i>
+                            </div>
+                            <div>
+                                <div class="text-xs text-slate-400">总访问量</div>
+                                <div class="text-xl font-bold text-slate-800">1.2M</div>
+                            </div>
+                        </div>
+                        <span class="text-xs text-purple-500 bg-purple-50 px-2 py-1 rounded-full">Top 1%</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats Bar -->
+            <div class="flex flex-wrap items-center justify-between gap-4 mb-6">
+                <div>
+                    <h1 id="page-title" class="text-2xl font-bold text-slate-900">全部工具</h1>
+                    <p class="text-sm text-slate-500 mt-1">发现最新、最实用的 AI 生产力工具</p>
+                </div>
+                
+                <div class="flex items-center gap-3">
+                    <!-- Sort Dropdown -->
+                    <select id="sort-select" class="text-sm border-slate-200 rounded-lg focus:border-blue-500 focus:ring focus:ring-blue-200">
+                        <option value="popular">🔥 热度最高</option>
+                        <option value="newest">📅 最新收录</option>
+                        <option value="rating">⭐ 评分最高</option>
+                        <option value="name">🔤 名称排序</option>
+                    </select>
+                    
+                    <!-- View Toggle -->
+                    <div class="flex bg-slate-100 rounded-lg p-1">
+                        <button id="view-grid" class="px-3 py-1.5 rounded-md bg-white shadow-sm text-sm font-medium text-slate-700">
+                            <i class="fa-solid fa-grid-2"></i>
+                        </button>
+                        <button id="view-list" class="px-3 py-1.5 rounded-md text-sm font-medium text-slate-500 hover:text-slate-700">
+                            <i class="fa-solid fa-list"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Active Filters -->
+            <div id="active-filters" class="flex flex-wrap gap-2 mb-4 hidden">
+                <span class="px-3 py-1 bg-blue-50 text-blue-600 rounded-lg text-sm flex items-center gap-2">
+                    免费 <button class="text-blue-400 hover:text-blue-600"><i class="fa-solid fa-xmark"></i></button>
+                </span>
+            </div>
+
+            <!-- Tools Grid -->
+            <div id="tools-grid" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+                <ToolCard 
+                    name="ChatGPT" 
+                    desc="OpenAI推出的对话式AI，支持多轮交互、代码生成、内容创作，覆盖全场景生产力提升"
+                    category="AI对话"
+                    tags={["免费", "多语言", "代码生成"]}
+                    url="https://chat.openai.com"
+                />
+                <ToolCard 
+                    name="Midjourney" 
+                    desc="顶级AI绘画工具，生成高质量创意图像，支持多种风格自定义，是设计师的必备工具"
+                    category="AI绘画"
+                    tags={["付费", "创意设计", "高分辨率"]}
+                    url="https://www.midjourney.com"
+                />
+                <ToolCard 
+                    name="讯飞星火" 
+                    desc="科大讯飞推出的国产大模型，支持中文对话、文档分析、多模态交互，全中文优化"
+                    category="AI对话"
+                    tags={["免费", "中文支持", "多模态"]}
+                    url="https://xinghuo.xfyun.cn"
+                />
+                <ToolCard 
+                    name="Claude" 
+                    desc="Anthropic开发的AI助手，以安全性和长文本理解能力著称，适合复杂任务处理"
+                    category="AI对话"
+                    tags={["免费", "长文本", "安全性"]}
+                    url="https://claude.ai"
+                />
+                <ToolCard 
+                    name="Stable Diffusion" 
+                    desc="开源AI绘画模型，支持本地部署和高度定制，是开发者和设计师的首选工具"
+                    category="AI绘画"
+                    tags={["开源", "免费", "可定制"]}
+                    url="https://stability.ai"
+                />
+                <ToolCard 
+                    name="Notion AI" 
+                    desc="Notion内置AI功能，帮助写作、编辑、总结文档，提升工作效率"
+                    category="AI写作"
+                    tags={["付费", "集成", "文档"]}
+                    url="https://notion.so"
+                />
+            </div>
+
+            <!-- Loading State -->
+            <div id="loading-state" class="hidden py-12 text-center">
+                <div class="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-blue-500"></div>
+                <p class="mt-2 text-sm text-slate-500">加载中...</p>
+            </div>
+
+            <!-- No Results -->
+            <div id="no-results" class="hidden py-12 text-center">
+                <div class="w-24 h-24 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fa-solid fa-magnifying-glass-minus text-slate-300 text-4xl"></i>
+                </div>
+                <h3 class="text-lg font-medium text-slate-900">未找到相关工具</h3>
+                <p class="text-slate-500 mt-2">尝试更换关键词或调整筛选条件</p>
+                <button onclick="resetAllFilters()" class="mt-4 px-4 py-2 bg-blue-50 text-blue-600 rounded-lg hover:bg-blue-100 transition">
+                    清除所有筛选
+                </button>
+            </div>
+
+            <!-- Load More -->
+            <div id="load-more-container" class="py-8 text-center">
+                <button id="load-more-btn" class="px-6 py-2.5 bg-white border border-slate-200 rounded-lg text-slate-700 hover:bg-slate-50 transition">
+                    加载更多 <i class="fa-solid fa-chevron-down ml-2 text-xs"></i>
+                </button>
+            </div>
+        </main>
     </div>
-  </body>
-</html>
+</Layout>
+
+<!-- 图表初始化脚本 -->
+<script is:inline>
+    // 初始化统计图表
+    document.addEventListener('DOMContentLoaded', function() {
+        const ctx = document.getElementById('stats-chart');
+        if (ctx && typeof Chart !== 'undefined') {
+            new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['AI对话', 'AI绘画', 'AI写作', '其他'],
+                    datasets: [{
+                        data: [35, 25, 20, 20],
+                        backgroundColor: [
+                            '#3b82f6', '#ec4899', '#f59e0b', '#64748b'
+                        ],
+                        borderWidth: 0,
+                        borderRadius: 4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    cutout: '70%',
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: { enabled: false }
+                    }
+                }
+            });
+        }
+
+        // 简单的搜索交互（示例）
+        const searchInput = document.getElementById('global-search');
+        if (searchInput) {
+            searchInput.addEventListener('keydown', function(e) {
+                if (e.key === 'Enter') {
+                    alert('搜索：' + searchInput.value);
+                }
+            });
+        }
+    });
+</script>
