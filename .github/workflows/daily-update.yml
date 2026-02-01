@@ -147,8 +147,10 @@ jobs:
           target: ${{ secrets.DEPLOY_PATH }}
           strip_components: 0
       
+      # 修复点：使用 env 中转，彻底解决 "Unrecognized named-value" 报错
       - name: Clear CDN cache
-        # 修复了这里的语法，使用了 ${{ }}
-        if: ${{ secrets.CDN_CLEAR_URL != '' }}
+        env:
+          CDN_URL: ${{ secrets.CDN_CLEAR_URL }}
+        if: ${{ env.CDN_URL != '' }}
         run: |
-          curl -X PURGE ${{ secrets.CDN_CLEAR_URL }}
+          curl -X PURGE $CDN_URL
