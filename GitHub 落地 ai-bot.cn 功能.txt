@@ -1,0 +1,359 @@
+﻿基于 GitHub 生态构建企业级 AI 导航平台的深度架构与落地报告
+1. 执行摘要与项目背景
+在生成式人工智能技术爆发的当下，AI 工具的碎片化分发与用户获取优质资源的高门槛之间存在巨大的市场真空。以 ai-bot.cn 为代表的 AI 导航站，通过聚合、分类、评测与社区化运营，成功构建了流量入口与商业闭环。对于追求技术自主性与商业可行性的开发者而言，复制并超越此类平台不仅是对前端交互的模仿，更是一场涉及全栈工程、DevOps 自动化运维、搜索引擎优化（SEO）以及支付系统集成的复杂战役。
+本报告旨在为技术决策者和全栈工程师提供一份详尽的实施蓝图。我们将摒弃浅尝辄止的工具罗列，转而深入 GitHub 开源生态的腹地，挖掘那些能够支撑起高并发、高可用且具备商业化潜力的开源解决方案。报告将围绕“完美落地”这一核心诉求，从技术选型、架构设计、功能复刻、自动化部署到商业化变现，进行全链路的深度剖析。特别是针对用户提出的基于 GitHub 解决网站问题及模仿核心功能的需求，我们将通过对比 Next.js 现代技术栈与 WordPress 成熟生态体系，提供两条并行不悖但殊途同归的实施路径，并最终通过 Docker 容器化与 CI/CD 流水线实现工程化的完美交付。
+2. 标杆分析：解构 ai-bot.cn 的核心竞争力
+要实现对标杆的超越，首先必须对其进行原子级的解构。ai-bot.cn 之所以能够成为行业翘楚，并非仅仅因为其收录了大量的 AI 工具，更在于其构建了一套流畅的用户体验系统与稳健的流量分发机制。通过对相关研究资料的综合分析，我们可以将其核心功能矩阵映射为具体的工程需求。
+2.1 核心功能透视与工程映射
+ai-bot.cn 被描述为 AI 领域的“瑞士军刀”，其功能覆盖了从写作助手、图像生成到视频编辑等全维度的工具聚合 1。在工程视角下，这意味着系统必须具备极高的分类灵活性与数据检索能力。
+多维分类系统： 平台不仅是一层简单的分类，而是包含了多级子分类（如“图像处理”下细分为“背景移除”、“风格迁移”等）。这要求后端数据库设计必须支持树状或图状的分类结构，且在前端渲染时能够处理深层嵌套的导航菜单。GitHub 上的 WebStack 项目及其衍生品正是为了解决这一垂直导航需求而生 2。
+智能化检索： 仅仅依靠关键词匹配已无法满足用户意图。标杆平台通常集成了模糊搜索甚至语义搜索功能。在技术实现上，这意味着需要引入如 Fuse.js 进行前端搜索，或利用 PostgreSQL 的 pgvector 扩展实现基于向量的语义检索 3。
+社区驱动的增长飞轮： 用户提交与审核机制是平台维持活力的关键。用户可以通过表单提交新工具，管理员后台审核后上线，这种 UGC（用户生成内容）模式极大地降低了运营成本。相关的 GitHub 开源项目如 tap4-ai-webui 已经内置了完善的提交系统逻辑 3。
+商业化与会员体系： 高阶功能的解锁、无广告浏览或专属工具的使用权限，构成了平台的变现基础。这涉及到用户认证（Authentication）、授权（Authorization）以及与支付网关（如 Stripe）的深度集成 5。
+2.2 “完美落地”的定义
+在本报告中，“完美落地”不再是一个抽象的概念，而被定义为一组严格的工程指标：
+* 零停机部署：利用 GitHub Actions 实现自动化流水线，代码提交即上线。
+* 秒级响应：首屏加载时间（FCP）控制在 1 秒以内，依托于服务端渲染（SSR）或静态增量生成（ISR）。
+* 安全合规：全站 HTTPS，具备防 SQL 注入、XSS 攻击的能力，以及符合数据隐私规范。
+* SEO 统治力：自动生成 Sitemap，结构化数据（Schema.org）覆盖所有工具页，确保搜索引擎的高效收录 6。
+3. 技术栈选型：GitHub 生态下的双轨战略
+GitHub 是全球最大的开源代码托管平台，其中蕴藏着两种截然不同的技术路线来实现 AI 导航站的构建。选择哪一条路线，取决于团队的技术基因与业务侧重点。
+3.1 路径 A：现代全栈架构（Next.js + Supabase）
+这是追求极致性能、高度定制化以及长期技术资产积累的首选方案。以 tap4-ai-webui 为代表的开源项目 3，展示了如何利用 React 生态构建现代化的 AI 目录。
+核心优势： Next.js 的 App Router 架构允许组件在服务端渲染，这意味着爬虫可以直接获取完整的 HTML 内容，这对于目录站的 SEO 至关重要。结合 Tailwind CSS，开发者可以快速复刻 ai-bot.cn 的现代化 UI 风格 8。Supabase 作为 Backend-as-a-Service (BaaS) 的代表，提供了即开即用的 PostgreSQL 数据库、身份认证和对象存储，极大地降低了后端开发的复杂度 9。
+适用场景：
+* 开发者具备 React/TypeScript 基础。
+* 项目不仅限于展示，未来计划增加复杂的 SaaS 功能（如 AI 工具直接调用）。
+* 对页面加载速度（Core Web Vitals）有极高要求。
+3.2 路径 B：成熟 CMS 生态（WordPress + WebStack）
+对于非技术背景的站长或追求快速验证商业模式的团队，WordPress 依然是不可撼动的霸主。GitHub 上的 WebStack 主题 2 及其 WordPress 移植版，几乎成为了中文导航站的标准模板。
+核心优势： WordPress 拥有庞大的插件生态。SEO 优化可以通过 Yoast SEO 插件一键完成 10；缓存可以通过 WP Rocket 解决；支付可以对接 WooCommerce。WebStack 主题本身是开源的，且经过了多年的迭代，不仅支持响应式布局，还内置了符合国人使用习惯的侧边栏导航逻辑 11。
+适用场景：
+* 运营导向型团队，技术维护资源有限。
+* 需要快速上线（MVP），验证流量获取能力。
+* 依赖成熟的插件生态解决非核心业务问题。
+表 3.1：双轨技术栈深度对比分析
+
+
+评估维度
+	现代全栈架构 (Next.js)
+	成熟 CMS 架构 (WordPress)
+	决策建议
+	性能表现
+	极优：SSR/ISR 技术确保静态页面的加载速度，配合 Vercel 边缘网络表现卓越 12。
+	中等：依赖 PHP 解析，高并发下需配合 Redis/Varnish 缓存层进行优化。
+	流量大且追求极致体验选 Next.js。
+	开发效率
+	中低：需编写代码实现业务逻辑，但 GitHub 上的模板可加速起步 13。
+	极高：安装主题和插件即可，几乎无需写代码，数小时内可上线 14。
+	快速验证市场选 WordPress。
+	SEO 能力
+	高可控：可精细控制每个 Meta 标签和结构化数据，适合程序化 SEO 策略。
+	自动化：插件生态完善，适合标准化 SEO 需求，但在处理百万级页面时可能臃肿。
+	精细化运营选 Next.js。
+	扩展性
+	无限：前后端分离，可随意接入第三方 AI API 或微服务。
+	受限：受限于 WordPress 钩子机制和数据库结构，深度定制开发成本高。
+	计划做功能型平台选 Next.js。
+	运维成本
+	低/中：Vercel 托管几乎零运维；自托管 Docker 需一定容器知识。
+	中/高：需维护 LAMP/LEMP 环境，定期更新插件以防安全漏洞。
+	运维能力弱选 Vercel 托管 Next.js。
+	4. 深度实施指南：基于 Next.js 的现代化重构
+如果目标是完美复刻并超越 ai-bot.cn，采用 Next.js 方案不仅能提供更好的用户体验，还能通过 GitHub 上的高质量开源代码实现功能的快速组装。本节将详细拆解如何基于 tap4-ai-webui 7 进行二次开发与架构强化。
+4.1 核心架构搭建与目录结构优化
+GitHub 上的 tap4-ai-webui 项目采用了 Next.js 14 的 App Router 模式，这是目前最先进的 React 架构。在克隆项目后，首先需要理解并优化其目录结构以适应大规模数据。
+项目初始化与依赖管理： 推荐使用 pnpm 替代 npm，以提高依赖安装速度并节省磁盘空间，这对于 CI/CD 环境尤为重要 3。
+
+
+Bash
+
+
+
+
+git clone https://github.com/6677-ai/tap4-ai-webui.git
+cd tap4-ai-webui
+pnpm install
+
+目录结构解析与改造： 原项目的 app 目录包含了所有的路由页面。为了实现 ai-bot.cn 的多语言功能，需要引入 next-intl 中间件，并将页面路由包裹在 [locale] 文件夹下 3。
+* app/[locale]/page.tsx: 首页，负责渲染热门工具和分类导航。
+* app/[locale]/category/[slug]/page.tsx: 分类页，利用 ISR（增量静态再生成）技术，在构建时预渲染热门分类，同时支持新分类的动态生成。
+* app/api/: 后端 API 路由，处理搜索、提交、爬虫触发等逻辑。
+4.2 数据库设计：Supabase 的高阶应用
+要支撑成千上万的 AI 工具数据，数据库设计必须规范。利用 Supabase (PostgreSQL)，我们可以设计出比 WordPress 更严谨的关系型数据结构。
+Schema 设计策略：
+1. Tools 表：存储工具的核心信息。字段包括 id, name, description, url, icon_url, pricing_model (免费/付费/Freemium)。
+2. Categories 表：实现无限层级分类。字段包括 id, name, slug, parent_id。通过自关联 (parent_id) 实现多级导航。
+3. Tool_Category 关联表：实现多对多关系。一个工具可能同时属于“写作”和“办公”分类。
+4. Vector Store (扩展)：启用 pgvector 插件，将工具描述转化为向量存储，以支持类似于“帮我找个能画画的工具”这样的语义搜索，这是超越传统导航站的杀手锏功能 4。
+安全性实施 (RLS)：
+Supabase 默认暴露 API，因此必须启用行级安全策略 (Row Level Security)。
+* 读取策略：允许 anon (匿名) 角色读取所有公开的工具数据。
+* 写入策略：仅允许 authenticated (已登录) 用户插入数据到 submissions 表，且仅允许 admin 角色修改 tools 主表。这种细粒度的权限控制是“完美落地”中安全环节的基石 15。
+4.3 自动化数据填充：爬虫系统的集成
+ai-bot.cn 的数据量巨大，手动录入是不现实的。GitHub 上的 tap4-ai-crawler 15 提供了一个基于 Python 的爬虫解决方案，能够自动抓取目标网站的元数据。
+工作流设计：
+1. 触发：管理员在后台输入一个 URL。
+2. 执行：Next.js API 调用部署在 Docker 容器中的爬虫微服务。
+3. 抓取：爬虫使用无头浏览器 (Headless Browser) 访问页面，提取 <title>, <meta description>，并截取首屏截图。
+4. 智能化：调用 LLM (如 GPT-4 或 Claude) 对抓取的杂乱文本进行总结，生成一段精炼的工具介绍 15。
+5. 存储：将处理后的数据及截图 URL 存入 Supabase，并生成嵌入向量以便搜索。
+这一流程将内容生产效率提升了数个数量级，是实现“完美复刻”且不被运营重担压垮的关键。
+4.4 前端交互与视觉复刻
+前端是用户感知“模仿是否到位”的直接窗口。ai-bot.cn 的特点是左侧固定导航栏，右侧瀑布流展示工具卡片。
+UI 组件库选型： GitHub 上流行的 shadcn/ui 结合 Tailwind CSS 是实现这一布局的最佳选择 16。shadcn/ui 提供了可直接复制粘贴的组件代码，不仅高度可定制，而且支持深色模式 (Dark Mode)，这符合 AI 工具用户的审美习惯。
+交互细节优化：
+* 滚动监听 (Scroll Spy)：当用户滚动右侧内容时，左侧导航栏的对应分类应自动高亮。这可以通过 React 的 IntersectionObserver API 实现。
+* 图片懒加载：导航站图片密集，使用 Next.js 的 <Image> 组件自带懒加载和格式转换 (WebP)，能显著提升 Core Web Vitals 分数。
+5. 传统路径的现代化改造：WordPress 方案
+如果选择 WordPress 路径，目标则是消除其“臃肿”和“慢”的固有缺陷，使其达到甚至接近现代 Web 应用的性能标准。
+5.1 WebStack 主题的深度定制
+WebStack 主题 2 提供了基础的导航骨架，但要达到 ai-bot.cn 的级别，需要进行二次开发。
+功能增强：
+* 图标自动化：原生主题可能需要手动上传图标。可以通过集成 Favicon Fetcher 类插件，或者编写 PHP 函数调用 Google S2 服务 (https://www.google.com/s2/favicons?domain=...) 自动获取目标网站图标，解决图标缺失问题。
+* 搜索增强：替换默认的 WordPress 搜索。安装 Relevanssi 插件，它能索引自定义字段（如工具的“价格”或“开发者”信息），并支持模糊匹配，显著提升搜索体验。
+5.2 性能调优：让 WordPress 飞起来
+静态化策略： 安装 WP Rocket 或 W3 Total Cache。启用“HTML 压缩”和“CSS/JS 合并”。最重要的是，配置 Nginx 层面的 FastCGI 缓存，让 PHP 页面在生成一次后，后续请求直接由 Nginx 返回静态 HTML，绕过 PHP 解析过程，这将使响应速度提升 10 倍以上 10。
+数据库优化：
+由于导航站主要是读操作，可以使用 Redis Object Cache 插件。它将数据库查询结果缓存在内存中，极大地减轻 MySQL 的压力。对于千万级访问量的站点，这是标准配置。
+6. 商业化闭环：支付与会员系统集成
+不仅要模仿外观，更要模仿其商业模式。ai-bot.cn 可能包含广告、会员专属工具或付费提交等变现方式。
+6.1 Stripe 支付集成实战
+GitHub 上的 nextjs-subscription-payments 项目 17 提供了基于 Stripe 的完整 SaaS 订阅模版。
+核心逻辑实现：
+1. 产品同步：在 Stripe 后台创建“月度会员”或“快速审核通道”产品。通过 Webhook 将这些产品信息同步到 Supabase 的 products 表。
+2. 结账流程 (Checkout)：前端使用 Stripe 的 SDK 调用 redirectToCheckout。Next.js 的 API Route (/api/checkout_sessions) 负责创建会话，并附带用户的 client_reference_id。
+3. Webhook 处理：这是支付系统的“心脏”。在 app/api/webhooks/route.ts 中监听 checkout.session.completed 事件。为了防止网络抖动导致的丢单，必须校验 Stripe 签名，并保证处理逻辑的幂等性 (Idempotency)——即同一个事件处理多次不会导致数据错误 18。
+6.2 WordPress 的会员方案
+在 WordPress 生态中，无需编写代码即可实现复杂的会员逻辑。
+* Ultimate Member 19：用于构建漂亮的用户个人中心、注册登录表单。
+* Paid Member Subscriptions 20：核心变现插件。它可以限制特定内容的访问权限（例如，“高阶 AI 教程”仅限会员查看），或者设置付费提交表单（提交工具需支付 $5 审核费）。通过与 WooCommerce 集成，它可以支持几乎所有支付网关，包括支付宝和微信支付（通过第三方扩展）。
+7. “完美落地”的基石：基础设施与 DevOps 自动化
+代码写好只是开始，如何将其稳定、安全、自动地部署到生产环境，是区分“玩具项目”与“商业项目”的分水岭。我们采用 Docker 容器化与 GitHub Actions 相结合的策略。
+7.1 Docker 容器化战略
+容器化确保了开发环境与生产环境的高度一致性，彻底解决了“在我电脑上能跑”的问题。
+Dockerfile 编写最佳实践 (Next.js)：
+
+
+Dockerfile
+
+
+
+
+# 采用多阶段构建 (Multi-stage Build) 以减小镜像体积
+FROM node:18-alpine AS base
+
+# 依赖安装阶段
+FROM base AS deps
+WORKDIR /app
+COPY package.json pnpm-lock.yaml./
+RUN npm install -g pnpm && pnpm i --frozen-lockfile
+
+# 构建阶段
+FROM base AS builder
+WORKDIR /app
+COPY --from=deps /app/node_modules./node_modules
+COPY..
+# 禁用 Next.js 的遥测数据
+ENV NEXT_TELEMETRY_DISABLED 1
+RUN npm install -g pnpm && pnpm build
+
+# 运行阶段
+FROM base AS runner
+WORKDIR /app
+ENV NODE_ENV production
+# 仅复制构建产物和必要的配置文件
+COPY --from=builder /app/public./public
+COPY --from=builder /app/.next/standalone./
+COPY --from=builder /app/.next/static./.next/static
+
+EXPOSE 3000
+CMD ["node", "server.js"]
+
+解析：上述 Dockerfile 使用了 Next.js 的 standalone 输出模式，这会自动分析依赖关系，只打包生产环境真正需要的文件，极大地缩小了镜像体积（通常从 1GB+ 降至 100MB 左右），提升了部署速度和安全性 21。
+Docker Compose 编排 (WordPress)：
+对于 WordPress，推荐使用 docker-compose.yml 编排服务，将应用、数据库和 Web 服务器解耦。
+
+
+YAML
+
+
+
+
+services:
+ wordpress:
+   image: wordpress:latest
+   volumes:
+     -./wp-content:/var/www/html/wp-content
+   environment:
+     WORDPRESS_DB_HOST: db
+     WORDPRESS_DB_PASSWORD: some_secure_password
+   depends_on:
+     - db
+   restart: always
+
+ db:
+   image: mariadb:10.6
+   volumes:
+     - db_data:/var/lib/mysql
+   environment:
+     MYSQL_ROOT_PASSWORD: some_secure_password
+   restart: always
+
+ nginx:
+   image: nginx:alpine
+   ports:
+     - "80:80"
+     - "443:443"
+   volumes:
+     -./nginx-conf:/etc/nginx/conf.d
+     -./certbot/conf:/etc/letsencrypt
+   depends_on:
+     - wordpress
+
+解析：将 wp-content 挂载到宿主机，方便进行主题开发和备份。Nginx 作为反向代理，处理 SSL 终结，这比让 WordPress 直接处理 HTTPS 更高效且安全 23。
+7.2 CI/CD 流水线：自动化部署
+手动 FTP 上传代码是不可接受的。我们需要利用 GitHub Actions 实现自动化部署。
+工作流设计 (deploy.yml)：
+1. 代码构建与镜像推送：当代码推送到 main 分支时，GitHub Action 自动触发。它运行测试，构建 Docker 镜像，并将其推送到 GitHub Container Registry (GHCR)。
+2. SSH 远程部署：利用 appleboy/ssh-action 24 远程连接到 VPS 服务器。
+3. 滚动更新：在服务器上执行 docker pull 拉取新镜像，并运行 docker-compose up -d 重启服务。
+Watchtower 的妙用： 为了进一步简化，可以在服务器上运行 Watchtower 容器 25。它会每隔几分钟检查一次镜像仓库，如果发现有新版本的镜像（由 GitHub Actions 构建上传），它会自动拉取并优雅地重启应用容器。这实现了真正的“GitOps”——你只需提交代码，服务器自动更新，无需人工干预。
+7.3 安全加固与服务器优化
+公网暴露的服务必须经过安全加固。
+* Nginx 安全头：通过 nginx-hardening 脚本 26 配置 HTTP 响应头，添加 X-Frame-Options: SAMEORIGIN（防止点击劫持）、X-Content-Type-Options: nosniff 等，构建防御纵深。
+* SSL 自动化：集成 Certbot 容器，设置 Cron 任务自动续期 Let's Encrypt 证书，确保持续的 HTTPS 加密连接 27。
+* Fail2Ban：在宿主机安装 Fail2Ban，监控 Nginx 和 SSH 日志，自动封禁恶意扫描 IP。
+8. 流量与 SEO：不仅仅是建成
+网站建成只是第一步，如何让用户找到它（Imitate the success, not just the code）是最后且最重要的一环。
+SEO 策略：
+* Sitemap 自动生成：对于 Next.js 项目，使用 next-sitemap 包，在构建时自动扫描路由生成 XML 地图。对于动态路由（如工具详情页），需在 sitemap.ts 中编写逻辑，从 Supabase 读取所有工具 ID 生成 URL 6。
+* 结构化数据 (Schema Markup)：这是 ai-bot.cn 能够获得丰富搜索结果展示（如评分星级）的秘密。在工具详情页嵌入 SoftwareApplication 类型的 JSON-LD 数据，明确告知 Google 这是软件工具而非普通文章 28。
+性能即 SEO：
+Google 的 Core Web Vitals 是排名要素。通过 Vercel Analytics 或 Lighthouse 监控 LCP (最大内容渲染) 和 CLS (累积布局偏移)。针对 Next.js，利用 next/font 优化字体加载，利用 next/image 防止图片导致的布局跳动，确保移动端评分在 90 分以上。
+9. 结论
+解决网站问题并完美复刻 ai-bot.cn，不仅是一次代码的搬运，更是一次系统工程的实践。通过 GitHub 生态，我们站在了巨人的肩膀上：tap4-ai-webui 提供了现代化的骨架，WebStack 提供了成熟的范式，Stripe 和 Supabase 解决了后端与支付的难题，而 Docker 与 GitHub Actions 则为整个系统穿上了防弹衣。
+无论选择 Next.js 的激进路线还是 WordPress 的稳健路线，核心在于对“完美落地”标准的坚持——自动化的运维、极致的性能优化、严密的安全策略以及闭环的商业逻辑。遵循本报告提供的架构蓝图与实施细节，开发者不仅能复制一个 AI 导航站，更能构建一个具备长期生命力的互联网产品。
+________________
+附录：关键实施代码片段与配置参考
+A. Next.js 核心配置 (next.config.js)
+
+
+JavaScript
+
+
+
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+ // 启用独立构建模式，大幅优化 Docker 镜像体积
+ output: "standalone",
+ images: {
+   // 允许加载外部域名的图片（如工具图标）
+   remotePatterns: [
+     {
+       protocol: 'https',
+       hostname: '**',
+     },
+   ],
+ },
+ // 国际化路由配置
+ i18n: {
+   locales: ['en', 'zh', 'ja'],
+   defaultLocale: 'zh',
+ },
+};
+
+module.exports = nextConfig;
+
+B. 自动化部署工作流 (GitHub Actions)
+
+
+YAML
+
+
+
+
+name: Production Deployment
+
+on:
+ push:
+   branches: ["main"]
+
+env:
+ REGISTRY: ghcr.io
+ IMAGE_NAME: ${{ github.repository }}
+
+jobs:
+ build-and-push:
+   runs-on: ubuntu-latest
+   permissions:
+     contents: read
+     packages: write
+
+   steps:
+     - name: Checkout repository
+       uses: actions/checkout@v3
+
+     - name: Log in to the Container registry
+       uses: docker/login-action@v2
+       with:
+         registry: ${{ env.REGISTRY }}
+         username: ${{ github.actor }}
+         password: ${{ secrets.GITHUB_TOKEN }}
+
+     - name: Build and push Docker image
+       uses: docker/build-push-action@v4
+       with:
+         context:.
+         push: true
+         tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
+
+ deploy-to-vps:
+   needs: build-and-push
+   runs-on: ubuntu-latest
+   steps:
+     - name: Deploy via SSH
+       uses: appleboy/ssh-action@v1.0.0
+       with:
+         host: ${{ secrets.VPS_HOST }}
+         username: ${{ secrets.VPS_USER }}
+         key: ${{ secrets.VPS_SSH_KEY }}
+         script: |
+           # 登录并拉取最新镜像
+           echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+           docker pull ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
+           # 滚动更新服务
+           cd /opt/ai-nav
+           docker-compose up -d --no-deps --build app
+           docker image prune -f
+
+引用的著作
+1. Unlocking the Power of AI Tools: A Deep Dive Into ai-bot.cn - Oreate AI Blog, 访问时间为 二月 2, 2026， http://oreateai.com/blog/unlocking-the-power-of-ai-tools-a-deep-dive-into-aibotcn/203e317daf42cecbc77663dae903f775
+2. wordpress-theme · GitHub Topics, 访问时间为 二月 2, 2026， https://github.com/topics/wordpress-theme?o=desc&s=forks
+3. kl2111/tap4-ai-webui - GitHub, 访问时间为 二月 2, 2026， https://github.com/kl2111/tap4-ai-webui
+4. Stripe | Supabase Docs, 访问时间为 二月 2, 2026， https://supabase.com/docs/guides/database/extensions/wrappers/stripe
+5. Stripe and OpenAI collaborate to monetize OpenAI's flagship products and enhance Stripe with GPT-4, 访问时间为 二月 2, 2026， https://stripe.com/newsroom/news/stripe-and-openai
+6. Sitemap Best Practices: HTML & XML Sitemaps - Quattr, 访问时间为 二月 2, 2026， https://www.quattr.com/enhance-experience/seo-sitemaps-explained
+7. 图龙网络科技工作室/tap4-ai-webui - Gitee, 访问时间为 二月 2, 2026， https://gitee.com/tulong_co/tap4-ai-webui/blob/main/README.md?force_mobile=true
+8. The Complete Guide to Building Your Free Local AI Assistant with Ollama and Open WebUI : r/selfhosted - Reddit, 访问时间为 二月 2, 2026， https://www.reddit.com/r/selfhosted/comments/1jbk06h/the_complete_guide_to_building_your_free_local_ai/
+9. Self-Hosting | Supabase Docs, 访问时间为 二月 2, 2026， https://supabase.com/docs/guides/self-hosting
+10. 15 Best WordPress SEO Plugins in 2026 (Tried & Tested) - AIOSEO, 访问时间为 二月 2, 2026， https://aioseo.com/best-seo-plugins-for-wordpress/
+11. Releases · owen0o0/WebStack - GitHub, 访问时间为 二月 2, 2026， https://github.com/owen0o0/WebStack/releases
+12. Supabase & Next.js App Router Starter Template for Auth - Vercel, 访问时间为 二月 2, 2026， https://vercel.com/templates/next.js/supabase
+13. I'm Open Sourcing A Stripe SaaS W/ Supabase, NextJS. You Can Launch Full-Stack Apps 100x Easier. - YouTube, 访问时间为 二月 2, 2026， https://www.youtube.com/watch?v=ad1BxZufer8
+14. My web-stack in docker-compose - GitHub, 访问时间为 二月 2, 2026， https://github.com/disaipe/web-stack
+15. Tap4 AI Open-source Project: The All-in-One Lightweight AI Directory Project, 访问时间为 二月 2, 2026， https://tap4-ai.medium.com/tap4-ai-open-source-project-the-all-in-one-lightweight-ai-directory-site-project-68ac515df459
+16. The highest quality SaaS starter with Next.js, Supabase, Stripe, and shadcn/ui - GitHub, 访问时间为 二月 2, 2026， https://github.com/KolbySisk/next-supabase-stripe-starter
+17. vercel/nextjs-subscription-payments: Clone, deploy, and fully customize a SaaS subscription application with Next.js. - GitHub, 访问时间为 二月 2, 2026， https://github.com/vercel/nextjs-subscription-payments
+18. Stripe SUBSCRIPTIONS with Next.js & Supabase - YouTube, 访问时间为 二月 2, 2026， https://www.youtube.com/watch?v=VHAOKbpMat0
+19. Ultimate Member – User Profile, Registration, Login, Member Directory, Content Restriction & Membership Plugin - WordPress.org, 访问时间为 二月 2, 2026， https://wordpress.org/plugins/ultimate-member/
+20. Paid Membership Subscriptions – Effortless Memberships, Recurring Payments & Content Restriction Plugin - WordPress.com, 访问时间为 二月 2, 2026， https://wordpress.com/plugins/paid-member-subscriptions
+21. Dockerizing a Next.js Application with GitHub Actions - Max Dietrich, 访问时间为 二月 2, 2026， https://mxd.codes/articles/docker-ci-cd-for-nextjs-with-github-actions
+22. Containerize Your Next.js 14 Application with Docker: A Step-by-Step Guide | by Rahul, 访问时间为 二月 2, 2026， https://therahulsarkar.medium.com/containerize-your-next-js-14-application-with-docker-a-step-by-step-guide-93a6133fe073
+23. Simplified WordPress Development with Docker Compose - Tim G Thomas, 访问时间为 二月 2, 2026， https://timgthomas.com/2024/01/simplified-wordpress-development-with-docker-compose/
+24. Docker Compose SSH Deployment · Actions · GitHub Marketplace, 访问时间为 二月 2, 2026， https://github.com/marketplace/actions/docker-compose-ssh-deployment
+25. How to Set Up Docker Container Auto-Updates with Watchtower - OneUptime, 访问时间为 二月 2, 2026， https://oneuptime.com/blog/post/2026-01-16-docker-watchtower-auto-updates/view
+26. nginx security hardening.sh - GitHub Gist, 访问时间为 二月 2, 2026， https://gist.github.com/kkarimi/753e33b0ffe961f8cc26876fcb9e4896
+27. How To Install WordPress With Docker Compose - DigitalOcean, 访问时间为 二月 2, 2026， https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-with-docker-compose
+28. AI Search Strategy | Leveraging Structured Data & LLM Sitemaps - YouTube, 访问时间为 二月 2, 2026， https://www.youtube.com/watch?v=lBtafbexOsk
