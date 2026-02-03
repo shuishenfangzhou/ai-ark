@@ -118,36 +118,36 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      
+        
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
-      
+          
       - name: Install dependencies
         run: npm ci
-      
+        
       - name: Build Astro site
         run: |
           npm run build
           
-      # Pagefind 索引
+      # Pagefind 索引 (这一步对搜索功能很重要)
       - name: Index with Pagefind
         run: |
           npx pagefind --site dist --output-path dist/pagefind
-      
+          
       - name: Deploy to server
-        uses: appleboy/scp-action@v0.1.7
+        uses: appleboy/scp-action@master
         with:
-          host: ${{ secrets.SERVER_HOST }}
+          host: ${{ secrets.SERVER_IP }}        
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SERVER_SSH_KEY }}
-          source: "dist,data/tools.json"
-          target: ${{ secrets.DEPLOY_PATH }}
-          strip_components: 0
-      
-      # 修复点：使用 env 中转，彻底解决 "Unrecognized named-value" 报错
+          source: "dist/"                       # 只上传 dist 文件夹
+          target: "/opt/1panel/apps/openresty/openresty/www/sites/my-ai-site/index/" # 建议写死绝对路径，最稳
+          strip_components: 1                   # ✅ 重要：去掉 dist 这一层目录，防止出现 /dist/index.html 的情况
+
+      # 清理 CDN 缓存 (如果没有配置 CDN 可以忽略这一步的报错或直接删掉)
       - name: Clear CDN cache
         env:
           CDN_URL: ${{ secrets.CDN_CLEAR_URL }}
