@@ -1,0 +1,161 @@
+---
+// 微信扫码弹窗组件 - Astro语法+原生JS，无框架依赖
+// 层级z-index:9999，高于原有模态框，支持ESC/遮罩/按钮关闭
+---
+<div id="wechatModal" class="wechat-modal">
+  <div class="modal-content">
+    <button class="close-btn" id="modalCloseBtn" aria-label="关闭">&times;</button>
+    <h3>微信扫码关注公众号</h3>
+    <img src="/img/wechat-qrcode.png" alt="公众号二维码" class="qrcode-img" />
+    <p>扫码获取工具使用教程+最新工具更新</p>
+  </div>
+</div>
+
+<style>
+  /* 扫码弹窗遮罩层 - 层级最高 */
+  .wechat-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+
+  /* 弹窗显示状态 */
+  .wechat-modal.show {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  /* 弹窗主体 */
+  .wechat-modal .modal-content {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    position: relative;
+  }
+
+  /* 关闭按钮 */
+  .wechat-modal .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: transparent;
+    border: none;
+    font-size: 28px;
+    color: #999;
+    cursor: pointer;
+    line-height: 1;
+    padding: 5px;
+  }
+
+  .wechat-modal .close-btn:hover {
+    color: #333;
+  }
+
+  /* 二维码图片 */
+  .wechat-modal .qrcode-img {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    display: block;
+    border: 1px solid #eee;
+    padding: 10px;
+    border-radius: 4px;
+  }
+
+  /* 标题样式 */
+  .wechat-modal h3 {
+    font-size: 20px;
+    color: #333;
+    margin: 0 0 15px 0;
+  }
+
+  /* 描述文字 */
+  .wechat-modal p {
+    color: #666;
+    font-size: 14px;
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  /* 移动端适配 */
+  @media (max-width: 576px) {
+    .wechat-modal .modal-content {
+      padding: 20px;
+    }
+
+    .wechat-modal .qrcode-img {
+      width: 180px;
+      height: 180px;
+    }
+
+    .wechat-modal h3 {
+      font-size: 18px;
+    }
+
+    .wechat-modal p {
+      font-size: 13px;
+    }
+  }
+</style>
+
+<script is:inline>
+  // 弹窗交互逻辑 - 原生JS，无框架依赖
+  function initWechatModal() {
+    const wechatModal = document.getElementById('wechatModal');
+    const modalCloseBtn = document.getElementById('modalCloseBtn');
+
+    if (!wechatModal || !modalCloseBtn) {
+      console.warn('WechatModal: 弹窗元素未找到');
+      return;
+    }
+
+    // 打开弹窗函数 - 供外部调用
+    window.openWechatModal = function() {
+      wechatModal.classList.add('show');
+      document.body.style.overflow = 'hidden';
+    };
+
+    // 关闭弹窗函数
+    function closeModal() {
+      wechatModal.classList.remove('show');
+      document.body.style.overflow = '';
+    }
+
+    // 关闭按钮点击
+    modalCloseBtn.addEventListener('click', closeModal);
+
+    // 点击遮罩层关闭
+    wechatModal.addEventListener('click', function(e) {
+      if (e.target === wechatModal) {
+        closeModal();
+      }
+    });
+
+    // ESC键关闭
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && wechatModal.classList.contains('show')) {
+        closeModal();
+      }
+    });
+  }
+
+  // 页面加载完成后初始化
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initWechatModal);
+  } else {
+    initWechatModal();
+  }
+</script>

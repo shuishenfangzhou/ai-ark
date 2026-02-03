@@ -2,7 +2,7 @@
 // src/components/HotSidebar.astro
 ---
 <!-- Right Sidebar: Hot Recommendations -->
-<aside class="hidden xl:block w-72 flex-shrink-0 bg-white border-l border-slate-200 h-[calc(100vh-4rem)] sticky top-16 overflow-y-auto p-4">
+<aside class="hidden xl:block w-64 flex-shrink-0 bg-white border-l border-slate-200 h-[calc(100vh-4rem)] sticky top-16 overflow-y-auto p-4">
     <h3 class="font-bold text-slate-900 mb-4">热门推荐</h3>
     <div class="space-y-4">
         <div class="flex items-center gap-3 p-3 bg-slate-50 rounded-lg hover:bg-slate-100 transition cursor-pointer">
@@ -50,5 +50,45 @@
                 提交新AI工具审核标准
             </li>
         </ul>
+    </div>
+    
+    <!-- AI 时讯板块 -->
+    <div class="mt-8 pt-6 border-t border-slate-100">
+      <div class="flex items-center justify-between mb-4">
+        <h3 class="font-bold text-slate-900">⚡ AI 时讯</h3>
+        <span class="text-[10px] bg-red-100 text-red-600 px-1.5 py-0.5 rounded">NEW</span>
+      </div>
+      
+      <div class="space-y-4 relative">
+        <div class="absolute left-1.5 top-2 bottom-2 w-0.5 bg-slate-100"></div>
+
+        <div class="relative pl-6">
+          <div class="absolute left-0 top-1.5 w-3.5 h-3.5 bg-blue-500 rounded-full border-2 border-white shadow"></div>
+          <a href="#" class="block group">
+            <h4 class="text-sm font-medium text-slate-800 group-hover:text-blue-600 line-clamp-2 transition">OpenAI 发布 Sora 模型，视频生成迎来革命</h4>
+            <span class="text-xs text-slate-400 mt-1 block">2小时前</span>
+          </a>
+        </div>
+
+        <div class="relative pl-6">
+          <div class="absolute left-0 top-1.5 w-3.5 h-3.5 bg-slate-200 rounded-full border-2 border-white"></div>
+          <a href="#" class="block group">
+            <h4 class="text-sm font-medium text-slate-800 group-hover:text-blue-600 line-clamp-2 transition">Google Gemini 1.5 Pro 更新，支持 100万 token 上下文</h4>
+            <span class="text-xs text-slate-400 mt-1 block">昨天</span>
+          </a>
+        </div>
+
+        <div class="relative pl-6">
+          <div class="absolute left-0 top-1.5 w-3.5 h-3.5 bg-slate-200 rounded-full border-2 border-white"></div>
+          <a href="#" class="block group">
+            <h4 class="text-sm font-medium text-slate-800 group-hover:text-blue-600 line-clamp-2 transition">英伟达发布最新 AI 芯片 H200</h4>
+            <span class="text-xs text-slate-400 mt-1 block">2天前</span>
+          </a>
+        </div>
+      </div>
+      
+      <button class="w-full mt-4 text-xs text-blue-500 hover:text-blue-700 font-medium text-center py-2 border border-blue-100 rounded-lg hover:bg-blue-50 transition">
+        查看更多资讯
+      </button>
     </div>
 </aside>

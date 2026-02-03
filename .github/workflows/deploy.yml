@@ -1,0 +1,37 @@
+name: Deploy to Aliyun 1Panel
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. 拉取代码
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      # 2. 安装 Node.js 环境
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      # 3. 安装依赖并打包
+      - name: Install and Build
+        run: |
+          npm install
+          npm run build
+
+      # 4. 部署到阿里云服务器
+      - name: Deploy to Server
+        uses: easingthemes/ssh-deploy@v4
+        with:
+          SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
+          ARGS: "-rltgoDzvO --delete"
+          SOURCE: "dist/"
+          TARGET: "/opt/1panel/apps/openresty/openresty/www/sites/my-ai-site/index/"
+          REMOTE_HOST: ${{ secrets.SERVER_IP }}
+          REMOTE_USER: root

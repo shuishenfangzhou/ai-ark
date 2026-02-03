@@ -22,8 +22,9 @@
                     <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
                         <i class="fa-solid fa-magnifying-glass text-slate-400 group-focus-within:text-blue-500 transition-colors"></i>
                     </div>
-                    <input type="text" id="global-search" 
-                           class="block w-full pl-11 pr-4 py-2.5 border border-slate-200 rounded-xl leading-5 bg-slate-50/50 placeholder-slate-400 focus:outline-none focus:bg-white focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all" 
+                    <label for="global-search" class="sr-only">搜索 AI 工具、分类、功能</label>
+                    <input type="text" id="global-search"
+                           class="block w-full pl-11 pr-4 py-2.5 border border-slate-200 rounded-xl leading-5 bg-slate-50/50 placeholder-slate-400 focus:outline-none focus:bg-white focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all"
                            placeholder="搜索 AI 工具、分类、功能...">
                     <div class="absolute inset-y-0 right-0 pr-3 flex items-center">
                         <span class="text-xs text-slate-400 bg-slate-100 px-2 py-1 rounded-md">Ctrl K</span>
@@ -57,13 +58,11 @@
                     提交
                 </button>
                 
-                <!-- Login -->
-                <div id="auth-section">
-                    <button id="login-btn" class="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-5 py-2 rounded-lg text-sm font-medium transition shadow-md hover:shadow-lg flex items-center">
-                        <i class="fa-brands fa-weixin mr-2"></i>
-                        登录
-                    </button>
-                </div>
+                <!-- 合并按钮：关注加入 -->
+                <button onclick="window.openWechatModal()" class="hidden sm:flex items-center gap-2 bg-slate-900 hover:bg-slate-800 text-white px-4 py-2 rounded-full transition shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
+                    <i class="fa-brands fa-weixin text-lg"></i>
+                    <span class="font-medium text-sm">关注加入</span>
+                </button>
             </div>
         </div>
     </div>

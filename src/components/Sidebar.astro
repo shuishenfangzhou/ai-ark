@@ -9,23 +9,23 @@ interface Category {
 }
 
 const categories: Category[] = [
-  { name: "AI 对话", icon: "fa-comments", color: "chat", count: 499 },
-  { name: "AI 绘画", icon: "fa-palette", color: "image", count: 357 },
-  { name: "AI 写作", icon: "fa-pen-nib", color: "writing", count: 218 },
-  { name: "AI 编程", icon: "fa-code", color: "code", count: 186 },
-  { name: "AI 视频", icon: "fa-video", color: "video", count: 145 },
-  { name: "AI 办公", icon: "fa-briefcase", color: "office", count: 134 },
-  { name: "AI 音频", icon: "fa-music", color: "audio", count: 89 },
-  { name: "AI 设计", icon: "fa-pen-ruler", color: "design", count: 112 },
-  { name: "AI 搜索", icon: "fa-magnifying-glass", color: "search", count: 76 },
-  { name: "AI 模型", icon: "fa-brain", color: "model", count: 98 },
+  { name: "AI对话", icon: "fa-comments", color: "chat", count: 499 },
+  { name: "AI绘画", icon: "fa-palette", color: "image", count: 357 },
+  { name: "AI写作", icon: "fa-pen-nib", color: "writing", count: 218 },
+  { name: "AI编程", icon: "fa-code", color: "code", count: 186 },
+  { name: "AI视频", icon: "fa-video", color: "video", count: 145 },
+  { name: "AI办公", icon: "fa-briefcase", color: "office", count: 134 },
+  { name: "AI音频", icon: "fa-music", color: "audio", count: 89 },
+  { name: "AI设计", icon: "fa-pen-ruler", color: "design", count: 112 },
+  { name: "AI搜索", icon: "fa-magnifying-glass", color: "search", count: 76 },
+  { name: "AI模型", icon: "fa-brain", color: "model", count: 98 },
 ];
 ---
 <!-- Mobile Sidebar Overlay -->
 <div id="mobile-sidebar-overlay" class="fixed inset-0 bg-black/50 z-40 lg:hidden hidden"></div>
 
 <!-- Left Sidebar: Category Navigation -->
-<aside id="sidebar-container" class="hidden lg:block w-72 flex-shrink-0 bg-white border-r border-slate-200 h-[calc(100vh-4rem)] sticky top-16 overflow-y-auto lg:translate-x-0 translate-x-[-100%] fixed left-0 top-16 h-[calc(100vh-4rem)] z-50 transition-transform duration-300">
+<aside id="sidebar-container" class="hidden lg:block w-48 flex-shrink-0 sticky top-16 h-[calc(100vh-4rem)] overflow-y-auto border-r border-slate-200 bg-white z-20">
     <div class="p-4">
         <!-- All Categories Button -->
         <button id="all-categories-btn" class="w-full flex items-center px-4 py-3 text-sm font-medium text-slate-700 rounded-xl hover:bg-slate-50 transition mb-2 active">
@@ -58,15 +58,15 @@ const categories: Category[] = [
                 <label class="text-xs text-slate-500 mb-2 block">价格</label>
                 <div class="space-y-2">
                     <label class="flex items-center cursor-pointer">
-                        <input type="checkbox" class="filter-pricing w-4 h-4 text-blue-600 rounded border-slate-300 focus:ring-blue-500" value="free">
+                        <input type="checkbox" id="filter-free" class="filter-pricing w-4 h-4 text-blue-600 rounded border-slate-300 focus:ring-blue-500" value="free">
                         <span class="ml-2 text-sm text-slate-600">免费</span>
                     </label>
                     <label class="flex items-center cursor-pointer">
-                        <input type="checkbox" class="filter-pricing w-4 h-4 text-blue-600 rounded border-slate-300 focus:ring-blue-500" value="paid">
+                        <input type="checkbox" id="filter-paid" class="filter-pricing w-4 h-4 text-blue-600 rounded border-slate-300 focus:ring-blue-500" value="paid">
                         <span class="ml-2 text-sm text-slate-600">付费</span>
                     </label>
                     <label class="flex items-center cursor-pointer">
-                        <input type="checkbox" class="filter-pricing w-4 h-4 text-blue-600 rounded border-slate-300 focus:ring-blue-500" value="opensource">
+                        <input type="checkbox" id="filter-opensource" class="filter-pricing w-4 h-4 text-blue-600 rounded border-slate-300 focus:ring-blue-500" value="opensource">
                         <span class="ml-2 text-sm text-slate-600">开源</span>
                     </label>
                 </div>
