@@ -26,3 +26,76 @@
     white-space: nowrap;
     border-width: 0;
 }
+
+/* 自定义滚动条样式 */
+.scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: #cbd5e1 transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: #cbd5e1;
+    border-radius: 3px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background-color: #94a3b8;
+}
+
+/* 工具卡片悬停效果增强 */
+.tool-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tool-card:hover {
+    transform: translateY(-4px);
+}
+
+/* 详情弹窗动画 */
+dialog[open] {
+    animation: modalFadeIn 0.2s ease-out;
+}
+
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* 侧边栏分类项悬停效果 */
+.category-item {
+    transition: all 0.2s ease;
+}
+
+.category-item:hover {
+    background-color: #f1f5f9;
+}
+
+.category-item.active {
+    background-color: #eff6ff;
+    color: #2563eb;
+}
+
+/* 右侧侧边栏项悬停效果 */
+.right-item {
+    transition: all 0.2s ease;
+}
+
+.right-item:hover {
+    color: #2563eb;
+    transform: translateX(2px);
+}

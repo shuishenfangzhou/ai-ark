@@ -1,0 +1,4567 @@
+{
+  "version": "3.0",
+  "last_updated": "2026-02-04T16:08:07",
+  "total_count": 240,
+  "tools": [
+    {
+      "id": "aibot-8204",
+      "name": "蛙蛙写作",
+      "description": "蛙蛙写作是杭州引力智航科技推出的AI小说和内容写作助手，帮助作者提高写作效率和创作质量。蛙蛙写作利用先进的AI技术，为用户提供了一系列写作辅助功能，让创作过程更加便捷和高效。",
+      "description_full": "蛙蛙写作是杭州引力智航科技推出的AI小说和内容写作助手，帮助作者提高写作效率和创作质量。蛙蛙写作利用先进的AI技术，为用户提供了一系列写作辅助功能，让创作过程更加便捷和高效。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/wawa-logo.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:03:59",
+      "updated_at": "2026-02-04T16:03:59"
+    },
+    {
+      "id": "aibot-6242",
+      "name": "讯飞绘文",
+      "description": "讯飞绘文是科大讯飞推出的免费一站式AIGC内容运营平台，集成讯飞星火MAX、DeepSeek V3-0324 和 DeepSeek R1三大模型，为内容创作者提供高效、智能的写作解决方案。集选题推荐、智能写作、AI配图、排版润色、内容审查、多平台发布及数据分析等功能于一体，能快速生成热点文章、营销文案、学术论文等各类内容。",
+      "description_full": "讯飞绘文是科大讯飞推出的免费一站式AIGC内容运营平台，集成讯飞星火MAX、DeepSeek V3-0324 和 DeepSeek R1三大模型，为内容创作者提供高效、智能的写作解决方案。集选题推荐、智能写作、AI配图、排版润色、内容审查、多平台发布及数据分析等功能于一体，能快速生成热点文章、营销文案、学术论文等各类内容。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/08/turbodesk-logo.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:00",
+      "updated_at": "2026-02-04T16:04:00"
+    },
+    {
+      "id": "aibot-22626",
+      "name": "笔灵AI小说",
+      "description": "笔灵AI小说是笔灵推出的AI小说写作工具，辅助用户快速创作优质小说。提供小说大纲助手、剧情创作和小说资料库等功能，用户只需输入小说名称、风格、角色名、世界观、主题、背景设定等信息，AI即可生成小说大纲和内容。",
+      "description_full": "笔灵AI小说是笔灵推出的AI小说写作工具，辅助用户快速创作优质小说。提供小说大纲助手、剧情创作和小说资料库等功能，用户只需输入小说名称、风格、角色名、世界观、主题、背景设定等信息，AI即可生成小说大纲和内容。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/09/biling-novel-logo.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:01",
+      "updated_at": "2026-02-04T16:04:01"
+    },
+    {
+      "id": "aibot-49483",
+      "name": "稿定AI文案",
+      "description": "稿定AI文案是稿定设计推出的AI文案生成工具，能快速生成高质量、多样化的文案内容。用户只需输入关键词或主题，稿定AI文案可根据需求生成适合不同场景的文案，如小红书笔记、广告宣传文案、社交媒体文章、电商产品描述等。",
+      "description_full": "稿定AI文案是稿定设计推出的AI文案生成工具，能快速生成高质量、多样化的文案内容。用户只需输入关键词或主题，稿定AI文案可根据需求生成适合不同场景的文案，如小红书笔记、广告宣传文案、社交媒体文章、电商产品描述等。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/05/gaoding-design-icon.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:03",
+      "updated_at": "2026-02-04T16:04:03"
+    },
+    {
+      "id": "aibot-69212",
+      "name": "01Agent",
+      "description": "01Agent 是集生成、排版、编辑、发布于一体的AI图文创作智能体。01Agent 以“直觉、完整、自由”为核心理念，通过多智能体协同和 AI 深度搜索技术，实现从灵感构思到全网分发的无缝闭环。",
+      "description_full": "01Agent 是集生成、排版、编辑、发布于一体的AI图文创作智能体。01Agent 以“直觉、完整、自由”为核心理念，通过多智能体协同和 AI 深度搜索技术，实现从灵感构思到全网分发的无缝闭环。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/01Agent-logo.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:04",
+      "updated_at": "2026-02-04T16:04:04"
+    },
+    {
+      "id": "aibot-53972",
+      "name": "笔目鱼",
+      "description": "笔目鱼英文论文写作器是小绿鲸团队推出的强大AI学术写作辅助工具，专为提升英文论文质量而设计。笔目鱼基于鲸灵AI科研大模型，支持英文润色、翻译、改写、查重和AIGC检测等功能。",
+      "description_full": "笔目鱼英文论文写作器是小绿鲸团队推出的强大AI学术写作辅助工具，专为提升英文论文质量而设计。笔目鱼基于鲸灵AI科研大模型，支持英文润色、翻译、改写、查重和AIGC检测等功能。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/06/bmysci-logo.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:05",
+      "updated_at": "2026-02-04T16:04:05"
+    },
+    {
+      "id": "aibot-36409",
+      "name": "稿易AI论文",
+      "description": "稿易AI论文是专业的AI论文写作助手。用户输入论文题目，免费生成2000字论文大纲，支持对AI生成的论文大纲进行编辑调整，确认后仅需3分钟一键生成完整高质量论文。稿易AI论文承诺查重率超15%，可全额退款。",
+      "description_full": "稿易AI论文是专业的AI论文写作助手。用户输入论文题目，免费生成2000字论文大纲，支持对AI生成的论文大纲进行编辑调整，确认后仅需3分钟一键生成完整高质量论文。稿易AI论文承诺查重率超15%，可全额退款。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/01/gaoyiai-logo.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:06",
+      "updated_at": "2026-02-04T16:04:06"
+    },
+    {
+      "id": "aibot-7358",
+      "name": "千笔AI论文",
+      "description": "千笔AI论文（原AIPaperPass）是全网首家免费改稿AI论文写作平台，5分钟可产出5万字，提供真实网络数据、图、表、公式、代码，不限次2000字3级大纲，附带PPT、开题报告、任务书、40篇真实参考文献。知网AIGC率超25%退费，重复率超15%退费。",
+      "description_full": "千笔AI论文（原AIPaperPass）是全网首家免费改稿AI论文写作平台，5分钟可产出5万字，提供真实网络数据、图、表、公式、代码，不限次2000字3级大纲，附带PPT、开题报告、任务书、40篇真实参考文献。知网AIGC率超25%退费，重复率超15%退费。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/01/aipaperpass-icon.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:07",
+      "updated_at": "2026-02-04T16:04:07"
+    },
+    {
+      "id": "aibot-14679",
+      "name": "66AI论文",
+      "description": "66AI论文是专业的AI论文写作工具，覆盖720多个学科领域。能在10秒内生成千字论文大纲，3分钟内完成万字论文初稿。平台承诺论文查重率控制在10%左右，超出此标准可申请退款，确保用户获得高质量、低重复率的论文。",
+      "description_full": "66AI论文是专业的AI论文写作工具，覆盖720多个学科领域。能在10秒内生成千字论文大纲，3分钟内完成万字论文初稿。平台承诺论文查重率控制在10%左右，超出此标准可申请退款，确保用户获得高质量、低重复率的论文。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/08/66aipaper-website.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:08",
+      "updated_at": "2026-02-04T16:04:08"
+    },
+    {
+      "id": "aibot-60799",
+      "name": "维普科创助手",
+      "description": "维普科创助手是维普推出的AI科研智能服务平台，深度融合全球10亿+中英文文献资源与大模型技术，覆盖“查、读、写、研”四大科研场景。主要功能包括智能选题、百维智搜、AI研读、调研综述自动生成等。",
+      "description_full": "维普科创助手是维普推出的AI科研智能服务平台，深度融合全球10亿+中英文文献资源与大模型技术，覆盖“查、读、写、研”四大科研场景。主要功能包括智能选题、百维智搜、AI研读、调研综述自动生成等。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/cqvip-icon.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:09",
+      "updated_at": "2026-02-04T16:04:09"
+    },
+    {
+      "id": "aibot-56573",
+      "name": "沁言学术",
+      "description": "沁言学术是专为高校师生、科研人员及知识工作者设计的AI科研写作工具。沁言学术集文献管理、阅读理解、写作辅助与AI搜索分析于一体，基于云端存储、元数据抓取、标签分类等强大功能，轻松管理海量文献。",
+      "description_full": "沁言学术是专为高校师生、科研人员及知识工作者设计的AI科研写作工具。沁言学术集文献管理、阅读理解、写作辅助与AI搜索分析于一体，基于云端存储、元数据抓取、标签分类等强大功能，轻松管理海量文献。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/qinyanai-logo-1.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:10",
+      "updated_at": "2026-02-04T16:04:10"
+    },
+    {
+      "id": "aibot-7381",
+      "name": "茅茅虫",
+      "description": "茅茅虫论文写作助手是一款全面的AI学术论文写作平台，为学术研究者提供了从论文构思到最终答辩的一站式服务，目标是让天下没有难写的论文。该AI论文写作工具的功能涵盖了学术论文写作的各个关键环节：论文写作辅助、论文开题指导、答辩PPT制作、论文查重服务甚至就业指导。",
+      "description_full": "茅茅虫论文写作助手是一款全面的AI学术论文写作平台，为学术研究者提供了从论文构思到最终答辩的一站式服务，目标是让天下没有难写的论文。该AI论文写作工具的功能涵盖了学术论文写作的各个关键环节：论文写作辅助、论文开题指导、答辩PPT制作、论文查重服务甚至就业指导。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/01/mymmc-ai-logo.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:11",
+      "updated_at": "2026-02-04T16:04:11"
+    },
+    {
+      "id": "aibot-67418",
+      "name": "GetDraft",
+      "description": "GetDraft是得到推出的多AI专家协作AI写作工具，能帮助用户高效地将想法转化为初稿。GetDraft通过五个AI角色的分工协作，包括风格打磨、内容创作、深度调研、快速写作和质量把控，让用户像指挥一个编辑部一样完成写作任务。",
+      "description_full": "GetDraft是得到推出的多AI专家协作AI写作工具，能帮助用户高效地将想法转化为初稿。GetDraft通过五个AI角色的分工协作，包括风格打磨、内容创作、深度调研、快速写作和质量把控，让用户像指挥一个编辑部一样完成写作任务。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/GetDraft-logo1.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:12",
+      "updated_at": "2026-02-04T16:04:12"
+    },
+    {
+      "id": "aibot-7244",
+      "name": "光速写作",
+      "description": "光速写作是由作业辅导软件作业帮所在公司好课帮助推出的一款AI写作工具，旨在帮助学生和职场人士高效地创作内容，无论是文章、段落、句子还是短文，都能迅速生成。用户只需输入相应的关键词或描述，光速写作便能根据其强大的AI技术，为用户量身定制内容，适用于新闻报道、广告文案、学术论文等多种写作场合。",
+      "description_full": "光速写作是由作业辅导软件作业帮所在公司好课帮助推出的一款AI写作工具，旨在帮助学生和职场人士高效地创作内容，无论是文章、段落、句子还是短文，都能迅速生成。用户只需输入相应的关键词或描述，光速写作便能根据其强大的AI技术，为用户量身定制内容，适用于新闻报道、广告文案、学术论文等多种写作场合。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/01/guangsuxie-icon.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:13",
+      "updated_at": "2026-02-04T16:04:13"
+    },
+    {
+      "id": "aibot-61208",
+      "name": "YouMind",
+      "description": "YouMind 是前阿里员工玉伯推出的专注提升创作效率和信息整合深度的AI原生工具，希望打造一个深度整合、无缝衔接的创作工作流，真正围绕创作者的实际痛点（如冷启动困难、流程割裂、效率低下）去构建产品。",
+      "description_full": "YouMind 是前阿里员工玉伯推出的专注提升创作效率和信息整合深度的AI原生工具，希望打造一个深度整合、无缝衔接的创作工作流，真正围绕创作者的实际痛点（如冷启动困难、流程割裂、效率低下）去构建产品。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/YouMind-logo.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:14",
+      "updated_at": "2026-02-04T16:04:14"
+    },
+    {
+      "id": "aibot-14504",
+      "name": "万能小in",
+      "description": "万能小in是高效全能的AI写作助手，3分钟能生成5万字的论文初稿，覆盖130多个写作场景，如论文、PPT、工作报告等。基于大模型深度开发，集成了Prompt、Fine-tuning、RPA、图表、搜索、知识图谱等能力。",
+      "description_full": "万能小in是高效全能的AI写作助手，3分钟能生成5万字的论文初稿，覆盖130多个写作场景，如论文、PPT、工作报告等。基于大模型深度开发，集成了Prompt、Fine-tuning、RPA、图表、搜索、知识图谱等能力。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/05/xiaoin-logo-1.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:15",
+      "updated_at": "2026-02-04T16:04:15"
+    },
+    {
+      "id": "aibot-62793",
+      "name": "墨问",
+      "description": "墨问是专为创作者设计的AI笔记工具，提供便捷的写作与编辑功能。用户可通过官网或小程序进行笔记创作，支持多种文件类型上传，如图片、音频、PDF等。",
+      "description_full": "墨问是专为创作者设计的AI笔记工具，提供便捷的写作与编辑功能。用户可通过官网或小程序进行笔记创作，支持多种文件类型上传，如图片、音频、PDF等。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/mowen-logo.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:16",
+      "updated_at": "2026-02-04T16:04:16"
+    },
+    {
+      "id": "aibot-70397",
+      "name": "材料星AI",
+      "description": "材料星AI是专为秘书工作设计的AI写作工具，采用自研AI模型，能在90秒内生成100%原创的高质量公文材料，支持最长1.2万字的输出。",
+      "description_full": "材料星AI是专为秘书工作设计的AI写作工具，采用自研AI模型，能在90秒内生成100%原创的高质量公文材料，支持最长1.2万字的输出。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/AIcailiaoxing-iocn.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:17",
+      "updated_at": "2026-02-04T16:04:17"
+    },
+    {
+      "id": "aibot-66997",
+      "name": "FeelFish",
+      "description": "FeelFish 是专为小说创作者设计的 AI 写作工具，通过智能辅助提升创作效率和质量。支持剧本和非虚构类书籍创作，擅长长篇内容的创作。面向专业作家设计，基于 FeelFish 智能体提供优秀的人机交互页面，让 AI 和作家可以深度地协作共创优质小说等专业内容。",
+      "description_full": "FeelFish 是专为小说创作者设计的 AI 写作工具，通过智能辅助提升创作效率和质量。支持剧本和非虚构类书籍创作，擅长长篇内容的创作。面向专业作家设计，基于 FeelFish 智能体提供优秀的人机交互页面，让 AI 和作家可以深度地协作共创优质小说等专业内容。",
+      "url": "",
+      "logo": "https://cdn.feelfish.com/static/icon-fill.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:18",
+      "updated_at": "2026-02-04T16:04:18"
+    },
+    {
+      "id": "aibot-66375",
+      "name": "Loomi",
+      "description": "Loomi 是专为社交媒体创作者设计的AI创作工具，源自中国最大营销集团BlueFocus蓝色光标旗下的BlueLab团队，并由千万级的行业数据库强势赋能。Loomi将BlueFocus的专家级见解与新颖的交互设计相融合，帮助创作者高效创作，实现影响力的飞跃式增长。",
+      "description_full": "Loomi 是专为社交媒体创作者设计的AI创作工具，源自中国最大营销集团BlueFocus蓝色光标旗下的BlueLab团队，并由千万级的行业数据库强势赋能。Loomi将BlueFocus的专家级见解与新颖的交互设计相融合，帮助创作者高效创作，实现影响力的飞跃式增长。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/Loomi-logo.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:19",
+      "updated_at": "2026-02-04T16:04:19"
+    },
+    {
+      "id": "aibot-66726",
+      "name": "落笔AI写作",
+      "description": "落笔AI写作是专注于小说网文创作的AI写作工具，通过接入多种主流AI大模型（如Gemini、ChatGPT等），为创作者提供强大的写作支持。包括AI写作，AI写网文、AI写长篇小说、短篇小说。从创作启动、续写、大纲编辑到设定管理等各个环节都提供了有力的支持，有助于提高创作效率和质量。",
+      "description_full": "落笔AI写作是专注于小说网文创作的AI写作工具，通过接入多种主流AI大模型（如Gemini、ChatGPT等），为创作者提供强大的写作支持。包括AI写作，AI写网文、AI写长篇小说、短篇小说。从创作启动、续写、大纲编辑到设定管理等各个环节都提供了有力的支持，有助于提高创作效率和质量。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/luobi-icon.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:20",
+      "updated_at": "2026-02-04T16:04:20"
+    },
+    {
+      "id": "aibot-18646",
+      "name": "小鱼AI写作",
+      "description": "小鱼AI写作是一站式AI写作工具，为用户提供自动生成、续写、关键词创作等多种写作服务。小鱼AI写作拥有丰富的写作模板和场景应用，能满足自媒体、办公文档、宣传文案等多种文本创作需求。通过小鱼AI写作，用户可以高效地生成论文、文章、脚本等内容，极大地提升了写作效率和内容质量。还支持智能翻译和多语言创作，是现代写作的得力助手。",
+      "description_full": "小鱼AI写作是一站式AI写作工具，为用户提供自动生成、续写、关键词创作等多种写作服务。小鱼AI写作拥有丰富的写作模板和场景应用，能满足自媒体、办公文档、宣传文案等多种文本创作需求。通过小鱼AI写作，用户可以高效地生成论文、文章、脚本等内容，极大地提升了写作效率和内容质量。还支持智能翻译和多语言创作，是现代写作的得力助手。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/09/xiaoyuAI-logo.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:21",
+      "updated_at": "2026-02-04T16:04:21"
+    },
+    {
+      "id": "aibot-65468",
+      "name": "量子探险",
+      "description": "量子探险是专业的AI小说写作工具，专为提升写作效率和激发创作灵感设计。基于先进的AI技术，能快速生成高质量的文本内容，支持小说、论文、公文等多种文体的创作。用户只需输入主题或关键词，量子探险可一键生成大纲、正文，并支持续写和优化。",
+      "description_full": "量子探险是专业的AI小说写作工具，专为提升写作效率和激发创作灵感设计。基于先进的AI技术，能快速生成高质量的文本内容，支持小说、论文、公文等多种文体的创作。用户只需输入主题或关键词，量子探险可一键生成大纲、正文，并支持续写和优化。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/10/yfbudong-icon-1.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:22",
+      "updated_at": "2026-02-04T16:04:22"
+    },
+    {
+      "id": "aibot-68892",
+      "name": "社研通",
+      "description": "社研通是专注于服务文科研究生的多模态AI学术写作工具。支持外文文献全文翻译、实证文献解读、深度思考写作、思维导图绘制等功能。旗下的社科文献速递平台，收集了社会科学领域4500多本SSCI及SCI期刊2015年以来的数百万篇文献信息，并翻译为中文供读者免费阅读。",
+      "description_full": "社研通是专注于服务文科研究生的多模态AI学术写作工具。支持外文文献全文翻译、实证文献解读、深度思考写作、思维导图绘制等功能。旗下的社科文献速递平台，收集了社会科学领域4500多本SSCI及SCI期刊2015年以来的数百万篇文献信息，并翻译为中文供读者免费阅读。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/sheyantong-icon-1.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:23",
+      "updated_at": "2026-02-04T16:04:23"
+    },
+    {
+      "id": "aibot-65034",
+      "name": "Rubriq",
+      "description": "Rubriq 是专为科研人员设计的 AI 学术论文润色与AI翻译工具。能快速分析文本的清晰度、语法和术语，提供精准的修改建议，帮助提升论文的语言质量。Rubriq 支持从中文、西班牙语、葡萄牙语到英语的高质量翻译，确保翻译内容精准且自然流畅。",
+      "description_full": "Rubriq 是专为科研人员设计的 AI 学术论文润色与AI翻译工具。能快速分析文本的清晰度、语法和术语，提供精准的修改建议，帮助提升论文的语言质量。Rubriq 支持从中文、西班牙语、葡萄牙语到英语的高质量翻译，确保翻译内容精准且自然流畅。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/10/rubriq-icon-1.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:24",
+      "updated_at": "2026-02-04T16:04:24"
+    },
+    {
+      "id": "aibot-597",
+      "name": "QuillBot",
+      "description": "QuillBot是强大的AI写作辅助工具，通过多种功能帮助用户提升写作效率和质量。核心功能是文本改写，提供标准、流畅、正式等多种改写模式，能快速调整文本表达方式，避免抄袭的同时增加文本多样性。具备语法检查功能，可精准识别并纠正语法、拼写和标点错误，提升文本准确性。",
+      "description_full": "QuillBot是强大的AI写作辅助工具，通过多种功能帮助用户提升写作效率和质量。核心功能是文本改写，提供标准、流畅、正式等多种改写模式，能快速调整文本表达方式，避免抄袭的同时增加文本多样性。具备语法检查功能，可精准识别并纠正语法、拼写和标点错误，提升文本准确性。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/quillbot-icon.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:25",
+      "updated_at": "2026-02-04T16:04:25"
+    },
+    {
+      "id": "aibot-16669",
+      "name": "创一AI",
+      "description": "创一AI（CreatifyOne）是AI编剧智能体平台，专为短剧创作全流程赋能。通过剧本诊断10分钟锁定潜力剧本，降低90%试错成本。结合爆款范式加持和爆款基因植入，助力新手编剧也能高效创作爆款短剧剧本，让灵感与商业价值兼得",
+      "description_full": "创一AI（CreatifyOne）是AI编剧智能体平台，专为短剧创作全流程赋能。通过剧本诊断10分钟锁定潜力剧本，降低90%试错成本。结合爆款范式加持和爆款基因植入，助力新手编剧也能高效创作爆款短剧剧本，让灵感与商业价值兼得",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/05/creatifyone-logo.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:26",
+      "updated_at": "2026-02-04T16:04:26"
+    },
+    {
+      "id": "aibot-67827",
+      "name": "讯飞文书",
+      "description": "讯飞文书是科大讯飞推出的AI公文写作助手，提供全流程写作辅助。具备强大的素材筹备功能，涵盖党建、会议等多主题范文库，能联网检索热点和精选金句。在写作方面，支持生成30多种文体初稿，如工作报告、心得体会等，提供“以稿写稿”功能，可依据范文快速生成风格一致的文稿。",
+      "description_full": "讯飞文书是科大讯飞推出的AI公文写作助手，提供全流程写作辅助。具备强大的素材筹备功能，涵盖党建、会议等多主题范文库，能联网检索热点和精选金句。在写作方面，支持生成30多种文体初稿，如工作报告、心得体会等，提供“以稿写稿”功能，可依据范文快速生成风格一致的文稿。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/01/gw-iflydocs-logo.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:27",
+      "updated_at": "2026-02-04T16:04:27"
+    },
+    {
+      "id": "aibot-62139",
+      "name": "Muset",
+      "description": "Muset是为深度创作者提供的AI原生写作工具，具备上下文感知能力，能帮助创作者将零散想法转化为完整作品。",
+      "description_full": "Muset是为深度创作者提供的AI原生写作工具，具备上下文感知能力，能帮助创作者将零散想法转化为完整作品。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/Muset-logo.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:28",
+      "updated_at": "2026-02-04T16:04:28"
+    },
+    {
+      "id": "aibot-63152",
+      "name": "华文笔杆",
+      "description": "华文笔杆是专业的AI公文写作工具，专为政企笔杆子设计，提供从起草到定稿的全流程支持。具备以稿写稿、会议纪要、AI公文写作等功能，可一键生成通知、报告、讲话稿等多种公文。华文笔杆支持格式排版、文章润色，能覆盖多种写作场景。",
+      "description_full": "华文笔杆是专业的AI公文写作工具，专为政企笔杆子设计，提供从起草到定稿的全流程支持。具备以稿写稿、会议纪要、AI公文写作等功能，可一键生成通知、报告、讲话稿等多种公文。华文笔杆支持格式排版、文章润色，能覆盖多种写作场景。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/docwrite-icon.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:29",
+      "updated_at": "2026-02-04T16:04:29"
+    },
+    {
+      "id": "aibot-64875",
+      "name": "千页小说AI",
+      "description": "千页小说是专注提供AI小说写作服务的平台。通过先进的A!技术，降低小说创作者门槛，让普通人也能轻松进行小说创作。对于有写作基础的熟手或大神，可以大幅度缩短其创作时间，一天百万、千万字精品小说不是梦。",
+      "description_full": "千页小说是专注提供AI小说写作服务的平台。通过先进的A!技术，降低小说创作者门槛，让普通人也能轻松进行小说创作。对于有写作基础的熟手或大神，可以大幅度缩短其创作时间，一天百万、千万字精品小说不是梦。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/10/qianye-ai-icon-1.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:30",
+      "updated_at": "2026-02-04T16:04:30"
+    },
+    {
+      "id": "aibot-13",
+      "name": "秘塔写作猫",
+      "description": "秘塔写作猫是一款新一代的交互式中英文AI写作辅助平台，它集智能文本纠错、改写润色、自动续写、智能配图等功能为一体。该软件基于AI技术的中英文纠错校对和创作工具，拥有网页版、Chrome扩展、小程序、Word插件等多种版本。",
+      "description_full": "秘塔写作猫是一款新一代的交互式中英文AI写作辅助平台，它集智能文本纠错、改写润色、自动续写、智能配图等功能为一体。该软件基于AI技术的中英文纠错校对和创作工具，拥有网页版、Chrome扩展、小程序、Word插件等多种版本。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/04/xiezuocat-ai-icon.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:31",
+      "updated_at": "2026-02-04T16:04:31"
+    },
+    {
+      "id": "aibot-40039",
+      "name": "松果AI写作",
+      "description": "松果AI写作是专业的AI写作工具，基于大模型技术，支持批量文章生成，专为提升写作效率而设计。AI写作工具支持文章、报告、创意文案等多种文本类型的创作，提供改写、扩写、续写、润色等个性化功能。",
+      "description_full": "松果AI写作是专业的AI写作工具，基于大模型技术，支持批量文章生成，专为提升写作效率而设计。AI写作工具支持文章、报告、创意文案等多种文本类型的创作，提供改写、扩写、续写、润色等个性化功能。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/02/songguoai-logo.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:32",
+      "updated_at": "2026-02-04T16:04:32"
+    },
+    {
+      "id": "aibot-62117",
+      "name": "公文宝",
+      "description": "公文宝是专为体制内工作者打造的AI公文写作专家，告别加班熬夜写材料，一键生成“权威、规范”的初稿。无论是发言稿、会议纪要、工作总结，还是通知公告、报告请示，输入主题，AI立马高效输出，助你快速搞定文书任务。",
+      "description_full": "公文宝是专为体制内工作者打造的AI公文写作专家，告别加班熬夜写材料，一键生成“权威、规范”的初稿。无论是发言稿、会议纪要、工作总结，还是通知公告、报告请示，输入主题，AI立马高效输出，助你快速搞定文书任务。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/gongwenbao-logo.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:33",
+      "updated_at": "2026-02-04T16:04:33"
+    },
+    {
+      "id": "aibot-15170",
+      "name": "讯飞写作",
+      "description": "讯飞写作是科大讯飞推出的AI智能写作助手，专为提升写作效率而设计。通过对话式交互，快速生成新闻、广告、会议纪要等各类文本内容。用户只需输入指令，讯飞写作AI即可提供创意文案。",
+      "description_full": "讯飞写作是科大讯飞推出的AI智能写作助手，专为提升写作效率而设计。通过对话式交互，快速生成新闻、广告、会议纪要等各类文本内容。用户只需输入指令，讯飞写作AI即可提供创意文案。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/09/huixie-iflyrec-logo1.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:35",
+      "updated_at": "2026-02-04T16:04:35"
+    },
+    {
+      "id": "aibot-61164",
+      "name": "PaperXie智能写作",
+      "description": "PaperXie智能写作是AI学术写作辅助工具，主要面向学生和学者，提供从论文构思到答辩的全流程服务。PaperXie基于自然语言处理和深度学习技术，融合了DeepSeek-R1推理模型，能快速生成高质量的学术论文内容。",
+      "description_full": "PaperXie智能写作是AI学术写作辅助工具，主要面向学生和学者，提供从论文构思到答辩的全流程服务。PaperXie基于自然语言处理和深度学习技术，融合了DeepSeek-R1推理模型，能快速生成高质量的学术论文内容。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/paperxie-logo-1.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:36",
+      "updated_at": "2026-02-04T16:04:36"
+    },
+    {
+      "id": "aibot-7313",
+      "name": "FlowUs AI",
+      "description": "FlowUs AI 是国内的在线知识管理与文档协作平台FlowUs息流推出的AI创作助手，通过智能化的工具帮助用户更高效地收集、呈现、整理、存储和共享信息，提高工作效率和学习效果。类似于Notion AI，集成在模块化笔记文档平台中，能快速帮助用户完成文本创作、润色、总结、翻译等多种任务。",
+      "description_full": "FlowUs AI 是国内的在线知识管理与文档协作平台FlowUs息流推出的AI创作助手，通过智能化的工具帮助用户更高效地收集、呈现、整理、存储和共享信息，提高工作效率和学习效果。类似于Notion AI，集成在模块化笔记文档平台中，能快速帮助用户完成文本创作、润色、总结、翻译等多种任务。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/01/flowus-icon.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:37",
+      "updated_at": "2026-02-04T16:04:37"
+    },
+    {
+      "id": "aibot-46",
+      "name": "Rytr",
+      "description": "Rytr 是强大的 AI 写作助手，专注于短内容创作。Rytr能快速生成高质量、原创且符合用户风格的文案，支持 40 多种写作场景，如邮件、博客、广告等。Rytr 能模仿用户写作风格，提供个性化内容，通过抄袭检查确保原创性。",
+      "description_full": "Rytr 是强大的 AI 写作助手，专注于短内容创作。Rytr能快速生成高质量、原创且符合用户风格的文案，支持 40 多种写作场景，如邮件、博客、广告等。Rytr 能模仿用户写作风格，提供个性化内容，通过抄袭检查确保原创性。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/Rytr-website3.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:38",
+      "updated_at": "2026-02-04T16:04:38"
+    },
+    {
+      "id": "aibot-16451",
+      "name": "迅捷AI写作",
+      "description": "迅捷AI写作是迅捷办公团队推出的AI写作工具，为用户提供包括文章生成、标题创作、内容改写、续写、扩写等全面写作辅助服务。支持AI全文写作，根据指定关键词主题，快速生成文章内容，可覆盖文案、报告、干货写作等多种实际场景。",
+      "description_full": "迅捷AI写作是迅捷办公团队推出的AI写作工具，为用户提供包括文章生成、标题创作、内容改写、续写、扩写等全面写作辅助服务。支持AI全文写作，根据指定关键词主题，快速生成文章内容，可覆盖文案、报告、干货写作等多种实际场景。",
+      "url": "https://www.aichat1234.com/app/?mode=aibot",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/08/xuejieAI.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:39",
+      "updated_at": "2026-02-04T16:04:39"
+    },
+    {
+      "id": "aibot-12962",
+      "name": "橙篇",
+      "description": "橙篇是由百度在2024移动生态万象大会上推出的一款综合性AI原生应用，利用百度文库的庞大内容库和尖端AI技术，为用户提供了强大的长文件处理和内容创作能力。",
+      "description_full": "橙篇是由百度在2024移动生态万象大会上推出的一款综合性AI原生应用，利用百度文库的庞大内容库和尖端AI技术，为用户提供了强大的长文件处理和内容创作能力。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/05/chengpian-icon.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:40",
+      "updated_at": "2026-02-04T16:04:40"
+    },
+    {
+      "id": "aibot-6044",
+      "name": "深言达意",
+      "description": "深言达意是免费的词句查询智能写作辅助工具，由清华大学自然语言处理实验室和智源研究院孵化的人工智能初创公司深言科技研发推出。工具融合了此前该团队推出的WantWords反向词典和WantQuotes据意查句两款神器进行了整合升级，支持据意查词、据意查句、语料查询等多种功能。",
+      "description_full": "深言达意是免费的词句查询智能写作辅助工具，由清华大学自然语言处理实验室和智源研究院孵化的人工智能初创公司深言科技研发推出。工具融合了此前该团队推出的WantWords反向词典和WantQuotes据意查句两款神器进行了整合升级，支持据意查词、据意查句、语料查询等多种功能。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/11/shenyandayi-icon.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:41",
+      "updated_at": "2026-02-04T16:04:41"
+    },
+    {
+      "id": "aibot-913",
+      "name": "彩云小梦",
+      "description": "彩云小梦是彩云科技（彩云天气和彩云小译背后的团队）推出的AI故事写作助手。用户只需提供故事开头，AI能续写，生成完整故事。工具支持用户自定义故事背景和角色，进行角色扮演和互动。",
+      "description_full": "彩云小梦是彩云科技（彩云天气和彩云小译背后的团队）推出的AI故事写作助手。用户只需提供故事开头，AI能续写，生成完整故事。工具支持用户自定义故事背景和角色，进行角色扮演和互动。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/if-caiyunai-icon.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:42",
+      "updated_at": "2026-02-04T16:04:42"
+    },
+    {
+      "id": "aibot-14278",
+      "name": "MidReal",
+      "description": "MidReal是一个AI互动式小说文本生成工具，通过用户输入的一行文字激发无限的故事可能性。MidReal结合了记忆跨度技术和长篇写作能力，确保了故事的连贯性和深度。",
+      "description_full": "MidReal是一个AI互动式小说文本生成工具，通过用户输入的一行文字激发无限的故事可能性。MidReal结合了记忆跨度技术和长篇写作能力，确保了故事的连贯性和深度。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/07/MidReal-logo.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:43",
+      "updated_at": "2026-02-04T16:04:43"
+    },
+    {
+      "id": "aibot-15321",
+      "name": "墨狐AI",
+      "description": "墨狐AI是北京云泥科技推出的AI小说写作助手，专为网文小说作者设计。通过自动生成大纲、快速续写、剧情树分析和小说转剧本等功能，帮助作者解决创作难题，提高写作效率。",
+      "description_full": "墨狐AI是北京云泥科技推出的AI小说写作助手，专为网文小说作者设计。通过自动生成大纲、快速续写、剧情树分析和小说转剧本等功能，帮助作者解决创作难题，提高写作效率。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/08/mohuai-logo-2.jpg",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:44",
+      "updated_at": "2026-02-04T16:04:44"
+    },
+    {
+      "id": "aibot-59730",
+      "name": "掌桥科研AI论文",
+      "description": "掌桥科研AI论文是基于3亿+真实文献资源开发的智能写作辅助平台。能快速生成符合学术规范的论文范文，适用于毕业论文、期刊论文等多种场景。",
+      "description_full": "掌桥科研AI论文是基于3亿+真实文献资源开发的智能写作辅助平台。能快速生成符合学术规范的论文范文，适用于毕业论文、期刊论文等多种场景。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/zhangqiaokeyan-logo.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:45",
+      "updated_at": "2026-02-04T16:04:45"
+    },
+    {
+      "id": "aibot-59700",
+      "name": "灵犀速写",
+      "description": "灵犀速写是AI小说创作工具，能帮助作者提高写作效率和创新故事内容。灵犀速写提供一系列写作工具，包括提示词库、角色库、智能续写、工作流等功能，支持用户创建和管理小说作品。",
+      "description_full": "灵犀速写是AI小说创作工具，能帮助作者提高写作效率和创新故事内容。灵犀速写提供一系列写作工具，包括提示词库、角色库、智能续写、工作流等功能，支持用户创建和管理小说作品。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/lingxisuxie-logo.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:46",
+      "updated_at": "2026-02-04T16:04:46"
+    },
+    {
+      "id": "aibot-31",
+      "name": "Copy.ai",
+      "description": "Copy.ai 是基于 GPT-4 的 AI 写作工具，专为营销、销售和内容团队设计。用户只需输入主题、受众或关键词，可在几秒内生成博客、广告、邮件、社媒帖、销售话术等 90 多种场景的优质文案，支持 25 种语言。",
+      "description_full": "Copy.ai 是基于 GPT-4 的 AI 写作工具，专为营销、销售和内容团队设计。用户只需输入主题、受众或关键词，可在几秒内生成博客、广告、邮件、社媒帖、销售话术等 90 多种场景的优质文案，支持 25 种语言。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/copy-ai-icon.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:48",
+      "updated_at": "2026-02-04T16:04:48"
+    },
+    {
+      "id": "aibot-14",
+      "name": "Jasper",
+      "description": "Jasper（原Jarvis）是国外最受欢迎的AI写作软件工具之一，因其丰富的的模板和强大的智能写作功能而广受欢迎。 Jasper 支持创建博客、文章、书、剧本、帖子和任何其他内容。只需选择一个话题，填写关键词和细节，Jasper将为用户自动写作内容。",
+      "description_full": "Jasper（原Jarvis）是国外最受欢迎的AI写作软件工具之一，因其丰富的的模板和强大的智能写作功能而广受欢迎。 Jasper 支持创建博客、文章、书、剧本、帖子和任何其他内容。只需选择一个话题，填写关键词和细节，Jasper将为用户自动写作内容。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/Jasper-logo.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:49",
+      "updated_at": "2026-02-04T16:04:49"
+    },
+    {
+      "id": "aibot-14618",
+      "name": "库宝AI工作助手",
+      "description": "库宝AI工作助手是千库网推出的多功能AI创作工具，集成了设计、写作、对话、办公和娱乐五大功能模块。通过AI技术提供智能设计、图像处理、语言交流、文案创作和职场辅助等服务，提升工作效率和生活品质。",
+      "description_full": "库宝AI工作助手是千库网推出的多功能AI创作工具，集成了设计、写作、对话、办公和娱乐五大功能模块。通过AI技术提供智能设计、图像处理、语言交流、文案创作和职场辅助等服务，提升工作效率和生活品质。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/07/588tool-logo.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:50",
+      "updated_at": "2026-02-04T16:04:50"
+    },
+    {
+      "id": "aibot-199",
+      "name": "Grammarly",
+      "description": "Grammarly是AI写作辅助工具，基于先进的人工智能技术，帮助用户检测和修改英语写作中的语法、拼写、标点以及风格问题，适用于学生、职场人士、作家等不同群体。",
+      "description_full": "Grammarly是AI写作辅助工具，基于先进的人工智能技术，帮助用户检测和修改英语写作中的语法、拼写、标点以及风格问题，适用于学生、职场人士、作家等不同群体。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/grammarly-icon.png",
+      "category": "AI写作工具",
+      "tags": [
+        "写作"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:51",
+      "updated_at": "2026-02-04T16:04:51"
+    },
+    {
+      "id": "aibot-9195",
+      "name": "绘蛙",
+      "description": "绘蛙是国内领先的垂直深耕服饰领域的AIGC电商营销工具，专注于利用先进AIGC技术为电商卖家提供低成本、高质量的商拍图和种草文案。通过AI技术，帮助商家快速生成服装、包包、鞋子等商品的上身图和视频，支持一键换装、模特换脸、高清修复等功能，提升了出图效率，降低了制作成本。",
+      "description_full": "绘蛙是国内领先的垂直深耕服饰领域的AIGC电商营销工具，专注于利用先进AIGC技术为电商卖家提供低成本、高质量的商拍图和种草文案。通过AI技术，帮助商家快速生成服装、包包、鞋子等商品的上身图和视频，支持一键换装、模特换脸、高清修复等功能，提升了出图效率，降低了制作成本。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/03/ihuiwa-icon.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:52",
+      "updated_at": "2026-02-04T16:04:52"
+    },
+    {
+      "id": "aibot-61384",
+      "name": "堆友AI商品图",
+      "description": "堆友AI商品图是堆友AI推出的AI商品图生成工具，支持用户通过上传商品图片并选择场景模版或自定义场景，快速生成适用电商场景的高质量商品图。",
+      "description_full": "堆友AI商品图是堆友AI推出的AI商品图生成工具，支持用户通过上传商品图片并选择场景模版或自定义场景，快速生成适用电商场景的高质量商品图。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/07/d-design-ai-icon.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:53",
+      "updated_at": "2026-02-04T16:04:53"
+    },
+    {
+      "id": "aibot-68318",
+      "name": "LiblibAI电商营销",
+      "description": "LiblibAI电商营销是LiblibAI平台内专业创作者围绕电商场景训练的专业级LoRA模型，专注于电商领域的图像生成和处理。通过先进的LoRA模型，LiblibAI电商营销板块提供从主图到详情页的一站式图像解决方案。",
+      "description_full": "LiblibAI电商营销是LiblibAI平台内专业创作者围绕电商场景训练的专业级LoRA模型，专注于电商领域的图像生成和处理。通过先进的LoRA模型，LiblibAI电商营销板块提供从主图到详情页的一站式图像解决方案。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/10/liblib.art-logo.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:54",
+      "updated_at": "2026-02-04T16:04:54"
+    },
+    {
+      "id": "aibot-33694",
+      "name": "美图商拍",
+      "description": "美图商拍是美图设计室推出的AI商拍工具，提供“AI商品图”、“AI模特试衣”等功能，配合“服装换色”、“电商海报”等辅助功能，帮助电商用户快速生成逼真的商品场景图和模特上身图。只需上传简单拍摄的产品图，AI商拍能自动生成场景图和模特图，基于美图自研的视觉大模型MiracleVision，AI商拍提供高质量的图片生成。",
+      "description_full": "美图商拍是美图设计室推出的AI商拍工具，提供“AI商品图”、“AI模特试衣”等功能，配合“服装换色”、“电商海报”等辅助功能，帮助电商用户快速生成逼真的商品场景图和模特上身图。只需上传简单拍摄的产品图，AI商拍能自动生成场景图和模特图，基于美图自研的视觉大模型MiracleVision，AI商拍提供高质量的图片生成。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/04/meitu-ai-ppt.jpg",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:55",
+      "updated_at": "2026-02-04T16:04:55"
+    },
+    {
+      "id": "aibot-49519",
+      "name": "稿定AI商品图",
+      "description": "稿定AI商品图是稿定设计推出的在线AI商品图生成工具，专为需要快速更换商品图片背景的用户设计。通过先进的AI算法，能自动识别商品主体精准抠图，无需用户手动操作，节省了时间和精力。",
+      "description_full": "稿定AI商品图是稿定设计推出的在线AI商品图生成工具，专为需要快速更换商品图片背景的用户设计。通过先进的AI算法，能自动识别商品主体精准抠图，无需用户手动操作，节省了时间和精力。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/05/gaoding-design-icon.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:56",
+      "updated_at": "2026-02-04T16:04:56"
+    },
+    {
+      "id": "aibot-57727",
+      "name": "光子AI",
+      "description": "光子AI是专为电商商家推出的AI商拍工具，提供一站式AI电商解决方案。光子AI支持一键换装、换配饰、换模特、换背景、换姿势、换表情、修图、生成视频等多种功能，帮助用户快速生成高质量的商品展示图和视频，提升商品吸引力。",
+      "description_full": "光子AI是专为电商商家推出的AI商拍工具，提供一站式AI电商解决方案。光子AI支持一键换装、换配饰、换模特、换背景、换姿势、换表情、修图、生成视频等多种功能，帮助用户快速生成高质量的商品展示图和视频，提升商品吸引力。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/photonaiclub-icon.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:57",
+      "updated_at": "2026-02-04T16:04:57"
+    },
+    {
+      "id": "aibot-6245",
+      "name": "Pic Copilot",
+      "description": "Pic Copilot 是阿里巴巴国际站推出的AIGC商品营销图制作工具，该AI电商作图神器基于阿里巴巴国际站的海量外贸商品信息数据库，训练出了能凸显商品独特竞争力和卖点的图像模型，只需简单几步，即可快速生成高点击率的商品营销图，目的是帮助跨境电商和海外商家提升商品点击率。",
+      "description_full": "Pic Copilot 是阿里巴巴国际站推出的AIGC商品营销图制作工具，该AI电商作图神器基于阿里巴巴国际站的海量外贸商品信息数据库，训练出了能凸显商品独特竞争力和卖点的图像模型，只需简单几步，即可快速生成高点击率的商品营销图，目的是帮助跨境电商和海外商家提升商品点击率。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/11/pic-copilot-logo.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:58",
+      "updated_at": "2026-02-04T16:04:58"
+    },
+    {
+      "id": "aibot-41196",
+      "name": "蜂鸟AI",
+      "description": "蜂鸟AI是赶海科技推出的跨境电商AI营销工具。蜂鸟AI基于领先的AI视觉模型和多模态技术，为商家提供AI翻译（支持图片和视频）、AI图片创作（包括素材生成、编辑排版、智能商拍等）及AI文案写作等功能。",
+      "description_full": "蜂鸟AI是赶海科技推出的跨境电商AI营销工具。蜂鸟AI基于领先的AI视觉模型和多模态技术，为商家提供AI翻译（支持图片和视频）、AI图片创作（包括素材生成、编辑排版、智能商拍等）及AI文案写作等功能。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/02/fengniaoai-logo.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:04:59",
+      "updated_at": "2026-02-04T16:04:59"
+    },
+    {
+      "id": "aibot-12165",
+      "name": "PhotoStudio AI",
+      "description": "PhotoStudio AI是虹软倾力打造的一款基于业内领先前沿技术的智能商拍摄影软件，结合了虹软AIGC专属商拍摄影大模型和高性能控制引擎，赋予专业摄影师的眼光和技巧，旨在为商家提供卓越的商拍图生成与优化服务。",
+      "description_full": "PhotoStudio AI是虹软倾力打造的一款基于业内领先前沿技术的智能商拍摄影软件，结合了虹软AIGC专属商拍摄影大模型和高性能控制引擎，赋予专业摄影师的眼光和技巧，旨在为商家提供卓越的商拍图生成与优化服务。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/05/photostudio-ai-icon.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:00",
+      "updated_at": "2026-02-04T16:05:00"
+    },
+    {
+      "id": "aibot-70979",
+      "name": "蕉点AI",
+      "description": "蕉点AI是武汉光瞳科技推出的多品类AI电商商品图生成平台，聚焦“让电商像吃香蕉一样简单”。蕉点AI是电商商品素材一站式制作工具，支持女装/饰品/母婴/宠物等多品类AI虚拟上身图生成，提供AI换背景、白底图制作、商品图精修等功能",
+      "description_full": "蕉点AI是武汉光瞳科技推出的多品类AI电商商品图生成平台，聚焦“让电商像吃香蕉一样简单”。蕉点AI是电商商品素材一站式制作工具，支持女装/饰品/母婴/宠物等多品类AI虚拟上身图生成，提供AI换背景、白底图制作、商品图精修等功能",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/jiaodian-AI-icon-1.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:01",
+      "updated_at": "2026-02-04T16:05:01"
+    },
+    {
+      "id": "aibot-69883",
+      "name": "潮际好麦",
+      "description": "潮际好麦是专业的AI电商营销内容创作平台，专注于为电商行业提供高效、低成本的视觉内容解决方案。通过先进的AIGC技术，潮际好麦能快速生成高质量的模特图、商品图和营销视频，帮助商家节省大量时间和成本。",
+      "description_full": "潮际好麦是专业的AI电商营销内容创作平台，专注于为电商行业提供高效、低成本的视觉内容解决方案。通过先进的AIGC技术，潮际好麦能快速生成高质量的模特图、商品图和营销视频，帮助商家节省大量时间和成本。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/chaojihaomai-icon-1.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:02",
+      "updated_at": "2026-02-04T16:05:02"
+    },
+    {
+      "id": "aibot-24841",
+      "name": "千鹿AI",
+      "description": "千鹿AI是专为跨境电商提供设计和AI服务的设计工具。提供产品精修、万物迁移、图片翻译、商品换色、AI模特图、图片去水印等AI图像处理功能。注册送免费算力。千鹿AI提供在线设计器及丰富的素材模板，帮助用户快速制作爆款营销图。",
+      "description_full": "千鹿AI是专为跨境电商提供设计和AI服务的设计工具。提供产品精修、万物迁移、图片翻译、商品换色、AI模特图、图片去水印等AI图像处理功能。注册送免费算力。千鹿AI提供在线设计器及丰富的素材模板，帮助用户快速制作爆款营销图。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/10/qianlu-logo2.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:03",
+      "updated_at": "2026-02-04T16:05:03"
+    },
+    {
+      "id": "aibot-50029",
+      "name": "妙思",
+      "description": "妙思是腾讯广告推出的基于腾讯混元大模型的一站式AI广告创意平台。为广告主提供文生图、图生图、商品背景合成、妙思衍生、特定风格LORA等多种创意工具，简化广告制作与投放流程。",
+      "description_full": "妙思是腾讯广告推出的基于腾讯混元大模型的一站式AI广告创意平台。为广告主提供文生图、图生图、商品背景合成、妙思衍生、特定风格LORA等多种创意工具，简化广告制作与投放流程。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/04/admuse-logo.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:04",
+      "updated_at": "2026-02-04T16:05:04"
+    },
+    {
+      "id": "aibot-25529",
+      "name": "美间AI商拍",
+      "description": "美间AI商拍是一款AI电商设计工具，通过AI技术帮助用户提高设计效率和降低成本。只需提供一张白底图，可一键更换背景，生成超真实的商品大片，适用于各类电商营销场景。",
+      "description_full": "美间AI商拍是一款AI电商设计工具，通过AI技术帮助用户提高设计效率和降低成本。只需提供一张白底图，可一键更换背景，生成超真实的商品大片，适用于各类电商营销场景。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/06/meijianai-logo.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:05",
+      "updated_at": "2026-02-04T16:05:05"
+    },
+    {
+      "id": "aibot-13023",
+      "name": "Cliclic AI",
+      "description": "Cliclic AI是创客贴公司开发的一款AI图像编辑工具，旨在简化商品图片的背景处理和编辑工作。用户只需上传产品照片，Cliclic AI就能自动去除原有背景，并提供多种预设或自定义背景选项，实现一键更换商品背景。",
+      "description_full": "Cliclic AI是创客贴公司开发的一款AI图像编辑工具，旨在简化商品图片的背景处理和编辑工作。用户只需上传产品照片，Cliclic AI就能自动去除原有背景，并提供多种预设或自定义背景选项，实现一键更换商品背景。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/05/cliclic-ai-icon.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:06",
+      "updated_at": "2026-02-04T16:05:06"
+    },
+    {
+      "id": "aibot-2048",
+      "name": "羚珑",
+      "description": "京东羚珑是京东推出的营销内容创意平台，可以帮助电商运营一键抠图、免费抠图、商品打腰带、改尺寸、商品主图设计、线上广告banner设计、店铺首页设计、活动页设计、页面设计、互动营销设计、小程序设计、动图视频设计、视频广告设计、商品主图视频设计、海报设计、公众号配图设计、二维码名片设计、DM传单设计、物流面贴设计、易拉宝设计、张贴海报设计，海量精美模板，免费设计，免费素材，专区，致力于成为商家经营的设",
+      "description_full": "京东羚珑是京东推出的营销内容创意平台，可以帮助电商运营一键抠图、免费抠图、商品打腰带、改尺寸、商品主图设计、线上广告banner设计、店铺首页设计、活动页设计、页面设计、互动营销设计、小程序设计、动图视频设计、视频广告设计、商品主图视频设计、海报设计、公众号配图设计、二维码名片设计、DM传单设计、物流面贴设计、易拉宝设计、张贴海报设计，海量精美模板，免费设计，免费素材，专区，致力于成为商家经营的设计合作伙伴。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/05/ling-jd-icon.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:07",
+      "updated_at": "2026-02-04T16:05:07"
+    },
+    {
+      "id": "aibot-17398",
+      "name": "创自由",
+      "description": "创自由是一款由北京比特互联推出的专业AI作图工具，专为电商、自媒体、金融、教育等行业设计。提供快速设计商品图、广告图、海报图等功能，操作简单，易于上手。",
+      "description_full": "创自由是一款由北京比特互联推出的专业AI作图工具，专为电商、自媒体、金融、教育等行业设计。提供快速设计商品图、广告图、海报图等功能，操作简单，易于上手。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/08/chuangziyou-logo.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:08",
+      "updated_at": "2026-02-04T16:05:08"
+    },
+    {
+      "id": "aibot-6749",
+      "name": "灵动AI",
+      "description": "灵动AI是由灵动无限科技推出的一款人工智能商品图生成工具，用户只需上传商品图片，选择喜欢的场景，即可快速生成渲染精美的商品场景图。该工具采用了生成式AI技术，并结合自研的商品+场景融合系列专用AI模型及智能审美评价系统，为B端用户和设计师创作高质量商品场景图提供支持，节省商拍时间和降低成本，智能辅助营销设计，助力营销创意的高效呈现。",
+      "description_full": "灵动AI是由灵动无限科技推出的一款人工智能商品图生成工具，用户只需上传商品图片，选择喜欢的场景，即可快速生成渲染精美的商品场景图。该工具采用了生成式AI技术，并结合自研的商品+场景融合系列专用AI模型及智能审美评价系统，为B端用户和设计师创作高质量商品场景图提供支持，节省商拍时间和降低成本，智能辅助营销设计，助力营销创意的高效呈现。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/12/redoon-ai-icon.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:09",
+      "updated_at": "2026-02-04T16:05:09"
+    },
+    {
+      "id": "aibot-175",
+      "name": "Pebblely",
+      "description": "AI产品图精美背景添加",
+      "description_full": "AI产品图精美背景添加",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/pebblely-icon.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:10",
+      "updated_at": "2026-02-04T16:05:10"
+    },
+    {
+      "id": "aibot-173",
+      "name": "Mokker AI",
+      "description": "AI产品图添加背景",
+      "description_full": "AI产品图添加背景",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/mokker-ai-icon.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:11",
+      "updated_at": "2026-02-04T16:05:11"
+    },
+    {
+      "id": "aibot-11541",
+      "name": "花生图像",
+      "description": "花生图像是一个专为电商卖家设计的AI图片编辑器，利用深度学习技术提供智能抠图、图片翻译、图片编辑、智能消除和商品图生成等功能。用户可以一键精准抠图，将图片中的文字翻译成多国语言，调整图片色彩和尺寸，去除瑕疵，以及生成精美的商品展示图。",
+      "description_full": "花生图像是一个专为电商卖家设计的AI图片编辑器，利用深度学习技术提供智能抠图、图片翻译、图片编辑、智能消除和商品图生成等功能。用户可以一键精准抠图，将图片中的文字翻译成多国语言，调整图片色彩和尺寸，去除瑕疵，以及生成精美的商品展示图。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/04/hsphoto-icon.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:12",
+      "updated_at": "2026-02-04T16:05:12"
+    },
+    {
+      "id": "aibot-26931",
+      "name": "图生生",
+      "description": "图生生是专为电商设计的AI商拍作图工具，基于先进的AIGC生成式技术，帮助商家解决传统商拍成本高、耗时长的问题。图生生主要面向国内外电商与品牌商，特别是中小商家，降低成本、提高美工设计师的工作效率。",
+      "description_full": "图生生是专为电商设计的AI商拍作图工具，基于先进的AIGC生成式技术，帮助商家解决传统商拍成本高、耗时长的问题。图生生主要面向国内外电商与品牌商，特别是中小商家，降低成本、提高美工设计师的工作效率。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/10/tushengsheng-logo.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:13",
+      "updated_at": "2026-02-04T16:05:13"
+    },
+    {
+      "id": "aibot-13722",
+      "name": "WeShop唯象",
+      "description": "WeShop唯象是由电商平台蘑菇街旗下推出的一款AI商拍工具，专注于电商产品图片的智能生成。该工具通过AI技术提供AI模特、AI静物拍摄以及多种AI图像处理工具，帮助用户快速生成高质量的商品图片。",
+      "description_full": "WeShop唯象是由电商平台蘑菇街旗下推出的一款AI商拍工具，专注于电商产品图片的智能生成。该工具通过AI技术提供AI模特、AI静物拍摄以及多种AI图像处理工具，帮助用户快速生成高质量的商品图片。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/06/weshop-icon.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:14",
+      "updated_at": "2026-02-04T16:05:14"
+    },
+    {
+      "id": "aibot-61408",
+      "name": "绘蛙AI转3D",
+      "description": "绘蛙AI转3D是绘蛙推出的“平铺转3D”功能，能将服装平铺图快速转换为3D立体展示图。用户仅需上传一张服装平铺图，选择合适的模特姿势或场景模板，可一键生成3D效果。直观展示了服装的细节和立体感，通过多样化模板满足了不同的展示需求。",
+      "description_full": "绘蛙AI转3D是绘蛙推出的“平铺转3D”功能，能将服装平铺图快速转换为3D立体展示图。用户仅需上传一张服装平铺图，选择合适的模特姿势或场景模板，可一键生成3D效果。直观展示了服装的细节和立体感，通过多样化模板满足了不同的展示需求。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/03/ihuiwa-icon.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:15",
+      "updated_at": "2026-02-04T16:05:15"
+    },
+    {
+      "id": "aibot-60471",
+      "name": "Tripo AI",
+      "description": "Tripo AI是AI 3D模型创作平台，文本、图像一键生成3D模型。Tripo AI支持与Flux和GPT-4o图像生成器集成，能通过文本、图片或涂鸦快速生成高精度3D模型，支持GLB、FBX、OBJ等全主流格式，一键导出至Blender、Unity、Unreal等引擎，适用于游戏、3D打印、元宇宙等领域。",
+      "description_full": "Tripo AI是AI 3D模型创作平台，文本、图像一键生成3D模型。Tripo AI支持与Flux和GPT-4o图像生成器集成，能通过文本、图片或涂鸦快速生成高精度3D模型，支持GLB、FBX、OBJ等全主流格式，一键导出至Blender、Unity、Unreal等引擎，适用于游戏、3D打印、元宇宙等领域。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/03/Tripo-logo-1.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:16",
+      "updated_at": "2026-02-04T16:05:16"
+    },
+    {
+      "id": "aibot-38482",
+      "name": "腾讯混元3D",
+      "description": "腾讯混元3D是腾讯推出的一站式3D内容生产AI创作平台。混元3D AI创作引擎为普通UGC和游戏等专业场景提供了一站式3D内容生产AI创作平台，支持搭建3D基模型+3D功能矩阵+3D生成工作流+创作素材库一体的完整3D AI创作平台。",
+      "description_full": "腾讯混元3D是腾讯推出的一站式3D内容生产AI创作平台。混元3D AI创作引擎为普通UGC和游戏等专业场景提供了一站式3D内容生产AI创作平台，支持搭建3D基模型+3D功能矩阵+3D生成工作流+创作素材库一体的完整3D AI创作平台。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/01/hunyuan-3d-logo.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:17",
+      "updated_at": "2026-02-04T16:05:17"
+    },
+    {
+      "id": "aibot-70251",
+      "name": "Neural4D",
+      "description": "Neural4D 是 DreamTech 团队（汇集牛津大学、南京大学等顶尖高校研究人才）推出的 AI  3D 模型生成平台，基于全球领先的 Neural4D-2.5 大模型，能通过文字描述或图片输入快速生成高质量的 3D 模型和动画。",
+      "description_full": "Neural4D 是 DreamTech 团队（汇集牛津大学、南京大学等顶尖高校研究人才）推出的 AI  3D 模型生成平台，基于全球领先的 Neural4D-2.5 大模型，能通过文字描述或图片输入快速生成高质量的 3D 模型和动画。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/Neural4D-icon.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:18",
+      "updated_at": "2026-02-04T16:05:18"
+    },
+    {
+      "id": "aibot-66545",
+      "name": "Marble",
+      "description": "Marble 是 World Labs推出的3D世界生成平台，能通过简单的文本描述、图片、视频或3D结构生成高保真、持久的3D世界。Marble支持多种输入方式，包括文本提示、单张或多张图片、全景图、视频和基础3D布局。",
+      "description_full": "Marble 是 World Labs推出的3D世界生成平台，能通过简单的文本描述、图片、视频或3D结构生成高保真、持久的3D世界。Marble支持多种输入方式，包括文本提示、单张或多张图片、全景图、视频和基础3D布局。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/Marble-logo.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:19",
+      "updated_at": "2026-02-04T16:05:19"
+    },
+    {
+      "id": "aibot-57279",
+      "name": "Fast3D",
+      "description": "Fast3D 是强大的 AI 3D 模型生成平台，能通过简单的文字描述或图片输入，在几秒钟内生成高质量的 3D 模型。Fast3D 支持高保真材质合成，具备高精度几何生成能力，适合从初学者到专业人士的广泛用户群体。",
+      "description_full": "Fast3D 是强大的 AI 3D 模型生成平台，能通过简单的文字描述或图片输入，在几秒钟内生成高质量的 3D 模型。Fast3D 支持高保真材质合成，具备高精度几何生成能力，适合从初学者到专业人士的广泛用户群体。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/Fast3D-logo1.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:20",
+      "updated_at": "2026-02-04T16:05:20"
+    },
+    {
+      "id": "aibot-59706",
+      "name": "造好物",
+      "description": "造好物是全球首个一站式AI造物平台，能帮用户快速实现从创意灵感到实物。造好物支持首饰、潮玩、文创等全品类生产交付，通过造好物的AI工具，零基础用户能轻松上手，快速生成独一无二的设计。",
+      "description_full": "造好物是全球首个一站式AI造物平台，能帮用户快速实现从创意灵感到实物。造好物支持首饰、潮玩、文创等全品类生产交付，通过造好物的AI工具，零基础用户能轻松上手，快速生成独一无二的设计。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/zaohaowu-website2.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:22",
+      "updated_at": "2026-02-04T16:05:22"
+    },
+    {
+      "id": "aibot-38477",
+      "name": "Hitems",
+      "description": "Hitems 是数美万物推出的AI创意物品生成社区，基于前沿的生成式人工智能（GenAI）技术，用户通过关键词、图片或手绘稿快速生成高保真度的物品图像，基于自研的 AI 3D 建模技术和成熟的供应链体系，将创意物品迅速投入生产。",
+      "description_full": "Hitems 是数美万物推出的AI创意物品生成社区，基于前沿的生成式人工智能（GenAI）技术，用户通过关键词、图片或手绘稿快速生成高保真度的物品图像，基于自研的 AI 3D 建模技术和成熟的供应链体系，将创意物品迅速投入生产。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/01/hitems-logo-2.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:23",
+      "updated_at": "2026-02-04T16:05:23"
+    },
+    {
+      "id": "aibot-67092",
+      "name": "Style3D",
+      "description": "Style3D 是专为设计师和品牌打造的AI服装设计工具。通过AI技术，将创意草图快速转化为逼真的3D服装模型，支持从设计到生产的全流程操作。用户只需输入文字描述，AI能生成3D设计，能进行虚拟试穿、快速迭代款式，生成用于营销的高质量图片和视频。",
+      "description_full": "Style3D 是专为设计师和品牌打造的AI服装设计工具。通过AI技术，将创意草图快速转化为逼真的3D服装模型，支持从设计到生产的全流程操作。用户只需输入文字描述，AI能生成3D设计，能进行虚拟试穿、快速迭代款式，生成用于营销的高质量图片和视频。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/Style3D-icon.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:24",
+      "updated_at": "2026-02-04T16:05:24"
+    },
+    {
+      "id": "aibot-69990",
+      "name": "LuxReal",
+      "description": "LuxReal 是群核科技推出的 AI 3D 视频创作平台，基于自研的 Lux3D 模型和多智能体协同系统，能快速生成高质量、主体一致且画面可控的视频。",
+      "description_full": "LuxReal 是群核科技推出的 AI 3D 视频创作平台，基于自研的 Lux3D 模型和多智能体协同系统，能快速生成高质量、主体一致且画面可控的视频。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/LuxReal-logo.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:25",
+      "updated_at": "2026-02-04T16:05:25"
+    },
+    {
+      "id": "aibot-11164",
+      "name": "VoxCraft",
+      "description": "VoxCraft是由生数科技推出的一款免费的人工智能3D资产生成工具，能够通过图像或文本描述快速创建3D模型，极大地提高了3D设计和建模的效率。",
+      "description_full": "VoxCraft是由生数科技推出的一款免费的人工智能3D资产生成工具，能够通过图像或文本描述快速创建3D模型，极大地提高了3D设计和建模的效率。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/04/voxcraft-icon.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:26",
+      "updated_at": "2026-02-04T16:05:26"
+    },
+    {
+      "id": "aibot-6080",
+      "name": "Meshy",
+      "description": "Meshy 是一个 3D 生成 AI 工具箱，可轻松从文本或图像创建 3D 资源，适用于 3D 艺术家、爱好者、XR 开发者、游戏制作者和设计师加速 3D 设计的工作流程。使用 Meshy，用户只需输入一个简单的提示，便可以在几分钟内创建高质量的纹理和 3D 模型。",
+      "description_full": "Meshy 是一个 3D 生成 AI 工具箱，可轻松从文本或图像创建 3D 资源，适用于 3D 艺术家、爱好者、XR 开发者、游戏制作者和设计师加速 3D 设计的工作流程。使用 Meshy，用户只需输入一个简单的提示，便可以在几分钟内创建高质量的纹理和 3D 模型。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/11/meshy-ai-icon.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:27",
+      "updated_at": "2026-02-04T16:05:27"
+    },
+    {
+      "id": "aibot-61375",
+      "name": "绘蛙AI抠图",
+      "description": "绘蛙AI抠图是绘蛙推出的AI智能抠图工具。能快速精准地识别图片主体，支持人物、产品或是其他关键元素，能一键将其从复杂背景中分离出来，连发丝等细节能处理得相当精细。",
+      "description_full": "绘蛙AI抠图是绘蛙推出的AI智能抠图工具。能快速精准地识别图片主体，支持人物、产品或是其他关键元素，能一键将其从复杂背景中分离出来，连发丝等细节能处理得相当精细。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/03/ihuiwa-icon.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:28",
+      "updated_at": "2026-02-04T16:05:28"
+    },
+    {
+      "id": "aibot-68297",
+      "name": "LiblibAI抠图",
+      "description": "LiblibAI抠图是LiblibAI（哩布哩布AI）推出的AI抠图工作流，主要应用在电商工作流的“一键去除背景”功能上。用户只需上传商品图片，LiblibAI抠图即可智能识别商品主体并自动抠图。",
+      "description_full": "LiblibAI抠图是LiblibAI（哩布哩布AI）推出的AI抠图工作流，主要应用在电商工作流的“一键去除背景”功能上。用户只需上传商品图片，LiblibAI抠图即可智能识别商品主体并自动抠图。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/10/liblib.art-logo.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:29",
+      "updated_at": "2026-02-04T16:05:29"
+    },
+    {
+      "id": "aibot-1991",
+      "name": "美图抠图",
+      "description": "美图抠图是由美图秀秀推出的 AI 智能抠图工具，用户只需上传图片，便能一键快速去除图片背景。该工具支持全品类 AI 智能抠图，如人像、宠物、商品、图标等。",
+      "description_full": "美图抠图是由美图秀秀推出的 AI 智能抠图工具，用户只需上传图片，便能一键快速去除图片背景。该工具支持全品类 AI 智能抠图，如人像、宠物、商品、图标等。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/04/meitu-cutout-icon.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:30",
+      "updated_at": "2026-02-04T16:05:30"
+    },
+    {
+      "id": "aibot-4483",
+      "name": "顽兔抠图",
+      "description": "顽兔抠图原是阿里巴巴推出的在线AI抠图工具，原是淘宝智能设计在线工作台推出的为电商用户进行商品图背景移除的，现已上线扩容到堆友的AI工具箱中，用户可一键上传图片即可快速抠图，可精确识别需要保留的主图并移除多余背景。",
+      "description_full": "顽兔抠图原是阿里巴巴推出的在线AI抠图工具，原是淘宝智能设计在线工作台推出的为电商用户进行商品图背景移除的，现已上线扩容到堆友的AI工具箱中，用户可一键上传图片即可快速抠图，可精确识别需要保留的主图并移除多余背景。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/09/d-design-cutout-icon.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:31",
+      "updated_at": "2026-02-04T16:05:31"
+    },
+    {
+      "id": "aibot-18104",
+      "name": "鲜艺AI抠图",
+      "description": "鲜艺AI抠图是一款功能强大的免费AI抠图工具，能快速去除图片背景，支持本地和在线图片处理。鲜艺AI抠图具备毫秒级处理速度、无需联网确保隐私安全、支持批量操作、多格式兼容，以及Photoshop二次编辑功能。用户界面简洁直观，支持皮肤和语言切换，支持Windows和macOS系统，广受创意工作者好评。",
+      "description_full": "鲜艺AI抠图是一款功能强大的免费AI抠图工具，能快速去除图片背景，支持本地和在线图片处理。鲜艺AI抠图具备毫秒级处理速度、无需联网确保隐私安全、支持批量操作、多格式兼容，以及Photoshop二次编辑功能。用户界面简洁直观，支持皮肤和语言切换，支持Windows和macOS系统，广受创意工作者好评。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/08/鲜艺AI抠图-logo.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:32",
+      "updated_at": "2026-02-04T16:05:32"
+    },
+    {
+      "id": "aibot-70008",
+      "name": "抠抠图",
+      "description": "抠抠图是基于AI的在线免费图片处理工具，专注于为用户提供高效、便捷的抠图服务。抠抠图通过AI技术自动识别主体与背景，实现精准AI抠图，无需复杂操作和专业软件。",
+      "description_full": "抠抠图是基于AI的在线免费图片处理工具，专注于为用户提供高效、便捷的抠图服务。抠抠图通过AI技术自动识别主体与背景，实现精准AI抠图，无需复杂操作和专业软件。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/koukoutu-website.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:33",
+      "updated_at": "2026-02-04T16:05:33"
+    },
+    {
+      "id": "aibot-32253",
+      "name": "Pic Copilot AI抠图",
+      "description": "Pic Copilot AI抠图是Pic Copilot专为电商卖家设计推出的AI抠图工具，支持批量抠图。能快速从图片中抠出所需元素，去除杂乱背景，保留产品主体，方便二次编辑。基于先进的AI算法和大量数据训练，实现了一键抠图，提升了图片处理的效率和精准度。用户可以轻松生成聚焦于产品主体的图像，优化电商营销效果。",
+      "description_full": "Pic Copilot AI抠图是Pic Copilot专为电商卖家设计推出的AI抠图工具，支持批量抠图。能快速从图片中抠出所需元素，去除杂乱背景，保留产品主体，方便二次编辑。基于先进的AI算法和大量数据训练，实现了一键抠图，提升了图片处理的效率和精准度。用户可以轻松生成聚焦于产品主体的图像，优化电商营销效果。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/11/pic-copilot-logo.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:34",
+      "updated_at": "2026-02-04T16:05:34"
+    },
+    {
+      "id": "aibot-61292",
+      "name": "光子AI抠图",
+      "description": "光子AI抠图是光子AI推出的AI图片背景抠除工具，用户在进行商拍图片制作生成时，可以使用背景抠除功能，轻松地将商品从原始背景中分离出来，实现背景的快速更换。",
+      "description_full": "光子AI抠图是光子AI推出的AI图片背景抠除工具，用户在进行商拍图片制作生成时，可以使用背景抠除功能，轻松地将商品从原始背景中分离出来，实现背景的快速更换。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/photonaiclub-icon.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:35",
+      "updated_at": "2026-02-04T16:05:35"
+    },
+    {
+      "id": "aibot-7983",
+      "name": "Pixian.AI",
+      "description": "Pixian.AI是一个基于人工智能的在线抠图工具，专门用于自动去除图片背景。该工具利用先进的机器学习技术，能够识别并分离图片中的前景对象与背景，从而生成透明背景的图片，帮助用户高效便捷地将产品、人物或其他对象从复杂背景中分离出来以用于设计、广告或其他视觉项目。",
+      "description_full": "Pixian.AI是一个基于人工智能的在线抠图工具，专门用于自动去除图片背景。该工具利用先进的机器学习技术，能够识别并分离图片中的前景对象与背景，从而生成透明背景的图片，帮助用户高效便捷地将产品、人物或其他对象从复杂背景中分离出来以用于设计、广告或其他视觉项目。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/01/pixian-ai-icon.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:36",
+      "updated_at": "2026-02-04T16:05:36"
+    },
+    {
+      "id": "aibot-88",
+      "name": "Icons8 Background Remover",
+      "description": "Icons8出品的免费图片背景移除工具",
+      "description_full": "Icons8出品的免费图片背景移除工具",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/icons8-background-remover-icon.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:37",
+      "updated_at": "2026-02-04T16:05:37"
+    },
+    {
+      "id": "aibot-242",
+      "name": "BgSub",
+      "description": "BgSub是一个完全免费的在线AI抠图工具，使用先进的人工智能技术，自动替换图像的背景。不仅可以自动去除图像背景，而且无需上传你的图像数据，从根本上保护用户隐私。BgSub拥有着丰富的抠图功能，支持去除图像背景、替换图像背景、AI调色、自由调整、艺术滤镜等。",
+      "description_full": "BgSub是一个完全免费的在线AI抠图工具，使用先进的人工智能技术，自动替换图像的背景。不仅可以自动去除图像背景，而且无需上传你的图像数据，从根本上保护用户隐私。BgSub拥有着丰富的抠图功能，支持去除图像背景、替换图像背景、AI调色、自由调整、艺术滤镜等。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/bgsub-icon.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:38",
+      "updated_at": "2026-02-04T16:05:38"
+    },
+    {
+      "id": "aibot-221",
+      "name": "ClipDrop Remove Background",
+      "description": "ClipDrop出品的AI图片背景移除工具",
+      "description_full": "ClipDrop出品的AI图片背景移除工具",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/clipdrop-icon.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:39",
+      "updated_at": "2026-02-04T16:05:39"
+    },
+    {
+      "id": "aibot-285",
+      "name": "Erase.bg",
+      "description": "Erase.bg是一款优质的在线AI抠图工具，利用人工智能的技术自动消除图像背景，让从图像中删除分散注意力或杂乱的背景变得更加容易。Erase.bg 只需几秒钟就可以识别前景对象并擦除周围的背景，省去了使用复杂图片编辑软件的麻烦，最高支持5000*5000分辨率。",
+      "description_full": "Erase.bg是一款优质的在线AI抠图工具，利用人工智能的技术自动消除图像背景，让从图像中删除分散注意力或杂乱的背景变得更加容易。Erase.bg 只需几秒钟就可以识别前景对象并擦除周围的背景，省去了使用复杂图片编辑软件的麻烦，最高支持5000*5000分辨率。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/erase-bg-icon.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:40",
+      "updated_at": "2026-02-04T16:05:40"
+    },
+    {
+      "id": "aibot-9946",
+      "name": "千图设计室AI助手",
+      "description": "千图设计室丨AI设计助手是由千图推出的一个在线设计神器，内置135个AI图片处理创意应用，包括AI抠图、图片美化、AI绘画、AI对话、AI写作等，专为设计师和营销从业者量身打造。",
+      "description_full": "千图设计室丨AI设计助手是由千图推出的一个在线设计神器，内置135个AI图片处理创意应用，包括AI抠图、图片美化、AI绘画、AI对话、AI写作等，专为设计师和营销从业者量身打造。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/03/hisheai-icon.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:41",
+      "updated_at": "2026-02-04T16:05:41"
+    },
+    {
+      "id": "aibot-313",
+      "name": "Adobe Image Background Remover",
+      "description": "Adobe Express的图片背景移除工具",
+      "description_full": "Adobe Express的图片背景移除工具",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/adobe-express-icon.png",
+      "category": "AI图像工具",
+      "tags": [
+        "图像"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:42",
+      "updated_at": "2026-02-04T16:05:42"
+    },
+    {
+      "id": "aibot-17772",
+      "name": "即梦AI",
+      "description": "即梦AI是字节跳动推出的一站式AI创作平台，支持AI视频生成和AI图片生成。支持用户通过自然语言或图片输入生成高质量的图像和视频。即梦AI提供AI绘画、智能画布、视频生成以及故事创作等多种功能，降低创作门槛，激发用户创意。",
+      "description_full": "即梦AI是字节跳动推出的一站式AI创作平台，支持AI视频生成和AI图片生成。支持用户通过自然语言或图片输入生成高质量的图像和视频。即梦AI提供AI绘画、智能画布、视频生成以及故事创作等多种功能，降低创作门槛，激发用户创意。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/10/jimeng-logo-1.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:43",
+      "updated_at": "2026-02-04T16:05:43"
+    },
+    {
+      "id": "aibot-33687",
+      "name": "绘蛙AI视频",
+      "description": "绘蛙AI视频是绘蛙推出的AI电商营销视频内容创作平台，帮助用户快速生成高质量的电商营销视频。平台提供多种功能，满足不同场景下的视频创作需求。 用户可以通过上传单张全身模特图片或最多4张图片，AI技术生成动态视频。",
+      "description_full": "绘蛙AI视频是绘蛙推出的AI电商营销视频内容创作平台，帮助用户快速生成高质量的电商营销视频。平台提供多种功能，满足不同场景下的视频创作需求。 用户可以通过上传单张全身模特图片或最多4张图片，AI技术生成动态视频。",
+      "url": "https://www.ihuiwa.com/workspace/ai-video/custom-action?huiwaInviteCode=EMRCAL",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/03/ihuiwa-icon.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:44",
+      "updated_at": "2026-02-04T16:05:44"
+    },
+    {
+      "id": "aibot-66771",
+      "name": "LiblibAI",
+      "description": "LiblibAI 是一站式 AI 内容创作生成平台，提供图片生成、视频生成、视频特效和资产管理等功能。LiblibAI整合顶级 AI 模型，如混元 3.0、海螺 2.3、通义万相 2.5等，将图像、视频、灵感、AI应用、模型训练5大模块一站打通。",
+      "description_full": "LiblibAI 是一站式 AI 内容创作生成平台，提供图片生成、视频生成、视频特效和资产管理等功能。LiblibAI整合顶级 AI 模型，如混元 3.0、海螺 2.3、通义万相 2.5等，将图像、视频、灵感、AI应用、模型训练5大模块一站打通。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/10/liblib.art-logo.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:45",
+      "updated_at": "2026-02-04T16:05:45"
+    },
+    {
+      "id": "aibot-14695",
+      "name": "Vidu",
+      "description": "Vidu是生数科技推出的AI视频生成平台，集成Vidu Q2等先进模型，支持图生视频、文生视频和参考生视频功能。用户能通过上传图片、输入文字或参考视频生成具有细腻表情和生动演技的数字角色视频。",
+      "description_full": "Vidu是生数科技推出的AI视频生成平台，集成Vidu Q2等先进模型，支持图生视频、文生视频和参考生视频功能。用户能通过上传图片、输入文字或参考视频生成具有细腻表情和生动演技的数字角色视频。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/12/Vidu-logo1.jpg",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:46",
+      "updated_at": "2026-02-04T16:05:46"
+    },
+    {
+      "id": "aibot-10847",
+      "name": "有言",
+      "description": "有言是由魔珐科技推出的一个一站式AIGC视频创作和3D数字人生成平台，通过提供海量超写实3D虚拟人角色，帮助用户无需真人出镜即可制作视频。",
+      "description_full": "有言是由魔珐科技推出的一个一站式AIGC视频创作和3D数字人生成平台，通过提供海量超写实3D虚拟人角色，帮助用户无需真人出镜即可制作视频。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/04/youyan-icon.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:47",
+      "updated_at": "2026-02-04T16:05:47"
+    },
+    {
+      "id": "aibot-60917",
+      "name": "HeyGen",
+      "description": "HeyGen是全球领先的AI数字人视频创作平台，致力于简化视频制作过程，让用户能迅速制作出具有专业水准的数字人视频。HeyGen能将文本、图像或音频快速转化为高质量视频。",
+      "description_full": "HeyGen是全球领先的AI数字人视频创作平台，致力于简化视频制作过程，让用户能迅速制作出具有专业水准的数字人视频。HeyGen能将文本、图像或音频快速转化为高质量视频。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/10/HeyGen-icon.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:48",
+      "updated_at": "2026-02-04T16:05:48"
+    },
+    {
+      "id": "aibot-61400",
+      "name": "堆友AI视频",
+      "description": "堆友AI视频是堆友AI推出的免费AI视频生成工具，支持用户通过上传图片或输入文本描述生成视频。堆友AI视频基于阿里最新开源的万相2.2视频生成模型，根据用户提供的素材或描述自动创建视频内容。",
+      "description_full": "堆友AI视频是堆友AI推出的免费AI视频生成工具，支持用户通过上传图片或输入文本描述生成视频。堆友AI视频基于阿里最新开源的万相2.2视频生成模型，根据用户提供的素材或描述自动创建视频内容。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/07/d-design-ai-icon.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:49",
+      "updated_at": "2026-02-04T16:05:49"
+    },
+    {
+      "id": "aibot-35756",
+      "name": "SoundView",
+      "description": "SoundView（声动视界）是AI视频本地化工具，支持视频配音和视频翻译。SoundView集成多语种翻译、语音合成、语音识别和大模型技术，简化、加速产品营销视频的创作。SoundView支持100种语言的配音和字幕编辑，让视频制作效率提升10倍，视频翻译成本降低90%。",
+      "description_full": "SoundView（声动视界）是AI视频本地化工具，支持视频配音和视频翻译。SoundView集成多语种翻译、语音合成、语音识别和大模型技术，简化、加速产品营销视频的创作。SoundView支持100种语言的配音和字幕编辑，让视频制作效率提升10倍，视频翻译成本降低90%。",
+      "url": "https://soundviewai.com/invitation?inviteCode=H6tVloZUV&from=aibot",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/12/SoundView-logo.jpg",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:50",
+      "updated_at": "2026-02-04T16:05:50"
+    },
+    {
+      "id": "aibot-13065",
+      "name": "白日梦",
+      "description": "白日梦AI是光魔科技推出的AI视频创作平台，通过自然语言处理技术，允许用户输入文本内容，快速生成视频，最长可生成6分钟的视频。该平台支持文生视频、动态画面、AI角色生成等功能，并能保持人物和场景的一致性。",
+      "description_full": "白日梦AI是光魔科技推出的AI视频创作平台，通过自然语言处理技术，允许用户输入文本内容，快速生成视频，最长可生成6分钟的视频。该平台支持文生视频、动态画面、AI角色生成等功能，并能保持人物和场景的一致性。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/07/aibrm-icon.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:51",
+      "updated_at": "2026-02-04T16:05:51"
+    },
+    {
+      "id": "aibot-70438",
+      "name": "Pollo AI",
+      "description": "Pollo AI 是一站式 AI 图像与视频创作平台。平台集成多种先进的 AI 模型，如 Pollo 2.5、Veo 3 等，支持从文本生成视频、图片转视频、视频风格转换等多种功能。",
+      "description_full": "Pollo AI 是一站式 AI 图像与视频创作平台。平台集成多种先进的 AI 模型，如 Pollo 2.5、Veo 3 等，支持从文本生成视频、图片转视频、视频风格转换等多种功能。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/Pollo-AI-logo.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:52",
+      "updated_at": "2026-02-04T16:05:52"
+    },
+    {
+      "id": "aibot-60378",
+      "name": "Keevx",
+      "description": "Keevx是AI数字人视频创作工具，帮助用户快速生成多语言、高质量的视频内容。Keevx提供丰富的功能，包括爆款视频裂变、URL 转视频、视频翻译、AI 脚本生成、PPT/PDF 转视频等。用户可以用 210+ 海外原生数字人形象和 40+ 视频模板，结合 70+ 种语言和 180+ 口音，轻松制作出符合需求的视频。",
+      "description_full": "Keevx是AI数字人视频创作工具，帮助用户快速生成多语言、高质量的视频内容。Keevx提供丰富的功能，包括爆款视频裂变、URL 转视频、视频翻译、AI 脚本生成、PPT/PDF 转视频等。用户可以用 210+ 海外原生数字人形象和 40+ 视频模板，结合 70+ 种语言和 180+ 口音，轻松制作出符合需求的视频。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/Keevx-logo.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:53",
+      "updated_at": "2026-02-04T16:05:53"
+    },
+    {
+      "id": "aibot-8613",
+      "name": "Sora",
+      "description": "Sora是由OpenAI研发的AI视频生成模型，具备将文本描述转化为视频的能力，能够创造出既逼真又富有想象力的视频场景。该模型专注于模拟物理世界的运动，旨在帮助人们解决需要现实世界互动的问题。Sora 能够生成长达一分钟的视频，同时保持视觉质量和对用户输入的高度还原。",
+      "description_full": "Sora是由OpenAI研发的AI视频生成模型，具备将文本描述转化为视频的能力，能够创造出既逼真又富有想象力的视频场景。该模型专注于模拟物理世界的运动，旨在帮助人们解决需要现实世界互动的问题。Sora 能够生成长达一分钟的视频，同时保持视觉质量和对用户输入的高度还原。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/openai-gpt-model.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:54",
+      "updated_at": "2026-02-04T16:05:54"
+    },
+    {
+      "id": "aibot-11290",
+      "name": "蝉镜",
+      "description": "蝉镜是营销数据分析平台蝉妈妈旗下推出的一款AI数字人短视频与直播平台，通过极速克隆技术和高效的内容生产流程，使用户能够快速创建并发布数字人短视频。",
+      "description_full": "蝉镜是营销数据分析平台蝉妈妈旗下推出的一款AI数字人短视频与直播平台，通过极速克隆技术和高效的内容生产流程，使用户能够快速创建并发布数字人短视频。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/04/chanjing-icon.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:55",
+      "updated_at": "2026-02-04T16:05:55"
+    },
+    {
+      "id": "aibot-45413",
+      "name": "JoyPix",
+      "description": "JoyPix 是专注于数字人和语音合成的AI创作工具。用户可以通过上传照片创建个性化的虚拟形象，支持与虚拟形象进行语音对话。",
+      "description_full": "JoyPix 是专注于数字人和语音合成的AI创作工具。用户可以通过上传照片创建个性化的虚拟形象，支持与虚拟形象进行语音对话。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/03/JoyPix-logo.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:56",
+      "updated_at": "2026-02-04T16:05:56"
+    },
+    {
+      "id": "aibot-13186",
+      "name": "可灵AI",
+      "description": "可灵AI是快手推出的AI图像和视频创作平台，提供网页版和手机APP。支持AI图片和AI视频生成功能，AI图片生成支持文生图和图生图，用户可以输入描述或上传图片，AI据此生成新的图片。AI视频生成能将文本或图片转化为生动视频，具备视频延长和高清画质升级特性。用户能自定义首尾帧生成视频，享受丰富的视频编辑功能，如多种镜头控制选项。",
+      "description_full": "可灵AI是快手推出的AI图像和视频创作平台，提供网页版和手机APP。支持AI图片和AI视频生成功能，AI图片生成支持文生图和图生图，用户可以输入描述或上传图片，AI据此生成新的图片。AI视频生成能将文本或图片转化为生动视频，具备视频延长和高清画质升级特性。用户能自定义首尾帧生成视频，享受丰富的视频编辑功能，如多种镜头控制选项。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/03/klingai-logo.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:58",
+      "updated_at": "2026-02-04T16:05:58"
+    },
+    {
+      "id": "aibot-46196",
+      "name": "腾讯混元AI视频",
+      "description": "腾讯混元AI视频是腾讯推出的强大的AI视频生成工具，具备高度的创新性和实用性。用户可以通过平台生成高质量的视频内容，支持创意视频制作、特效生成，动画与游戏开发，满足多样化的需求。",
+      "description_full": "腾讯混元AI视频是腾讯推出的强大的AI视频生成工具，具备高度的创新性和实用性。用户可以通过平台生成高质量的视频内容，支持创意视频制作、特效生成，动画与游戏开发，满足多样化的需求。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/12/hunyuan-video-logo.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:05:59",
+      "updated_at": "2026-02-04T16:05:59"
+    },
+    {
+      "id": "aibot-68669",
+      "name": "魔珐星云",
+      "description": "魔珐星云是魔珐科技推出的具身智能3D数字人开放平台，致力于让AI从“有大脑”升级到“有身体”，实现自然表达和交互。魔珐星云基于文本输入，能实时生成3D数字人的语音、表情、动作，支持多模态生成、低成本运行、低延时交互及多终端适配。",
+      "description_full": "魔珐星云是魔珐科技推出的具身智能3D数字人开放平台，致力于让AI从“有大脑”升级到“有身体”，实现自然表达和交互。魔珐星云基于文本输入，能实时生成3D数字人的语音、表情、动作，支持多模态生成、低成本运行、低延时交互及多终端适配。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/xingyun3d-logo.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:00",
+      "updated_at": "2026-02-04T16:06:00"
+    },
+    {
+      "id": "aibot-70208",
+      "name": "献丑AI",
+      "description": "献丑AI是首个 AI 视频开源社区，也是专业级 AI 视频创作工具。核心打破 AI 视频创作的信息壁垒，公开作品的提示词、模型参数等完整创作流程，支持一键复用（Fork）与共创；搭载无限画布工作流，可在单一平台完成从脚本构思到视频合成的全流程操作，无需切换多软件，兼具可视化、可调整、可积累的优势。",
+      "description_full": "献丑AI是首个 AI 视频开源社区，也是专业级 AI 视频创作工具。核心打破 AI 视频创作的信息壁垒，公开作品的提示词、模型参数等完整创作流程，支持一键复用（Fork）与共创；搭载无限画布工作流，可在单一平台完成从脚本构思到视频合成的全流程操作，无需切换多软件，兼具可视化、可调整、可积累的优势。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/xianchouAI-icon.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:01",
+      "updated_at": "2026-02-04T16:06:01"
+    },
+    {
+      "id": "aibot-69647",
+      "name": "MochiAni",
+      "description": "MochiAni（麻薯动画）是专为创作者打造的AI动画视频创作工具，提供从创作到出海的一站式解决方案。通过智能化手段简化动画制作流程，降低创作门槛。用户只需输入文字，MochiAni能自动生成多格分镜，提供10余种风格模板，支持角色形象锁定，保障多集内容一致性。",
+      "description_full": "MochiAni（麻薯动画）是专为创作者打造的AI动画视频创作工具，提供从创作到出海的一站式解决方案。通过智能化手段简化动画制作流程，降低创作门槛。用户只需输入文字，MochiAni能自动生成多格分镜，提供10余种风格模板，支持角色形象锁定，保障多集内容一致性。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/MochiAni-logo.jpg",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:02",
+      "updated_at": "2026-02-04T16:06:02"
+    },
+    {
+      "id": "aibot-69946",
+      "name": "NextCut AI",
+      "description": "NextCut AI 是创新的AI视频创作工具，集成了无限画布 + workflow + 剪辑轨道 + 多Agent团队，专为提升创作效率和内容质量设计。以 Agent（智能体）为核心，通过自然语言交互，用户只需输入一句话，Agent 即可生成剧情、分镜和素材，并将其转化为可执行的工作流。",
+      "description_full": "NextCut AI 是创新的AI视频创作工具，集成了无限画布 + workflow + 剪辑轨道 + 多Agent团队，专为提升创作效率和内容质量设计。以 Agent（智能体）为核心，通过自然语言交互，用户只需输入一句话，Agent 即可生成剧情、分镜和素材，并将其转化为可执行的工作流。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/NextCut-icon-1.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:03",
+      "updated_at": "2026-02-04T16:06:03"
+    },
+    {
+      "id": "aibot-66332",
+      "name": "TapNow",
+      "description": "TapNow 是专业的 AI 视觉内容创作平台，能为创作者提供高效、自由的创作体验。TapNow通过灵活的画布和前沿的 AI 模型（如Hailuo2.3、Veo 3.1、Wan 2.5等），支持从脚本撰写、分镜头设计到成片输出的全流程创作。",
+      "description_full": "TapNow 是专业的 AI 视觉内容创作平台，能为创作者提供高效、自由的创作体验。TapNow通过灵活的画布和前沿的 AI 模型（如Hailuo2.3、Veo 3.1、Wan 2.5等），支持从脚本撰写、分镜头设计到成片输出的全流程创作。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/TapNow-logo.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:04",
+      "updated_at": "2026-02-04T16:06:04"
+    },
+    {
+      "id": "aibot-59035",
+      "name": "Higgsfield",
+      "description": "Higgsfield 是专注于AI视频生成的创新工具，能将静态图片转化为具有专业运镜效果的动态视频。用户只需上传一张图片，可选择多种电影级运镜模式，如子弹时间、360°环绕拍摄等，通过参数微调实现个性化效果。",
+      "description_full": "Higgsfield 是专注于AI视频生成的创新工具，能将静态图片转化为具有专业运镜效果的动态视频。用户只需上传一张图片，可选择多种电影级运镜模式，如子弹时间、360°环绕拍摄等，通过参数微调实现个性化效果。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/Higgsfield-logo.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:05",
+      "updated_at": "2026-02-04T16:06:05"
+    },
+    {
+      "id": "aibot-68040",
+      "name": "雾象",
+      "description": "雾象（Fogsight）是免费开源的AI动画生成工具，能将用户的文字描述快速转化为生动的动画作品。用户只需输入一个主题或概念，如“冒泡排序”或“熵增定律”，Fogsight能自动生成包含旁白、视觉元素和动态效果的动画，实现从抽象文字到具象影像的快速转换。",
+      "description_full": "雾象（Fogsight）是免费开源的AI动画生成工具，能将用户的文字描述快速转化为生动的动画作品。用户只需输入一个主题或概念，如“冒泡排序”或“熵增定律”，Fogsight能自动生成包含旁白、视觉元素和动态效果的动画，实现从抽象文字到具象影像的快速转换。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/Fogsight-icon.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:06",
+      "updated_at": "2026-02-04T16:06:06"
+    },
+    {
+      "id": "aibot-66554",
+      "name": "造次",
+      "description": "造次是专为创作者打造的 AI 原创 IP 视频社区。用户能通过自然语言描述，快速生成个性化的 IP 视频。造次打破传统动画和建模的技术壁垒，让每个人都能轻松创作。造次支持用户能创建属于自己的次元，与其他创作者共建故事。",
+      "description_full": "造次是专为创作者打造的 AI 原创 IP 视频社区。用户能通过自然语言描述，快速生成个性化的 IP 视频。造次打破传统动画和建模的技术壁垒，让每个人都能轻松创作。造次支持用户能创建属于自己的次元，与其他创作者共建故事。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/zaoci-logo.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:07",
+      "updated_at": "2026-02-04T16:06:07"
+    },
+    {
+      "id": "aibot-63437",
+      "name": "造点AI",
+      "description": "造点AI是阿里旗下夸克团队推出的AI图像与视频创作平台，提供网页版和手机APP。造点AI支持AI图片生成和AI视频生成功能，用户只需输入想法或提示词，能快速生成相应的图片和视频。造点AI支持多种模型和参数调整，如Midjourney V7生图模型和万相2.2视频模型，满足不同创作需求。",
+      "description_full": "造点AI是阿里旗下夸克团队推出的AI图像与视频创作平台，提供网页版和手机APP。造点AI支持AI图片生成和AI视频生成功能，用户只需输入想法或提示词，能快速生成相应的图片和视频。造点AI支持多种模型和参数调整，如Midjourney V7生图模型和万相2.2视频模型，满足不同创作需求。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/zaodian-logo.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:08",
+      "updated_at": "2026-02-04T16:06:08"
+    },
+    {
+      "id": "aibot-67673",
+      "name": "花生AI",
+      "description": "花生AI是B站推出的AI视频创作工具，帮助用户快速生成视频内容，用户只需提供文案或音频，最快3分钟即可生成完整视频。花生AI提供两种创作模式：智能匹配素材，AI会根据文案自动匹配画面素材；模板化制作，可快速生成标准化视频。",
+      "description_full": "花生AI是B站推出的AI视频创作工具，帮助用户快速生成视频内容，用户只需提供文案或音频，最快3分钟即可生成完整视频。花生AI提供两种创作模式：智能匹配素材，AI会根据文案自动匹配画面素材；模板化制作，可快速生成标准化视频。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/huashengai-icon.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:09",
+      "updated_at": "2026-02-04T16:06:09"
+    },
+    {
+      "id": "aibot-69629",
+      "name": "云幕同声",
+      "description": "云幕同声是新一代原声级专业AI视频翻译工具，适合短剧出海、跨境电商等领域。98%还原音色的AI声音克隆、精准的音画同步算法以及AI人声分离模型，能完整保留背景音乐和情感细节，让翻译后的视频与原版一样自然。",
+      "description_full": "云幕同声是新一代原声级专业AI视频翻译工具，适合短剧出海、跨境电商等领域。98%还原音色的AI声音克隆、精准的音画同步算法以及AI人声分离模型，能完整保留背景音乐和情感细节，让翻译后的视频与原版一样自然。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/yunmuts-icon.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:10",
+      "updated_at": "2026-02-04T16:06:10"
+    },
+    {
+      "id": "aibot-63694",
+      "name": "萌动AI",
+      "description": "萌动AI是全球首个二次元/动漫专用 AI 创作工具（Animon国内版），由专业动漫制作团队和顶尖AI技术团队联合打造。用户只需输入想法或上传图片，能一键生成高质量的动漫视频，提供多种风格选择。",
+      "description_full": "萌动AI是全球首个二次元/动漫专用 AI 创作工具（Animon国内版），由专业动漫制作团队和顶尖AI技术团队联合打造。用户只需输入想法或上传图片，能一键生成高质量的动漫视频，提供多种风格选择。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/Animon-logo.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:11",
+      "updated_at": "2026-02-04T16:06:11"
+    },
+    {
+      "id": "aibot-68087",
+      "name": "KomikoAI",
+      "description": "KomikoAI 是 AI 动漫内容创作平台，提供多种创作工具，如 AI 动漫角色生成器、动画生成器、漫画创作工具等，帮助用户轻松创作动漫风格的图片、GIF 和视频。",
+      "description_full": "KomikoAI 是 AI 动漫内容创作平台，提供多种创作工具，如 AI 动漫角色生成器、动画生成器、漫画创作工具等，帮助用户轻松创作动漫风格的图片、GIF 和视频。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/KomikoAI-logo.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:12",
+      "updated_at": "2026-02-04T16:06:12"
+    },
+    {
+      "id": "aibot-5560",
+      "name": "即创",
+      "description": "即创是抖音推出的一站式电商智能创作平台，提供AI视频创作、图文创作和直播创作三大功能，全方面满足短视频和抖音电商从业者的创作需求，节省短视频直播的成本和时间。",
+      "description_full": "即创是抖音推出的一站式电商智能创作平台，提供AI视频创作、图文创作和直播创作三大功能，全方面满足短视频和抖音电商从业者的创作需求，节省短视频直播的成本和时间。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/11/aic-oceanengine-icon.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:13",
+      "updated_at": "2026-02-04T16:06:13"
+    },
+    {
+      "id": "aibot-59040",
+      "name": "智谱清影",
+      "description": "智谱清影是智谱推出的AI视频生成工具，能根据用户输入的文本描述或上传的图片，快速生成动态视频内容。用户只需输入不超过1000字的文本，清影可生成符合语义的视频，支持多种风格切换。",
+      "description_full": "智谱清影是智谱推出的AI视频生成工具，能根据用户输入的文本描述或上传的图片，快速生成动态视频内容。用户只需输入不超过1000字的文本，清影可生成符合语义的视频，支持多种风格切换。",
+      "url": "https://ai-bot.cn/sites/2005.html",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/chatglm-video-logo-1.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:14",
+      "updated_at": "2026-02-04T16:06:14"
+    },
+    {
+      "id": "aibot-65041",
+      "name": "内容特工队",
+      "description": "内容特工队是全球首款移动端AI营销视频生成智能体，专为中小微企业、个体创业者及跨境营销人员设计。用户只需输入一句话需求，内容特工队即可全流程自动化生成营销视频，涵盖市场调研、脚本撰写、数字人拍摄、声音克隆、视频剪辑及多平台发布等环节。",
+      "description_full": "内容特工队是全球首款移动端AI营销视频生成智能体，专为中小微企业、个体创业者及跨境营销人员设计。用户只需输入一句话需求，内容特工队即可全流程自动化生成营销视频，涵盖市场调研、脚本撰写、数字人拍摄、声音克隆、视频剪辑及多平台发布等环节。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/10/Reelsagent-logo.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:15",
+      "updated_at": "2026-02-04T16:06:15"
+    },
+    {
+      "id": "aibot-62311",
+      "name": "磁力开创",
+      "description": "磁力开创是快手推出的AI创意生产平台，帮助用户实现剪同款、一键成片等便捷能力，让创意制作更简单。磁力开创提供行业优质案例，接入可灵大模型，AI生成更多灵感素材，结构化视频内容，深度学习行业优秀案例，自动匹配镜头和景别。",
+      "description_full": "磁力开创是快手推出的AI创意生产平台，帮助用户实现剪同款、一键成片等便捷能力，让创意制作更简单。磁力开创提供行业优质案例，接入可灵大模型，AI生成更多灵感素材，结构化视频内容，深度学习行业优秀案例，自动匹配镜头和景别。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/kc-kuaishou-icon.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:16",
+      "updated_at": "2026-02-04T16:06:16"
+    },
+    {
+      "id": "aibot-64276",
+      "name": "HitPaw",
+      "description": "HitPaw是专注于AI视频、图像和音频处理工具，帮助全球创作者提升内容质量，降低专业级多媒体处理技术的使用门槛。HitPaw Univd 支持超过1000种格式的无损视频、音频、图片转换，并集成了压缩、剪辑、去水印、AI去背景等多种工具。HitPaw VikPea（影片画质修复软件） 能利用AI模型将模糊或老旧的影片修复至4K/8K高清，为黑白影片上色；HitPaw牛小影是专注于视频画质增强与创",
+      "description_full": "HitPaw是专注于AI视频、图像和音频处理工具，帮助全球创作者提升内容质量，降低专业级多媒体处理技术的使用门槛。HitPaw Univd 支持超过1000种格式的无损视频、音频、图片转换，并集成了压缩、剪辑、去水印、AI去背景等多种工具。HitPaw VikPea（影片画质修复软件） 能利用AI模型将模糊或老旧的影片修复至4K/8K高清，为黑白影片上色；HitPaw牛小影是专注于视频画质增强与创意编辑的AI工具。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/10/HitPaw-logo.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:17",
+      "updated_at": "2026-02-04T16:06:17"
+    },
+    {
+      "id": "aibot-240",
+      "name": "Runway",
+      "description": "Runway是一个创新的AI视频工具，提供先进的视频生成、绿幕抠除、动态捕捉、视频编辑等功能。通过Gen-3 Alpha模型，支持用户将文本描述或静态图像转化为高质量、动态视频内容。",
+      "description_full": "Runway是一个创新的AI视频工具，提供先进的视频生成、绿幕抠除、动态捕捉、视频编辑等功能。通过Gen-3 Alpha模型，支持用户将文本描述或静态图像转化为高质量、动态视频内容。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/runwayml-icon.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:18",
+      "updated_at": "2026-02-04T16:06:18"
+    },
+    {
+      "id": "aibot-6263",
+      "name": "Pika",
+      "description": "Pika是近期热门的人工智能初创公司Pika Labs推出的AI视频生成和编辑工具，该工具可以将任何创意转化为视频，用户只需输入文字或图像，即可快速生成3D动画、动漫、卡通、电影等风格的视频。",
+      "description_full": "Pika是近期热门的人工智能初创公司Pika Labs推出的AI视频生成和编辑工具，该工具可以将任何创意转化为视频，用户只需输入文字或图像，即可快速生成3D动画、动漫、卡通、电影等风格的视频。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/12/pika-icon.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:19",
+      "updated_at": "2026-02-04T16:06:19"
+    },
+    {
+      "id": "aibot-12385",
+      "name": "KreadoAI",
+      "description": "KreadoAI是一个AIGC数字营销视频创作平台，专注于利用人工智能技术简化和优化视频内容的创作流程。用户只需输入文本或关键词，Kreado AI便能创作出真实或虚拟人物的视频内容。",
+      "description_full": "KreadoAI是一个AIGC数字营销视频创作平台，专注于利用人工智能技术简化和优化视频内容的创作流程。用户只需输入文本或关键词，Kreado AI便能创作出真实或虚拟人物的视频内容。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/03/KreadoAI-logo.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:20",
+      "updated_at": "2026-02-04T16:06:20"
+    },
+    {
+      "id": "aibot-63158",
+      "name": "SekoTalk",
+      "description": "SekoTalk 是商汤科技旗下 Seko 视频创作智能体中的AI对口型工具。能根据用户的创意描述，自动生成与音频匹配的口型动画，支持中、英、日等多种语言。在视频创作过程中，SekoTalk 可确保角色的口型与台词完美同步，提升视频的连贯性和专业性。",
+      "description_full": "SekoTalk 是商汤科技旗下 Seko 视频创作智能体中的AI对口型工具。能根据用户的创意描述，自动生成与音频匹配的口型动画，支持中、英、日等多种语言。在视频创作过程中，SekoTalk 可确保角色的口型与台词完美同步，提升视频的连贯性和专业性。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/Seko-logo-1.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:21",
+      "updated_at": "2026-02-04T16:06:21"
+    },
+    {
+      "id": "aibot-63255",
+      "name": "通义灵眸",
+      "description": "通义灵眸是阿里通义推出的一站式AI数字人生产与应用平台，通过多模态资产训练，支持视频、图片、3D模型输入，能快速定制专属数字人。通义灵眸生成的数字人表情自然、口型精准、动作流畅，具有高拟真和强表现力。",
+      "description_full": "通义灵眸是阿里通义推出的一站式AI数字人生产与应用平台，通过多模态资产训练，支持视频、图片、3D模型输入，能快速定制专属数字人。通义灵眸生成的数字人表情自然、口型精准、动作流畅，具有高拟真和强表现力。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/tongyi-icon.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:22",
+      "updated_at": "2026-02-04T16:06:22"
+    },
+    {
+      "id": "aibot-16162",
+      "name": "巨日禄",
+      "description": "巨日禄是一站式AI动漫视频创作平台，基于自然语言处理技术和图像生成技术，支持用户将文本转化为情节连贯的漫画视频和短视频。巨日禄支持从文案到视频的一站式制作，提供多种画风选择和配音配乐服务，适合各类创作者使用。",
+      "description_full": "巨日禄是一站式AI动漫视频创作平台，基于自然语言处理技术和图像生成技术，支持用户将文本转化为情节连贯的漫画视频和短视频。巨日禄支持从文案到视频的一站式制作，提供多种画风选择和配音配乐服务，适合各类创作者使用。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/08/jurilu.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:23",
+      "updated_at": "2026-02-04T16:06:23"
+    },
+    {
+      "id": "aibot-59515",
+      "name": "Boba",
+      "description": "Boba 是AI动漫视频创作工具，已上线最新 Boba Anime 1.3 模型，能将静态画面转化为动态视频，支持多种动漫风格，从少女漫的梦幻到青年漫的硬朗都能完美呈现。",
+      "description_full": "Boba 是AI动漫视频创作工具，已上线最新 Boba Anime 1.3 模型，能将静态画面转化为动态视频，支持多种动漫风格，从少女漫的梦幻到青年漫的硬朗都能完美呈现。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/Boba-logo.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:24",
+      "updated_at": "2026-02-04T16:06:24"
+    },
+    {
+      "id": "aibot-13455",
+      "name": "Dream Machine",
+      "description": "Dream Machine是由人工智能公司Luma AI推出的一款AI视频生成工具，利用先进的人工智能技术，可根据用户输入的简单文本描述或上传的图片，快速生成高质量的视频片段（120秒即可生成120帧的视频）。",
+      "description_full": "Dream Machine是由人工智能公司Luma AI推出的一款AI视频生成工具，利用先进的人工智能技术，可根据用户输入的简单文本描述或上传的图片，快速生成高质量的视频片段（120秒即可生成120帧的视频）。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/06/dream-machine-icon.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:25",
+      "updated_at": "2026-02-04T16:06:25"
+    },
+    {
+      "id": "aibot-12254",
+      "name": "讯飞绘镜",
+      "description": "讯飞绘镜（原星火绘镜）是科大讯飞推出的AI短视频创作平台，能够将用户输入的文本描述自动转换成视频内容（如短剧、预告片、MV），包括生成视频剧本、分镜，最终形成完整的短视频。",
+      "description_full": "讯飞绘镜（原星火绘镜）是科大讯飞推出的AI短视频创作平台，能够将用户输入的文本描述自动转换成视频内容（如短剧、预告片、MV），包括生成视频剧本、分镜，最终形成完整的短视频。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/01/typemovie-logo-2.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:26",
+      "updated_at": "2026-02-04T16:06:26"
+    },
+    {
+      "id": "aibot-13679",
+      "name": "Hedra",
+      "description": "Hedra是由原斯坦福大学的研究团队成立的数字创作实验室推出的AI对口型视频生成工具，专注于将人工智能技术应用于人物角色视频的生成。用户可以上传任意人物的照片和语音，Hedra会根据这些输入生成动态视频，其中人物的唇形、表情和姿态都能与语音内容完美同步。",
+      "description_full": "Hedra是由原斯坦福大学的研究团队成立的数字创作实验室推出的AI对口型视频生成工具，专注于将人工智能技术应用于人物角色视频的生成。用户可以上传任意人物的照片和语音，Hedra会根据这些输入生成动态视频，其中人物的唇形、表情和姿态都能与语音内容完美同步。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/06/hedra-icon.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:28",
+      "updated_at": "2026-02-04T16:06:28"
+    },
+    {
+      "id": "aibot-14640",
+      "name": "Vozo",
+      "description": "Vozo是一款多功能AI视频编辑工具，支持一键脚本重写、自动配音、文本驱动的语音编辑、多角色口型同步、专业多语言翻译和自动视频优化，为用户提供高效、灵活的视频创作解决方案。",
+      "description_full": "Vozo是一款多功能AI视频编辑工具，支持一键脚本重写、自动配音、文本驱动的语音编辑、多角色口型同步、专业多语言翻译和自动视频优化，为用户提供高效、灵活的视频创作解决方案。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/07/Vozo-logo.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:29",
+      "updated_at": "2026-02-04T16:06:29"
+    },
+    {
+      "id": "aibot-11148",
+      "name": "Viggle",
+      "description": "Viggle AI是一款创新的人工智能角色动态视频生成工具，基于可理解实际物理运动的视频-3D 基础模型 JST-1，从而实现对静态图像或视频中角色动作的精确控制。用户可以通过文本命令或视频素材，为角色添加各种动作和表情，如微笑、挥手等，使角色仿佛拥有生命般自然地动起来。",
+      "description_full": "Viggle AI是一款创新的人工智能角色动态视频生成工具，基于可理解实际物理运动的视频-3D 基础模型 JST-1，从而实现对静态图像或视频中角色动作的精确控制。用户可以通过文本命令或视频素材，为角色添加各种动作和表情，如微笑、挥手等，使角色仿佛拥有生命般自然地动起来。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/04/viggle-ai-icon.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:30",
+      "updated_at": "2026-02-04T16:06:30"
+    },
+    {
+      "id": "aibot-16651",
+      "name": "Tavus – AI视频生成平台，支持数字人克隆和实时对话",
+      "description": "Tavus 是先进的个性化AI视频生成平台，支持创建高度逼真的数字人克隆和AI视频实时对话。基于先进的 Phoenix-2 模型和对话式视频接口（CVI），Tavus 能实现接近人类的自然交互和实时对话。",
+      "description_full": "Tavus 是先进的个性化AI视频生成平台，支持创建高度逼真的数字人克隆和AI视频实时对话。基于先进的 Phoenix-2 模型和对话式视频接口（CVI），Tavus 能实现接近人类的自然交互和实时对话。",
+      "url": "https://www.tavus.io/?utm_source=ai-bot.cn",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/08/Tavus2.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:31",
+      "updated_at": "2026-02-04T16:06:31"
+    },
+    {
+      "id": "aibot-50033",
+      "name": "妙播",
+      "description": "妙播是腾讯广告推出的AI直播电商解决方案。基于新一代高真AI数字人技术，结合多样且有内容的话术和实时互动回复能力，为广告主和商家提供7x24小时、极低成本的直播服务。",
+      "description_full": "妙播是腾讯广告推出的AI直播电商解决方案。基于新一代高真AI数字人技术，结合多样且有内容的话术和实时互动回复能力，为广告主和商家提供7x24小时、极低成本的直播服务。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/04/intelligent-live-logo.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:32",
+      "updated_at": "2026-02-04T16:06:32"
+    },
+    {
+      "id": "aibot-1880",
+      "name": "秒创",
+      "description": "秒创（原一帧秒创）是基于秒创AIGC引擎的智能AI内容生成平台，为创作者和机构提供AI生成服务，包括文字续写、文字转语音、文生图、图文转视频等创作服务，一帧秒创通过对文案、素材、AI语音、字幕等进行智能分析，快速成片，零门槛创作视频",
+      "description_full": "秒创（原一帧秒创）是基于秒创AIGC引擎的智能AI内容生成平台，为创作者和机构提供AI生成服务，包括文字续写、文字转语音、文生图、图文转视频等创作服务，一帧秒创通过对文案、素材、AI语音、字幕等进行智能分析，快速成片，零门槛创作视频",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/09/yizhentv-logo.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:33",
+      "updated_at": "2026-02-04T16:06:33"
+    },
+    {
+      "id": "aibot-16753",
+      "name": "SkyReels",
+      "description": "SkyReels是昆仑万维推出的全球首个AI短剧创作平台，集成AI视频生成和3D大模型技术，提供剧本生成、角色定制、分镜设计到视频合成的全流程服务。SkyReels支持Web端和移动端APP，为全球用户提供一站式、多模态的AI创作体验。",
+      "description_full": "SkyReels是昆仑万维推出的全球首个AI短剧创作平台，集成AI视频生成和3D大模型技术，提供剧本生成、角色定制、分镜设计到视频合成的全流程服务。SkyReels支持Web端和移动端APP，为全球用户提供一站式、多模态的AI创作体验。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/SkyReels-logo.png",
+      "category": "AI视频工具",
+      "tags": [
+        "视频"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:34",
+      "updated_at": "2026-02-04T16:06:34"
+    },
+    {
+      "id": "aibot-44612",
+      "name": "咔片PPT",
+      "description": "咔片PPT是AI在线PPT制作工具，能实现从内容生成到智能设计与美化的全流程自动化。用户输入主题或关键词可快速生成完整的PPT框架，AI辅助内容写作，提供扩写、精简、润色等功能，一键换肤智能美化，内容与样式独立，主题设计风格可一键调整。",
+      "description_full": "咔片PPT是AI在线PPT制作工具，能实现从内容生成到智能设计与美化的全流程自动化。用户输入主题或关键词可快速生成完整的PPT框架，AI辅助内容写作，提供扩写、精简、润色等功能，一键换肤智能美化，内容与样式独立，主题设计风格可一键调整。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/03/cappt-logo-1.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:35",
+      "updated_at": "2026-02-04T16:06:35"
+    },
+    {
+      "id": "aibot-8840",
+      "name": "iSlide AIPPT",
+      "description": "iSlide AI是由知名的PPT插件工具和模板平台iSlide推出的AI PPT生成和设计工具，旨在辅助用户更快、更高效地制作和优化PPT演示文稿。该工具利用人工智能技术，提供了一系列的功能，以简化和加速PPT的创建过程，同时提升演示文稿的专业度和吸引力。",
+      "description_full": "iSlide AI是由知名的PPT插件工具和模板平台iSlide推出的AI PPT生成和设计工具，旨在辅助用户更快、更高效地制作和优化PPT演示文稿。该工具利用人工智能技术，提供了一系列的功能，以简化和加速PPT的创建过程，同时提升演示文稿的专业度和吸引力。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/02/islide-icon.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:36",
+      "updated_at": "2026-02-04T16:06:36"
+    },
+    {
+      "id": "aibot-13808",
+      "name": "博思AIPPT",
+      "description": "博思AIPPT是新一代的在线AI生成PPT软件，由博思白板所属公司博思云创推出，提供多种快速制作PPT的方式，包括主题生成PPT、文本生成PPT、导入Word/PDF/TXT/Markdown文件生成PPT等，内置海量精美PPT模板。",
+      "description_full": "博思AIPPT是新一代的在线AI生成PPT软件，由博思白板所属公司博思云创推出，提供多种快速制作PPT的方式，包括主题生成PPT、文本生成PPT、导入Word/PDF/TXT/Markdown文件生成PPT等，内置海量精美PPT模板。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/06/pptgo-icon.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:37",
+      "updated_at": "2026-02-04T16:06:37"
+    },
+    {
+      "id": "aibot-63272",
+      "name": "Pi智能PPT",
+      "description": "Pi（Presentation Intelligence）是AI-Native内容创作和互动共享平台，简化演示文档的制作和分享流程。用户通过简单的指令、上传文档或URL，能快速生成专业美观的演示文档。Pi智能演示文档提供智能排版、AI编辑、自动配图等功能，支持多端自适应动态排版。",
+      "description_full": "Pi（Presentation Intelligence）是AI-Native内容创作和互动共享平台，简化演示文档的制作和分享流程。用户通过简单的指令、上传文档或URL，能快速生成专业美观的演示文档。Pi智能演示文档提供智能排版、AI编辑、自动配图等功能，支持多端自适应动态排版。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/pi-logo.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:38",
+      "updated_at": "2026-02-04T16:06:38"
+    },
+    {
+      "id": "aibot-35715",
+      "name": "稿定PPT",
+      "description": "稿定PPT是稿定设计网站推出的PPT模板专区，有多种设计精美的PPT模板素材，覆盖了不同的物料、用途、行业分类，用户可以根据需要选择合适的模板来制作演示文稿。可以在这里找到各种风格和主题的PPT模板，满足不同的演示需求。",
+      "description_full": "稿定PPT是稿定设计网站推出的PPT模板专区，有多种设计精美的PPT模板素材，覆盖了不同的物料、用途、行业分类，用户可以根据需要选择合适的模板来制作演示文稿。可以在这里找到各种风格和主题的PPT模板，满足不同的演示需求。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/05/gaoding-design-icon.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:39",
+      "updated_at": "2026-02-04T16:06:39"
+    },
+    {
+      "id": "aibot-7012",
+      "name": "笔格AIPPT",
+      "description": "笔格AIPPT（原比格AIPPT）是一款高效的AI PPT生成办公工具，利用先进的人工智能语言模型技术，为用户提供了一个快速便捷的PPT制作体验。用户只需简单地输入想要探讨的主题，该智能软件便能迅速地创建出一套专业的演示文稿。",
+      "description_full": "笔格AIPPT（原比格AIPPT）是一款高效的AI PPT生成办公工具，利用先进的人工智能语言模型技术，为用户提供了一个快速便捷的PPT制作体验。用户只需简单地输入想要探讨的主题，该智能软件便能迅速地创建出一套专业的演示文稿。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/bigppt-icon.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:40",
+      "updated_at": "2026-02-04T16:06:40"
+    },
+    {
+      "id": "aibot-14213",
+      "name": "笔灵AIPPT",
+      "description": "笔灵AIPPT是笔灵推出的一款在线智能PPT生成工具，通过AI技术帮助用户快速创建高质量的演示文稿。用户只需输入主题内容，系统可自动生成PPT大纲，进一步生成完整的PPT和千字演讲稿。",
+      "description_full": "笔灵AIPPT是笔灵推出的一款在线智能PPT生成工具，通过AI技术帮助用户快速创建高质量的演示文稿。用户只需输入主题内容，系统可自动生成PPT大纲，进一步生成完整的PPT和千字演讲稿。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/07/biling-aippt-logo.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:41",
+      "updated_at": "2026-02-04T16:06:41"
+    },
+    {
+      "id": "aibot-5037",
+      "name": "百度文库AI助手",
+      "description": "百度文库AI助手是百度基于文心大模型推出的一站式AI文档助手。百度文库AI助手集成内容创作、编辑、总结以及AI PPT制作等多种功能，能提高用户在不同场景下的文档处理效率。",
+      "description_full": "百度文库AI助手是百度基于文心大模型推出的一站式AI文档助手。百度文库AI助手集成内容创作、编辑、总结以及AI PPT制作等多种功能，能提高用户在不同场景下的文档处理效率。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/baidu-wenku-website2.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:42",
+      "updated_at": "2026-02-04T16:06:42"
+    },
+    {
+      "id": "aibot-6024",
+      "name": "讯飞智文",
+      "description": "讯飞智文是科大讯飞推出基于星火大模型的智能文档AI助手，能提升Word和PPT的创作与表达效率。工具支持通过智能演练和AI演示官功能，帮助用户从内容创作到演讲表达的全流程优化。",
+      "description_full": "讯飞智文是科大讯飞推出基于星火大模型的智能文档AI助手，能提升Word和PPT的创作与表达效率。工具支持通过智能演练和AI演示官功能，帮助用户从内容创作到演讲表达的全流程优化。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/zhiwen.xfyun-website2.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:43",
+      "updated_at": "2026-02-04T16:06:43"
+    },
+    {
+      "id": "aibot-995",
+      "name": "Gamma",
+      "description": "Gamma 是强大的 AI 演示文稿工具，专为高效创作演示文稿设计。通过 AI 技术，能根据用户输入的主题或大纲快速生成高质量的演示内容，支持一键生成文案、自动排版和设计，极大地节省了创作时间。Gamma 提供丰富的模板和设计风格，用户可以根据需求进行个性化调整，从文字、图片到版面布局能自由定制。",
+      "description_full": "Gamma 是强大的 AI 演示文稿工具，专为高效创作演示文稿设计。通过 AI 技术，能根据用户输入的主题或大纲快速生成高质量的演示内容，支持一键生成文案、自动排版和设计，极大地节省了创作时间。Gamma 提供丰富的模板和设计风格，用户可以根据需求进行个性化调整，从文字、图片到版面布局能自由定制。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/Gamma-logo-1-1.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:44",
+      "updated_at": "2026-02-04T16:06:44"
+    },
+    {
+      "id": "aibot-16885",
+      "name": "Napkin",
+      "description": "Napkin是一个将文本内容快速转换成演示图像的AI办公工具。用户只需粘贴文本，Napkin便自动生成相关的视觉素材，支持编辑以满足个性化需求。适用于演示、社交媒体和文档等多个场景。",
+      "description_full": "Napkin是一个将文本内容快速转换成演示图像的AI办公工具。用户只需粘贴文本，Napkin便自动生成相关的视觉素材，支持编辑以满足个性化需求。适用于演示、社交媒体和文档等多个场景。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/08/Napkin-logo.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:45",
+      "updated_at": "2026-02-04T16:06:45"
+    },
+    {
+      "id": "aibot-69545",
+      "name": "ChartGen",
+      "description": "ChartGen是高效便捷的 AI 图表生成工具，专注于将 CSV、Excel 等原始数据快速转化为专业级数据可视化结果。用户只需上传数据，用自然语言描述需求，AI 即可自动理解数据结构、选择合适的图表类型，生成高质量图表。",
+      "description_full": "ChartGen是高效便捷的 AI 图表生成工具，专注于将 CSV、Excel 等原始数据快速转化为专业级数据可视化结果。用户只需上传数据，用自然语言描述需求，AI 即可自动理解数据结构、选择合适的图表类型，生成高质量图表。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/chartgen_icon.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:46",
+      "updated_at": "2026-02-04T16:06:46"
+    },
+    {
+      "id": "aibot-68868",
+      "name": "Diagrimo",
+      "description": "Diagrimo 是 Tenorshare AI 提供的智能 AI 图表生成工具，也是功能强大的图表制作器。可以即时将你的想法、文字或概念自动转化为清晰、结构化的可视化图表，帮助更高效地梳理思路、规划项目和构建逻辑框架。",
+      "description_full": "Diagrimo 是 Tenorshare AI 提供的智能 AI 图表生成工具，也是功能强大的图表制作器。可以即时将你的想法、文字或概念自动转化为清晰、结构化的可视化图表，帮助更高效地梳理思路、规划项目和构建逻辑框架。",
+      "url": "https://www.tenorshare.ai/zh-tw/diagrimo.html",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/Diagrimo-logo-1.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:48",
+      "updated_at": "2026-02-04T16:06:48"
+    },
+    {
+      "id": "aibot-53412",
+      "name": "PicDoc",
+      "description": "PicDoc是创客贴团队推出的AI文本转图表工具，能将文本内容快速转换为多种视觉图表，如流程图、思维导图、信息图等，让复杂信息一目了然。",
+      "description_full": "PicDoc是创客贴团队推出的AI文本转图表工具，能将文本内容快速转换为多种视觉图表，如流程图、思维导图、信息图等，让复杂信息一目了然。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/06/PicDoc-logo.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:49",
+      "updated_at": "2026-02-04T16:06:49"
+    },
+    {
+      "id": "aibot-67628",
+      "name": "飞象老师",
+      "description": "飞象老师是猿辅导推出的国内首个AI教学和备课工具，一句话生成教学动画。飞象老师提供四大核心功能，AI教学动画，输入知识点生成互动动画、AI命题组题，智能生成分层习题或试卷、AI大单元教案，生成完整教学设计方案以及拍教材生成互动内容。",
+      "description_full": "飞象老师是猿辅导推出的国内首个AI教学和备课工具，一句话生成教学动画。飞象老师提供四大核心功能，AI教学动画，输入知识点生成互动动画、AI命题组题，智能生成分层习题或试卷、AI大单元教案，生成完整教学设计方案以及拍教材生成互动内容。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/feixianglaoshi-icon.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:50",
+      "updated_at": "2026-02-04T16:06:50"
+    },
+    {
+      "id": "aibot-57522",
+      "name": "Kimi PPT助手",
+      "description": "Kimi PPT助手是月之暗面Kimi全新自研的PPT助手，能帮助用户用AI一键生成PPT演示文稿。用户只需输入主题或详细文本内容，Kimi能根据这些信息自动生成PPT的框架和内容。",
+      "description_full": "Kimi PPT助手是月之暗面Kimi全新自研的PPT助手，能帮助用户用AI一键生成PPT演示文稿。用户只需输入主题或详细文本内容，Kimi能根据这些信息自动生成PPT的框架和内容。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/05/kimi-ai-logo.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:51",
+      "updated_at": "2026-02-04T16:06:51"
+    },
+    {
+      "id": "aibot-66082",
+      "name": "夸克PPT",
+      "description": "夸克PPT是阿里旗下夸克AI推出的智能演示文档生成工具。用户通过输入主题或上传文档、图片能快速生成PPT。夸克PPT支持适用多端操作，界面简洁，易于使用，能在20秒内输出初稿。夸克PPT基础功能免费，下载PPT有次数限制，超出后需付费。",
+      "description_full": "夸克PPT是阿里旗下夸克AI推出的智能演示文档生成工具。用户通过输入主题或上传文档、图片能快速生成PPT。夸克PPT支持适用多端操作，界面简洁，易于使用，能在20秒内输出初稿。夸克PPT基础功能免费，下载PPT有次数限制，超出后需付费。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/11/quark-logo-1.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:52",
+      "updated_at": "2026-02-04T16:06:52"
+    },
+    {
+      "id": "aibot-1744",
+      "name": "美图AI PPT",
+      "description": "美图AI PPT是国内知名P图软件「美图秀秀」旗下的「美图设计室」推出的免费在线AI生成PPT设计工具，用户只需输入一句话，便可以轻松打造精美PPT。",
+      "description_full": "美图AI PPT是国内知名P图软件「美图秀秀」旗下的「美图设计室」推出的免费在线AI生成PPT设计工具，用户只需输入一句话，便可以轻松打造精美PPT。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/04/meitu-ai-ppt.jpg",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:53",
+      "updated_at": "2026-02-04T16:06:53"
+    },
+    {
+      "id": "aibot-69127",
+      "name": "课灵 PPT",
+      "description": "课灵PPT是专为教育场景设计的AI课件PPT生成工具，能根据教学主题自动生成教学课件，包括文案、设计、插图等，适用于教师、家长和教育机构。通过AI技术，为教师、培训机构和家长提供高效的教学课件制作解决方案。",
+      "description_full": "课灵PPT是专为教育场景设计的AI课件PPT生成工具，能根据教学主题自动生成教学课件，包括文案、设计、插图等，适用于教师、家长和教育机构。通过AI技术，为教师、培训机构和家长提供高效的教学课件制作解决方案。",
+      "url": "",
+      "logo": "https://www.classppt.cn/img/logo.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:54",
+      "updated_at": "2026-02-04T16:06:54"
+    },
+    {
+      "id": "aibot-14023",
+      "name": "万兴智演",
+      "description": "万兴智演是由万兴科技推出的AI PPT和演示制作软件，利用人工智能技术简化演示文稿的创建过程。用户只需输入主题和关键信息，AI即可自动生成演示大纲和内容，提供丰富的个性化模板和资源选择。",
+      "description_full": "万兴智演是由万兴科技推出的AI PPT和演示制作软件，利用人工智能技术简化演示文稿的创建过程。用户只需输入主题和关键信息，AI即可自动生成演示大纲和内容，提供丰富的个性化模板和资源选择。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/07/zhiyan-ai-icon.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:55",
+      "updated_at": "2026-02-04T16:06:55"
+    },
+    {
+      "id": "aibot-67508",
+      "name": "麦当秀MindShow",
+      "description": "麦当秀MindShow是AI在线PPT生成工具，通过大模型和智能算法，能将文本、Word或Markdown内容快速转化为专业演示文稿。用户输入主题或文档内容后，MindShow可在30秒内生成结构清晰、设计专业的幻灯片，适配商务、教育等多种场景。",
+      "description_full": "麦当秀MindShow是AI在线PPT生成工具，通过大模型和智能算法，能将文本、Word或Markdown内容快速转化为专业演示文稿。用户输入主题或文档内容后，MindShow可在30秒内生成结构清晰、设计专业的幻灯片，适配商务、教育等多种场景。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/09/401726222454_.pic_.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:56",
+      "updated_at": "2026-02-04T16:06:56"
+    },
+    {
+      "id": "aibot-59512",
+      "name": "VoxDeck",
+      "description": "VoxDeck 是创新的AI演示文稿制作工具，通过多模态AI技术重新定义创意演示方式。能将普通幻灯片转化为沉浸式的“电影级叙事之旅”，电影级视觉效果，可将文字提示转化为极具冲击力的动态演示文稿。",
+      "description_full": "VoxDeck 是创新的AI演示文稿制作工具，通过多模态AI技术重新定义创意演示方式。能将普通幻灯片转化为沉浸式的“电影级叙事之旅”，电影级视觉效果，可将文字提示转化为极具冲击力的动态演示文稿。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/VoxDeck-logo.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:57",
+      "updated_at": "2026-02-04T16:06:57"
+    },
+    {
+      "id": "aibot-40174",
+      "name": "AiBiao",
+      "description": "AiBiao（原VisDoc）是AI文生图表工具，基于自然语言处理（NLP）技术，快速将文本内容转化为直观的图表，支持生成柱状图、折线图、饼图等多种类型。AiBiao界面简洁，操作简单，适合初学者快速上手。AiBiao智能文本分析功能支持自动识别文本中的关键信息，生成符合用户需求的图表。",
+      "description_full": "AiBiao（原VisDoc）是AI文生图表工具，基于自然语言处理（NLP）技术，快速将文本内容转化为直观的图表，支持生成柱状图、折线图、饼图等多种类型。AiBiao界面简洁，操作简单，适合初学者快速上手。AiBiao智能文本分析功能支持自动识别文本中的关键信息，生成符合用户需求的图表。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/02/VisDoc-logo.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:58",
+      "updated_at": "2026-02-04T16:06:58"
+    },
+    {
+      "id": "aibot-475",
+      "name": "ChatBA",
+      "description": "ChatBA是一个AIGC工具，帮助你从文本输入智能生成PowerPoint幻灯片。",
+      "description_full": "ChatBA是一个AIGC工具，帮助你从文本输入智能生成PowerPoint幻灯片。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/chatba-icon.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:06:59",
+      "updated_at": "2026-02-04T16:06:59"
+    },
+    {
+      "id": "aibot-784",
+      "name": "Decktopus AI",
+      "description": "Decktopus AI 是强大的 AI 演示文稿生成工具。用户输入大纲或提示词，工具能快速生成专业演示文稿。Decktopus AI 具备拖放式编辑器、AI 演讲教练、自定义布局、组织面板和设计模式等功能，能大幅提升制作效率，节省时间。",
+      "description_full": "Decktopus AI 是强大的 AI 演示文稿生成工具。用户输入大纲或提示词，工具能快速生成专业演示文稿。Decktopus AI 具备拖放式编辑器、AI 演讲教练、自定义布局、组织面板和设计模式等功能，能大幅提升制作效率，节省时间。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/decktopus-ai-icon.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:00",
+      "updated_at": "2026-02-04T16:07:00"
+    },
+    {
+      "id": "aibot-366",
+      "name": "Powerpresent AI",
+      "description": "使用Powerpresent AI，快速创建具有视觉吸引力的演示文稿。不需要设计或人工智能专业知识，用户只需输入主题或文本，其余的交由人工智能技术来完成。支持导出到Google Slides或下载为PPTX文件，以方便编辑。",
+      "description_full": "使用Powerpresent AI，快速创建具有视觉吸引力的演示文稿。不需要设计或人工智能专业知识，用户只需输入主题或文本，其余的交由人工智能技术来完成。支持导出到Google Slides或下载为PPTX文件，以方便编辑。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/PowerPresent-AI-logo.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:01",
+      "updated_at": "2026-02-04T16:07:01"
+    },
+    {
+      "id": "aibot-62107",
+      "name": "吾律AI律师",
+      "description": "吾律AI律师是幂律智能推出的智能法律服务助手，首款能交付真实法律任务的AI律师智能体，深度参与并交付真实法律任务的智能伙伴。吾律AI律师能模拟专业律师思维，提供多轮深度对话，为用户定制化法律服务。核心功能包括智能催款、起草盖章版律师函、劳动仲裁申请书、起诉状起草及智能合同审查等。",
+      "description_full": "吾律AI律师是幂律智能推出的智能法律服务助手，首款能交付真实法律任务的AI律师智能体，深度参与并交付真实法律任务的智能伙伴。吾律AI律师能模拟专业律师思维，提供多轮深度对话，为用户定制化法律服务。核心功能包括智能催款、起草盖章版律师函、劳动仲裁申请书、起诉状起草及智能合同审查等。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/wulv-icon.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:02",
+      "updated_at": "2026-02-04T16:07:02"
+    },
+    {
+      "id": "aibot-13593",
+      "name": "元典智库",
+      "description": "元典智库是由华宇软件公司旗下推出的一个专为法律专业人士设计的综合性法律知识服务平台和法律知识搜索引擎，基于法律知识图谱和先进的人工智能技术，提供全面、精准的法律信息检索服务。",
+      "description_full": "元典智库是由华宇软件公司旗下推出的一个专为法律专业人士设计的综合性法律知识服务平台和法律知识搜索引擎，基于法律知识图谱和先进的人工智能技术，提供全面、精准的法律信息检索服务。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/06/ydzk-chinese-law-icon.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:03",
+      "updated_at": "2026-02-04T16:07:03"
+    },
+    {
+      "id": "aibot-11436",
+      "name": "通义法睿",
+      "description": "通义法睿是阿里推出的免费AI法律顾问助手，利用通义千问的大模型推理技术，提供法律智能对话、文书生成、知识检索和文本阅读等服务。",
+      "description_full": "通义法睿是阿里推出的免费AI法律顾问助手，利用通义千问的大模型推理技术，提供法律智能对话、文书生成、知识检索和文本阅读等服务。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/04/tongyi-icon.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:04",
+      "updated_at": "2026-02-04T16:07:04"
+    },
+    {
+      "id": "aibot-11432",
+      "name": "法行宝",
+      "description": "法行宝是由百度公司推出的一款免费AI法律助手，利用人工智能技术提供全天候的智能法律咨询服务。用户可以通过法行宝快速获得法律问题的解答、类案推荐和法规参考。",
+      "description_full": "法行宝是由百度公司推出的一款免费AI法律助手，利用人工智能技术提供全天候的智能法律咨询服务。用户可以通过法行宝快速获得法律问题的解答、类案推荐和法规参考。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/04/baidu-ai-law-icon.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:05",
+      "updated_at": "2026-02-04T16:07:05"
+    },
+    {
+      "id": "aibot-70602",
+      "name": "MetaLaw",
+      "description": "MetaLaw是AI法律研究和合同审查平台，能提高法律专业人士的工作效率。MetaLaw通过AI分析助理提供精准的类案检索和深度分析，支持用户输入争议焦点或上传合同文件进行风险审查。",
+      "description_full": "MetaLaw是AI法律研究和合同审查平台，能提高法律专业人士的工作效率。MetaLaw通过AI分析助理提供精准的类案检索和深度分析，支持用户输入争议焦点或上传合同文件进行风险审查。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/MetaLaw-logo.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:06",
+      "updated_at": "2026-02-04T16:07:06"
+    },
+    {
+      "id": "aibot-11444",
+      "name": "ChatLaw",
+      "description": "ChatLaw是由北京大学团队开发的开源法律大语言模型（LLM），它通过结合法律领域特定的数据集和外部知识库，旨在提高法律问题处理的准确性和效率。",
+      "description_full": "ChatLaw是由北京大学团队开发的开源法律大语言模型（LLM），它通过结合法律领域特定的数据集和外部知识库，旨在提高法律问题处理的准确性和效率。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/04/chatlaw-icon.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:07",
+      "updated_at": "2026-02-04T16:07:07"
+    },
+    {
+      "id": "aibot-11442",
+      "name": "得理法搜",
+      "description": "得理法搜是一款由深圳得理科技有限公司联合中科院研发的法律智能检索系统，集成了1.3亿篇裁判文书、300万条法律法规等海量法律数据，运用自然语言处理技术，提供精准的语义检索、关键词检索和长文本检索。",
+      "description_full": "得理法搜是一款由深圳得理科技有限公司联合中科院研发的法律智能检索系统，集成了1.3亿篇裁判文书、300万条法律法规等海量法律数据，运用自然语言处理技术，提供精准的语义检索、关键词检索和长文本检索。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/04/delisearch-icon.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:08",
+      "updated_at": "2026-02-04T16:07:08"
+    },
+    {
+      "id": "aibot-17480",
+      "name": "法智",
+      "description": "法智是同花顺推出的AI法律助手，法智提供多项AI功能，包括法律分析，日常百科，类案检索，裁判文书，尽调报告，合同审查，合同修订，合同起草，扫描录音等十多项法律人常用实务功能。法智是用户身边的24小时法律助理，通过AI技术简化法律咨询和文档处理，提升效率，让法律服务更加便捷和亲民。",
+      "description_full": "法智是同花顺推出的AI法律助手，法智提供多项AI功能，包括法律分析，日常百科，类案检索，裁判文书，尽调报告，合同审查，合同修订，合同起草，扫描录音等十多项法律人常用实务功能。法智是用户身边的24小时法律助理，通过AI技术简化法律咨询和文档处理，提升效率，让法律服务更加便捷和亲民。",
+      "url": "https://www.fazhi.law/?utm_source=ai-bot.cn",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/08/fazhi-law-logo.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:09",
+      "updated_at": "2026-02-04T16:07:09"
+    },
+    {
+      "id": "aibot-11443",
+      "name": "海瑞智法",
+      "description": "海瑞智法是宏海智法（上海）科技软件有限责任公司开发的法律AI助手，专注于为律师和法律工作者提供专业服务。通过大模型技术，实现专业法律检索、精准案情分析以及法律文书的撰写和翻译。",
+      "description_full": "海瑞智法是宏海智法（上海）科技软件有限责任公司开发的法律AI助手，专注于为律师和法律工作者提供专业服务。通过大模型技术，实现专业法律检索、精准案情分析以及法律文书的撰写和翻译。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/04/hairuilegal-icon.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:10",
+      "updated_at": "2026-02-04T16:07:10"
+    },
+    {
+      "id": "aibot-11456",
+      "name": "合同嗖嗖",
+      "description": "合同嗖嗖是一款基于人工智能技术的在线合同生成工具，由珠海必优科技有限公司开发。用户只需输入相关关键词，AI系统即可快速生成符合法律法规的合同文本，极大简化了合同的编写和审查过程。",
+      "description_full": "合同嗖嗖是一款基于人工智能技术的在线合同生成工具，由珠海必优科技有限公司开发。用户只需输入相关关键词，AI系统即可快速生成符合法律法规的合同文本，极大简化了合同的编写和审查过程。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/04/yoo-ai-contract-icon.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:11",
+      "updated_at": "2026-02-04T16:07:11"
+    },
+    {
+      "id": "aibot-8516",
+      "name": "办公小浣熊",
+      "description": "办公小浣熊是商汤科技推出的AI办公助手，将 AI 大模型能力与文档编辑、数据分析场景深度结合，为用户提供一站式创作、分析和知识管理平台。 核心功能围绕“浣熊三步法（PAW）”展开，即规划(Plan)、分析(Analyze)、写作(Write)，覆盖工作和学习的多个方面。",
+      "description_full": "办公小浣熊是商汤科技推出的AI办公助手，将 AI 大模型能力与文档编辑、数据分析场景深度结合，为用户提供一站式创作、分析和知识管理平台。 核心功能围绕“浣熊三步法（PAW）”展开，即规划(Plan)、分析(Analyze)、写作(Write)，覆盖工作和学习的多个方面。",
+      "url": "https://www.xiaohuanxiong.com/login?utm_source=blmay1",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/12/sensetime-raccoon-code-icon.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:12",
+      "updated_at": "2026-02-04T16:07:12"
+    },
+    {
+      "id": "aibot-69072",
+      "name": "ChatExcel",
+      "description": "ChatExcel是AI驱动的智能办公工具，能通过自然语言处理技术，让用户通过聊天的方式处理Excel表格和进行数据分析。用户无需编写复杂的函数或使用专业的BI工具，能轻松实现数据清洗、分析、可视化等操作。",
+      "description_full": "ChatExcel是AI驱动的智能办公工具，能通过自然语言处理技术，让用户通过聊天的方式处理Excel表格和进行数据分析。用户无需编写复杂的函数或使用专业的BI工具，能轻松实现数据清洗、分析、可视化等操作。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/ChatExcel-logo.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:13",
+      "updated_at": "2026-02-04T16:07:13"
+    },
+    {
+      "id": "aibot-65832",
+      "name": "察言观数AskTable",
+      "description": "察言观数（AskTable）企业级 AI 数据表格智能体平台，专为企业提供基于自然语言的数据分析体验，支持 Excel、数据库、数据仓库和数据湖的智能查询。能集成到企业微信、飞书、钉钉等常用办公软件中，支持自然语言查询企业核心数据库，快速返回精准结果。",
+      "description_full": "察言观数（AskTable）企业级 AI 数据表格智能体平台，专为企业提供基于自然语言的数据分析体验，支持 Excel、数据库、数据仓库和数据湖的智能查询。能集成到企业微信、飞书、钉钉等常用办公软件中，支持自然语言查询企业核心数据库，快速返回精准结果。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/AskTable-icon.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:14",
+      "updated_at": "2026-02-04T16:07:14"
+    },
+    {
+      "id": "aibot-63302",
+      "name": "Tomoro",
+      "description": "Tomoro 是腾讯推出的 AI 原生大数据分析工具，通过用户熟悉的电子表格界面，打破传统数据分析工具的技术壁垒，任何人能轻松探索百亿级数据背后的价值。Tomoro 支持多源数据无缝整合，可实时接入业务数据库，能读取图片中的表格数据。",
+      "description_full": "Tomoro 是腾讯推出的 AI 原生大数据分析工具，通过用户熟悉的电子表格界面，打破传统数据分析工具的技术壁垒，任何人能轻松探索百亿级数据背后的价值。Tomoro 支持多源数据无缝整合，可实时接入业务数据库，能读取图片中的表格数据。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/Tomoro-icon.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:15",
+      "updated_at": "2026-02-04T16:07:15"
+    },
+    {
+      "id": "aibot-59541",
+      "name": "Shortcut",
+      "description": "Shortcut 是 AI Excel 超级智能体，能快速处理复杂的 Excel 任务，例如分析数据、生成图表、构建金融模型等。Shortcut在 Excel 世界锦标赛的复杂案例中表现出色，准确率超过 80%，速度比人类快 10 倍。",
+      "description_full": "Shortcut 是 AI Excel 超级智能体，能快速处理复杂的 Excel 任务，例如分析数据、生成图表、构建金融模型等。Shortcut在 Excel 世界锦标赛的复杂案例中表现出色，准确率超过 80%，速度比人类快 10 倍。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/Shortcut-logo.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:16",
+      "updated_at": "2026-02-04T16:07:16"
+    },
+    {
+      "id": "aibot-59717",
+      "name": "爱图表",
+      "description": "爱图表是镝数科技推出的AI数据可视化和分析工具，专注于为用户提供便捷的图表生成、数据分析和报告撰写服务。爱图表已接入前沿的DeepSeek系列AI模型，结合强大的数据处理能力与智能化功能，致力于帮助职场人士高效处理和表达数据，提升工作效率和报告质量。",
+      "description_full": "爱图表是镝数科技推出的AI数据可视化和分析工具，专注于为用户提供便捷的图表生成、数据分析和报告撰写服务。爱图表已接入前沿的DeepSeek系列AI模型，结合强大的数据处理能力与智能化功能，致力于帮助职场人士高效处理和表达数据，提升工作效率和报告质量。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/aitubiao-logo.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:17",
+      "updated_at": "2026-02-04T16:07:17"
+    },
+    {
+      "id": "aibot-70851",
+      "name": "ChartinAI",
+      "description": "ChartinAI 是 AI 智能图表生成工具，能帮助用户将自然语言描述快速转化为专业美观的数据可视化图表。无需编程或设计技能，只需一句话描述，可在数秒内生成多种图表方案。",
+      "description_full": "ChartinAI 是 AI 智能图表生成工具，能帮助用户将自然语言描述快速转化为专业美观的数据可视化图表。无需编程或设计技能，只需一句话描述，可在数秒内生成多种图表方案。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/ChartinAI-icon.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:18",
+      "updated_at": "2026-02-04T16:07:18"
+    },
+    {
+      "id": "aibot-11865",
+      "name": "vika维格云",
+      "description": "vika维格云是一款新一代的数据生产力平台，基于面向API的多维表格，集成了电子表格和数据库的功能，允许用户将表格数据训练成AI客服、AI线索收集器、数据分析师等智能工具。",
+      "description_full": "vika维格云是一款新一代的数据生产力平台，基于面向API的多维表格，集成了电子表格和数据库的功能，允许用户将表格数据训练成AI客服、AI线索收集器、数据分析师等智能工具。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/05/vika-data-icon.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:19",
+      "updated_at": "2026-02-04T16:07:19"
+    },
+    {
+      "id": "aibot-16121",
+      "name": "百度GBI",
+      "description": "百度GBI（Global Business Intelligence）是百度推出的全球商业智能平台。基于人工智能和大数据技术，为企业提供市场洞察、竞争分析、消费者行为研究等多维度的商业决策支持。",
+      "description_full": "百度GBI（Global Business Intelligence）是百度推出的全球商业智能平台。基于人工智能和大数据技术，为企业提供市场洞察、竞争分析、消费者行为研究等多维度的商业决策支持。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/05/baidu-xiling-icon.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:20",
+      "updated_at": "2026-02-04T16:07:20"
+    },
+    {
+      "id": "aibot-371",
+      "name": "Ajelix",
+      "description": "Ajelix 是于基人工智能的Excel工具平台，能帮助用户高效处理数据和自动化工作流程。Ajelix 支持创建自定义表单、自动化电子表格任务、智能数据分析、数据清理及构建定制解决方案。",
+      "description_full": "Ajelix 是于基人工智能的Excel工具平台，能帮助用户高效处理数据和自动化工作流程。Ajelix 支持创建自定义表单、自动化电子表格任务、智能数据分析、数据清理及构建定制解决方案。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/Ajelix-logo.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:21",
+      "updated_at": "2026-02-04T16:07:21"
+    },
+    {
+      "id": "aibot-373",
+      "name": "Sheet+",
+      "description": "Excel和Google Sheets表格AI处理工具",
+      "description_full": "Excel和Google Sheets表格AI处理工具",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/sheetplus-icon.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:22",
+      "updated_at": "2026-02-04T16:07:22"
+    },
+    {
+      "id": "aibot-14533",
+      "name": "轻云图",
+      "description": "轻云图是必优科技推出的AI一键生成可视化云图工具，允许用户输入任何文段，利用AI认知解析技术快速识别并提取关键词。平台提供2D和3D的云图生成选项，用户可以根据需要选择不同的视觉呈现效果。",
+      "description_full": "轻云图是必优科技推出的AI一键生成可视化云图工具，允许用户输入任何文段，利用AI认知解析技术快速识别并提取关键词。平台提供2D和3D的云图生成选项，用户可以根据需要选择不同的视觉呈现效果。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/07/cloud-yoo-ai-icon.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:24",
+      "updated_at": "2026-02-04T16:07:24"
+    },
+    {
+      "id": "aibot-16152",
+      "name": "北极九章",
+      "description": "北极九章是北极数据推出的AI数据分析平台，简单智慧、易于使用。支持快速部署和可视化配置，AI自动建模，提高IT生产力。",
+      "description_full": "北极九章是北极数据推出的AI数据分析平台，简单智慧、易于使用。支持快速部署和可视化配置，AI自动建模，提高IT生产力。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/08/北极九章-logo.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:25",
+      "updated_at": "2026-02-04T16:07:25"
+    },
+    {
+      "id": "aibot-372",
+      "name": "Formula bot",
+      "description": "Formula bot 是一个由人工智能驱动的数据分析平台，集成了数据分析、可视化、转换和丰富等功能。通过对话式交互，用户可以轻松生成洞察、图表和表格，无需编程技能。",
+      "description_full": "Formula bot 是一个由人工智能驱动的数据分析平台，集成了数据分析、可视化、转换和丰富等功能。通过对话式交互，用户可以轻松生成洞察、图表和表格，无需编程技能。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2023/03/excelfomulabot-icon.png",
+      "category": "AI办公工具",
+      "tags": [
+        "办公"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:26",
+      "updated_at": "2026-02-04T16:07:26"
+    },
+    {
+      "id": "aibot-69212",
+      "name": "01Agent",
+      "description": "01Agent 是集生成、排版、编辑、发布于一体的AI图文创作智能体。01Agent 以“直觉、完整、自由”为核心理念，通过多智能体协同和 AI 深度搜索技术，实现从灵感构思到全网分发的无缝闭环。",
+      "description_full": "01Agent 是集生成、排版、编辑、发布于一体的AI图文创作智能体。01Agent 以“直觉、完整、自由”为核心理念，通过多智能体协同和 AI 深度搜索技术，实现从灵感构思到全网分发的无缝闭环。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/01Agent-logo.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:27",
+      "updated_at": "2026-02-04T16:07:27"
+    },
+    {
+      "id": "aibot-63774",
+      "name": "爱派AiPy",
+      "description": "AiPy（爱派）是免费开源的AI智能体工厂，本地版Manus，基于大语言模型（LLM）和Python编程能力，支持本地部署，确保数据隐私安全。AiPy通过“Python-Use”范式，为AI“装上双手”，能分析本地数据、操作本地应用、执行复杂任务，如控制手机、生成多音色语音、分析医疗检查单、提取视频语音、定时发送邮件等。",
+      "description_full": "AiPy（爱派）是免费开源的AI智能体工厂，本地版Manus，基于大语言模型（LLM）和Python编程能力，支持本地部署，确保数据隐私安全。AiPy通过“Python-Use”范式，为AI“装上双手”，能分析本地数据、操作本地应用、执行复杂任务，如控制手机、生成多音色语音、分析医疗检查单、提取视频语音、定时发送邮件等。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/AiPy-website-2-1.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:28",
+      "updated_at": "2026-02-04T16:07:28"
+    },
+    {
+      "id": "aibot-65797",
+      "name": "Coze",
+      "description": "扣子Coze是字节跳动推出的零代码 AI 应用开发平台，可以理解为字节跳动版的GPTs。无论用户是否有编程经验，都可以通过该平台快速创建各种类型的聊天机器人、智能体、AI应用和插件，并将其部署在社交平台和即时聊天应用程序中，如Discord、WhatsApp、Twitter、飞书、微信公众号、豆包等。",
+      "description_full": "扣子Coze是字节跳动推出的零代码 AI 应用开发平台，可以理解为字节跳动版的GPTs。无论用户是否有编程经验，都可以通过该平台快速创建各种类型的聊天机器人、智能体、AI应用和插件，并将其部署在社交平台和即时聊天应用程序中，如Discord、WhatsApp、Twitter、飞书、微信公众号、豆包等。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/Coze-logo-2.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:29",
+      "updated_at": "2026-02-04T16:07:29"
+    },
+    {
+      "id": "aibot-50068",
+      "name": "讯飞星辰Agent",
+      "description": "讯飞星辰Agent是科大讯飞推出的AI智能体开发平台。全面支持MCP协议，提供丰富的MCP Server资源，覆盖AI能力、生活服务、内容生成等多个领域。讯飞星辰Agent开发平台支持零代码和低代码开发模式，开发者可以快速创建智能体应用，灵活配置权限，实现私有使用或共享发布。",
+      "description_full": "讯飞星辰Agent是科大讯飞推出的AI智能体开发平台。全面支持MCP协议，提供丰富的MCP Server资源，覆盖AI能力、生活服务、内容生成等多个领域。讯飞星辰Agent开发平台支持零代码和低代码开发模式，开发者可以快速创建智能体应用，灵活配置权限，实现私有使用或共享发布。",
+      "url": "https://agent.xfyun.cn/home?ch=xcagent-aitool1",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/04/xunfei-xingchen-agent-logo-1.jpg",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:30",
+      "updated_at": "2026-02-04T16:07:30"
+    },
+    {
+      "id": "aibot-69322",
+      "name": "Manus",
+      "description": "Manus 是蝴蝶效应公司推出的全球首个自主通用 AI Agent，支持通过自主行动完成任务和交付成果。Manus 运行在一个拥有互联网访问权限、持久文件系统和软件安装能力的沙盒环境中，能独立工作、记住长期任务的上下文。",
+      "description_full": "Manus 是蝴蝶效应公司推出的全球首个自主通用 AI Agent，支持通过自主行动完成任务和交付成果。Manus 运行在一个拥有互联网访问权限、持久文件系统和软件安装能力的沙盒环境中，能独立工作、记住长期任务的上下文。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/03/Manus-logo.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:31",
+      "updated_at": "2026-02-04T16:07:31"
+    },
+    {
+      "id": "aibot-11395",
+      "name": "Flowith",
+      "description": "Flowith是创新的画布式AI智能体工具，基于首创的节点式交互方式，让用户用多线程和发散式的思维与AI进行互动。Flowith由顶级大模型驱动，支持多种先进的AI模型（如Grok4、GPT-5、Claude等）及图像视频多模态模型（Veo 3、Midjourney、SDXL）。Flowith支持文字创作、图片生成、视频制作等多种模式，基于智能体“Neo”实现任务的自动化执行。",
+      "description_full": "Flowith是创新的画布式AI智能体工具，基于首创的节点式交互方式，让用户用多线程和发散式的思维与AI进行互动。Flowith由顶级大模型驱动，支持多种先进的AI模型（如Grok4、GPT-5、Claude等）及图像视频多模态模型（Veo 3、Midjourney、SDXL）。Flowith支持文字创作、图片生成、视频制作等多种模式，基于智能体“Neo”实现任务的自动化执行。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/04/flowith-icon.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:32",
+      "updated_at": "2026-02-04T16:07:32"
+    },
+    {
+      "id": "aibot-60995",
+      "name": "码上飞",
+      "description": "码上飞（CodeFlying）是跨赴科技推出的零代码AI应用开发平台，用户只需一句话简单描述需求，AI能自动生成小程序、APP或H5网页应用，无需编写代码。码上飞支持一键发布到多个平台，如小程序、安卓、鸿蒙OS等，并提供独立的后台管理系统，方便用户运营和管理。",
+      "description_full": "码上飞（CodeFlying）是跨赴科技推出的零代码AI应用开发平台，用户只需一句话简单描述需求，AI能自动生成小程序、APP或H5网页应用，无需编写代码。码上飞支持一键发布到多个平台，如小程序、安卓、鸿蒙OS等，并提供独立的后台管理系统，方便用户运营和管理。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/CodeFlying-icon-1.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:33",
+      "updated_at": "2026-02-04T16:07:33"
+    },
+    {
+      "id": "aibot-54821",
+      "name": "金灵AI",
+      "description": "金灵AI是专业的金融深度投研AI Agent，基于豆包pro和Deepseek满血版模型，结合强大的数据分析、资讯搜索和研报生成能力，为用户提供专业的金融分析服务。",
+      "description_full": "金灵AI是专业的金融深度投研AI Agent，基于豆包pro和Deepseek满血版模型，结合强大的数据分析、资讯搜索和研报生成能力，为用户提供专业的金融分析服务。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/06/gilin-logo-1.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:34",
+      "updated_at": "2026-02-04T16:07:34"
+    },
+    {
+      "id": "aibot-66553",
+      "name": "OiiOii",
+      "description": "OiiOii 是全球首个专业动画创作Agent，能帮助创作者轻松实现动画梦想。OiiOii 通过内置的 7 个专业 Agent（如艺术总监、编剧、分镜师等），实现从剧本创作到动画生成的一站式服务，支持生成图片、视频、动画短片等多种形式。",
+      "description_full": "OiiOii 是全球首个专业动画创作Agent，能帮助创作者轻松实现动画梦想。OiiOii 通过内置的 7 个专业 Agent（如艺术总监、编剧、分镜师等），实现从剧本创作到动画生成的一站式服务，支持生成图片、视频、动画短片等多种形式。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/OiiOii-logo.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:35",
+      "updated_at": "2026-02-04T16:07:35"
+    },
+    {
+      "id": "aibot-69424",
+      "name": "AnyGen",
+      "description": "AnyGen是字节跳动推出的AI办公智能体，通过语音输入和AI技术提升办公效率。用户长按录音按钮即可将语音快速转为文字，支持添加照片、截图和链接，避免了传统记录后的繁琐整理。",
+      "description_full": "AnyGen是字节跳动推出的AI办公智能体，通过语音输入和AI技术提升办公效率。用户长按录音按钮即可将语音快速转为文字，支持添加照片、截图和链接，避免了传统记录后的繁琐整理。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/AnyGen-icon.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:36",
+      "updated_at": "2026-02-04T16:07:36"
+    },
+    {
+      "id": "aibot-62355",
+      "name": "Tbox",
+      "description": "Tbox是蚂蚁集团旗下多智能体协同的通用 AI Agent ，由多个智能体组成团队，能高效协作完成任务，如制作PPT、撰写报告、设计网页等。用户能自定义智能体，打造专属工作流。",
+      "description_full": "Tbox是蚂蚁集团旗下多智能体协同的通用 AI Agent ，由多个智能体组成团队，能高效协作完成任务，如制作PPT、撰写报告、设计网页等。用户能自定义智能体，打造专属工作流。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/Tbox-logo.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:37",
+      "updated_at": "2026-02-04T16:07:37"
+    },
+    {
+      "id": "aibot-70016",
+      "name": "Atoms",
+      "description": "Atoms 是一支“AI Vibe Business Team”，由 MetaGPT 和 OpenManus 团队打造，不仅只是一个代码工具。你给出一个想法或业务需求，Atoms 会用多角色智能体协作完成从 0 到 1 的关键链路：市场与竞品研究、产品方案、设计与开发、上线部署，以及后续的内容与增长支持。",
+      "description_full": "Atoms 是一支“AI Vibe Business Team”，由 MetaGPT 和 OpenManus 团队打造，不仅只是一个代码工具。你给出一个想法或业务需求，Atoms 会用多角色智能体协作完成从 0 到 1 的关键链路：市场与竞品研究、产品方案、设计与开发、上线部署，以及后续的内容与增长支持。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/Atoms-icon.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:38",
+      "updated_at": "2026-02-04T16:07:38"
+    },
+    {
+      "id": "aibot-66341",
+      "name": "Genspark",
+      "description": "Genspark 是前百度小度高管推出的通用 AI 智能体，通过创新的多模型协作系统（Mixture-of-Agents）打造超级 AI 智能体。Genspark 核心理念是让用户通过简单指令驱动多个 AI 模型协同工作，完成复杂任务。",
+      "description_full": "Genspark 是前百度小度高管推出的通用 AI 智能体，通过创新的多模型协作系统（Mixture-of-Agents）打造超级 AI 智能体。Genspark 核心理念是让用户通过简单指令驱动多个 AI 模型协同工作，完成复杂任务。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2024/06/genspark-icon.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:39",
+      "updated_at": "2026-02-04T16:07:39"
+    },
+    {
+      "id": "aibot-66596",
+      "name": "GenFlow",
+      "description": "GenFlow 是百度文库和百度网盘联合推出的全球首个全模态、全端通用AI智能体。GenFlow 支持文字、图像、视频等多种输入输出模态，能实现从一句话到文档、海报、视频等内容的生成。",
+      "description_full": "GenFlow 是百度文库和百度网盘联合推出的全球首个全模态、全端通用AI智能体。GenFlow 支持文字、图像、视频等多种输入输出模态，能实现从一句话到文档、海报、视频等内容的生成。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/GenFlow-website.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:40",
+      "updated_at": "2026-02-04T16:07:40"
+    },
+    {
+      "id": "aibot-67498",
+      "name": "Lovart",
+      "description": "Lovart 是 LiblibAI 推出的全球首个设计 Agent，实现从概念到图像、视频、3D等的自动设计。Lovart 通过Edit Elements分层图像编辑功能，支持用户直接对图像进行精准修改，无需复杂的图像编辑软件。",
+      "description_full": "Lovart 是 LiblibAI 推出的全球首个设计 Agent，实现从概念到图像、视频、3D等的自动设计。Lovart 通过Edit Elements分层图像编辑功能，支持用户直接对图像进行精准修改，无需复杂的图像编辑软件。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/Lovart-logo.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:41",
+      "updated_at": "2026-02-04T16:07:41"
+    },
+    {
+      "id": "aibot-68239",
+      "name": "Mixboard",
+      "description": "Mixboard 是 Google Labs 推出的 AI 无限画布工具，基于Nano Banana系列图像模型，支持用户通过自然语言描述直接生成、编辑和组合图片。用户可以在Mixboard上面自由拖拽素材，并对选中的图片进行一键换色、风格迁移、移除背景等操作。",
+      "description_full": "Mixboard 是 Google Labs 推出的 AI 无限画布工具，基于Nano Banana系列图像模型，支持用户通过自然语言描述直接生成、编辑和组合图片。用户可以在Mixboard上面自由拖拽素材，并对选中的图片进行一键换色、风格迁移、移除背景等操作。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/Mixboard-icon.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:42",
+      "updated_at": "2026-02-04T16:07:42"
+    },
+    {
+      "id": "aibot-70880",
+      "name": "OpenClaw",
+      "description": "OpenClaw（原Clawdbot） 是开源免费的个人 AI 助手，能在个人电脑（如 Mac、Windows、Linux）上运行，支持通过 WhatsApp、Telegram、iMessage 等聊天软件接收指令并直接操作电脑完成任务。能整理文件、修复代码、管理邮件，支持接入 Anthropic、OpenAI 等顶尖模型。",
+      "description_full": "OpenClaw（原Clawdbot） 是开源免费的个人 AI 助手，能在个人电脑（如 Mac、Windows、Linux）上运行，支持通过 WhatsApp、Telegram、iMessage 等聊天软件接收指令并直接操作电脑完成任务。能整理文件、修复代码、管理邮件，支持接入 Anthropic、OpenAI 等顶尖模型。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/未命名18-26.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:43",
+      "updated_at": "2026-02-04T16:07:43"
+    },
+    {
+      "id": "aibot-71314",
+      "name": "元气AI Bot",
+      "description": "元气AI Bot是猎豹推出的电脑全能AI伙伴，号称国产 OpenClaw ，可在普通Windows电脑上本地运行。用户可通过手机飞书或钉钉远程连接，用自然语言指令让AI自动操作电脑，完成打开软件、浏览网页、查看邮件等任务。",
+      "description_full": "元气AI Bot是猎豹推出的电脑全能AI伙伴，号称国产 OpenClaw ，可在普通Windows电脑上本地运行。用户可通过手机飞书或钉钉远程连接，用自然语言指令让AI自动操作电脑，完成打开软件、浏览网页、查看邮件等任务。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2026/02/yuanqiai-logo1-1.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:44",
+      "updated_at": "2026-02-04T16:07:44"
+    },
+    {
+      "id": "aibot-70852",
+      "name": "WorkAny",
+      "description": "WorkAny是支持本地运行的开源AI桌面智能体，基于自然语言交互，能理解用户的指令执行各种任务。WorkAny通过智能算法能在本地生成幻灯片、Excel、Word、代码、网站等内容，大大提升工作效率。",
+      "description_full": "WorkAny是支持本地运行的开源AI桌面智能体，基于自然语言交互，能理解用户的指令执行各种任务。WorkAny通过智能算法能在本地生成幻灯片、Excel、Word、代码、网站等内容，大大提升工作效率。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2026/01/WorkAny-logo.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:45",
+      "updated_at": "2026-02-04T16:07:45"
+    },
+    {
+      "id": "aibot-59375",
+      "name": "Agnes AI",
+      "description": "Agnes AI 是新加坡 Sapiens AI 团队推出的团队协作型 AI Agent，专为团队协作和办公场景设计。支持多人实时协同编辑文档、幻灯片等，具备强大的共享记忆功能，能跨文档、对话和项目保留用户的历史偏好和任务状态。",
+      "description_full": "Agnes AI 是新加坡 Sapiens AI 团队推出的团队协作型 AI Agent，专为团队协作和办公场景设计。支持多人实时协同编辑文档、幻灯片等，具备强大的共享记忆功能，能跨文档、对话和项目保留用户的历史偏好和任务状态。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/Agnes-AI-logo.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:46",
+      "updated_at": "2026-02-04T16:07:46"
+    },
+    {
+      "id": "aibot-59644",
+      "name": "Seele AI",
+      "description": "Seele AI 是全灵公司推出的全球首个端到端AI 3D游戏生成工具。Seele AI 基于大模型技术，实现从文本输入到完整3D游戏的自动化生成，支持多模态交互（文本、3D建模、物理引擎）。",
+      "description_full": "Seele AI 是全灵公司推出的全球首个端到端AI 3D游戏生成工具。Seele AI 基于大模型技术，实现从文本输入到完整3D游戏的自动化生成，支持多模态交互（文本、3D建模、物理引擎）。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/Seele-AI-logo.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:47",
+      "updated_at": "2026-02-04T16:07:47"
+    },
+    {
+      "id": "aibot-60312",
+      "name": "稿定AI社区",
+      "description": "稿定AI社区是稿定推出的设计Agent和AI创意社区，提供丰富的AIGC设计案例，展示最新趋势和风格，用户能在此浏览学习、积累审美。稿定AI社区支持设计Agent、无限画布、多模型接入等功能，支持一站式创作，无需切换工具。",
+      "description_full": "稿定AI社区是稿定推出的设计Agent和AI创意社区，提供丰富的AIGC设计案例，展示最新趋势和风格，用户能在此浏览学习、积累审美。稿定AI社区支持设计Agent、无限画布、多模型接入等功能，支持一站式创作，无需切换工具。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/gaoding.art-logo.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:48",
+      "updated_at": "2026-02-04T16:07:48"
+    },
+    {
+      "id": "aibot-61891",
+      "name": "椒图AI",
+      "description": "椒图AI是武汉枫潮科技推出的AI智能修图智能体，定位为“一句话P图”的中文修图解决方案。椒图AI基于对话式交互设计，用户通过中文描述即可完成人像美化、背景替换、风格转换等多种修图任务，降低修图的技术门槛。",
+      "description_full": "椒图AI是武汉枫潮科技推出的AI智能修图智能体，定位为“一句话P图”的中文修图解决方案。椒图AI基于对话式交互设计，用户通过中文描述即可完成人像美化、背景替换、风格转换等多种修图任务，降低修图的技术门槛。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/jiaotuai-logo.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:49",
+      "updated_at": "2026-02-04T16:07:49"
+    },
+    {
+      "id": "aibot-67279",
+      "name": "遨虾",
+      "description": "遨虾是1688推出的跨境电商生意Agent，专为解决跨境经营中的效率和成本问题而设计。遨虾将选品、找商、询盘、素材制作以及政策咨询等关键环节实现自动化和智能化处理。",
+      "description_full": "遨虾是1688推出的跨境电商生意Agent，专为解决跨境经营中的效率和成本问题而设计。遨虾将选品、找商、询盘、素材制作以及政策咨询等关键环节实现自动化和智能化处理。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/11/alphashop-logo.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:50",
+      "updated_at": "2026-02-04T16:07:50"
+    },
+    {
+      "id": "aibot-69201",
+      "name": "亿话",
+      "description": "亿话是一站式AI数字人智能体创作平台，降低数字人创作门槛，推动其在各产业的规模化应用。亿话支持2D、2.5D、3D全栈数字人的形象生成、视频制作、实时对话交互及部署集成，搭载自研XMEN-AI模型，具备6K超高清实时渲染、0.16秒口型响应速度，适配全信创环境，可满足高并发需求。",
+      "description_full": "亿话是一站式AI数字人智能体创作平台，降低数字人创作门槛，推动其在各产业的规模化应用。亿话支持2D、2.5D、3D全栈数字人的形象生成、视频制作、实时对话交互及部署集成，搭载自研XMEN-AI模型，具备6K超高清实时渲染、0.16秒口型响应速度，适配全信创环境，可满足高并发需求。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/yihua-icon.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:51",
+      "updated_at": "2026-02-04T16:07:51"
+    },
+    {
+      "id": "aibot-67818",
+      "name": "Tago",
+      "description": "Tago 是专注于电商领域的 AI 运营助手，基于多智能体架构设计，能高效完成多种电商运营任务。其主要功能包括电商视频生成、网页自动化操作、视频分析、达人管理、电商图片处理以及数据分析和调研等。",
+      "description_full": "Tago 是专注于电商领域的 AI 运营助手，基于多智能体架构设计，能高效完成多种电商运营任务。其主要功能包括电商视频生成、网页自动化操作、视频分析、达人管理、电商图片处理以及数据分析和调研等。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/Tago-icon.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:52",
+      "updated_at": "2026-02-04T16:07:52"
+    },
+    {
+      "id": "aibot-67911",
+      "name": "FlowMuse AI",
+      "description": "FlowMuse AI是以“可视化工作流画布”为核心交互界面的 AI 内容生产平台。FlowMuse AI摒弃了分散的单一功能入口，将所有 AI 能力封装为 “功能节点”。用户仅需在画布上拖拽和连接节点，即可将复杂的AI调用流程自动化，彻底解决工具分散、操作繁琐、工作流割裂的核心问题。",
+      "description_full": "FlowMuse AI是以“可视化工作流画布”为核心交互界面的 AI 内容生产平台。FlowMuse AI摒弃了分散的单一功能入口，将所有 AI 能力封装为 “功能节点”。用户仅需在画布上拖拽和连接节点，即可将复杂的AI调用流程自动化，彻底解决工具分散、操作繁琐、工作流割裂的核心问题。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/FlowMuse-AI-icon.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:53",
+      "updated_at": "2026-02-04T16:07:53"
+    },
+    {
+      "id": "aibot-67677",
+      "name": "NeoDomain",
+      "description": "NeoDomain 是创新的AI创意内容生成智能体，提供从创意构思到成片的一站式服务。用户只需输入简单的创意描述，NeoDomain 即可自动完成编剧、分镜设计、视觉资产生成、音效匹配等一系列制作环节，生成高质量的视频作品。",
+      "description_full": "NeoDomain 是创新的AI创意内容生成智能体，提供从创意构思到成片的一站式服务。用户只需输入简单的创意描述，NeoDomain 即可自动完成编剧、分镜设计、视觉资产生成、音效匹配等一系列制作环节，生成高质量的视频作品。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/12/NeoDomain-icon-1.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:54",
+      "updated_at": "2026-02-04T16:07:54"
+    },
+    {
+      "id": "aibot-64120",
+      "name": "Opera Neon",
+      "description": "Opera Neon 是 Opera 推出的全新AI Agent浏览器，专为大量使用 AI 的用户设计。Opera Neon 支持创建独立工作空间，支持多信息源分析与操作，如旅行规划、研究学习等。可主动执行任务，如购物、预订等，无需向云端共享密码，保障隐私。",
+      "description_full": "Opera Neon 是 Opera 推出的全新AI Agent浏览器，专为大量使用 AI 的用户设计。Opera Neon 支持创建独立工作空间，支持多信息源分析与操作，如旅行规划、研究学习等。可主动执行任务，如购物、预订等，无需向云端共享密码，保障隐私。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/10/Opera-Neon-website-2.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:55",
+      "updated_at": "2026-02-04T16:07:55"
+    },
+    {
+      "id": "aibot-58360",
+      "name": "Seko",
+      "description": "Seko是商汤科技推出的全球首个创编一体的AI短视频创作Agent。它可以根据用户输入的创意灵感，通过大模型智能代理，完成从剧本创作、美术风格定位、配音配乐到分镜图绘制的成片全流程。",
+      "description_full": "Seko是商汤科技推出的全球首个创编一体的AI短视频创作Agent。它可以根据用户输入的创意灵感，通过大模型智能代理，完成从剧本创作、美术风格定位、配音配乐到分镜图绘制的成片全流程。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/Seko-logo-1.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:56",
+      "updated_at": "2026-02-04T16:07:56"
+    },
+    {
+      "id": "aibot-60949",
+      "name": "TabTab",
+      "description": "TabTab 是首个全链路 Data Agent，专注于AI数据分析领域，通过自然语言对话实现从数据搜集到深度分析的全流程自动化。拥有强大的数据整合、多维度挖掘和专业指标分析能力。",
+      "description_full": "TabTab 是首个全链路 Data Agent，专注于AI数据分析领域，通过自然语言对话实现从数据搜集到深度分析的全流程自动化。拥有强大的数据整合、多维度挖掘和专业指标分析能力。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/tabtab-logo.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:57",
+      "updated_at": "2026-02-04T16:07:57"
+    },
+    {
+      "id": "aibot-60693",
+      "name": "酷宣AI",
+      "description": "酷宣AI是一个超级智能体，集成多种先进的AI技术，能帮助用户轻松完成图文、图片、视频等制作任务。核心功能包括AI图文排版、AI生图、AI修图、AI视频和AI动图等，覆盖了从文字到图像、视频的全方位内容创作需求。",
+      "description_full": "酷宣AI是一个超级智能体，集成多种先进的AI技术，能帮助用户轻松完成图文、图片、视频等制作任务。核心功能包括AI图文排版、AI生图、AI修图、AI视频和AI动图等，覆盖了从文字到图像、视频的全方位内容创作需求。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/10/kuxuanai-website-3.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:58",
+      "updated_at": "2026-02-04T16:07:58"
+    },
+    {
+      "id": "aibot-64927",
+      "name": "月亮树AI选品",
+      "description": "月亮树AI选品是月亮树跨境推出的专为亚马逊FBA和FBM卖家设计的智能选品工具。支持亚马逊全球12个站点，每日更新约1000万条全类目数据，拥有两亿左右的超容量精准数据库，涵盖畅销榜和新品榜数据。结合选品插件，数据更全面清晰。",
+      "description_full": "月亮树AI选品是月亮树跨境推出的专为亚马逊FBA和FBM卖家设计的智能选品工具。支持亚马逊全球12个站点，每日更新约1000万条全类目数据，拥有两亿左右的超容量精准数据库，涵盖畅销榜和新品榜数据。结合选品插件，数据更全面清晰。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/10/moonstatistics-icon.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:07:59",
+      "updated_at": "2026-02-04T16:07:59"
+    },
+    {
+      "id": "aibot-60115",
+      "name": "如此AI员工",
+      "description": "如此AI员工是四川如此网络科技有限公司推出的国内首个从推广-获客-转化-私域全链路托管式AI Agent，基于RPA和AI大模型技术的智能自动化解决方案，能像真人一样在电脑上7×24小时自主工作，操作鼠标键盘，完成从线上获客、销售沟通到客户维护的全链路工作。",
+      "description_full": "如此AI员工是四川如此网络科技有限公司推出的国内首个从推广-获客-转化-私域全链路托管式AI Agent，基于RPA和AI大模型技术的智能自动化解决方案，能像真人一样在电脑上7×24小时自主工作，操作鼠标键盘，完成从线上获客、销售沟通到客户维护的全链路工作。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/ruciapp-logo.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:08:00",
+      "updated_at": "2026-02-04T16:08:00"
+    },
+    {
+      "id": "aibot-65208",
+      "name": "Teamo",
+      "description": "Teamo是夕小瑶团队推出的多Agent协作AI智能体，定位为“全球首个为知识工作者而生的A2A范式超级Agent”。采用Agent2Agent（A2A）协作模式，模拟真实团队协作，将多个专业Agent组合在一起，共同完成复杂任务。",
+      "description_full": "Teamo是夕小瑶团队推出的多Agent协作AI智能体，定位为“全球首个为知识工作者而生的A2A范式超级Agent”。采用Agent2Agent（A2A）协作模式，模拟真实团队协作，将多个专业Agent组合在一起，共同完成复杂任务。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/10/Teamo-icon.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:08:01",
+      "updated_at": "2026-02-04T16:08:01"
+    },
+    {
+      "id": "aibot-58991",
+      "name": "SciMaster",
+      "description": "SciMaster 是上交大联合深势科技推出的通用科研Agent ，通过集成多种科研工具和智能技术，为研究人员提供高效、便捷的科研支持。SciMaster支持多种应用场景，包括量子计算瓶颈研究、系外行星探测方法与结果分析、药物筛选中的分子动力学模拟、智能体合作学习以及二维材料在电子学中的应用等。",
+      "description_full": "SciMaster 是上交大联合深势科技推出的通用科研Agent ，通过集成多种科研工具和智能技术，为研究人员提供高效、便捷的科研支持。SciMaster支持多种应用场景，包括量子计算瓶颈研究、系外行星探测方法与结果分析、药物筛选中的分子动力学模拟、智能体合作学习以及二维材料在电子学中的应用等。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/08/scimaster_icon.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:08:03",
+      "updated_at": "2026-02-04T16:08:03"
+    },
+    {
+      "id": "aibot-58176",
+      "name": "Zeabur",
+      "description": "Zeabur 是专为氛围编程设计的云部署AI 智能体。Zeabur 通过 AI 技术实现一键部署，支持多种编程语言和框架，包括前端、后端和数据库。用户通过简单的拖拽或代码推送快速上线项目。",
+      "description_full": "Zeabur 是专为氛围编程设计的云部署AI 智能体。Zeabur 通过 AI 技术实现一键部署，支持多种编程语言和框架，包括前端、后端和数据库。用户通过简单的拖拽或代码推送快速上线项目。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/zeabur-icon.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:08:04",
+      "updated_at": "2026-02-04T16:08:04"
+    },
+    {
+      "id": "aibot-58058",
+      "name": "MyShell",
+      "description": "MyShell 是结合人工智能和区块链技术的 AI Agent 开发平台，让每个人都能轻松创建、分享和拥有 AI 智能体。基于开源的 ShellAgent 框架，提供强大的工具和模块，让没有编程经验的用户能快速构建 AI Agents。",
+      "description_full": "MyShell 是结合人工智能和区块链技术的 AI Agent 开发平台，让每个人都能轻松创建、分享和拥有 AI 智能体。基于开源的 ShellAgent 框架，提供强大的工具和模块，让没有编程经验的用户能快速构建 AI Agents。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/MyShell-logo.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:08:05",
+      "updated_at": "2026-02-04T16:08:05"
+    },
+    {
+      "id": "aibot-57411",
+      "name": "FinGenius",
+      "description": "FinGenius 是全球首个A股AI金融博弈智能体应用。FinGenius基于多Agent博弈架构，模拟市场参与者行为，用16个超级智能体（如舆情、游资、风控等）分工协作，快速生成精准的金融分析报告。",
+      "description_full": "FinGenius 是全球首个A股AI金融博弈智能体应用。FinGenius基于多Agent博弈架构，模拟市场参与者行为，用16个超级智能体（如舆情、游资、风控等）分工协作，快速生成精准的金融分析报告。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/07/FinGenius-logo.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:08:06",
+      "updated_at": "2026-02-04T16:08:06"
+    },
+    {
+      "id": "aibot-62815",
+      "name": "混沌Deep Innovation",
+      "description": "混沌Deep Innovation（简称 HDDI）是混沌学园推出的战略咨询AI智能体。以混沌创新思维模型为内核，借助 AI 大模型，为创业者和企业高管提供商业模式创新咨询，堪称 AI 时代的商业第二大脑。",
+      "description_full": "混沌Deep Innovation（简称 HDDI）是混沌学园推出的战略咨询AI智能体。以混沌创新思维模型为内核，借助 AI 大模型，为创业者和企业高管提供商业模式创新咨询，堪称 AI 时代的商业第二大脑。",
+      "url": "",
+      "logo": "https://ai-bot.cn/wp-content/uploads/2025/09/Deep-Innovation-logo.png",
+      "category": "AI智能体",
+      "tags": [
+        "智能体"
+      ],
+      "pricing": "unknown",
+      "features": [],
+      "rating": null,
+      "popularity": null,
+      "source": "ai-bot.cn",
+      "created_at": "2026-02-04T16:08:07",
+      "updated_at": "2026-02-04T16:08:07"
+    }
+  ]
+}

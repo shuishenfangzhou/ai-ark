@@ -3,132 +3,74 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Sidebar from '../components/Sidebar.astro';
-import ToolCard from '../components/ToolCard.astro';
+import ToolList from '../components/ToolList.tsx';
 import Footer from '../components/Footer.astro';
 import CompareModal from '../components/CompareModal.astro';
 import FavoritesModal from '../components/FavoritesModal.astro';
 import HotSidebar from '../components/HotSidebar.astro';
-import SearchBar from '../components/SearchBar.astro';
 import SEO from '../components/SEO.astro';
 import WechatModal from '../components/WechatModal.astro';
 
-// 读取工具数据
 import toolsData from '../../data/tools.json';
-
-// 🔥 魔法代码：数据倍增术
-// 基于现有工具生成 500 个模拟数据，确保每个分类都有内容
-const categories = ["AI对话", "AI绘画", "AI写作", "AI编程", "AI视频", "AI办公", "AI音频", "AI设计", "AI搜索", "AI模型"];
-const baseTools = toolsData.tools; 
-
-const allTools = Array.from({ length: 500 }).map((_, i) => {
-  const template = baseTools[i % baseTools.length];
-  const category = categories[i % categories.length];
-  
-  return {
-    ...template,
-    id: `${template.id}-copy-${i}`,
-    name: `${template.name} ${i + 1}`,
-    category: category,
-    tags: [...template.tags.filter(t => !t.includes('AI')), category]
-  };
-});
-
-const originalTools = baseTools;
-const tools = allTools;
+const tools = toolsData.tools;
 ---
 
 <Layout>
     <SEO 
-        title="AI方舟 | 1400+ AI工具导航"
-        description="AI方舟(AIArk)收录{tools.length}个AI工具，提供最全面的AI工具导航服务。包含AI写作、图像、视频、办公、编程等全品类AI应用。"
-        tools={originalTools.slice(0, 10).map(tool => ({
-          name: tool.name,
-          description: tool.description,
-          url: tool.url,
-          category: tool.category
-        }))}
+        title="AI方舟 | 216+ AI工具导航"
+        description="AI方舟(AIArk)收录216个AI工具，提供最全面的AI工具导航服务。包含AI写作、图像、视频、办公、编程等全品类AI应用。"
+        tools={[]}
     />
     
     <Header />
     
-    <!-- Main Layout: Full Width Flex Container -->
     <div class="w-full px-2 sm:px-4 flex flex-grow items-start gap-4">
-        <!-- Left Sidebar -->
         <Sidebar />
         
-        <!-- Main Content: Tools Grid -->
         <main class="flex-1 min-w-0 px-2 sm:px-4 py-6">
-            <!-- Mobile Header -->
-            <div class="lg:hidden mb-6 space-y-3">
-                <SearchBar />
-                <div class="flex gap-2 overflow-x-auto pb-2" id="mobile-categories">
-                    <button class="px-4 py-2 bg-blue-500 text-white rounded-lg text-sm whitespace-nowrap">全部</button>
-                    <button class="px-4 py-2 bg-white border border-slate-200 rounded-lg text-sm whitespace-nowrap">AI对话</button>
-                    <button class="px-4 py-2 bg-white border border-slate-200 rounded-lg text-sm whitespace-nowrap">AI绘画</button>
-                    <button class="px-4 py-2 bg-white border border-slate-200 rounded-lg text-sm whitespace-nowrap">AI写作</button>
-                </div>
-            </div>
-
-            <!-- Desktop Search Bar -->
-            <div class="hidden lg:block mb-8 max-w-2xl">
-                <SearchBar />
-            </div>
-
-<!-- Stats Dashboard -->
-<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-    <!-- Left: Total Stats -->
-    <div class="bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl p-6 text-white shadow-lg relative overflow-hidden group">
-        <div class="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition">
-            <i class="fa-solid fa-rocket text-8xl transform rotate-12"></i>
-        </div>
-        <div class="relative z-10">
-            <div class="flex items-center gap-3 mb-2">
-                <div class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center backdrop-blur-sm">
-                    <i class="fa-solid fa-database"></i>
-                </div>
-                <span class="text-blue-100 font-medium">已收录工具</span>
-            </div>
-            <div class="text-4xl font-bold mb-2 tracking-tight">{tools.length}</div>
-            <div class="flex items-center text-sm text-blue-100">
-                <span class="bg-white/20 px-2 py-0.5 rounded text-xs mr-2">实时更新</span>
-                <span>覆盖 {new Set(originalTools.map(t => t.category)).size} 个核心领域</span>
-            </div>
-        </div>
-    </div>
-
-                <!-- Middle: Distribution Chart -->
-                <div class="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm flex items-center relative overflow-hidden">
-                    <div class="w-32 h-32 flex-shrink-0 -ml-2">
-                        <!-- SVG Pie Chart -->
-                        <svg viewBox="0 0 100 100" class="w-full h-full">
-                            <circle cx="50" cy="50" r="40" fill="none" stroke="#f1f5f9" stroke-width="16"></circle>
-                            <circle cx="50" cy="50" r="40" fill="none" stroke="#3b82f6" stroke-width="16" stroke-dasharray="35 100" stroke-dashoffset="0" transform="rotate(-90 50 50)"></circle>
-                            <circle cx="50" cy="50" r="40" fill="none" stroke="#ec4899" stroke-width="16" stroke-dasharray="25 100" stroke-dashoffset="-35" transform="rotate(-90 50 50)"></circle>
-                            <circle cx="50" cy="50" r="40" fill="none" stroke="#f59e0b" stroke-width="16" stroke-dasharray="20 100" stroke-dashoffset="-60" transform="rotate(-90 50 50)"></circle>
-                            <circle cx="50" cy="50" r="40" fill="none" stroke="#10b981" stroke-width="16" stroke-dasharray="20 100" stroke-dashoffset="-80" transform="rotate(-90 50 50)"></circle>
-                        </svg>
+            <!-- Stats Dashboard -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                <div class="bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl p-6 text-white shadow-lg">
+                    <div class="flex items-center gap-3 mb-2">
+                        <div class="w-10 h-10 bg-white/20 rounded-lg flex items-center">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                        <span class="text-blue-100 font-medium">已收录工具</span>
                     </div>
-                    <div class="flex-1 ml-2 z-10">
-                        <h3 class="font-bold text-slate-800 mb-2">收录分布</h3>
-                        <div class="space-y-2 text-xs text-slate-500">
-                            <div class="flex items-center justify-between">
-                                <span class="flex items-center"><span class="w-2 h-2 rounded-full bg-blue-500 mr-2"></span>AI 对话</span>
-                                <span class="font-medium text-slate-700">{tools.filter(t => t.category === 'AI对话').length}</span>
-                            </div>
-                            <div class="flex items-center justify-between">
-                                <span class="flex items-center"><span class="w-2 h-2 rounded-full bg-pink-500 mr-2"></span>AI 绘画</span>
-                                <span class="font-medium text-slate-700">{tools.filter(t => t.category === 'AI绘画').length}</span>
-                            </div>
-                            <div class="flex items-center justify-between">
-                                <span class="flex items-center"><span class="w-2 h-2 rounded-full bg-amber-500 mr-2"></span>AI 写作</span>
-                                <span class="font-medium text-slate-700">{tools.filter(t => t.category === 'AI写作').length}</span>
-                            </div>
+                    <div class="text-4xl font-bold mb-2">{tools.length}</div>
+                    <div class="flex items-center text-sm text-blue-100">
+                        <span class="bg-white/20 px-2 py-0.5 rounded text-xs mr-2">实时更新</span>
+                        <span>覆盖 {new Set(tools.map((t: any) => t.category)).size} 个核心领域</span>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm">
+                    <h3 class="font-bold text-slate-800 mb-4">收录分布</h3>
+                    <div class="space-y-3 text-sm">
+                        <div class="flex items-center justify-between">
+                            <span class="flex items-center"><span class="w-2 h-2 rounded-full bg-blue-500 mr-2"></span>AI 对话</span>
+                            <span class="font-medium">{tools.filter((t: any) => t.category === 'AI对话').length}</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <span class="flex items-center"><span class="w-2 h-2 rounded-full bg-purple-500 mr-2"></span>AI 绘画</span>
+                            <span class="font-medium">{tools.filter((t: any) => t.category === 'AI绘画').length}</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <span class="flex items-center"><span class="w-2 h-2 rounded-full bg-amber-500 mr-2"></span>AI 写作</span>
+                            <span class="font-medium">{tools.filter((t: any) => t.category === 'AI写作').length}</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <span class="flex items-center"><span class="w-2 h-2 rounded-full bg-pink-500 mr-2"></span>AI 视频</span>
+                            <span class="font-medium">{tools.filter((t: any) => t.category === 'AI视频').length}</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <span class="flex items-center"><span class="w-2 h-2 rounded-full bg-emerald-500 mr-2"></span>AI 编程</span>
+                            <span class="font-medium">{tools.filter((t: any) => t.category === 'AI编程').length}</span>
                         </div>
                     </div>
                 </div>
-
-                <!-- Right: Activity Stats -->
-                <div class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm flex flex-col justify-center">
+                
+                <div class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm">
                     <div class="flex items-center justify-between mb-4 pb-4 border-b border-slate-50">
                         <div class="flex items-center gap-3">
                             <div class="w-10 h-10 bg-green-50 text-green-600 rounded-lg flex items-center justify-center">
@@ -139,9 +81,7 @@ const tools = allTools;
                                 <div class="text-xl font-bold text-slate-800">+{Math.floor(Math.random() * 20) + 5}</div>
                             </div>
                         </div>
-                        <span class="text-xs text-green-500 bg-green-50 px-2 py-1 rounded-full">
-                            <i class="fa-solid fa-arrow-trend-up mr-1"></i>4.2%
-                        </span>
+                        <span class="text-xs text-green-500 bg-green-50 px-2 py-1 rounded-full">4.2%</span>
                     </div>
                     <div class="flex items-center justify-between">
                         <div class="flex items-center gap-3">
@@ -158,124 +98,155 @@ const tools = allTools;
                 </div>
             </div>
 
-            <!-- Stats Bar -->
-            <div class="flex flex-wrap items-center justify-between gap-4 mb-6">
-                <div>
-                    <h1 id="page-title" class="text-2xl font-bold text-slate-900">全部工具</h1>
-                    <p class="text-sm text-slate-500 mt-1">发现最新、最实用的 AI 生产力工具</p>
-                </div>
-                
-                <div class="flex items-center gap-3">
-                    <!-- Sort Dropdown -->
-                    <select id="sort-select" class="text-sm border-slate-200 rounded-lg focus:border-blue-500 focus:ring focus:ring-blue-200">
-                        <option value="popular">🔥 热度最高</option>
-                        <option value="newest">📅 最新收录</option>
-                        <option value="rating">⭐ 评分最高</option>
-                        <option value="name">🔤 名称排序</option>
-                    </select>
-                    
-                    <!-- View Toggle -->
-                    <div class="flex bg-slate-100 rounded-lg p-1">
-                        <button id="view-grid" class="px-3 py-1.5 rounded-md bg-white shadow-sm text-sm font-medium text-slate-700">
-                            <i class="fa-solid fa-grid-2"></i>
-                        </button>
-                        <button id="view-list" class="px-3 py-1.5 rounded-md text-sm font-medium text-slate-500 hover:text-slate-700">
-                            <i class="fa-solid fa-list"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Active Filters -->
-            <div id="active-filters" class="flex flex-wrap gap-2 mb-4">
-                <div class="flex items-center bg-blue-50 text-blue-600 px-3 py-1 rounded-lg text-sm">
-                    <span>AI 对话</span>
-                    <button class="ml-2 text-blue-400 hover:text-blue-600">
-                        <i class="fa-solid fa-xmark text-xs"></i>
-                    </button>
-                </div>
-            </div>
-
-            <!-- Tools Grid -->
-            <div id="tools-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6">
-                {tools.slice(0, 24).map((tool) => (
-                    <ToolCard 
-                        name={tool.name}
-                        desc={tool.description}
-                        category={tool.category}
-                        tags={tool.tags}
-                        url={tool.url}
-                        rating={tool.rating}
-                        color={tool.category.split(' ')[1]?.toLowerCase() || 'chat'}
-                        pricing={tool.pricing}
-                        popularity={tool.popularity}
-                        updated_at={tool.updated_at}
-                    />
-                ))}
-            </div>
-
-            <!-- No Results -->
-            <div id="no-results" class="hidden py-12 text-center">
-                <div class="w-24 h-24 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <i class="fa-solid fa-magnifying-glass-minus text-slate-300 text-4xl"></i>
-                </div>
-                <h3 class="text-lg font-medium text-slate-900">未找到相关工具</h3>
-                <p class="text-slate-500 mt-2">尝试更换关键词或调整筛选条件</p>
-                <button onclick="resetAllFilters()" class="mt-4 px-4 py-2 bg-blue-50 text-blue-600 rounded-lg hover:bg-blue-100 transition">
-                    清除所有筛选
-                </button>
-            </div>
-
-            <!-- Load More -->
-            <div id="load-more-container" class="py-8 text-center">
-                <button id="load-more-btn" class="px-6 py-3 bg-white border border-slate-200 rounded-lg text-slate-700 hover:bg-slate-50 transition shadow-sm flex items-center mx-auto">
-                    <i class="fa-solid fa-refresh mr-2"></i>
-                    加载更多
-                </button>
-                <p id="no-more-data" class="mt-4 text-sm text-slate-400 hidden">已加载全部工具</p>
-            </div>
+            <h1 class="text-2xl font-bold text-slate-900 mb-6">全部工具</h1>
+            
+            <ToolList client:load />
         </main>
         
-        <!-- Right Sidebar -->
         <HotSidebar />
     </div>
     
-    <!-- Modals -->
     <CompareModal />
     <FavoritesModal />
     <WechatModal />
     
-    <!-- Tool Detail Modal -->
-    <dialog id="tool-detail-modal" class="p-0 rounded-2xl backdrop:bg-black/60 shadow-2xl w-[600px] max-w-full open:animate-fade-in">
-      <div class="p-6 bg-white">
-        <div class="flex justify-between items-start mb-4">
-          <h2 id="modal-title" class="text-2xl font-bold text-slate-900">工具名称</h2>
-          <button onclick="document.getElementById('tool-detail-modal').close()" class="text-slate-400 hover:text-slate-600">
-            <i class="fa-solid fa-xmark text-xl"></i>
-          </button>
+    <dialog id="tool-detail-modal" class="p-0 rounded-2xl backdrop:bg-black/60 shadow-2xl w-[800px] max-w-[95vw] max-h-[90vh] overflow-hidden border-0">
+      <div class="bg-white">
+        <!-- Header with gradient matching ai-bot.cn style -->
+        <div class="bg-gradient-to-r from-blue-600 to-indigo-600 p-6 text-white">
+          <div class="flex items-start gap-5">
+            <div id="modal-icon" class="w-20 h-20 rounded-full bg-white/20 backdrop-blur flex items-center justify-center text-4xl shadow-lg flex-shrink-0">
+              🤖
+            </div>
+            <div class="flex-1">
+              <div class="flex justify-between items-start">
+                <div>
+                  <h2 id="modal-title" class="text-2xl font-bold mb-3">工具名称</h2>
+                  <div class="flex items-center gap-3 text-sm text-blue-100 flex-wrap">
+                    <span id="modal-category" class="bg-white/20 px-3 py-1 rounded-full">AI对话</span>
+                    <span id="modal-rating" class="flex items-center gap-1 bg-white/10 px-2 py-1 rounded">
+                      <i class="fa-solid fa-star text-amber-400"></i>
+                      <span class="font-medium text-white">0.0</span>
+                    </span>
+                    <span id="modal-pricing" class="bg-green-500/80 px-2 py-0.5 rounded text-xs">免费</span>
+                  </div>
+                </div>
+                <button onclick="document.getElementById('tool-detail-modal').close()" class="text-white/80 hover:text-white hover:bg-white/20 rounded-lg p-2 transition">
+                  <i class="fa-solid fa-xmark text-xl"></i>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="bg-slate-50 p-4 rounded-xl mb-4">
-          <p id="modal-desc" class="text-slate-600 leading-relaxed">工具描述...</p>
+        
+        <!-- Content -->
+        <div class="p-6 max-h-[50vh] overflow-y-auto">
+          <!-- Description -->
+          <div class="mb-6">
+            <h3 class="font-semibold text-slate-800 mb-3 flex items-center gap-2">
+              <i class="fa-solid fa-circle-info text-blue-500"></i>
+              工具介绍
+            </h3>
+            <p id="modal-desc" class="text-slate-600 leading-relaxed bg-slate-50 p-4 rounded-xl border border-slate-100">
+              工具描述...
+            </p>
+          </div>
+          
+          <!-- Features -->
+          <div class="mb-6">
+            <h3 class="font-semibold text-slate-800 mb-3 flex items-center gap-2">
+              <i class="fa-solid fa-star text-amber-500"></i>
+              核心功能
+            </h3>
+            <div id="modal-features" class="grid grid-cols-2 gap-3">
+              <!-- Features will be inserted here -->
+            </div>
+          </div>
+          
+          <!-- Tags -->
+          <div class="mb-4">
+            <h3 class="font-semibold text-slate-800 mb-3 flex items-center gap-2">
+              <i class="fa-solid fa-tags text-purple-500"></i>
+              相关标签
+            </h3>
+            <div id="modal-tags" class="flex flex-wrap gap-2">
+              <!-- Tags will be inserted here -->
+            </div>
+          </div>
         </div>
-        <div class="flex justify-end gap-3">
-          <button onclick="document.getElementById('tool-detail-modal').close()" class="px-4 py-2 text-slate-600 hover:bg-slate-100 rounded-lg">关闭</button>
-          <a id="modal-link" href="#" target="_blank" class="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 shadow-lg shadow-blue-500/30">
-            前往官网使用
-          </a>
+        
+        <!-- Footer Actions matching ai-bot.cn style -->
+        <div class="border-t border-slate-100 p-4 bg-slate-50">
+          <div class="flex justify-between items-center">
+            <button class="flex items-center gap-2 px-4 py-2 text-slate-600 hover:bg-slate-200 rounded-lg transition">
+              <i class="fa-regular fa-heart text-red-500"></i>
+              收藏
+            </button>
+            <div class="flex gap-3">
+              <button class="px-4 py-2 text-slate-600 hover:bg-slate-200 rounded-lg transition flex items-center gap-2">
+                <i class="fa-solid fa-code-compare"></i>
+                对比
+              </button>
+              <a id="modal-link" href="#" target="_blank" class="px-6 py-2 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-lg hover:from-blue-700 hover:to-indigo-700 shadow-lg shadow-blue-500/25 flex items-center gap-2 transition font-medium">
+                前往官网 <i class="fa-solid fa-arrow-right ml-1"></i>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </dialog>
     
     <script is:inline>
-      window.openToolDetail = (name, desc, url) => {
+      window.openToolDetail = (tool) => {
         const modal = document.getElementById('tool-detail-modal');
-        document.getElementById('modal-title').innerText = name;
-        document.getElementById('modal-desc').innerText = desc || '暂无描述';
-        document.getElementById('modal-link').href = url || '#';
+        
+        // Update basic info
+        document.getElementById('modal-title').innerText = tool.name || '未知工具';
+        document.getElementById('modal-desc').innerText = tool.description_full || tool.description || '暂无描述';
+        document.getElementById('modal-link').href = tool.url || '#';
+        document.getElementById('modal-category').innerText = tool.category || 'AI工具';
+        document.getElementById('modal-rating').innerHTML = `
+          <i class="fa-solid fa-star text-amber-400"></i>
+          <span class="font-medium text-white">${(tool.rating || 0).toFixed(1)}</span>
+        `;
+        
+        // Pricing badge
+        const pricingText = {
+          'free': '免费',
+          'freemium': '免费增值',
+          'paid': '付费',
+          'contact': '联系定价'
+        };
+        document.getElementById('modal-pricing').innerText = pricingText[tool.pricing] || tool.pricing || '免费';
+        
+        // Features - match ai-bot.cn style
+        const featuresContainer = document.getElementById('modal-features');
+        const features = tool.features || [];
+        if (features.length > 0) {
+          featuresContainer.innerHTML = features.map(f => `
+            <div class="flex items-center gap-2 bg-blue-50 text-blue-700 px-4 py-2.5 rounded-lg text-sm">
+              <i class="fa-solid fa-check text-blue-500"></i>
+              ${f}
+            </div>
+          `).join('');
+        } else {
+          featuresContainer.innerHTML = '<div class="col-span-2 text-slate-400 text-sm">暂无功能信息</div>';
+        }
+        
+        // Tags - match ai-bot.cn style
+        const tagsContainer = document.getElementById('modal-tags');
+        const tags = tool.tags || [];
+        if (tags.length > 0) {
+          tagsContainer.innerHTML = tags.map(tag => `
+            <span class="px-3 py-1.5 bg-slate-100 text-slate-600 rounded-full text-sm hover:bg-slate-200 cursor-pointer transition border border-slate-200">${tag}</span>
+          `).join('');
+        } else {
+          tagsContainer.innerHTML = '<span class="text-slate-400 text-sm">暂无标签</span>';
+        }
+        
         modal.showModal();
       }
     </script>
     
-    <!-- Footer -->
     <Footer />
 </Layout>

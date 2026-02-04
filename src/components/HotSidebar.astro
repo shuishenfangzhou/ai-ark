@@ -1,94 +1,193 @@
 ---
 // src/components/HotSidebar.astro
+import toolsData from '../../data/tools.json';
+
+// 获取热门工具（按popularity排序）
+const hotTools = [...toolsData.tools]
+    .sort((a, b) => (b.popularity || 0) - (a.popularity || 0))
+    .slice(0, 8);
+
+// 分类统计
+const categories = [...new Set(toolsData.tools.map((t: any) => t.category))];
 ---
+
 <!-- Right Sidebar: Hot Recommendations -->
-<aside class="hidden xl:block w-64 flex-shrink-0 bg-white border-l border-slate-200 h-[calc(100vh-4rem)] sticky top-16 overflow-y-auto p-4">
-    <h3 class="font-bold text-slate-900 mb-4">热门推荐</h3>
-    <div class="space-y-4">
-        <div class="flex items-center gap-3 p-3 bg-slate-50 rounded-lg hover:bg-slate-100 transition cursor-pointer">
-            <div class="w-10 h-10 rounded-lg bg-blue-100 flex items-center justify-center text-blue-600">
-                <i class="fa-solid fa-robot"></i>
-            </div>
-            <div>
-                <h4 class="font-medium text-slate-800 text-sm">Claude 3</h4>
-                <p class="text-xs text-slate-500">Anthropic 最新模型</p>
-            </div>
-        </div>
-        <div class="flex items-center gap-3 p-3 bg-slate-50 rounded-lg hover:bg-slate-100 transition cursor-pointer">
-            <div class="w-10 h-10 rounded-lg bg-pink-100 flex items-center justify-center text-pink-600">
-                <i class="fa-solid fa-wand-magic-sparkles"></i>
-            </div>
-            <div>
-                <h4 class="font-medium text-slate-800 text-sm">Stable Diffusion</h4>
-                <p class="text-xs text-slate-500">开源图像生成工具</p>
-            </div>
-        </div>
-        <div class="flex items-center gap-3 p-3 bg-slate-50 rounded-lg hover:bg-slate-100 transition cursor-pointer">
-            <div class="w-10 h-10 rounded-lg bg-emerald-100 flex items-center justify-center text-emerald-600">
-                <i class="fa-solid fa-code"></i>
-            </div>
-            <div>
-                <h4 class="font-medium text-slate-800 text-sm">Cursor</h4>
-                <p class="text-xs text-slate-500">AI 代码编辑器</p>
-            </div>
+<aside class="hidden xl:block w-64 flex-shrink-0 bg-white border-l border-slate-200 h-[calc(100vh-4rem)] sticky top-16 overflow-y-auto p-4 scrollbar-thin scrollbar-thumb-slate-300 scrollbar-track-transparent">
+    <!-- Hot Tools -->
+    <div class="mb-6">
+        <h3 class="font-bold text-slate-900 mb-3 text-sm flex items-center gap-2">
+            <i class="fa-solid fa-fire text-orange-500"></i>
+            热门工具
+        </h3>
+        <div class="space-y-2">
+            {hotTools.map((tool: any) => (
+                <a 
+                    href={tool.url || '#'} 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="flex items-center gap-3 p-2.5 rounded-lg hover:bg-slate-50 transition group border border-transparent hover:border-slate-200"
+                >
+                    <div class={`w-10 h-10 rounded-xl flex items-center justify-center text-white flex-shrink-0 shadow-sm group-hover:shadow transition overflow-hidden
+                        ${tool.category === 'AI对话' ? 'from-blue-400 to-blue-600' : 
+                          tool.category === 'AI绘画' ? 'from-purple-400 to-purple-600' :
+                          tool.category === 'AI编程' ? 'from-emerald-400 to-emerald-600' :
+                          tool.category === 'AI视频' ? 'from-pink-400 to-pink-600' :
+                          tool.category === 'AI音频' ? 'from-rose-400 to-rose-600' :
+                          tool.category === 'AI写作' ? 'from-amber-400 to-amber-600' :
+                          'from-blue-400 to-blue-600'}`}
+                    >
+                        {tool.logo ? (
+                            <img src={tool.logo} alt={tool.name} class="w-full h-full object-cover" />
+                        ) : (
+                            <i class={`fa-solid ${
+                                tool.category === 'AI对话' ? 'fa-comments' :
+                                tool.category === 'AI绘画' ? 'fa-palette' :
+                                tool.category === 'AI编程' ? 'fa-code' :
+                                tool.category === 'AI视频' ? 'fa-video' :
+                                tool.category === 'AI音频' ? 'fa-music' :
+                                tool.category === 'AI写作' ? 'fa-pen-nib' :
+                                tool.category === 'AI搜索' ? 'fa-magnifying-glass' :
+                                tool.category === 'AI模型' ? 'fa-brain' :
+                                'fa-robot'
+                            } text-sm`}></i>
+                        )}
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <h4 class="font-medium text-slate-800 text-sm truncate group-hover:text-blue-600 transition">{tool.name}</h4>
+                        <p class="text-xs text-slate-500 truncate">{tool.tags?.[0] || tool.category}</p>
+                    </div>
+                    <div class="flex items-center text-amber-400 text-xs bg-amber-50 px-1.5 py-0.5 rounded">
+                        <i class="fa-solid fa-star"></i>
+                        <span class="ml-1 font-medium">{tool.rating || '-'}</span>
+                    </div>
+                </a>
+            ))}
         </div>
     </div>
     
-    <div class="mt-8 pt-6 border-t border-slate-100">
-        <h3 class="font-bold text-slate-900 mb-4">使用指南</h3>
-        <ul class="space-y-2 text-sm text-slate-600">
-            <li class="hover:text-blue-600 transition cursor-pointer">
-                <i class="fa-solid fa-circle-question text-xs mr-2 text-slate-400"></i>
-                如何筛选合适的AI工具
+    <!-- AI分类快捷入口 -->
+    <div class="mb-6 pt-4 border-t border-slate-100">
+        <h3 class="font-bold text-slate-900 mb-3 text-sm flex items-center gap-2">
+            <i class="fa-solid fa-grid-2 text-blue-500"></i>
+            分类筛选
+        </h3>
+        <div class="grid grid-cols-2 gap-2">
+            {categories.slice(0, 10).map((cat: any) => (
+                <button 
+                    class="category-filter-btn px-2 py-1.5 bg-slate-100 hover:bg-blue-50 text-slate-600 hover:text-blue-600 rounded text-xs transition border border-slate-200 hover:border-blue-300 text-left"
+                    data-category={cat}
+                >
+                    {cat}
+                </button>
+            ))}
+        </div>
+    </div>
+    
+    <!-- 使用指南 -->
+    <div class="mb-6 pt-4 border-t border-slate-100">
+        <h3 class="font-bold text-slate-900 mb-3 text-sm flex items-center gap-2">
+            <i class="fa-solid fa-book-open text-green-500"></i>
+            使用指南
+        </h3>
+        <ul class="space-y-1">
+            <li>
+                <button class="guide-btn w-full flex items-center text-slate-600 hover:text-blue-600 transition text-sm p-1.5 rounded-lg hover:bg-slate-50 text-left" data-guide="filter">
+                    <i class="fa-solid fa-filter text-xs mr-2 text-slate-400"></i>
+                    <span class="truncate">如何筛选工具</span>
+                </button>
             </li>
-            <li class="hover:text-blue-600 transition cursor-pointer">
-                <i class="fa-solid fa-circle-question text-xs mr-2 text-slate-400"></i>
-                AI工具对比功能使用教程
+            <li>
+                <button class="guide-btn w-full flex items-center text-slate-600 hover:text-blue-600 transition text-sm p-1.5 rounded-lg hover:bg-slate-50 text-left" data-guide="compare">
+                    <i class="fa-solid fa-code-compare text-xs mr-2 text-slate-400"></i>
+                    <span class="truncate">工具对比功能</span>
+                </button>
             </li>
-            <li class="hover:text-blue-600 transition cursor-pointer">
-                <i class="fa-solid fa-circle-question text-xs mr-2 text-slate-400"></i>
-                提交新AI工具审核标准
+            <li>
+                <button class="guide-btn w-full flex items-center text-slate-600 hover:text-blue-600 transition text-sm p-1.5 rounded-lg hover:bg-slate-50 text-left" data-guide="submit">
+                    <i class="fa-solid fa-plus-circle text-xs mr-2 text-slate-400"></i>
+                    <span class="truncate">提交新工具</span>
+                </button>
             </li>
         </ul>
     </div>
     
-    <!-- AI 时讯板块 -->
-    <div class="mt-8 pt-6 border-t border-slate-100">
-      <div class="flex items-center justify-between mb-4">
-        <h3 class="font-bold text-slate-900">⚡ AI 时讯</h3>
-        <span class="text-[10px] bg-red-100 text-red-600 px-1.5 py-0.5 rounded">NEW</span>
-      </div>
-      
-      <div class="space-y-4 relative">
-        <div class="absolute left-1.5 top-2 bottom-2 w-0.5 bg-slate-100"></div>
-
-        <div class="relative pl-6">
-          <div class="absolute left-0 top-1.5 w-3.5 h-3.5 bg-blue-500 rounded-full border-2 border-white shadow"></div>
-          <a href="#" class="block group">
-            <h4 class="text-sm font-medium text-slate-800 group-hover:text-blue-600 line-clamp-2 transition">OpenAI 发布 Sora 模型，视频生成迎来革命</h4>
-            <span class="text-xs text-slate-400 mt-1 block">2小时前</span>
-          </a>
+    <!-- AI资讯 -->
+    <div class="pt-4 border-t border-slate-100">
+        <div class="flex items-center justify-between mb-3">
+            <h3 class="font-bold text-slate-900 text-sm flex items-center gap-2">
+                <i class="fa-solid fa-bolt text-yellow-500"></i>
+                AI资讯
+            </h3>
+            <span class="text-[10px] bg-red-100 text-red-600 px-1.5 py-0.5 rounded font-medium">NEW</span>
         </div>
+        
+        <div class="space-y-3 relative">
+            <div class="absolute left-1.5 top-0 bottom-0 w-0.5 bg-slate-100"></div>
 
-        <div class="relative pl-6">
-          <div class="absolute left-0 top-1.5 w-3.5 h-3.5 bg-slate-200 rounded-full border-2 border-white"></div>
-          <a href="#" class="block group">
-            <h4 class="text-sm font-medium text-slate-800 group-hover:text-blue-600 line-clamp-2 transition">Google Gemini 1.5 Pro 更新，支持 100万 token 上下文</h4>
-            <span class="text-xs text-slate-400 mt-1 block">昨天</span>
-          </a>
-        </div>
+            <div class="relative pl-5 group cursor-pointer news-item">
+                <div class="absolute left-0 top-1.5 w-2.5 h-2.5 bg-blue-500 rounded-full border-2 border-white shadow group-hover:scale-125 transition"></div>
+                <div class="block group">
+                    <h4 class="text-xs font-medium text-slate-800 group-hover:text-blue-600 line-clamp-2 transition">OpenAI 发布 GPT-4o 模型，支持多模态实时推理</h4>
+                    <span class="text-xs text-slate-400 mt-0.5 block flex items-center">
+                        <i class="fa-regular fa-clock mr-1"></i>2小时前
+                    </span>
+                </div>
+            </div>
 
-        <div class="relative pl-6">
-          <div class="absolute left-0 top-1.5 w-3.5 h-3.5 bg-slate-200 rounded-full border-2 border-white"></div>
-          <a href="#" class="block group">
-            <h4 class="text-sm font-medium text-slate-800 group-hover:text-blue-600 line-clamp-2 transition">英伟达发布最新 AI 芯片 H200</h4>
-            <span class="text-xs text-slate-400 mt-1 block">2天前</span>
-          </a>
+            <div class="relative pl-5 group cursor-pointer news-item">
+                <div class="absolute left-0 top-1.5 w-2.5 h-2.5 bg-slate-300 rounded-full border-2 border-white group-hover:bg-blue-400 transition"></div>
+                <div class="block group">
+                    <h4 class="text-xs font-medium text-slate-800 group-hover:text-blue-600 line-clamp-2 transition">Google Gemini 2.0 发布，支持原生多模态</h4>
+                    <span class="text-xs text-slate-400 mt-0.5 block flex items-center">
+                        <i class="fa-regular fa-clock mr-1"></i>昨天
+                    </span>
+                </div>
+            </div>
+
+            <div class="relative pl-5 group cursor-pointer news-item">
+                <div class="absolute left-0 top-1.5 w-2.5 h-2.5 bg-slate-300 rounded-full border-2 border-white group-hover:bg-blue-400 transition"></div>
+                <div class="block group">
+                    <h4 class="text-xs font-medium text-slate-800 group-hover:text-blue-600 line-clamp-2 transition">Anthropic Claude 3.7 推出扩展推理能力</h4>
+                    <span class="text-xs text-slate-400 mt-0.5 block flex items-center">
+                        <i class="fa-regular fa-clock mr-1"></i>2天前
+                    </span>
+                </div>
+            </div>
         </div>
-      </div>
-      
-      <button class="w-full mt-4 text-xs text-blue-500 hover:text-blue-700 font-medium text-center py-2 border border-blue-100 rounded-lg hover:bg-blue-50 transition">
-        查看更多资讯
-      </button>
     </div>
 </aside>
+
+<script>
+    // 分类筛选按钮
+    document.querySelectorAll('.category-filter-btn').forEach((btn: Element) => {
+        btn.addEventListener('click', function(this: HTMLElement) {
+            const category = this.getAttribute('data-category');
+            if (category) {
+                // 触发分类筛选事件
+                const event = new CustomEvent('categoryFilter', { detail: category });
+                window.dispatchEvent(event);
+                
+                // 滚动到工具列表
+                const toolList = document.querySelector('.tool-card-container, #tools-grid, main');
+                toolList?.scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+    });
+    
+    // 使用指南按钮
+    document.querySelectorAll('.guide-btn').forEach((btn: Element) => {
+        btn.addEventListener('click', function(this: HTMLElement) {
+            const guide = this.getAttribute('data-guide');
+            // 显示提示
+            alert('功能开发中，敬请期待！');
+        });
+    });
+    
+    // 资讯项点击
+    document.querySelectorAll('.news-item').forEach((item: Element) => {
+        item.addEventListener('click', function() {
+            // 显示提示
+            alert('资讯详情功能开发中...');
+        });
+    });
+</script>
