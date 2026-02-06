@@ -16,6 +16,45 @@ interface Props {
 
 const { name, desc, category, tags, logo, url, rating = 4.5, color = "chat", pricing = "free" } = Astro.props;
 
+// Known tool URLs
+const KNOWN_TOOL_URLS: Record<string, string> = {
+  'ChatGPT': 'https://chat.openai.com',
+  'Claude': 'https://claude.com',
+  '文心一言': 'https://yiyan.baidu.com',
+  '通义千问': 'https://tongyi.aliyun.com',
+  '智谱清言': 'https://chatglm.cn',
+  '讯飞星火': 'https://xinghuo.xfyun.cn',
+  'Kimi': 'https://kimi.ai',
+  '天工AI': 'https://tiangong.cn',
+  '百川智能': 'https://www.baichuan.com',
+  '豆包': 'https://www.doubao.com',
+  '蛙蛙写作': 'https://www.wawa.com',
+  '笔灵AI小说': 'https://www.biling.cn',
+  '稿定AI文案': 'https://www.gaoding.com',
+  '光速写作': 'https://www.guangsuxiezuo.com',
+  '秘塔写作猫': 'https://www.xiezuocat.com',
+  'QuillBot': 'https://www.quillbot.com',
+  'Notion AI': 'https://www.notion.so',
+  'Midjourney': 'https://www.midjourney.com',
+  'Stable Diffusion': 'https://stability.ai',
+  'DALL-E': 'https://openai.com/dall-e-3',
+  'Runway': 'https://runwayml.com',
+  'Pika Labs': 'https://pika.art',
+  '可灵 (Kling)': 'https://klingai.com',
+  '即梦': 'https://jimeng.com',
+  'GitHub Copilot': 'https://github.com/features/copilot',
+  'Cursor': 'https://cursor.sh',
+  'Perplexity AI': 'https://www.perplexity.ai',
+  'Canva': 'https://www.canva.com',
+  'Figma': 'https://www.figma.com',
+  'LiblibAI': 'https://www.liblibai.com',
+  'Gamma': 'https://gamma.app',
+  'v0': 'https://v0.dev',
+};
+
+// Generate effective URL
+const effectiveUrl = (url && url.startsWith('http')) ? url : (KNOWN_TOOL_URLS[name] || `https://www.ai-bot.cn/?s=${encodeURIComponent(name)}`);
+
 // Generate unique IDs
 const compareId = `compare-${name.replace(/\s+/g, '-').toLowerCase()}`;
 const favoriteId = `fav-${name.replace(/\s+/g, '-').toLowerCase()}`;
@@ -47,10 +86,10 @@ const faIcon = colorMap[color] || 'robot';
      data-tags={tags.join(',').toLowerCase()}
      data-pricing={pricing}
      data-rating={rating}
-     data-url={url}>
+     data-url={effectiveUrl}>
     <div class="flex justify-between items-start mb-3">
         <!-- 点击图标打开详情弹窗 -->
-        <div class="cursor-pointer flex-1" onclick={`window.openToolDetail('${name}', '${desc}', '${url}')`}>
+        <div class="cursor-pointer flex-1" onclick={`window.openToolDetail('${name}', '${desc}', '${effectiveUrl}')`}>
             {logo ? (
                 <img src={logo} alt={name} class="w-12 h-12 rounded-lg object-cover" onerror="this.parentElement.innerHTML='<div class=\'w-12 h-12 rounded-lg bg-gradient-to-br '+'from-blue-400 to-blue-600'+' flex items-center justify-center text-white\'><i class=\'fa-solid fa-robot text-2xl\'></i></div>';" />
             ) : (
@@ -63,7 +102,7 @@ const faIcon = colorMap[color] || 'robot';
         <div class="flex items-center gap-2">
             <!-- 对比复选框 -->
             <label class="w-6 h-6 border-2 border-slate-300 rounded flex items-center justify-center cursor-pointer hover:border-blue-500 transition bg-white" title="添加到对比">
-                <input type="checkbox" class="peer hidden" data-tool-name={name}>
+                <input type="checkbox" class="peer hidden compare-checkbox" data-tool-name={name}>
                 <div class="w-3 h-3 bg-blue-500 rounded-sm scale-0 peer-checked:scale-100 transition-transform"></div>
             </label>
             
@@ -74,8 +113,8 @@ const faIcon = colorMap[color] || 'robot';
         </div>
     </div>
     
-    <!-- 点击标题打开详情弹窗 -->
-    <div class="cursor-pointer flex-1" onclick={`window.openToolDetail('${name}', '${desc}', '${url}')`}>
+        <!-- 点击标题打开详情弹窗 -->
+        <div class="cursor-pointer flex-1" onclick={`window.openToolDetail('${name}', '${desc}', '${effectiveUrl}')`}>
         <h3 class="font-bold text-slate-900 mb-1 group-hover:text-blue-600 transition">{name}</h3>
         <p class="text-xs text-slate-500 line-clamp-2 h-8">{desc}</p>
     </div>
@@ -95,7 +134,7 @@ const faIcon = colorMap[color] || 'robot';
             </div>
             <span class="ml-1 text-xs text-slate-500">{rating}</span>
         </div>
-        <a href={url} target="_blank" class="text-xs bg-blue-50 text-blue-600 px-3 py-1.5 rounded-full hover:bg-blue-100 transition font-medium">
+        <a href={effectiveUrl} target="_blank" class="text-xs bg-blue-50 text-blue-600 px-3 py-1.5 rounded-full hover:bg-blue-100 transition font-medium">
             直达 <i class="fa-solid fa-arrow-right ml-1"></i>
         </a>
     </div>
